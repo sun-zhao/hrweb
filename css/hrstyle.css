@@ -1,12 +1,15 @@
-﻿.header{width:100%;height:50px;line-height:50px;background:#222;position: fixed;top:0;left: 0;}
+﻿.header{width:100%;height:50px;line-height:50px;background:#222;}
+.header .floatright{height:50px;}
 .nav li,.navItem li{float:left;height:50px;margin-left:20px;}
 .nav li a,.navItem li a{display:block;height:50px;line-height:50px;color:#eee;font-size:14px;padding:0 12px;}
 .nav li a.current{background:#efefef;color:#222;}
 .navItem li{float:left;height:50px;border-left:1px solid #2f2f2f;margin:0;}
 .navItem li a{width:30px;position: relative;height:50px;}
-.layout{padding:20px 0 0 0;position: absolute;top:50px;left:0;bottom:10px;right:0;}
+.layout{position: absolute;top:50px;left:0;bottom:9px;right:0;}
+.layoutMid{top:210px;}
+/*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
-.container{min-height:120px;margin:0 12px;}/*margin-right:13px;*/
+.container{margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;}
 .userInfo{height:80px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -34,7 +37,7 @@
 .ulList li em.inline{color:#efefef;padding:0 5px;font-size:16px;}
 .tableWage th,.tableWage td{width:60px;padding:0 10px;height:26px;}
 .tableWage tr.second{height:38px;border:1px solid #efefef;}
-.noticeBox{width:49%;border:1px solid #f09f11;right:-50%;top:70px;bottom:18px;position: fixed;z-index:32;}
+.noticeBox{width:598px;right:-600px;top:70px;bottom:9px;position: fixed;z-index:32;margin:0;border:1px solid #f09f11;}
 .noticeList{padding:20px;}
 .noticeList li{height:38px;line-height:38px;border:1px solid #efefef;padding:0 10px;margin-bottom:10px;cursor: pointer;position: relative;}
 .noticeList li:hover{background:#efefef;}
@@ -51,8 +54,8 @@
 .popMain .userList{padding:0;}
 .popMain .userList li{width:80px;height:70px;margin:0;padding:0;margin:0 10px 0 0;}
 .popMain .userList li .user{height:40px;position: relative;}
-.popMain .userList li .user .delete{width:40px;height:40px;line-height:38px;left:50%;margin-left:-20px;}
-.popMain .userList li:hover .user .delete{display: block;}
+.popMain .userList li .user .delete{width:40px;height:40px;line-height:38px;left:50%;margin-left:-20px;padding:0;}
+.popMain .userList li:hover .user .delete{display: block;background:url("../img/mask70.png") repeat;}
 .popMain .userList li img{width:40px;height:40px;}
 .popMain .userList li:hover{background: none;}
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
@@ -147,7 +150,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .tagsList li{float: left;}
 .tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:2px;margin:3px 5px 0 10px;}
 .tagsList li a:active{background:#ddd;border-color:#ddd;}
-.inputFrame{height:188px;border:1px solid #ccc;margin:0 0px 0 15px;position: relative;}
+.inputFrame{height:188px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:100px;border:0;padding:5px;}
 .inputFrame .keyboard{width:100%;height:88px;border-top:1px solid #ccc;position: absolute;bottom:0;left:0;background:#efefef;}
 .inputFrame .keyboard a{display:inline-block;width:27px;height:31px;line-height:30px;color:#333;text-align:center;border-radius:3px;background: #fff;border-bottom:1px solid #333;float: left;margin:8px 0 0 6px;}
@@ -215,8 +218,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
 .processLayout .processBarIn{height:19px;background:#59a7f9;border-radius:18px;transition:0.3s;}
-.mailList{width:470px;background:#fff;position: absolute;top:0;bottom:0;right:20px;}
-.mailListIn{position: fixed;top:70px;bottom:10px;right:10px;}
+.mailList{width:470px;background:#fff;position:absolute;top:0;bottom:0;right:20px;}
+.mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;text-indent:5px;line-height:30px;margin-left:2px;}
@@ -231,10 +234,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table .user img{float:none;margin:0;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
 .mailList .btn{height:40px;line-height:40px;position: absolute;left:0;bottom:0;}
-.tableBoss{position: absolute;top:20px;left:20px;right:20px;bottom:20px;}
+.tableBoss{}
 .tableBoss table{width:100%;}
+.tableBoss table .user {line-height:20px;}
 .tableBoss table .user img{width:60px;height:60px;margin:0;float: none;}
-.tableBoss table td,.tableBoss table th{height:25px;border:1px solid #ccc;background:#fff;text-align: center;}
+.tableBoss table td,.tableBoss table th{height:25px;border:1px solid #efefef;background:#fff;text-align: center;}
 .tableBoss table th{height:20px;}
 .tableBoss table td .icon{position: inherit;vertical-align:-5px;margin:1px 10px 0 0;}
 .tableBoss table td a{color:#888;}

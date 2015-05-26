@@ -31,26 +31,28 @@
     </div>
 </div>
 <!--header over-->
-<div class="layout jscroll">
-    <div class="container leftMain" style="">
-        <!--当前位置begin-->
-        <div class="location bg-white clearfix">
-            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
-            <ul class="floatleft marl10">
-                <li><a href="#">首 页</a> &gt;</li>
-                <li><span>部门设定</span></li>
-            </ul>
-            <a href="#" class="floatright current"><i class="icon icon-set"></i></a>
-            <a href="#" class="floatright"><i class="icon icon-plus"></i></a>
-            <ul class="dropdown-menu width-110" style="display: none">
-                <li><a href="#">部门设置</a></li>
-                <li><a href="#">职位设置</a></li>
-                <li><a href="#">合同范本设置</a></li>
-                <li><a href="#">管理层设置</a></li>
-            </ul>
-        </div>
-        <!--当前位置over-->
-        <div class="container bg-white mart20">
+<!--当前位置begin-->
+<div class="container mart20">
+    <div class="location bg-white clearfix">
+        <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+        <ul class="floatleft marl10">
+            <li><a href="#">首 页</a> &gt;</li>
+            <li><span>部门设定</span></li>
+        </ul>
+        <a href="#" class="floatright current"><i class="icon icon-set"></i></a>
+        <a href="#" class="floatright"><i class="icon icon-plus"></i></a>
+        <ul class="dropdown-menu width-110" style="display: none">
+            <li><a href="#">部门设置</a></li>
+            <li><a href="#">职位设置</a></li>
+            <li><a href="#">合同范本设置</a></li>
+            <li><a href="#">管理层设置</a></li>
+        </ul>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout jscroll" style="top:140px;">
+    <div class="container leftMain">
+        <div class="container bg-white">
             <div class="title alignright clearfix">
                 <span class="floatleft">部门信息</span>
             </div>
@@ -118,6 +120,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
+        var $w = $(window).width();
+        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
     var $leftMain = $('.leftMain'),

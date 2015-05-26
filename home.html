@@ -31,40 +31,42 @@
     </div>
 </div>
 <!--header over-->
-<div class="layout jscroll">
-    <div class="container leftMain" style="">
-        <!--个人信息begin-->
-        <div class="userInfo bg-white clearfix">
-            <span class="user marl20 mart10 inlineblock clearfix floatleft">
-                <img src="img/user1.png"/>
-                <em class="font16">刘德华</em>
-            </span>
-            <ul class="userTxt floatleft clearfix color-8">
-                <li>
-                    <p>技术总监（CTO）</p>
-                    <p>明道北京研发部门</p>
-                </li>
-                <li>
-                    <p>18588888888</p>
-                    <p>zhenjiawang@mingdao.com</p>
-                </li>
-            </ul>
-            <div class="floatright">
-                <a href="#" class="iconBtn"><i class="icon icon-more"></i></a>
-                <a href="#" class="iconBtn"><i class="icon icon-edit"></i></a>
-            </div>
+<!--个人信息begin-->
+<div class="container mart20 leftMain">
+    <div class="userInfo bg-white clearfix">
+        <span class="user marl20 mart20 inlineblock clearfix floatleft">
+            <img src="img/user1.png"/>
+            <em class="font16">刘德华</em>
+        </span>
+        <ul class="userTxt floatleft clearfix color-8">
+            <li>
+                <p>技术总监（CTO）</p>
+                <p>明道北京研发部门</p>
+            </li>
+            <li>
+                <p>18588888888</p>
+                <p>zhenjiawang@mingdao.com</p>
+            </li>
+        </ul>
+        <div class="floatright">
+            <a href="#" class="iconBtn"><i class="icon icon-more"></i></a>
+            <a href="#" class="iconBtn"><i class="icon icon-edit"></i></a>
         </div>
-        <!--个人信息over-->
+    </div>
+</div>
+<!--个人信息over-->
+<div class="layout jscroll" style="top:160px;">
+    <div class="container leftMain" style="">
         <!--考勤和绩效begin-->
-        <div class="container clearfix mart20">
+        <div class="container clearfix">
             <div class="bg-white">
                 <div class="title alignright clearfix">
                     <span class="floatleft">我的考勤</span>
                     <a href="#" class="iconBtn marr20"><i class="icon icon-more-mini"></i></a>
                 </div>
                 <div class="clearfix mart10 marl20 p-bt10">
-                    <div class="column height-auto floatleft">
-                        <table class="calendar">
+                    <div class="column  floatleft">
+                        <table class="calendar" style="height:100%;">
                             <thead>
                                 <tr><td colspan="7" class="aligncenter">2015年4月</td></tr>
                                 <tr>
@@ -126,7 +128,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="column height-auto floatright">
+                    <div class="column jscroll floatright">
                         <div class="ulOut marr20">
                             <ul class="ulList">
                                 <li class="clearfix alignright">
@@ -170,8 +172,8 @@
             </div>
         </div>
         <!--考勤和绩效over-->
-        <!--考勤和绩效begin-->
-        <div class="container clearfix mart20" style="display: none;">
+        <!--考勤和绩效作废的begin-->
+        <div class="container clearfix mart20" style="display:none;">
             <div class="column bg-white floatleft">
                 <div class="title alignright clearfix">
                     <span class="floatleft">我的考勤</span>
@@ -278,9 +280,9 @@
                 </div>
             </div>
         </div>
-        <!--考勤和绩效over-->
+        <!--考勤和绩效作废的over-->
         <!--我的工资begin-->
-        <div class="container bg-white mart20">
+        <div class="container bg-white mart10">
             <div class="title alignright clearfix">
                 <span class="floatleft">我的工资<em class="color-8">（三月）</em></span>
                 <a href="#" class="iconBtn marr20"><i class="icon icon-more-mini"></i></a>
@@ -298,31 +300,31 @@
                         <th>合&nbsp;&nbsp;&nbsp;&nbsp;计</th>
                     </tr>
                     <tr class="second">
+                        <td class="first">20000.00</td>
                         <td>20000.00</td>
                         <td>20000.00</td>
                         <td>20000.00</td>
                         <td>20000.00</td>
                         <td>20000.00</td>
                         <td>20000.00</td>
-                        <td>20000.00</td>
-                        <td class="color-info">20000.00</td>
+                        <td class="color-info last">20000.00</td>
                     </tr>
                 </table>
             </div>
         </div>
         <!--我的工资over-->
     </div>
-    <!--通知框begin-->
-    <div class="container noticeBox bg-white" style="">
-        <ul class="noticeList">
-            <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
-            <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-            <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-        </ul>
-    </div>
-    <!--通知框over-->
 </div>
-<!--<div class="mask" style="display:;"></div>-->
+<!--通知框begin-->
+<div class="container noticeBox bg-white" style="right:">
+    <ul class="noticeList">
+        <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
+        <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+        <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+    </ul>
+</div>
+<!--通知框over-->
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -332,6 +334,10 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
+        var $w = $(window).width();
+        var $h = $(window).height();
+        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+        $('.column').css({"height":$h-374});
     }
     Jscroll();
     var $leftMain = $('.leftMain'),
@@ -343,12 +349,12 @@
         var $this = $(this);
         if($this.hasClass('current')){
             $this.removeClass('current');
-            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $noticeBox.stop().animate({right:-600},400);
             $leftMain.stop().animate({left:0},400);
         }else{
             $this.addClass('current');
-            $noticeBox.stop().animate({right:-2},400);
-            $leftMain.stop().animate({left:-0.495*$W},400);
+            $noticeBox.stop().animate({right:10},400);
+            $leftMain.stop().animate({left:-610},400);
         }
     });
 </script>

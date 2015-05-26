@@ -31,22 +31,24 @@
     </div>
 </div>
 <!--header over-->
-<div class="layout jscroll">
-    <div class="container leftMain" style="">
-        <!--当前位置begin-->
-        <div class="location bg-white alignright clearfix">
-            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
-            <ul class="floatleft marl10">
-                <li><a href="#">首 页</a> &gt;</li>
-                <li><a href="#">档案管理</a>  &gt;</li>
-                <li><span>新建档案</span></li>
-            </ul>
-            <a href="#"><i class="icon icon-refresh" title="刷新"></i></a>
-            <a href="#"><i class="icon icon-off" title="取消"></i></a>
-            <a href="#" class="marr10"><i class="icon icon-storage" title="保存"></i></a>
-        </div>
-        <!--当前位置over-->
-        <div class="container clearfix mart20">
+<!--当前位置begin-->
+<div class="container mart20">
+    <div class="location bg-white alignright clearfix">
+        <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+        <ul class="floatleft marl10">
+            <li><a href="#">首 页</a> &gt;</li>
+            <li><a href="#">档案管理</a>  &gt;</li>
+            <li><span>新建档案</span></li>
+        </ul>
+        <a href="#" class="marr20"><i class="icon icon-refresh" title="刷新"></i></a>
+        <a href="#" class="marr20"><i class="icon icon-off" title="取消"></i></a>
+        <a href="#" class="marr20"><i class="icon icon-storage" title="保存"></i></a>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout jscroll" style="top:140px;">
+    <div class="container leftMain">
+        <div class="container clearfix">
             <div class="leftImg floatleft">
                 <span><img src="img/1-1.jpg"/></span>
                 <p class="aligncenter color-8 p-top10">请上传您的证件照</p>
@@ -468,6 +470,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
+        var $w = $(window).width();
+        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
     var $leftMain = $('.leftMain'),

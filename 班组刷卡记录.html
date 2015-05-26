@@ -31,34 +31,36 @@
     </div>
 </div>
 <!--header over-->
-<div class="layout jscroll">
+<!--当前位置begin-->
+<div class="container mart20">
+    <div class="location bg-white clearfix">
+        <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+        <ul class="floatleft marl10">
+            <li><a href="#">首 页</a>&gt;</li>
+            <li><a href="#">部门刷卡记录</a>&gt;</li>
+            <li><span>班组早8晚5员工刷卡记录</span></li>
+        </ul>
+        <a href="#" class="floatright"><i class="icon icon-set"></i></a>
+        <ul class="dropdown-menu width-110" style="display: none">
+            <li><a href="#">部门设置</a></li>
+            <li><a href="#">职位设置</a></li>
+            <li><a href="#">合同范本设置</a></li>
+            <li><a href="#">管理层设置</a></li>
+        </ul>
+    </div>
+    <div class="location bg-white alignright clearfix mart20">
+        <span class="back floatleft color-8">早8晚5</span>
+        <div class="has-general inlineblock marr15">
+            <input type="text">
+            <label class="control-label">必填</label>
+            <i class="icon ico-calendar"></i>
+        </div>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout layoutMid jscroll">
     <div class="container leftMain" style="">
-        <!--当前位置begin-->
-        <div class="location bg-white clearfix">
-            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
-            <ul class="floatleft marl10">
-                <li><a href="#">首 页</a>&gt;</li>
-                <li><a href="#">部门刷卡记录</a>&gt;</li>
-                <li><span>班组早8晚5员工刷卡记录</span></li>
-            </ul>
-            <a href="#" class="floatright"><i class="icon icon-set"></i></a>
-            <ul class="dropdown-menu width-110" style="display: none">
-                <li><a href="#">部门设置</a></li>
-                <li><a href="#">职位设置</a></li>
-                <li><a href="#">合同范本设置</a></li>
-                <li><a href="#">管理层设置</a></li>
-            </ul>
-        </div>
-        <div class="location bg-white alignright clearfix mart20">
-            <span class="back floatleft color-8">早8晚5</span>
-            <div class="has-general inlineblock marr15">
-                <input type="text">
-                <label class="control-label">必填</label>
-                <i class="icon ico-calendar"></i>
-            </div>
-        </div>
-        <!--当前位置over-->
-        <div class="container bg-white mart10">
+        <div class="container bg-white">
             <p class="aligncenter p-top15 p-bt10 color-3 font14">2015年5月</p>
             <div class="marl20 marr20 p-bt20">
                 <table class="calendar calendarTab">
@@ -165,6 +167,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
+        var $w = $(window).width();
+        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
     var $leftMain = $('.leftMain'),

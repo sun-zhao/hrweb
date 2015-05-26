@@ -31,76 +31,78 @@
     </div>
 </div>
 <!--header over-->
-<div class="layout jscroll">
-    <div class="container leftMain" style="">
-        <!--当前位置begin-->
-        <div class="location bg-white clearfix">
-            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
-            <ul class="floatleft marl10">
-                <li><a href="#">首 页</a>&gt;</li>
-                <li><span>设置</span></li>
-            </ul>
-            <a href="#" class="floatright"><i class="icon icon-set"></i></a>
-            <ul class="dropdown-menu width-110" style="display: none">
-                <li><a href="#">部门设置</a></li>
-                <li><a href="#">职位设置</a></li>
-                <li><a href="#">合同范本设置</a></li>
-                <li><a href="#">管理层设置</a></li>
-            </ul>
-        </div>
-        <!--当前位置over-->
-        <div class="container mart20">
-            <table class="stepList">
-                <tr>
-                    <td class="first">
-                        <div>
-                            <span class="r_arrow"></span>
-                            <i class="icon icon-circle-t">1</i>
-                            <p>区间设置</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="current">
-                            <span class="r_arrow"></span>
-                            <span class="l_arrow"></span>
-                            <i class="icon icon-circle-t">2</i>
-                            <p>日历设置</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <span class="r_arrow"></span>
-                            <span class="l_arrow"></span>
-                            <i class="icon icon-circle-t">3</i>
-                            <p>班组设置</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <span class="r_arrow"></span>
-                            <span class="l_arrow"></span>
-                            <i class="icon icon-circle-t">4</i>
-                            <p>项目设置</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <span class="r_arrow"></span>
-                            <span class="l_arrow"></span>
-                            <i class="icon icon-circle-t">5</i>
-                            <p>年假设置</p>
-                        </div>
-                    </td>
-                    <td class="last">
-                        <div>
-                            <span class="l_arrow"></span>
-                            <i class="icon icon-circle-t">6</i>
-                            <p>倒休设置</p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <div class="container bg-white mart20">
+<!--当前位置begin-->
+<div class="container mart20">
+    <div class="location bg-white clearfix">
+        <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+        <ul class="floatleft marl10">
+            <li><a href="#">首 页</a>&gt;</li>
+            <li><span>设置</span></li>
+        </ul>
+        <a href="#" class="floatright"><i class="icon icon-set"></i></a>
+        <ul class="dropdown-menu width-110" style="display: none">
+            <li><a href="#">部门设置</a></li>
+            <li><a href="#">职位设置</a></li>
+            <li><a href="#">合同范本设置</a></li>
+            <li><a href="#">管理层设置</a></li>
+        </ul>
+    </div>
+    <table class="stepList mart20">
+        <tr>
+            <td class="first">
+                <div>
+                    <span class="r_arrow"></span>
+                    <i class="icon icon-circle-t">1</i>
+                    <p>区间设置</p>
+                </div>
+            </td>
+            <td>
+                <div class="current">
+                    <span class="r_arrow"></span>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">2</i>
+                    <p>日历设置</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span class="r_arrow"></span>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">3</i>
+                    <p>班组设置</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span class="r_arrow"></span>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">4</i>
+                    <p>项目设置</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <span class="r_arrow"></span>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">5</i>
+                    <p>年假设置</p>
+                </div>
+            </td>
+            <td class="last">
+                <div>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">6</i>
+                    <p>倒休设置</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--当前位置over-->
+<div class="layout jscroll" style="top:200px;">
+    <div class="container leftMain">
+        <div class="container">
+            <div class="container bg-white">
                 <div class="title alignright clearfix">
                     <span class="floatleft">公司日历</span>
                     <div class="floatleft mart10 marl20">
@@ -260,6 +262,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
+        var $w = $(window).width();
+        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
 </script>
