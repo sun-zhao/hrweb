@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>初始化</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="../css/hrstyle.css">
+</head>
+<body>
+<div class="content">
+    <p class="pageList aligncenter">
+        <span class="pageNum current"></span>
+        <span class="pageNum"></span>
+        <span class="pageNum"></span>
+        <span class="pageNum"></span>
+        <span class="pageNum"></span>
+    </p>
+    <div class="stepOut clearfix" style="left:0%;">
+        <div class="pageone">
+            <div class="pageIn">
+                <p class="aligncenter font48">欢迎您来到明道HR</p>
+                <p class="aligncenter font18 color-6 mart50">为了您日后更方便的使用，请你先完成系统的初始化设置</p>
+                <div class="pageBtn font14 alignright clearfix">
+                    <a href="#" class="btn inlineblock btn-no width-240 floatleft">不了，谢谢</a>
+                    <a href="#" class="btn inlineblock width-240">好的，马上开始</a>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="pageIn">
+                <p class="aligncenter font30">您的企业是否属于集团性质？</p>
+                <p class="aligncenter font24 mart50">（即所有员工都使用同一个明道网络）</p>
+                <div class="pageBtn font14 alignright clearfix">
+                    <a href="#" class="btn inlineblock width-240 floatleft">是，我有分公司</a>
+                    <a href="#" class="btn inlineblock width-240">不是，我只有一家公司</a>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="pageIn">
+                <p class="aligncenter font18">请建立集团下属的分公司</p>
+                <div class="company">
+                    <ul class="font14">
+                        <li class="clearfix">
+                            <span class="floatleft">上海万企明道软件有限公司</span>
+                            <a href="#" class="floatright iconBtn" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                        </li>
+                        <li class="clearfix">
+                            <span class="floatleft">上海万企明道软件有限公司</span>
+                            <a href="#" class="floatright iconBtn" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                        </li>
+                        <li class="clearfix">
+                            <!--<span class="floatleft">上海万企明道软件有限公司</span>-->
+                            <div class="has-general floatleft">
+                                <input type="text" class="width-300" value="上海万企明道软件有限公司">
+                                <label class="control-label">请输入公司名称</label>
+                            </div>
+                            <a href="#" class="floatright iconBtn inlineblock" title="完成"><i class="icon icon-right"></i></a>
+                        </li>
+                        <li class="clearfix"><a href="#" class="block aligncenter">+添加一个分公司</a></li>
+                    </ul>
+                </div>
+                <div class="pageBtn font14 alignright clearfix">
+                    <a href="#" class="btn inlineblock width-240 floatleft">返回上一步</a>
+                    <a href="#" class="btn inlineblock width-240">保存并下一步</a>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="pageIn">
+                <p class="aligncenter font30">您的企业是否分地区管理员工?</p>
+                <div class="pageBtn font14 alignright clearfix">
+                    <a href="#" class="btn inlineblock width-240 floatleft">是，设置工作地区</a>
+                    <a href="#" class="btn inlineblock width-240">不是，目前只在一个地区</a>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="pageIn">
+                <p class="aligncenter font18">请建立工作地区</p>
+                <div class="company">
+                    <ul class="workArea font14">
+                        <li class="clearfix">
+                            <span class="floatleft">北京研发部门</span>
+                            <a href="#" class="floatright iconBtn" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                        </li>
+                        <li class="clearfix">
+                            <span class="floatleft">北京研发部门</span>
+                            <a href="#" class="floatright iconBtn" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                        </li>
+                        <li class="clearfix">
+                            <span class="floatleft">所属分公司</span>
+                            <div class="intBox mart10 width-200 floatright">
+                                <em class="arrow"></em>
+                                <p class="marl5">上海万企明道软件有限公司</p>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">上海万企明道软件有限公司</a></li>
+                                    <li><a href="#">上海万企明道软件有限公司</a></li>
+                                    <li><a href="#">上海万企明道软件有限公司</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="workArea font14 mart10"><li class="clearfix"><a href="#" class="block aligncenter">+添加一个工作地区</a></li></ul>
+                </div>
+                <div class="pageBtn font14 alignright clearfix">
+                    <a href="#" class="btn inlineblock width-240 floatleft">返回上一步</a>
+                    <a href="#" class="btn inlineblock width-240">保存并下一步</a>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="pageIn">
+                <div class="processBar">
+                    <p class="aligncenter font14">请稍等，正在为您生成公司组织架构...</p>
+                    <div class="processLayout mart40">
+                        <div class="processBarIn" style="width:75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="layout nopadding" style="top:50px;">
+                <div class="container jscroll leftMain" style="height:100%;width:846px;">
+                    <div class="container bg-white" style="padding-bottom:50px;">
+                        <!--组织结构begin-->
+                        <div class="tree treeBig">
+                            <div class="firstDiv">
+                                <div class="userDiv">
+                                    <p class="title alignright clearfix">
+                                        <span class="floatleft txt_hidden">梅花与明道</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="treeMain marl40">
+                                <div class="userDiv">
+                                    <em class="leftLine"></em>
+                                    <div class="title alignright clearfix">
+                                        <span class="floatleft txt_hidden">上海万企明道软件有限公司</span>
+                                        <a href="#" class="iconbtn"><i class="icon icon-edit-mini"></i></a>
+                                        <a href="#" class="iconbtn"><i class="icon icon-delete"></i></a>
+                                    </div>
+                                </div>
+                                <div class="treeMain marl40">
+                                    <div class="userDiv">
+                                        <em class="leftLine"></em>
+                                        <div class="title alignright clearfix">
+                                            <span class="floatleft txt_hidden">北京研发部</span>
+                                            <a href="#" class="iconbtn"><i class="icon icon-edit-mini"></i></a>
+                                            <a href="#" class="iconbtn"><i class="icon icon-delete"></i></a>
+                                        </div>
+                                        <div class="clearfix">
+                                            <span class="user mart10 marl10 floatleft clearfix">
+                                                <img src="../img/user1.png"/>
+                                                <b class="txt_hidden">任向辉</b>
+                                            </span>
+                                            <span class="user mart10 marl10 floatleft clearfix">
+                                                <img src="../img/user1.png"/>
+                                                <b class="txt_hidden">任向辉</b>
+                                            </span>
+                                            <span class="user mart10 marl10 floatleft clearfix">
+                                                <img src="../img/user1.png"/>
+                                                <b class="txt_hidden">任向辉</b>
+                                            </span>
+                                            <span class="user mart10 marl10 floatleft clearfix">
+                                                <img src="../img/user1.png"/>
+                                                <b class="txt_hidden">任向辉</b>
+                                            </span>
+                                            <span class="user mart10 marl10 floatleft clearfix">
+                                                <img src="../img/user1.png"/>
+                                                <b class="txt_hidden">任向辉</b>
+                                            </span>
+                                            <span class="user pointer mart10 marl10 floatleft clearfix">
+                                                <img src="../img/add2.png">
+                                                <b class="txt_hidden color-3"></b>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="treeMain marl40">
+                                        <div class="userDiv lastDiv">
+                                            <em class="leftLine" style="top:84%;"></em>
+                                            <div class="title alignright clearfix">
+                                                <span class="floatleft txt_hidden">下属员工</span>
+                                                <a href="#" class="iconbtn"><i class="icon icon-edit-mini"></i></a>
+                                                <a href="#" class="iconbtn"><i class="icon icon-delete"></i></a>
+                                            </div>
+                                            <div class="clearfix">
+                                                <span class="user mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/user1.png"/>
+                                                    <b class="txt_hidden">任向辉</b>
+                                                </span>
+                                                <span class="user mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/user1.png"/>
+                                                    <b class="txt_hidden">任向辉</b>
+                                                </span>
+                                                <span class="user mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/user1.png"/>
+                                                    <b class="txt_hidden">任向辉</b>
+                                                </span>
+                                                <span class="user mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/user1.png"/>
+                                                    <b class="txt_hidden">任向辉</b>
+                                                </span>
+                                                <span class="user mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/user1.png"/>
+                                                    <b class="txt_hidden">任向辉</b>
+                                                </span>
+                                                <span class="user pointer mart10 marl10 floatleft clearfix">
+                                                    <img src="../img/add2.png">
+                                                    <b class="txt_hidden color-3"></b>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="add"></a>
+                                </div>
+                                <div class="userDiv">
+                                    <em class="leftLine"></em>
+                                    <div class="title alignright clearfix">
+                                        <span class="floatleft txt_hidden">上海万企明道软件有限公司</span>
+                                        <span class="color-8">200</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="add"></a>
+                            </div>
+                        </div>
+                        <!--组织结构over-->
+                        <div class="pageBtn font14 aligncenter clearfix relative p-bt20">
+                            <a href="#" class="btn inlineblock width-220 marr20">返回上一步</a>
+                            <a href="#" class="btn inlineblock width-220">保存并下一步</a>
+                        </div>
+                    </div>
+                </div>
+                <!--通讯录begin-->
+                <div class="mailList">
+                    <div class="mart10 clearfix">
+                        <div class="intBox floatleft marl10 width-130">
+                            <em class="arrow"></em>
+                            <p class="marl5">按部门查找</p>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">按部门查找</a></li>
+                                <li><a href="#">按部门查找</a></li>
+                                <li><a href="#">按部门查找</a></li>
+                            </ul>
+                        </div>
+                        <div class="intBox floatleft marl10 width-130">
+                            <em class="arrow"></em>
+                            <p class="marl5">按群组查找</p>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">按群组查找</a></li>
+                                <li><a href="#">按群组查找</a></li>
+                                <li><a href="#">按群组查找</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="word mart10 clearfix">
+                        <a href="#" class="checkAll mart5 marl10 floatleft">所有</a>
+                        <ul class="wordList clearfix">
+                            <li><a href="#">A</a></li>
+                            <li><a href="#">B</a></li>
+                            <li><a href="#">C</a></li>
+                            <li><a href="#">D</a></li>
+                            <li><a href="#">E</a></li>
+                            <li><a href="#">F</a></li>
+                            <li><a href="#">G</a></li>
+                            <li><a href="#">H</a></li>
+                            <li><a href="#">I</a></li>
+                            <li><a href="#">J</a></li>
+                            <li><a href="#">K</a></li>
+                            <li><a href="#">L</a></li>
+                            <li><a href="#">M</a></li>
+                            <li><a href="#">N</a></li>
+                            <li><a href="#">O</a></li>
+                            <li><a href="#">P</a></li>
+                            <li><a href="#">Q</a></li>
+                            <li><a href="#">R</a></li>
+                            <li><a href="#">S</a></li>
+                            <li><a href="#">T</a></li>
+                            <li><a href="#">U</a></li>
+                            <li><a href="#">V</a></li>
+                            <li><a href="#">W</a></li>
+                            <li><a href="#">X</a></li>
+                            <li><a href="#">Y</a></li>
+                            <li><a href="#">Z</a></li>
+                        </ul>
+                    </div>
+                    <div class="userTable jscroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="width-40"><a href="#">全选</a></th>
+                                    <th>姓名</th>
+                                    <th>部门</th>
+                                    <th>职位</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="current">
+                                    <td><span class="user clearfix"><img src="../img/user1.png"></span></td>
+                                    <td>王佳</td>
+                                    <td>明道北京研发部门</td>
+                                    <td>首席JAVA研发工程师</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="user clearfix"><img src="../img/user1.png"></span></td>
+                                    <td>王佳</td>
+                                    <td>明道北京研发部门</td>
+                                    <td>首席JAVA研发工程师</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="user clearfix"><img src="../img/user1.png"></span></td>
+                                    <td>王佳</td>
+                                    <td>明道北京研发部门</td>
+                                    <td>首席JAVA研发工程师</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="user clearfix"><img src="../img/user1.png"></span></td>
+                                    <td>王佳</td>
+                                    <td>明道北京研发部门</td>
+                                    <td>首席JAVA研发工程师</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="user clearfix"><img src="../img/user1.png"></span></td>
+                                    <td>王佳</td>
+                                    <td>明道北京研发部门</td>
+                                    <td>首席JAVA研发工程师</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <a href="#" class="btn block aligncenter">确定添加</a>
+                </div>
+                <!--通讯录over-->
+            </div>
+        </div>
+        <div class="pageone">
+            <div class="tableBoss jscroll">
+                <table>
+                    <tr>
+                        <td rowspan="16" style="width:80px;">
+                            <span class="user clearfix"><img src="../img/user1.png"><b class="txt_hidden">任向辉</b></span>
+                        </td>
+                        <td rowspan="8">上海万企明道软件公司</td>
+                        <td rowspan="2">档案管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">考勤管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">工资管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">工资报表</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="8">梅花信息有限公司</td>
+                        <td rowspan="2">档案管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">考勤管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">工资管理</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                    <tr>
+                        <td rowspan="2">工资报表</td>
+                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                    </tr>
+                    <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
+                </table>
+                <div class="pageBtn mart20 font14 aligncenter clearfix relative p-bt20">
+                    <a href="#" class="btn inlineblock width-220 marr20">返回上一步</a>
+                    <a href="#" class="btn inlineblock width-220">保存并下一步</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function(){
+        function setWidth(){
+            var $winW = $(window).width();
+            $('.pageone').width($winW);
+        }
+        setWidth();
+        $(window).resize(function(){
+            setWidth()
+        });
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
+</body>
+</html>

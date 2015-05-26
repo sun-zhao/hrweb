@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>个人刷卡记录</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem floatright clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="layout jscroll">
+    <div class="container leftMain" style="">
+        <!--当前位置begin-->
+        <div class="location bg-white clearfix">
+            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+            <ul class="floatleft marl10">
+                <li><a href="#">首 页</a>&gt;</li>
+                <li><a href="#">刷卡记录</a>&gt;</li>
+                <li><span>刘德华的刷卡记录</span></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon icon-set"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
+        </div>
+        <div class="location locationIn bg-white alignright clearfix mart20">
+            <div class="back floatleft color-8 clearfix">
+                <span class="user mart5 color-3 floatleft clearfix">
+                    <img src="img/user1.png">
+                    <em>刘德华</em>
+                </span>
+                <div class="mart10 marl10">明道北京研发部门</div>
+                <div class="mart10 noborder">早8晚5</div>
+            </div>
+            <div class="has-general inlineblock marr15">
+                <input type="text">
+                <label class="control-label">必填</label>
+                <i class="icon ico-calendar"></i>
+            </div>
+        </div>
+        <!--当前位置over-->
+        <div class="container bg-white mart10">
+            <p class="aligncenter p-top15 p-bt10 color-3 font14">2015年5月</p>
+            <div class="marl20 marr20 p-bt20">
+                <table class="calendar calendarTab">
+                    <thead>
+                        <tr>
+                            <th>日</th>
+                            <td>一</td>
+                            <td>二</td>
+                            <td>三</td>
+                            <td>四</td>
+                            <td>五</td>
+                            <th>六</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><div><em class="num color-c">29</em></div></th>
+                            <td><div><em class="num color-c">30</em></div></td>
+                            <td><div><em class="num color-c">31</em></div></td>
+                            <td><div><em class="num">1</em></div></td>
+                            <td><div><em class="num">2</em></div></td>
+                            <td><div><em class="num">3</em></div></td>
+                            <th><div><em class="num">4</em></div></th>
+                        </tr>
+                        <tr>
+                            <th><div><em class="num">5</em></div></th>
+                            <td><div><em class="num">6</em></td>
+                            <td>
+                                <div class="color-6 font14">
+                                    <em class="num">7</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5">全工时</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="color-6 font14">
+                                    <em class="num">8</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5">全工时</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="color-6 font14">
+                                    <em class="num">9</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5">全工时</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="color-6 font14">
+                                    <em class="num">10</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5 color-2">加班</p>
+                                </div>
+                            </td>
+                            <th>
+                                <div class="color-6 font14">
+                                    <em class="num">11</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5 color-2">加班</p>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th><div><em class="num">12</em></div></th>
+                            <td>
+                                <div class="color-6 font14">
+                                    <em class="num">13</em>
+                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="mart5 color-1">病假</p>
+                                </div>
+                            </td>
+                            <td><div><em class="num">14</em></div></td>
+                            <td><div><em class="num">15</em><span class="color-3">迟到</span></div></td>
+                            <td><div><em class="num">16</em></div></td>
+                            <td><div><em class="num">17</em></div></td>
+                            <th><div><em class="num">18</em></div></th>
+                        </tr>
+                        <tr>
+                            <th><div><em class="num">19</em></div></th>
+                            <td><div><em class="num">20</em></div></td>
+                            <td><div><em class="num">21</em><span class="color-4">旷工</span></div></td>
+                            <td><div><em class="num">22</em></div></td>
+                            <td><div><em class="num">23</em></div></td>
+                            <td><div><em class="num">24</em></div></td>
+                            <th><div><em class="num">25</em></div></th>
+                        </tr>
+                        <tr>
+                            <th><div><em class="num">26</em></div></th>
+                            <td><div><em class="num">27</em></div></td>
+                            <td><div><em class="num">28</em></div></td>
+                            <td><div><em class="num">29</em></div></td>
+                            <td><div><em class="num">30</em></div></td>
+                            <td><div><em class="num color-c">1</em></div></td>
+                            <th><div><em class="num color-c">2</em></div></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--通知框begin-->
+    <div class="container noticeBox bg-white" style="">
+        <ul class="noticeList">
+            <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
+            <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+            <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+        </ul>
+    </div>
+    <!--通知框over-->
+</div>
+
+<!--<div class="mask" style="display:;"></div>-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+        $window = $(window),
+        $W = $window.width(),
+        $notice = $('.notice'),
+        $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
+</body>
+</html>
