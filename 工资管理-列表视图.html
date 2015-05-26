@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>工资管理-列表视图</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem floatright clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="layout jscroll">
+    <div class="container leftMain" style="">
+        <!--当前位置begin-->
+        <div class="location bg-white clearfix alignright">
+            <ul class="floatleft marl10"><li><span>工资管理</span></li></ul>
+            <a href="#" class="iconBtn marr10" title="下载"><i class="icon icon-down"></i></a>
+            <a href="#" class="iconBtn marr10" title="上传"><i class="icon icon-upload"></i></a>
+            <a href="#" class="iconBtn marr10" title="计算工资"><i class="icon icon-calculate"></i></a>
+            <a href="#" class="iconBtn marr10" title="提交申请"><i class="icon icon-submit"></i></a>
+            <a href="#" class="iconBtn marr10"><i class="icon icon-set"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
+        </div>
+        <!--当前位置over-->
+        <div class="container bg-white mart20 p-bt20">
+            <div class="title alignright clearfix">
+                <span class="floatleft">明道北京研发部门-工资总额：<em>1,000,000,000.00</em></span>
+                <span class="floatright back marl15">
+                    <a href="#" class="iconBtn marr5" title="平铺视图"><i class="icon icon-tile"></i></a>
+                    <a href="#" class="iconBtn marl5" title="列表视图"><i class="icon icon-list"></i></a>
+                </span>
+                <div class="intBox search mart5 marl10 marr5 width-200 floatright clearfix">
+                    <input type="text" placeholder="搜索员工姓名">
+                    <a href="#" class="block floatleft relative"><i class="icon icon-search2"></i></a>
+                </div>
+                <div class="has-general floatright intBox nomar mart5 marr15 width-120">
+                    <label class="control-label">请选择部门</label>
+                    <em class="arrow"></em>
+                    <p class="marl5">全体部门</p>
+                    <div class="dropdown-menu jscroll" style="height:150px;">
+                        <ul class="">
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找11</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="has-general floatright nomar mart5 marr15">
+                    <input type="text"  value="2015-05">
+                    <label class="control-label">必填</label>
+                    <i class="icon ico-calendar"></i>
+                </div>
+            </div>
+            <div class="marr20 marl20 p-bt10">
+                <table class="tableCard tableWage" style="display:none;" title="列表显示">
+                    <thead>
+                        <tr>
+                            <th>姓名</th>
+                            <th class="width-100">部门</th>
+                            <th>基本工资</th>
+                            <th>绩效工资</th>
+                            <th>住房公积金</th>
+                            <th>失业保险</th>
+                            <th>养老保险</th>
+                            <th>工伤保险</th>
+                            <th>生育保险</th>
+                            <th>医疗保险</th>
+                            <th>个人所得税</th>
+                            <th>总计</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="first">刘德华</td>
+                            <td>明道北京研发部门</td>
+                            <td>8,000.00</td>
+                            <td>3,000.00</td>
+                            <td>1.000.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>400.00</td>
+                            <td class="last">9,200.00</td>
+                        </tr>
+                        <tr class="line"><th colspan="12"></th></tr>
+                        <tr>
+                            <td class="first">刘德华</td>
+                            <td>明道北京研发部门</td>
+                            <td>8,000.00</td>
+                            <td>3,000.00</td>
+                            <td>1.000.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>400.00</td>
+                            <td class="last">9,200.00</td>
+                        </tr>
+                        <tr class="line"><th colspan="12"></th></tr>
+                        <tr class="current">
+                            <td class="first">刘德华</td>
+                            <td>明道北京研发部门</td>
+                            <td>8,000.00</td>
+                            <td>3,000.00</td>
+                            <td>1.000.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>100.00</td>
+                            <td>400.00</td>
+                            <td class="last">9,200.00</td>
+                        </tr>
+                        <tr class="line"><th colspan="12"></th></tr>
+                    </tbody>
+                </table>
+                <table class="tableWageCard mart20" style="display: ;">
+                    <tr>
+                        <td class="current">
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3 floatleft">王佳</p>
+                                    <p class="floatleft">明道北京研发明道北京研发部门</p>
+                                    <p class="floatleft">JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="line"><td colspan="3"></td></tr>
+                    <tr>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="line"><td colspan="3"></td></tr>
+                    <tr>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="innerTd clearfix">
+                                <div class="floatleft marr20">
+                                    <span class="user mart5 inlineblock clearfix floatleft marr20"><img src="img/user1.png"/></span>
+                                    <p class="color-3">王佳</p>
+                                    <p>明道北京研发部门</p>
+                                    <p>JAVA工程师</p>
+                                </div>
+                                <div class="marl20">
+                                    <p>实发工资：<span class="color-3">10,000.00</span></p>
+                                    <p>基本工资：<span class="color-3">8,000.00</span></p>
+                                    <p>绩效工资：<span class="color-3">6,000.00</span></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="line"><td colspan="3"></td></tr>
+                </table>
+            </div>
+            <!--分页begin-->
+            <div class="pageOut mart1 p-top20 clearfix">
+                <span class="color-9 marl20 floatleft">共100页</span>
+                <div class="pagenation aligncenter font12 marr15 floatright">
+                    <a href="#" class="prev_page noData">首页</a>
+                    <a href="#" class="prev_page noData">上一页</a>
+                    <span>1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <span>...</span>
+                    <a href="#" class="next_page">下一页</a>
+                    <a href="#" class="next_page">尾页</a>
+                </div>
+            </div>
+            <!--分页over-->
+        </div>
+    </div>
+    <!--通知框begin-->
+    <div class="container noticeBox bg-white" style="">
+        <ul class="noticeList">
+            <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
+            <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+            <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+        </ul>
+    </div>
+    <!--通知框over-->
+</div>
+<!--编辑刷卡记录弹出begin-->
+<div class="pop" style="display: none;">
+    <div class="title alignright">
+        <span class="floatleft">编辑刷卡记录</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="marl30 marr30">
+            <table class="popMain mart10">
+                <tr>
+                    <td colspan="2">
+                        <div class="location locationIn clearfix">
+                            <div class="back floatleft width-200 color-8 clearfix">
+                                <span class="user mart5 color-3 floatleft marr10"><img src="img/user1.png"></span>
+                                <p class="font16 mart10 color-3">刘德华</p>
+                                <p class="mart10">北京明道研发</p>
+                            </div>
+                            <div class="mart20 marl20 color-8 floatleft">早8晚5</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><p class="line"></p></td></tr>
+                <tr>
+                    <th class="width-130 nopadding color-8">上班刷卡时间</th>
+                    <td class="alignright">9:00</td>
+                </tr>
+                <tr>
+                    <th class="width-130 nopadding color-8">下班刷卡时间</th>
+                    <td class="alignright">18:00</td>
+                </tr>
+                <tr>
+                    <th class="width-130 nopadding color-8">状态</th>
+                    <td class="alignright">
+                        <div class="has-general intBox nomarr floatright width-130">
+                            <label class="control-label">请选择</label>
+                            <em class="arrow"></em>
+                            <p class="marl5">事假</p>
+                            <div class="dropdown-menu jscroll" style="height:150px;">
+                                <ul class="">
+                                    <li><a href="#">事假</a></li>
+                                    <li><a href="#">病假</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p class="aligncenter mart20 color-8" style="height:20px;">同步失败，请你检查您的网络或者尝试重新同步！</p>
+        <div class="p-bt20 mart10 block">
+            <a href="#" class="btn btnBlcok btn-yes">保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存</a>
+        </div>
+    </div>
+</div>
+<!--编辑刷卡记录弹出over-->
+<div class="mask" style="display:none;"></div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+        $window = $(window),
+        $W = $window.width(),
+        $notice = $('.notice'),
+        $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
+</body>
+</html>
