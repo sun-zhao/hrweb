@@ -25,8 +25,13 @@
         </span>
         <ul class="navItem floatright clearfix">
             <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#"><i class="icon icon-team"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+        <ul class="dropdown-menu width-110" style="right:53px;top:50px;display: block">
+            <li><a href="#">组织机构设置</a></li>
+            <li><a href="#">权限设置</a></li>
         </ul>
     </div>
 </div>
@@ -336,10 +341,15 @@
         });
         var $w = $(window).width();
         var $h = $(window).height();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
-        $('.column').css({"height":$h-374});
+        $('.layout').find('.jspPane:first').css({"width":$w,"margin-left":"0"});
+        if($h-366<=250){
+            $('.column').css({"height":250});
+        }else{
+            $('.column').css({"height":$h-366});
+        }
     }
     Jscroll();
+
     var $leftMain = $('.leftMain'),
         $window = $(window),
         $W = $window.width(),

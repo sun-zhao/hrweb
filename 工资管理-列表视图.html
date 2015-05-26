@@ -320,61 +320,202 @@
         </div>
     </div>
 </div>
-<!--编辑刷卡记录弹出begin-->
+<!--工资查看弹出begin-->
 <div class="pop" style="display: none;">
     <div class="title alignright">
-        <span class="floatleft">编辑刷卡记录</span>
+        <span class="floatleft">王佳-5月工资</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
-    <div class="popInner">
-        <div class="marl30 marr30">
-            <table class="popMain mart10">
-                <tr>
-                    <td colspan="2">
-                        <div class="location locationIn clearfix">
-                            <div class="back floatleft width-200 color-8 clearfix">
-                                <span class="user mart5 color-3 floatleft marr10"><img src="img/user1.png"></span>
-                                <p class="font16 mart10 color-3">刘德华</p>
-                                <p class="mart10">北京明道研发</p>
-                            </div>
-                            <div class="mart20 marl20 color-8 floatleft">早8晚5</div>
+    <div class="popInner jscroll">
+        <table class="popMain mart10">
+            <tr>
+                <td colspan="2">
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="img/user1.png"/></span>
+                    <p class="font14 line20 mart3 color-3">王佳</p>
+                    <p class="font14 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                    <p class="font14 color-8 line20 mart5">JAVA工程师</p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><p class="line"></p></td></tr>
+            <tr>
+                <td>
+                    <div class="marl10 marr10">
+                        <table class="wage">
+                            <tr>
+                                <th>实发工资：</th>
+                                <td>9,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>基本工资：</th>
+                                <td>4,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>绩效工资：</th>
+                                <td>5,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>奖金：</th>
+                                <td>1,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>福利：</th>
+                                <td>500.00</td>
+                            </tr>
+                            <tr>
+                                <th>养老保险：</th>
+                                <td>-100.00</td>
+                            </tr>
+                            <tr>
+                                <th>医疗保险：</th>
+                                <td>-100.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart30 p-bt20 aligncenter">
+            <a href="#" class="btn marr20">查看历史工资</a>
+            <a href="#" class="btn marl20">重新计算</a>
+        </p>
+    </div>
+</div>
+<!--工资查看弹出over-->
+<!--计算工资弹出begin-->
+<div class="pop" style="display: none;">
+    <div class="title alignright">
+        <span class="floatleft">王佳-5月工资</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll">
+        <table class="popMain mart10">
+            <tr>
+                <td colspan="2">
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="img/user1.png"/></span>
+                    <p class="font14 line20 mart3 color-3">王佳</p>
+                    <p class="font14 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                    <p class="font14 color-8 line20 mart5">JAVA工程师</p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><p class="line"></p></td></tr>
+            <tr>
+                <th>基本工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>使用公式：</th>
+                <td>
+                    <div class="has-general intBox marr18">
+                        <label class="control-label">请选择</label>
+                        <em class="arrow"></em>
+                        <p class="marl5">明道北京研发部门公式</p>
+                        <div class="dropdown-menu jscroll" style="height:150px;">
+                            <ul class="">
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                            </ul>
                         </div>
-                    </td>
-                </tr>
-                <tr><td colspan="2"><p class="line"></p></td></tr>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart30 p-bt20 aligncenter">
+            <a href="#" class="btn btn-no marr20">放弃</a>
+            <a href="#" class="btn marl20">开始计算</a>
+        </p>
+    </div>
+</div>
+<!--计算工资弹出over-->
+<!--提交审核begin-->
+<div class="pop" style="display:none ;">
+    <div class="title alignright">
+        <span class="floatleft">提交审核</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll">
+        <table class="popMain popWage mart10">
+            <thead>
                 <tr>
-                    <th class="width-130 nopadding color-8">上班刷卡时间</th>
-                    <td class="alignright">9:00</td>
+                    <th></th>
+                    <th>上月工资</th>
+                    <th>本月工资</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>总计</th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
                 </tr>
                 <tr>
-                    <th class="width-130 nopadding color-8">下班刷卡时间</th>
-                    <td class="alignright">18:00</td>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
                 </tr>
                 <tr>
-                    <th class="width-130 nopadding color-8">状态</th>
-                    <td class="alignright">
-                        <div class="has-general intBox nomarr floatright width-130">
-                            <label class="control-label">请选择</label>
-                            <em class="arrow"></em>
-                            <p class="marl5">事假</p>
-                            <div class="dropdown-menu jscroll" style="height:150px;">
-                                <ul class="">
-                                    <li><a href="#">事假</a></li>
-                                    <li><a href="#">病假</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </td>
+                    <th>北京研发部</th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
                 </tr>
-            </table>
-        </div>
-        <p class="aligncenter mart20 color-8" style="height:20px;">同步失败，请你检查您的网络或者尝试重新同步！</p>
-        <div class="p-bt20 mart10 block">
-            <a href="#" class="btn btnBlcok btn-yes">保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存</a>
+            </tbody>
+        </table>
+        <div class="mart30 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">提交审核</a>
         </div>
     </div>
 </div>
-<!--编辑刷卡记录弹出over-->
+<!--提交审核over-->
+<!--数据导入begin-->
+<div class="pop" style="display:block ;">
+    <div class="title alignright">
+        <span class="floatleft">数据导入</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll">
+        <table class="popMain mart10">
+            <tr>
+                <th class="width-80 aligntop p-top5">基本工资模板</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                    <p class="alignright mart10"><a href="#" class="btn width-100 marr18">选择附件</a></p>
+                </td>
+            </tr>
+            <tr>
+                <th class="aligntop p-top10">工资项模板</th>
+                <td>
+                    <div class="has-general mart10">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                    <p class="alignright mart10"><a href="#" class="btn width-100 marr18">选择附件</a></p>
+                </td>
+            </tr>
+        </table>
+        <div class="mart30 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">导入数据</a>
+        </div>
+    </div>
+</div>
+<!--数据导入over-->
 <!--通知框begin-->
 <div class="container noticeBox bg-white" style="right:-60%;">
     <ul class="noticeList">
@@ -384,7 +525,7 @@
     </ul>
 </div>
 <!--通知框over-->
-<div class="mask" style="display:none;"></div>
+<div class="mask" style="display:block;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
