@@ -174,6 +174,17 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
+.loading img{width:35px;height:35px;margin-bottom:8px;}
+.message_box{width:320px;height:60px;position:fixed;top:50%;left:50%;margin:-30px 0 0 -180px;z-index:99;}
+.message{position:absolute;top:0;left:0;width:320px;height:60px;line-height:60px;background: url("../img/mesbg_2.png") no-repeat;word-break: break-all;word-wrap: break-word;}
+.message.message_error{background: url("../img/mesbg_error2.png") no-repeat;}
+.message i{width:32px;height:32px;border:1px solid #fff;border-radius:50%;padding:4px;margin:0 10px;}
+.message_error i{border-color:#a04646;color:#a04646;}
+.message i.icon-info{border:0;vertical-align:-4px;margin-right:5px;}
+.message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
+
+
 .prompt{text-align:center;font-size:10px;border-radius:50%;min-width:13px;height:13px;line-height:15px;border:2px solid #222;background:#dd4747;color:#fff;font-family: Arial;position: absolute;padding:2px;right:8px;top:5px;}
 .title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;}
 .pop .title{padding-left:10px;}

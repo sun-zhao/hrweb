@@ -3,6 +3,7 @@
 .nav li,.navItem li{float:left;height:50px;margin-left:20px;}
 .nav li a,.navItem li a{display:block;height:50px;line-height:50px;color:#eee;font-size:14px;padding:0 12px;}
 .nav li a.current{background:#efefef;color:#222;}
+.nav li a.nodata{color:#ccc;}
 .navItem li{float:left;height:50px;border-left:1px solid #2f2f2f;margin:0;}
 .navItem li a{width:30px;position: relative;height:50px;}
 .layout{position: absolute;top:50px;left:0;bottom:9px;right:0;}
@@ -30,7 +31,7 @@
 .calendarTab td{color:#666;height:70px;}
 .calendarTab td p,.calendarTab th p{line-height:20px;padding-left:10px;}
 .calendarDay td{height:45px;}
-.ulOut{margin-right:-10px;}
+.ulOut{height:100%;}
 .ulList li{height:38px;line-height:38px;border:1px solid #efefef;padding:0 10px;margin-bottom:12px;}
 .ulList li .iconBtn{height:38px;}
 /*.ulList li span{color:#676767;}*/

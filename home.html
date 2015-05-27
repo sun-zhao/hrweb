@@ -15,8 +15,8 @@
         <li><a href="#" class="current">个人信息</a></li>
         <li><a href="#">档案管理</a></li>
         <li><a href="#">考勤管理</a></li>
-        <li><a href="#">绩效管理</a></li>
-        <li><a href="#">工资管理</a></li>
+        <li><a href="#" class="nodata">绩效管理</a></li>
+        <li><a href="#" class="nodata">工资管理</a></li>
     </ul>
     <div class="floatright clearfix">
         <span class="user mart5 inlineblock clearfix">
@@ -133,9 +133,41 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="column jscroll floatright">
-                        <div class="ulOut marr20">
+                    <div class="column floatright">
+                        <div class="ulOut jscroll marr20">
                             <ul class="ulList">
+                                <li class="clearfix alignright">
+                                    <span class="floatleft">年假</span>
+                                    <span class="color-8">
+                                        <em>已使用2天</em>
+                                        <em class="inline">|</em>
+                                        <em>剩余5天</em>
+                                    </span>
+                                </li>
+                                <li class="clearfix alignright">
+                                    <span class="floatleft">带薪病假</span>
+                                    <span class="color-8">
+                                        <em>已使用2天</em>
+                                        <em class="inline">|</em>
+                                        <em>剩余5天</em>
+                                    </span>
+                                </li>
+                                <li class="clearfix alignright">
+                                    <span class="floatleft">年假</span>
+                                    <span class="color-8">
+                                        <em>已使用2天</em>
+                                        <em class="inline">|</em>
+                                        <em>剩余5天</em>
+                                    </span>
+                                </li>
+                                <li class="clearfix alignright">
+                                    <span class="floatleft">带薪病假</span>
+                                    <span class="color-8">
+                                        <em>已使用2天</em>
+                                        <em class="inline">|</em>
+                                        <em>剩余5天</em>
+                                    </span>
+                                </li>
                                 <li class="clearfix alignright">
                                     <span class="floatleft">年假</span>
                                     <span class="color-8">
@@ -329,6 +361,17 @@
     </ul>
 </div>
 <!--通知框over-->
+<span class="loading aligncenter" style="display:;">
+    <img src="img/loading.gif"/><br>
+    正在加载,请稍后再试...
+</span>
+<!--通知状态条begin-->
+<div class="message_box" style="display:;">
+    <div class="message aligncenter" style="display:;"><p class="font12 color-white ie-css3">通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
+    <div class="message aligncenter message_waring" style="display:none;"><p class="font12 color-white ie-css3">请谨慎操作！</p></div><!--每次 fadeout 掉一个div-->
+    <div class="message aligncenter message_error" style="display: none;"><p class="font12 color-white">操作失败！请您尝试重新操作！</p></div>
+</div>
+<!--通知状态条over-->
 <div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
@@ -349,7 +392,6 @@
         }
     }
     Jscroll();
-
     var $leftMain = $('.leftMain'),
         $window = $(window),
         $W = $window.width(),
