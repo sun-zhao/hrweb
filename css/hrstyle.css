@@ -125,7 +125,12 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .treeBig .user img{display:block;margin:0 0 0 10px;}
 .treeBig .user .txt_hidden{width:60px;color:#888;}
 .treeBig .iconbtn{display:inline-block;width:20px;height:38px;position: relative;margin-left:10px;}
-
+.userDiv div{position:relative;}
+div.popUser{position:absolute;}
+/*div.popUser .popInner{height:150px;}*/
+div.popUser .popInner .userList li{width:80px;margin:5px 4px;}
+div.popUser .user{width:80px;text-align: center;}
+div.popUser .user img{display: inline-block;}
 .tableCard{width:100%;}
 .tableCard thead th,.tableCard td,.tableCard th{height:40px;min-width:12.5%;text-align: left;padding-left:20px;}
 .tableCard tbody th{color:#347cdc;}
