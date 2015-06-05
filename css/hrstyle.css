@@ -125,7 +125,12 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .treeBig .user img{display:block;margin:0 0 0 10px;}
 .treeBig .user .txt_hidden{width:60px;color:#888;}
 .treeBig .iconbtn{display:inline-block;width:20px;height:38px;position: relative;margin-left:10px;}
-
+.userDiv div{position:relative;}
+div.popUser{position:absolute;}
+/*div.popUser .popInner{height:150px;}*/
+div.popUser .popInner .userList li{width:80px;margin:5px 4px;}
+div.popUser .user{width:80px;text-align: center;}
+div.popUser .user img{display: inline-block;}
 .tableCard{width:100%;}
 .tableCard thead th,.tableCard td,.tableCard th{height:40px;min-width:12.5%;text-align: left;padding-left:20px;}
 .tableCard tbody th{color:#347cdc;}
@@ -220,7 +225,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .pageBtn .btn{height:50px;line-height:50px;}
 .company{position: absolute;left:0;right:0;top:30px;bottom:60px;overflow-y:auto;}
 .company ul li{height:46px;line-height:46px;border:1px solid #ccc;padding:0 0 0 20px;margin-top:10px;color:#666;}
-.company ul li .iconBtn{height:46px;display: none;}
+.company ul li .iconBtn{width:30px;height:46px;display: none;}
 .company ul li:hover .iconBtn{display:inline-block;}
 .company .has-general input,.company .has-general .control-label{background:#efefef;}
 .company .has-general input{border-color:#aaa;font-size:13px;color:#aaa;}
