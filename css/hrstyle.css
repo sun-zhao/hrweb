@@ -225,7 +225,7 @@ div.popUser .user img{display: inline-block;}
 .pageBtn .btn{height:50px;line-height:50px;}
 .company{position: absolute;left:0;right:0;top:30px;bottom:60px;overflow-y:auto;}
 .company ul li{height:46px;line-height:46px;border:1px solid #ccc;padding:0 0 0 20px;margin-top:10px;color:#666;}
-.company ul li .iconBtn{width:30px;height:46px;display: none;}
+.company ul li .iconBtn{width:24px;height:46px;display: none;}
 .company ul li:hover .iconBtn{display:inline-block;}
 .company .has-general input,.company .has-general .control-label{background:#efefef;}
 .company .has-general input{border-color:#aaa;font-size:13px;color:#aaa;}
@@ -259,6 +259,13 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tableBoss table th{height:20px;}
 .tableBoss table td .icon{position: inherit;vertical-align:-5px;margin:1px 10px 0 0;}
 .tableBoss table td a{color:#888;}
+/*工资统计*/
+.dataTable{width:100%;}
+.dataTable td{width:5%;}
+.dataTable td .dataDiv{margin:20px 10px;border:1px solid #efefef;min-height:200px;}
+.dataTable td .dataDiv .title{height:29px;line-height: 29px;}
+
+
 
 
 .progress-radial {

@@ -215,6 +215,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .btn-no{background:#bbb;}
 .btn-no:hover{background:#b1afaf;}
 .btn-ok{background:#55ba59;}
+.btn-ok:hover{background:#2baa3f;}
 .btn-yes{background:#55c96e;}
 .btn-yes:hover{background:#46ae5c;}
 .switch{display:inline-block;width:40px;height:20px;line-height:20px;padding:1px;border-radius:20px;background:#ddd;margin:13px 20px 0 0;position: relative;cursor: pointer;transition:0.3s;}
