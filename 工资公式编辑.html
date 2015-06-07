@@ -151,11 +151,19 @@
 </div>
 <!--通知框over-->
 <!--通讯录begin-->
-<div class="mailList mailListIn">
+<div class="mailList" style="display:;">
+    <!--tab切换 begin-->
+    <div class="tabCheck">
+        <a href="#" class="current">按部门</a>
+        <a href="#">按员工</a>
+        <a href="#">按地区</a>
+        <a href="#">按职位</a>
+    </div>
+    <!--tab切换 over-->
     <div class="mart10 clearfix">
         <div class="intBox floatleft marl10 width-130">
             <em class="arrow"></em>
-            <p class="marl5">按部门查找</p>
+            <p class="marl5">请选择部门</p>
             <ul class="dropdown-menu">
                 <li><a href="#">按部门查找</a></li>
                 <li><a href="#">按部门查找</a></li>
@@ -164,7 +172,7 @@
         </div>
         <div class="intBox floatleft marl10 width-130">
             <em class="arrow"></em>
-            <p class="marl5">按群组查找</p>
+            <p class="marl5">请选择群组</p>
             <ul class="dropdown-menu">
                 <li><a href="#">按群组查找</a></li>
                 <li><a href="#">按群组查找</a></li>
@@ -203,46 +211,68 @@
             <li><a href="#">Z</a></li>
         </ul>
     </div>
-    <div class="userTable jscroll">
-        <table>
+    <div class="userTable relative">
+        <table class="nomar">
             <thead>
-                <tr>
-                    <th class="width-40"><a href="#">全选</a></th>
-                    <th>姓名</th>
+                <tr class="alignleft">
+                    <th class="width-50"><a href="#">全选</a></th>
+                    <th class="width-50">姓名</th>
                     <th>部门</th>
                     <th>职位</th>
                 </tr>
             </thead>
+        </table>
+    </div>
+    <div class="userTable jscroll">
+        <table>
             <tbody>
                 <tr class="current">
-                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
-                    <td>王佳</td>
-                    <td>明道北京研发部门</td>
-                    <td>首席JAVA研发工程师</td>
+                    <td><span class="user clearfix"><img src="img/department.jpg"></span></td>
+                    <td><span class="width-50 txt_hidden">王佳王佳王佳</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门部门部门部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席JAVA研发工程师</span></td>
                 </tr>
                 <tr>
                     <td><span class="user clearfix"><img src="img/user1.png"></span></td>
-                    <td>王佳</td>
-                    <td>明道北京研发部门</td>
-                    <td>首席JAVA研发工程师</td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
                 </tr>
                 <tr>
                     <td><span class="user clearfix"><img src="img/user1.png"></span></td>
-                    <td>王佳</td>
-                    <td>明道北京研发部门</td>
-                    <td>首席JAVA研发工程师</td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
                 </tr>
                 <tr>
                     <td><span class="user clearfix"><img src="img/user1.png"></span></td>
-                    <td>王佳</td>
-                    <td>明道北京研发部门</td>
-                    <td>首席JAVA研发工程师</td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
                 </tr>
                 <tr>
                     <td><span class="user clearfix"><img src="img/user1.png"></span></td>
-                    <td>王佳</td>
-                    <td>明道北京研发部门</td>
-                    <td>首席JAVA研发工程师</td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
                 </tr>
             </tbody>
         </table>
