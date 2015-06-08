@@ -63,7 +63,7 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
-.intBox.current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
+.current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
 .search input{width:158px;height:28px;line-height: normal;border:0;float: left;outline: 0;text-indent:5px;color:#aaa;}
 .search a{width:38px;height:24px;margin-top:2px;border-left:1px solid #aaa;display: inline-block;}
 .leftImg{width:110px;}
@@ -121,6 +121,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .tree .user:hover .delete{display: block;}
 .treeSee .treeMain .userDiv .iconBtn{width:21px;height:21px;position: absolute;left:-12px;top:-11px;z-index:21;}
 .treeBig .userDiv{width:498px;}
+.treeBig .delete{left:10px;}
 .treeBig span.user{width:60px;height:auto;min-height:40px;line-height:20px;overflow: hidden;text-align:center;}
 .treeBig .user img{display:block;margin:0 0 0 10px;}
 .treeBig .user .txt_hidden{width:60px;color:#888;}
@@ -200,7 +201,7 @@ div.popUser .user img{display: inline-block;}
 .popMain .has-label label{display:block;text-align: right;padding-right:10px;color:#aaa;}
 .wage{width:100%;}
 .wage th,.wage td{border-bottom:1px solid #efefef;}
-.wage th{width:50px;height:25px;line-height:25px;text-align: right;padding-right:20px;}
+.wage th{width:60px;height:25px;line-height:25px;text-align: right;padding-right:20px;}
 .wage td{text-align: right;height:25px;line-height:25px;}
 .popWage{width:95%;}
 .popWage th{width:100px;text-align: right;}
@@ -235,23 +236,27 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
 .processLayout .processBarIn{height:19px;background:#59a7f9;border-radius:18px;transition:0.3s;}
-.mailList{width:470px;background:#fff;position:absolute;top:0;bottom:0;right:20px;}
+.mailList{width:470px;background:#fff;position:absolute;top:0;bottom:0;right:0;z-index:50;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;text-indent:5px;line-height:30px;margin-left:2px;}
 .wordList li a{display:block;color:#666;}
 .checkAll{display:inline-block;width:50px;background:#59a7f9;color:#fff;height:20px;line-height:20px;text-align: center;}
-.userTable{position: absolute;top:130px;bottom:50px;left:0;right:0;}
-.userTable table{width:100%;}
+.userTable{position:absolute;width:474px;top:145px;bottom:42px;left:0;right:0;}
+.userTable.relative{top:0;bottom:0;}
+.userTable table{width:100%;margin-left:-4px;}
 .userTable table th,.userTable table td{padding-left:20px;height:30px;border-bottom:1px solid #efefef;}
 .userTable table td{height:80px;border-bottom:1px dashed #efefef;cursor: pointer;}
 .userTable table tr:hover td{background:#e5f1fe;}
 .userTable table .user{display:inline-block;padding:3px;width:40px;height:40px;line-height:normal;border:1px solid transparent;border-radius:50%;position:relative;bottom:-6px;left:-5px;}
 .userTable table .user img{float:none;margin:0;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
+/*.mailList{border-left:1px solid #59a7f9;}*/
 .mailList .btn{height:40px;line-height:40px;position: absolute;left:0;bottom:0;}
-.tableBoss{}
+.tabCheck{width:80px;position: absolute;top:0;left:-81px;}
+.tabCheck a{display: block;height:40px;line-height:40px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;}
+.tabCheck a.current{border-left-color:#0066cc;background:#59a7f9;color:#fff;}
 .tableBoss table{width:100%;}
 .tableBoss table .user {line-height:20px;}
 .tableBoss table .user img{width:60px;height:60px;margin:0;float: none;}
@@ -264,8 +269,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .dataTable td{width:5%;}
 .dataTable td .dataDiv{margin:20px 10px;border:1px solid #efefef;min-height:200px;}
 .dataTable td .dataDiv .title{height:29px;line-height: 29px;}
-
-
+.FormulaList{margin:0 14px;}
+.FormulaList li{min-height:30px;border:1px solid #efefef;color:#888;margin-bottom:8px;}
+.FormulaList li p{height:30px;line-height: 30px;position: relative;}
+.FormulaList li p .arrow{right:15px;}
+.FormulaList li .iconBtn{height:30px;margin-right:10px;}
 
 
 .progress-radial {
