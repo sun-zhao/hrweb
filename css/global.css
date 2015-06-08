@@ -201,7 +201,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .user{height:40px;line-height:40px;}
 .user img{width:40px;height:40px;border-radius:50%;float: left;margin-right:10px;}
 .user.width-60,.user.width-60 img{width:60px;height:60px;}
-.header .user{color:#eee;height:40px;line-height:40px;}
+.header .user,.header .user em{color:#eee;height:40px;line-height:40px;}
 .header .user img{width:40px;height:40px;border-radius:50%;float: left;margin-right:10px;}
 .pop .user{line-height:0;}
 .pop .user img{float: none;margin:0;}
@@ -283,6 +283,8 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .has-general .ico-calendar{left:inherit;right:5px;}
 .icon-clock{background-position:-20px -140px;}
 .icon-up{background-position:-20px -120px;}
+.icon-up-mini{width:19px;background-position:-21px -221px;}
+.icon-down-mini{width:19px;background-position:-60px -221px;}
 .icon-stop{background-position:-20px -40px;}
 .icon-stop-mini{width:19px;background-position:-21px -200px;}
 .icon-doc{background-position:-20px -60px;}
