@@ -63,7 +63,7 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
-.intBox.current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
+.current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
 .search input{width:158px;height:28px;line-height: normal;border:0;float: left;outline: 0;text-indent:5px;color:#aaa;}
 .search a{width:38px;height:24px;margin-top:2px;border-left:1px solid #aaa;display: inline-block;}
 .leftImg{width:110px;}
@@ -269,8 +269,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .dataTable td{width:5%;}
 .dataTable td .dataDiv{margin:20px 10px;border:1px solid #efefef;min-height:200px;}
 .dataTable td .dataDiv .title{height:29px;line-height: 29px;}
-
-
+.FormulaList{margin:0 14px;}
+.FormulaList li{min-height:30px;border:1px solid #efefef;color:#888;margin-bottom:8px;}
+.FormulaList li p{height:30px;line-height: 30px;position: relative;}
+.FormulaList li p .arrow{right:15px;}
+.FormulaList li .iconBtn{height:30px;margin-right:10px;}
 
 
 .progress-radial {

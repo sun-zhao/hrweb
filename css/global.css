@@ -273,6 +273,9 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-check,a:hover .icon-check{background: url("../img/icon-1.png");background-position:-40px -20px;}
 .icon-radio,a:hover .icon-radio{background: url("../img/icon-1.png");background-position:-60px -100px;}
 .icon-radio.current,a:hover .icon-radio.current{background: url("../img/icon-2.png");background-position:-60px -100px;}
+.icon-check.current,a:hover .icon-check.current{background: url("../img/icon-2.png");background-position:-40px -20px;}
+.FormulaList .icon-check.current,.FormulaList a:hover .icon-check.current{background: url("../img/icon-2.png");background-position:-60px -140px;}
+
 
 .icon-back{background-position:-20px -100px;}
 .icon-set{background-position:-20px -20px;}
