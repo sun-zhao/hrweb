@@ -253,6 +253,7 @@ span.back{padding:0 20px;}
 .icon{display:inline-block;font-size:0;line-height:0;width:20px;height:20px;background: url("../img/icon-1.png");position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
 a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
+.pop .iconBtn{position: absolute;right:5px;top:5px;}
 .icon-search{background-position:0 0;}
 .icon-net{background-position:-80px 0;}
 .icon-team{background-position:-60px -120px;}
