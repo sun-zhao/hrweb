@@ -24,6 +24,7 @@
             <em>你好，习大大！</em>
         </span>
         <ul class="navItem floatright clearfix">
+            <li><a href="#"><i class="icon icon-net"></i></a></li>
             <li><a href="#"><i class="icon icon-search"></i></a></li>
             <li><a href="#"><i class="icon icon-team"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
@@ -364,18 +365,44 @@
     </ul>
 </div>
 <!--通知框over-->
-<span class="loading aligncenter" style="display:;">
+<span class="loading aligncenter" style="display:none;">
     <img src="img/loading.gif"/><br>
     正在加载,请稍后再试...
 </span>
 <!--通知状态条begin-->
-<div class="message_box" style="display:;">
+<div class="message_box" style="display:none;">
     <div class="message aligncenter" style="display:;"><p class="font12 color-white ie-css3">通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
     <div class="message aligncenter message_waring" style="display:none;"><p class="font12 color-white ie-css3">请谨慎操作！</p></div><!--每次 fadeout 掉一个div-->
     <div class="message aligncenter message_error" style="display: none;"><p class="font12 color-white">操作失败！请您尝试重新操作！</p></div>
 </div>
 <!--通知状态条over-->
-<div class="mask" style="display:none;"></div>
+<!--选择分公司begin-->
+<div class="pop choose_net" style="display: block;">
+    <div class="title alignright">
+        <span class="floatleft">请选择分公司或地区</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="jscroll mart10" style="height:80%;">
+        <ul>
+            <li><a href="">上海万企明道软件有限公司</a></li>
+            <li><a href="">mingdao plus</a></li>
+            <li><a href="">中共中央党校</a></li>
+            <li class="current" title="加current，分公司展开">
+                <a href="javascript:;">大连万科实业集团<em class="arrow"></em></a>
+                <dl style="display: ">
+                    <dd><a href="">北京分公司</a></dd>
+                    <dd><a href="">上海分公司</a></dd>
+                </dl>
+            </li>
+            <li><a href="">上海万企明道软件有限公司</a></li>
+            <li><a href="">北京联合通讯有限责任公司</a></li>
+            <li><a href="">北京联合通讯有限责任公司</a></li>
+            <li><a href="">北京联合通讯有限责33333任公司</a></li>
+        </ul>
+    </div>
+</div>
+<!--选择分公司over-->
+<div class="mask" style="display:block;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>

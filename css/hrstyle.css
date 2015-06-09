@@ -63,6 +63,7 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
+.treeMain .intBox.current .dropdown-menu{top:0;right:1px;}
 .current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
 .search input{width:158px;height:28px;line-height: normal;border:0;float: left;outline: 0;text-indent:5px;color:#aaa;}
 .search a{width:38px;height:24px;margin-top:2px;border-left:1px solid #aaa;display: inline-block;}
@@ -274,6 +275,16 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .FormulaList li p{height:30px;line-height: 30px;position: relative;}
 .FormulaList li p .arrow{right:15px;}
 .FormulaList li .iconBtn{height:30px;margin-right:10px;}
+
+.choose_net{position: absolute;padding:5px 0;width:400px;height:300px;z-index:100;margin-top:-120px;background: #fff;border-radius:3px;}
+.choose_net p{border-bottom:1px solid #aaa;}
+.choose_net li{border-bottom: 1px solid #ccc;margin:0 20px 0 15px;}
+.choose_net li a{display:block;height:40px;line-height:40px;color:#333;font-size: 12px;position: relative;}
+.choose_net li a:hover{color:#0063bd;}
+.choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
+.choose_net li.current dl{display: block;}
+.choose_net li dd{;}
+.choose_net li dd a{height:30px;line-height:30px;}
 
 
 .progress-radial {
