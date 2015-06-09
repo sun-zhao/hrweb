@@ -85,8 +85,10 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .pop p span{padding:0 10px;color:#347cdc;}
 .pop p a.btn{display:inline-block;width:160px;height:40px;line-height:40px;}
 .Formula li{width:auto;height:auto;line-height:30px;display:block;margin:0 20px;padding:10px;float:none;}
-
-
+.confirm{width:300px;height:160px;margin:-80px 0 0 -150px;}
+.confirm p.aligncenter{position:absolute;left:0;right:0;bottom:10px;}
+.confirm p.aligncenter .btn{width:100px;height:30px;line-height:30px;}
+.confirm .confirmTxt{height:70px;margin:0 20px;line-height:30px;padding-top:10px;}
 /*时间线*/
 .timeLine{border-left:4px solid #aaa;min-height:400px;margin-left:120px;position: relative;}
 .timeLine .icon-clock{top:-8px;left:-2px;}
