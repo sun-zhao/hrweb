@@ -254,6 +254,7 @@ span.back{padding:0 20px;}
 a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
 .icon-search{background-position:0 0;}
+.icon-net{background-position:-80px 0;}
 .icon-team{background-position:-60px -120px;}
 .icon-remind{background-position:0 -20px;}
 .icon-search2{background-position:0 -40px;}
@@ -292,6 +293,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-plus{background-position:-40px 0;}
 .icon-delete{background-position:-20px -160px;}
 .icon-off-mini{background-position:-40px -60px;}
+.icon-revert{background-position:-80px -20px;}
 .icon-circle{background-position:-40px -100px}
 .icon-close,.icon-open{width:21px;height:21px;background-position:0 -200px}
 .icon-open{background-position:0 -221px}

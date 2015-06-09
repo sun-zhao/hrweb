@@ -39,8 +39,9 @@
             <li><a href="#">首 页</a> &gt;</li>
             <li><span>部门设定</span></li>
         </ul>
-        <a href="#" class="floatright current"><i class="icon icon-set"></i></a>
-        <a href="#" class="floatright"><i class="icon icon-plus"></i></a>
+        <a href="#" class="iconBtn floatright current"><i class="icon icon-set"></i></a>
+        <a href="#" class="iconBtn floatright"><i class="icon icon-plus"></i></a>
+        <a href="#" class="iconBtn floatright"><i class="icon icon-update" title="同步"></i></a>
         <ul class="dropdown-menu width-110" style="display: none">
             <li><a href="#">部门设置</a></li>
             <li><a href="#">职位设置</a></li>
@@ -99,6 +100,25 @@
                 </li>
             </ul>
         </div>
+        <div class="container bg-white color-a mart10">
+            <div class="title alignright clearfix">
+                <span class="floatleft">以下部门不归我管</span>
+            </div>
+            <ul class="Department clearfix p-top10 p-bt20">
+                <li class="clearfix">
+                    <span class="txt_hidden">人力资源及社会保障局</span>
+                    <a href="#" class="iconBtn floatright" title="撤销"><i class="icon icon-revert"></i></a>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">人力资源及社会保障局</span>
+                    <a href="#" class="iconBtn floatright" title="撤销"><i class="icon icon-revert"></i></a>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">人力资源及社会保障局</span>
+                    <a href="#" class="iconBtn floatright" title="撤销"><i class="icon icon-revert"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
     <!--通知框begin-->
     <div class="container noticeBox bg-white" style="">
@@ -110,7 +130,32 @@
     </div>
     <!--通知框over-->
 </div>
-<!--<div class="mask" style="display:;"></div>-->
+<!--部门编辑弹出begin-->
+<div class="pop" style="display:block;height:200px;">
+    <div class="title alignright">
+        <span class="floatleft">部门编辑</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="font14 popInner jscroll">
+        <table class="popMain mart10">
+            <tr>
+                <th>部门名称</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入公式名称</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart30 aligncenter">
+            <a href="#" class="btn btn-no marr20">取&nbsp;&nbsp;&nbsp;消</a>
+            <a href="#" class="btn btn-yes marl20">确&nbsp;&nbsp;&nbsp;定</a>
+        </p>
+    </div>
+</div>
+<!--部门编辑弹出over-->
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
