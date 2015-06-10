@@ -246,7 +246,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
 .processLayout .processBarIn{height:19px;background:#59a7f9;border-radius:18px;transition:0.3s;}
-.mailList{width:470px;background:#fff;position:absolute;top:0;bottom:0;right:0;z-index:50;}
+.mailList{width:470px;background:#fff;position:absolute;top:0;bottom:0;right:0;z-index:300;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
@@ -264,9 +264,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
 /*.mailList{border-left:1px solid #59a7f9;}*/
 .mailList .btn{height:40px;line-height:40px;position: absolute;left:0;bottom:0;}
-.tabCheck{width:80px;position: absolute;top:0;left:-81px;}
-.tabCheck a{display: block;height:40px;line-height:40px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;}
+.tabCheck{width:40px;position: absolute;top:0;left:-41px;}
+.tabCheck a{display: block;height:60px;padding-top:20px;line-height:20px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;border-bottom:1px dotted #ccc;}
 .tabCheck a.current{border-left-color:#0066cc;background:#59a7f9;color:#fff;}
+.tabCheck a:hover{color:#59a7f9;}
 .tableBoss table{width:100%;}
 .tableBoss table .user {line-height:20px;}
 .tableBoss table .user img{width:60px;height:60px;margin:0;float: none;}
@@ -289,10 +290,9 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .choose_net p{border-bottom:1px solid #aaa;}
 .choose_net li{border-bottom: 1px solid #ccc;margin:0 20px 0 15px;}
 .choose_net li a{display:block;height:40px;line-height:40px;color:#333;font-size: 12px;position: relative;}
-.choose_net li a:hover{color:#0063bd;}
+.choose_net li a:hover,.choose_net li dd.choosed a,.choose_net li.choosed a{color:#0063bd;}
 .choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
 .choose_net li.current dl{display: block;}
-.choose_net li dd{;}
 .choose_net li dd a{height:30px;line-height:30px;}
 
 
