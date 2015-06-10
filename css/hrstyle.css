@@ -292,7 +292,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .choose_net p{border-bottom:1px solid #aaa;}
 .choose_net li{border-bottom: 1px solid #ccc;margin:0 20px 0 15px;}
 .choose_net li a{display:block;height:40px;line-height:40px;color:#333;font-size: 12px;position: relative;}
-.choose_net li a:hover,.choose_net li dd.choosed a,.choose_net li.choosed a{color:#0063bd;}
+.choose_net li a:hover,.choose_net li dd.choosed a,.choose_net li.choosed a,.dropdown-menu li.choosed a,.dropdown-menu li dd.choosed a{color:#0063bd;}
 .choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
 .choose_net li.current dl{display: block;}
 .choose_net li dd a{height:30px;line-height:30px;}

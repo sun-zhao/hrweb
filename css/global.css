@@ -169,7 +169,8 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th,.l_th *{text-decoration:line-through;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
-.txt_hidden{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.txt_hidden{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
+
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
@@ -241,10 +242,18 @@ span.back{padding:0 20px;}
 .dropdown-out .arrow{position:absolute;border:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:10px solid #fff;right:50%;margin-right:-5px;z-index:5;}
 .dropdown-menu{background:#fff;border:1px solid #efefef;position: absolute;right:0;top:40px;padding:5px 0;box-shadow:0 0 3px #e0e0e0;display: none;z-index:3;}
 .dropdown-menu.current{display:block;}
-.dropdown-menu li{display:block!important;height:30px!important;line-height:30px!important;color:#666;text-align: left;margin:0!important;border:0!important;}
-.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;}
+.dropdown-menu li{display:block!important;min-height:30px!important;color:#666;text-align: left;margin:0!important;border:0!important;}
+.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;white-space:nowrap;text-overflow:ellipsis;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
+.dropdown-out.net{height:250px;}
+.dropdown-out.net .arrow{top:0;}
+/*.dropdown-out.net .dropdown-menu ul{margin:10px 0;}*/
+.dropdown-out.net .dropdown-menu li,.dropdown-out.net .dropdown-menu li a{width:96%;}
+.dropdown-out.net .dropdown-menu li{margin-bottom:5px!important;}
+.dropdown-menu li dl{margin:0 13px;border-left:1px solid #ccc;}
+.dropdown-menu li{min-height:30px;}
+.dropdown-menu li dl dd{height:30px;line-height:30px;}
 .pageOut{border-top:1px solid #efefef;height:30px;line-height:30px;}
 .pagenation a,.pagenation span{display:inline-block;height:30px;line-height:30px;margin:0 5px;*display: inline;border:1px solid #efefef;padding:0 10px;color:#333;}
 .pagenation span{border:0;}
