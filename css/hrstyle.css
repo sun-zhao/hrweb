@@ -263,7 +263,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table .user img{float:none;margin:0;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
 /*.mailList{border-left:1px solid #59a7f9;}*/
-.mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:0;}
+.mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
 .tabCheck a{display: block;height:60px;padding-top:20px;line-height:20px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;border-bottom:1px dotted #ccc;}
 .tabCheck a.current{border-left-color:#0066cc;background:#59a7f9;color:#fff;}
