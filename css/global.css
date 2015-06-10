@@ -293,6 +293,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-doc{background-position:-20px -60px;}
 .icon-doc-plus{background-position:-20px -80px;}
 .icon-plus{background-position:-40px 0;}
+.icon-plus-mini{background-position:-40px -262px;}
 .icon-delete{background-position:-20px -160px;}
 .icon-off-mini{background-position:-40px -60px;}
 .icon-revert{background-position:-80px -20px;}
