@@ -250,9 +250,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
-.wordList li{font-family: Arial;float: left;width:7%;text-align: center;text-indent:5px;line-height:30px;margin-left:2px;}
-.wordList li a{display:block;color:#666;}
-.checkAll{display:inline-block;width:50px;background:#59a7f9;color:#fff;height:20px;line-height:20px;text-align: center;}
+.wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
+.wordList li a{display:block;color:#666;height:20px;line-height:20px;}
+.checkAll{display:inline-block;width:50px;color:#666;height:20px;line-height:20px;text-align: center;}
+.wordList li.choosed a,.checkAll.choosed{background:#59a7f9;color:#fff;}
 .userTable{position:absolute;width:474px;top:145px;bottom:42px;left:0;right:0;}
 .userTable.relative{top:0;bottom:0;}
 .userTable table{width:100%;margin-left:-4px;}
