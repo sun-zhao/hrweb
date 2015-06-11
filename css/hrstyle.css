@@ -46,9 +46,11 @@
 .noticeList li.unread em{display: inline-block;}
 /*档案管理*/
 .userList{padding:5px 5px 5px 20px;}
-.userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;}
+.userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li a{padding:10px 0;}
+.popInner .userList li a.delete{width:41px;height:41px;line-height:40px;padding:0;left:50%;margin-left:-20px;top:4px;}
 .userList li:hover a{background:#efefef;}
+.popInner .userList li:hover a.delete{display: block;background: url("../img/mask70.png") repeat;}
 .userList li .user{display:block;}
 .userList li .user img{float: none;margin:0;}
 .userList li p.txt_hidden{line-height:26px;color:#888;width:90%;}
