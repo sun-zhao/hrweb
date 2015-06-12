@@ -23,14 +23,25 @@
 .calendar thead td,.calendar thead th{text-align:right;}
 .calendar th,.calendar td{border:1px solid #efefef;height:29px;padding:5px 5px 0 0;}
 .calendar th{background:#f6f6f6;}
+.calendar th.noday,.calendar td.noday{background:#fff;color:#ccc;}
 .calendar th div,.calendar td div{height:100%;position: relative;cursor: pointer;}
-.calendar .num{font-family:Arial;position: absolute;top:0px;right:0;}
+.calendar .num{font-family:Arial;position: absolute;top:0;right:0;}
+.calendarDay .num{font-family:Arial;width:30px;height:10px;line-height:10px;position: absolute;top:50%;left:50%;margin:-5px 0 0 -10px;text-align: center;}
+.calendar .setDay{position: absolute;top:-5px;left:0;right:-5px;bottom:0;background:#fff;display: none;transition:0.3s;}
+.calendar .setDay li{width:33.3%;float:left;text-align: center;line-height:45px;}
+.calendar .setDay li a{display:block;line-height: 45px;color:#888;background:#a3cefc;transition:0.3s;}
+.calendar .setDay li a.day_1{background:#fff;}
+.calendar .setDay li a.day_2{background:#e4fde0;}
+.calendar .setDay li a:hover{opacity: 0.8;transition:0.3s;}
+.calendar td:hover .setDay,.calendar th:hover .setDay{display: block;transition:0.3s;}
+
+
 .calendar span{position:absolute;bottom:3px;left:3px;}
 .calendarTab{min-height:100%}
 .calendarTab td,.calendarTab th{width:14%;padding-bottom:10px;}
 .calendarTab td{color:#666;height:70px;}
 .calendarTab td p,.calendarTab th p{line-height:20px;padding-left:10px;}
-.calendarDay td{height:45px;}
+.calendarDay td{height:40px;}
 .ulOut{height:100%;}
 .ulList li{height:38px;line-height:38px;border:1px solid #efefef;padding:0 10px;margin-bottom:12px;}
 .ulList li .iconBtn{height:38px;}
@@ -118,14 +129,15 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .tree .user{position: relative;}
 .userDiv{width:298px;border:1px solid #efefef;background:#fff;position: relative;}
 .userDiv div.clearfix{padding-bottom:5px;}
-.userDiv .title{height:35px;line-height:35px;background:#f6f6f6;padding:1px 10px;}
+.userDiv .title{height:35px;line-height:35px;background:#f6f6f6;padding:1px 10px;position: relative;}
 .userDiv .title .txt_hidden{width:80%;text-align: left;}
+.userDiv .title .iconBtn{position:absolute;right:5px;top:-2px;}
 .treeMain{border-left:1px solid #aaa;min-height:30px;padding:20px 0 0 38px;position: relative;}
 .treeMain .userDiv{width:218px;}
 .treeBig .treeMain{padding-top:10px;}
 .treeSee .treeMain .userDiv{bottom:-35px;margin-top:20px;z-index:10;}
 .treeSee .treeMain.treeMainIn .userDiv{bottom:-15px;}
-.userDiv .has-general{top:3px;width:196px;}
+.userDiv .has-general{top:3px;width:150px;}
 .leftLine{width:38px;position: absolute;left:-39px;top:69%;border-color:#aaa;}
 /*.lastDiv{bottom:-20px;}*/
 .lastDiv .leftLine{border:0;width:39px;height:39px;background:url("../img/last-line.jpg") no-repeat;top:84%;left:-40px;}
@@ -298,8 +310,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
 .choose_net li.current dl{display: block;}
 .choose_net li dd a{height:30px;line-height:30px;}
-
-
+.c_btn{display:inline-block;min-width:50px;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;text-align:center;}
+.c_btn:hover{opacity:0.8;}
+.sure{background:#0066cc;color:#fff;border-color:#06c;}
+.confrim{border:1px solid #ccc;width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
+.confrim .btnItem{position: absolute;bottom:10px;right:0;left:0;}
 .progress-radial {
   display: inline-block;
   position: relative;

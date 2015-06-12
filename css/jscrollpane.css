@@ -23,10 +23,11 @@
 	right:4px;
 	width: 16px;
 	height: 100%;
-
+    opacity: 0;
+    transition:0.3s;
 	/*background: red;*/
 }
-
+.jscroll:hover .jspVerticalBar{opacity:1;transition:0.3s;}
 .jspHorizontalBar
 {
 	position: absolute;

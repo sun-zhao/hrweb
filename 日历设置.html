@@ -143,8 +143,8 @@
                         <tbody>
                             <tr>
                                 <th><div><em class="num color-c">29</em></div></th>
-                                <td><div><em class="num color-c">30</em></div></td>
-                                <td><div><em class="num color-c">31</em></div></td>
+                                <td class="noday"><div><em class="num">30</em></div></td>
+                                <td class="noday"><div><em class="num">31</em></div></td>
                                 <td class="workday"><div><em class="num">1</em></div></td>
                                 <td class="workday"><div><em class="num">2</em></div></td>
                                 <td class="workday"><div><em class="num">3</em></div></td>
@@ -170,7 +170,16 @@
                             </tr>
                             <tr>
                                 <th><div><em class="num">19</em></div></th>
-                                <td class="workday"><div><em class="num">20</em></div></td>
+                                <td class="workday">
+                                    <div>
+                                        <em class="num">20</em>
+                                        <ul class="setDay">
+                                            <li><a href="#" class="day_1">工作</a></li>
+                                            <li><a href="#" class="day_2">休息</a></li>
+                                            <li><a href="#" class="">节假</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
                                 <td class="holiday"><div><em class="num">21</em></div></td>
                                 <td class="holiday"><div><em class="num">22</em></div></td>
                                 <td class="holiday"><div><em class="num">23</em></div></td>
@@ -196,7 +205,7 @@
     </div>
 </div>
 <!--日历设置弹出begin-->
-<div class="pop" style="display: block;height:260px;">
+<div class="pop" style="display:block;height:260px;">
     <div class="title alignright">
         <span class="floatleft">日历设置</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -252,7 +261,7 @@
     </div>
 </div>
 <!--日历设置弹出over-->
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
