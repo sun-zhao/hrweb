@@ -170,7 +170,19 @@
                             </tr>
                             <tr>
                                 <th><div><em class="num">19</em></div></th>
-                                <td class="workday"><div><em class="num">20</em></div></td>
+                                <td class="workday">
+                                    <div>
+                                        <em class="num">20</em>
+                                        <a href="#" class="iconBtn"><i class="icon icon-set"></i></a>
+                                        <div class="dropdown-out width-110" style="display:none">
+                                            <em class="arrow t-arrow"></em>
+                                            <ul class="dropdown-menu width-110" style="display: block">
+                                                <li><a href="#">设置为工作日</a></li>
+                                                <li><a href="#">设置为假期</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
                                 <td class="holiday"><div><em class="num">21</em></div></td>
                                 <td class="holiday"><div><em class="num">22</em></div></td>
                                 <td class="holiday"><div><em class="num">23</em></div></td>
@@ -196,7 +208,7 @@
     </div>
 </div>
 <!--日历设置弹出begin-->
-<div class="pop" style="display: block;height:260px;">
+<div class="pop" style="display:none;height:260px;">
     <div class="title alignright">
         <span class="floatleft">日历设置</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -252,7 +264,7 @@
     </div>
 </div>
 <!--日历设置弹出over-->
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
