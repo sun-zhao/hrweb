@@ -30,7 +30,30 @@
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
         </ul>
-        <div class="dropdown-out width-110" style="right:80px;top:53px;">
+        <div class="dropdown-out width-300 net" title="选择公司网络" style="right:93px;top:53px;z-index:100;">
+            <em class="arrow t-arrow"></em>
+            <div class="dropdown-menu jscroll width-300" style="display: block;height:240px;">
+                <ul>
+                    <li>
+                        <a href="#">上海万企明道软件有限公司上海万企明道软件有</a>
+                        <dl>
+                            <dd><a href="">北京分公司</a></dd>
+                            <dd><a href="">上海分公司</a></dd>
+                        </dl>
+                    </li>
+                    <li class="choosed"><a href="#">大连万科实业集团</a></li>
+                    <li>
+                        <a href="#">上海万企明道软件有限公司</a>
+                        <dl>
+                            <dd class="choosed"><a href="">北京分公司</a></dd>
+                            <dd><a href="">上海分公司</a></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#">大连万科实业集团</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown-out width-110" style="right:80px;top:53px;z-index:100;display:none">
             <em class="arrow t-arrow"></em>
             <ul class="dropdown-menu width-110" style="display: block">
                 <li><a href="#">组织机构设置</a></li>
@@ -74,7 +97,7 @@
                     <a href="#" class="iconBtn marr20"><i class="icon icon-more-mini"></i></a>
                 </div>
                 <div class="clearfix mart10 marl20 p-bt10">
-                    <div class="column  floatleft">
+                    <div class="column floatleft">
                         <table class="calendar" style="height:100%;">
                             <thead>
                                 <tr><td colspan="7" class="aligncenter">2015年4月</td></tr>
@@ -138,8 +161,8 @@
                         </table>
                     </div>
                     <div class="column floatright">
-                        <div class="ulOut jscroll marr20">
-                            <ul class="ulList">
+                        <div class="ulOut jscroll" style="height:277px;">
+                            <ul class="ulList marr10">
                                 <li class="clearfix alignright">
                                     <span class="floatleft">年假</span>
                                     <span class="color-8">
@@ -377,7 +400,7 @@
 </div>
 <!--通知状态条over-->
 <!--选择分公司begin-->
-<div class="pop choose_net" style="display: block;">
+<div class="pop choose_net" style="display: none;">
     <div class="title alignright">
         <span class="floatleft">请选择分公司或地区</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -431,8 +454,8 @@
     <p class="aligncenter p-top20"><a href="#" class="btn">确 定</a></p>
 </div>
 <!--部门编辑弹出over-->
-<div class="mask" style="display:block;"></div>
-<div class="maskTop" style="display:block;"></div>
+<div class="mask" style="display:none;"></div>
+<div class="maskTop" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>

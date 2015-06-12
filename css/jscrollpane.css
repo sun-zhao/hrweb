@@ -20,7 +20,7 @@
 {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right:4px;
 	width: 16px;
 	height: 100%;
 
@@ -122,7 +122,7 @@
 }
 .jspVerticalBar{width:4px;transition:0.4s;}
 .drag-box .jspVerticalBar{display:none!important;}
-.jspVerticalBar{width:4px;display: none;}
+.jspVerticalBar{width:4px;}
 .jspDrag{background:#ccc;border-radius:10px;}
 .Annex_list .jspVerticalBar,.User_list .jspVerticalBar{width:3px;display: none;}
 .Annex_list:hover .jspVerticalBar,.User_list:hover .jspVerticalBar{display: block;}

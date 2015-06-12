@@ -46,9 +46,11 @@
 .noticeList li.unread em{display: inline-block;}
 /*档案管理*/
 .userList{padding:5px 5px 5px 20px;}
-.userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;}
+.userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li a{padding:10px 0;}
+.popInner .userList li a.delete{width:41px;height:41px;line-height:40px;padding:0;left:50%;margin-left:-20px;top:4px;}
 .userList li:hover a{background:#efefef;}
+.popInner .userList li:hover a.delete{display: block;background: url("../img/mask70.png") repeat;}
 .userList li .user{display:block;}
 .userList li .user img{float: none;margin:0;}
 .userList li p.txt_hidden{line-height:26px;color:#888;width:90%;}
@@ -250,9 +252,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
-.wordList li{font-family: Arial;float: left;width:7%;text-align: center;text-indent:5px;line-height:30px;margin-left:2px;}
-.wordList li a{display:block;color:#666;}
-.checkAll{display:inline-block;width:50px;background:#59a7f9;color:#fff;height:20px;line-height:20px;text-align: center;}
+.wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
+.wordList li a{display:block;color:#666;height:20px;line-height:20px;}
+.checkAll{display:inline-block;width:50px;color:#666;height:20px;line-height:20px;text-align: center;}
+.wordList li a.choosed,.checkAll.choosed{background:#59a7f9;color:#fff;}
 .userTable{position:absolute;width:474px;top:145px;bottom:42px;left:0;right:0;}
 .userTable.relative{top:0;bottom:0;}
 .userTable table{width:100%;margin-left:-4px;}
@@ -291,7 +294,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .choose_net p{border-bottom:1px solid #aaa;}
 .choose_net li{border-bottom: 1px solid #ccc;margin:0 20px 0 15px;}
 .choose_net li a{display:block;height:40px;line-height:40px;color:#333;font-size: 12px;position: relative;}
-.choose_net li a:hover,.choose_net li dd.choosed a,.choose_net li.choosed a{color:#0063bd;}
+.choose_net li a:hover,.choose_net li dd.choosed a,.choose_net li.choosed a,.dropdown-menu li.choosed a,.dropdown-menu li dd.choosed a{color:#0063bd;}
 .choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
 .choose_net li.current dl{display: block;}
 .choose_net li dd a{height:30px;line-height:30px;}
