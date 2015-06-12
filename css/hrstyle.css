@@ -23,8 +23,10 @@
 .calendar thead td,.calendar thead th{text-align:right;}
 .calendar th,.calendar td{border:1px solid #efefef;height:29px;padding:5px 5px 0 0;}
 .calendar th{background:#f6f6f6;}
+.calendar th.noday,.calendar td.noday{background:#fff;color:#ccc;}
 .calendar th div,.calendar td div{height:100%;position: relative;cursor: pointer;}
-.calendar .num{font-family:Arial;width:30px;height:10px;line-height:10px;position: absolute;top:50%;left:50%;margin:-5px 0 0 -10px;text-align: center;}
+.calendar .num{font-family:Arial;position: absolute;top:0;right:0;}
+.calendarDay .num{font-family:Arial;width:30px;height:10px;line-height:10px;position: absolute;top:50%;left:50%;margin:-5px 0 0 -10px;text-align: center;}
 .calendar .setDay{position: absolute;top:-5px;left:0;right:-5px;bottom:0;background:#fff;display: none;transition:0.3s;}
 .calendar .setDay li{width:33.3%;float:left;text-align: center;line-height:45px;}
 .calendar .setDay li a{display:block;line-height: 45px;color:#888;background:#a3cefc;transition:0.3s;}
