@@ -298,8 +298,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .choose_net li dl{display: none;padding-bottom:10px;margin:0 10px;}
 .choose_net li.current dl{display: block;}
 .choose_net li dd a{height:30px;line-height:30px;}
-
-
+.c_btn{display:inline-block;min-width:50px;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;text-align:center;}
+.c_btn:hover{opacity:0.8;}
+.sure{background:#0066cc;color:#fff;border-color:#06c;}
+.confrim{border:1px solid #ccc;width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
+.confrim .btnItem{position: absolute;bottom:10px;right:0;left:0;}
 .progress-radial {
   display: inline-block;
   position: relative;
