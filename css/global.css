@@ -261,9 +261,10 @@ span.back{padding:0 20px;}
 .pagenation a.noData,.pagenation a.noData:hover{color:#ccc;cursor:default;background:#fff;border-color:#efefef;}
 /*图标*/
 .icon{display:inline-block;font-size:0;line-height:0;width:20px;height:20px;background: url("../img/icon-1.png");position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
-a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar{background-image: url("../img/icon-2.png");}
+a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
-.pop .iconBtn{position: absolute;right:5px;top:0px;}
+.pop .iconBtn{position: absolute;right:5px;top:0;}
+.pop td .iconBtn{position: relative;right:0;top:0;}
 .icon-search{background-position:0 0;}
 .icon-net{background-position:-80px 0;}
 .icon-team{background-position:-60px -120px;}

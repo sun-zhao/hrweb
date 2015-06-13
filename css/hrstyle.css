@@ -22,7 +22,7 @@
 .calendar thead td{height:30px;cursor: pointer;}
 .calendar thead td,.calendar thead th{text-align:right;}
 .calendar th,.calendar td{border:1px solid #efefef;height:29px;padding:5px 5px 0 0;}
-.calendar th{background:#f6f6f6;}
+.calendar .prevDay{background:#f6f6f6;}
 .calendar th.noday,.calendar td.noday{background:#fff;color:#ccc;}
 .calendar th div,.calendar td div{height:100%;position: relative;cursor: pointer;}
 .calendar .num{font-family:Arial;position: absolute;top:0;right:0;}
