@@ -40,7 +40,7 @@
             <li><span>设置</span></li>
         </ul>
         <a href="#" class="floatright"><i class="icon icon-set"></i></a>
-        <ul class="dropdown-menu width-110" style="display: none">
+        <ul class="dropdown-menu widtd-110" style="display: none">
             <li><a href="#">部门设置</a></li>
             <li><a href="#">职位设置</a></li>
             <li><a href="#">合同范本设置</a></li>
@@ -112,7 +112,7 @@
                     </div>
                     <a href="#" class="iconBtn floatright marr20 marl20"><i class="icon icon-plus"></i></a>
                     <a href="#" class="iconBtn floatright marl20"><i class="icon icon-edit"></i></a>
-                    <div class="has-general floatright intBox nomar mart5 marr15 width-180">
+                    <div class="has-general floatright intBox nomar mart5 marr15 widtd-180">
                         <label class="control-label">职能员工日历</label>
                         <em class="arrow"></em>
                         <p class="marl5">职能员工日历</p>
@@ -131,45 +131,45 @@
                     <table class="calendar calendarDay">
                         <thead>
                             <tr>
-                                <th>日</th>
+                                <td>日</td>
                                 <td>一</td>
                                 <td>二</td>
                                 <td>三</td>
                                 <td>四</td>
                                 <td>五</td>
-                                <th>六</th>
+                                <td>六</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th><div><em class="num color-c">29</em></div></th>
-                                <td class="noday"><div><em class="num">30</em></div></td>
+                                <td class="prevDay"><div><em class="num color-c">29</em></div></td>
+                                <td class="prevDay"><div><em class="num color-c">30</em></div></td>
                                 <td class="noday"><div><em class="num">31</em></div></td>
                                 <td class="workday"><div><em class="num">1</em></div></td>
                                 <td class="workday"><div><em class="num">2</em></div></td>
                                 <td class="workday"><div><em class="num">3</em></div></td>
-                                <th class="workday"><div><em class="num">4</em></div></th>
+                                <td class="workday"><div><em class="num">4</em></div></td>
                             </tr>
                             <tr>
-                                <th><div><em class="num">5</em></div></th>
+                                <td class="prevDay"><div><em class="num">5</em></div></td>
                                 <td class="workday"><div><em class="num">6</em></div></td>
                                 <td class="workday"><div><em class="num">7</em></div></td>
                                 <td class="workday"><div><em class="num">8</em></div></td>
                                 <td class="workday"><div><em class="num">9</em></div></td>
                                 <td class="workday"><div><em class="num">10</em></div></td>
-                                <th><div><em class="num">11</em></div></th>
+                                <td><div><em class="num">11</em></div></td>
                             </tr>
                             <tr>
-                                <th><div><em class="num">12</em></div></th>
+                                <td class="prevDay"><div><em class="num">12</em></div></td>
                                 <td class="workday"><div><em class="num">13</em></div></td>
                                 <td class="workday"><div><em class="num">14</em></div></td>
                                 <td class="workday"><div><em class="num">15</em></div></td>
                                 <td class="workday"><div><em class="num">16</em></div></td>
                                 <td class="workday"><div><em class="num">17</em></div></td>
-                                <th><div><em class="num">18</em></div></th>
+                                <td><div><em class="num">18</em></div></td>
                             </tr>
                             <tr>
-                                <th><div><em class="num">19</em></div></th>
+                                <td class="prevDay"><div><em class="num">19</em></div></td>
                                 <td class="workday">
                                     <div>
                                         <em class="num">20</em>
@@ -184,16 +184,16 @@
                                 <td class="holiday"><div><em class="num">22</em></div></td>
                                 <td class="holiday"><div><em class="num">23</em></div></td>
                                 <td class="holiday"><div><em class="num">24</em></div></td>
-                                <th><div><em class="num">25</em></div></th>
+                                <td><div><em class="num">25</em></div></td>
                             </tr>
                             <tr>
-                                <th><div><em class="num">26</em></div></th>
+                                <td class="prevDay"><div><em class="num">26</em></div></td>
                                 <td class="workday"><div><em class="num">27</em></div></td>
                                 <td class="workday"><div><em class="num">28</em></div></td>
                                 <td class="workday"><div><em class="num">29</em></div></td>
                                 <td class="workday"><div><em class="num">30</em></div></td>
                                 <td><div><em class="num color-c">1</em></div></td>
-                                <th><div><em class="num color-c">2</em></div></th>
+                                <td><div><em class="num color-c">2</em></div></td>
                             </tr>
                         </tbody>
                     </table>
@@ -205,7 +205,7 @@
     </div>
 </div>
 <!--日历设置弹出begin-->
-<div class="pop" style="display:block;height:260px;">
+<div class="pop" style="display:none;height:260px;">
     <div class="title alignright">
         <span class="floatleft">日历设置</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -213,7 +213,7 @@
     <div class="font14 popInner jscroll">
         <table class="popMain mart10">
             <tr>
-                <th>日历名称</th>
+                <td>日历名称</td>
                 <td>
                     <div class="has-general">
                         <input type="text">
@@ -223,9 +223,9 @@
             </tr>
             <tr><td colspan="2"><p class="line"></p></td></tr>
             <tr>
-                <th>每周上班</th>
+                <td>每周上班</td>
                 <td>
-                    <div class="has-general inlineblock intBox nomar width-130">
+                    <div class="has-general inlineblock intBox nomar widtd-130">
                         <label class="control-label">请选择</label>
                         <em class="arrow"></em>
                         <p class="marl5">周一</p>
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                     <span class="marl6 marr6 color-a">至</span>
-                    <div class="has-general inlineblock intBox nomar width-130">
+                    <div class="has-general inlineblock intBox nomar widtd-130">
                         <label class="control-label">请选择</label>
                         <em class="arrow"></em>
                         <p class="marl5">周四</p>
@@ -271,8 +271,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
-        var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+        var $w = $(window).widtd();
+        $('.layout  .jspPane').css({"widtd":$w,"margin-left":"0"});
     }
     Jscroll();
 </script>
