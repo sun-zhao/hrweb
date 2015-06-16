@@ -129,15 +129,15 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .tree .user{position: relative;}
 .userDiv{width:298px;border:1px solid #efefef;background:#fff;position: relative;}
 .userDiv div.clearfix{padding-bottom:5px;}
-.userDiv .title{height:35px;line-height:35px;background:#f6f6f6;padding:1px 10px;position: relative;}
+.userDiv .title{height:35px;line-height:35px;background:#f6f6f6;padding:1px 5px 5px 10px;position: relative;}
 .userDiv .title .txt_hidden{width:80%;text-align: left;}
 .userDiv .title .iconBtn{position:absolute;right:5px;top:-2px;}
 .treeMain{border-left:1px solid #aaa;min-height:30px;padding:20px 0 0 38px;position: relative;}
-.treeMain .userDiv{width:218px;}
+.treeMain .userDiv{width:248px;}
 .treeBig .treeMain{padding-top:10px;}
 .treeSee .treeMain .userDiv{bottom:-35px;margin-top:20px;z-index:10;}
 .treeSee .treeMain.treeMainIn .userDiv{bottom:-15px;}
-.userDiv .has-general{top:3px;width:150px;}
+.userDiv .has-general{top:5px;width:170px;}
 .leftLine{width:38px;position: absolute;left:-39px;top:69%;border-color:#aaa;}
 /*.lastDiv{bottom:-20px;}*/
 .lastDiv .leftLine{border:0;width:39px;height:39px;background:url("../img/last-line.jpg") no-repeat;top:84%;left:-40px;}
@@ -149,7 +149,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .treeBig span.user{width:60px;height:auto;min-height:40px;line-height:20px;overflow: hidden;text-align:center;}
 .treeBig .user img{display:block;margin:0 0 0 10px;}
 .treeBig .user .txt_hidden{width:60px;color:#888;}
-.treeBig .iconbtn{display:inline-block;width:20px;height:38px;position: relative;margin-left:10px;}
+.treeBig .iconbtn,.treeMain .iconbtn{display:inline-block;width:20px;height:38px;position: relative;margin-left:10px;}
 .userDiv div{position:relative;}
 div.popUser{position:absolute;}
 /*div.popUser .popInner{height:150px;}*/
