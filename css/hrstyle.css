@@ -133,6 +133,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .userDiv .title .txt_hidden{width:75%;text-align: left;}
 .userDiv .title .iconBtn{position:absolute;right:5px;top:-2px;}
 .treeMain{border-left:1px solid #aaa;min-height:30px;padding:20px 0 0 38px;position: relative;}
+.maskLine{background:#fff;width:15px;position:absolute;left:-85px;top:-10px;}
 .treeMain .userDiv{width:248px;}
 .treeBig .treeMain{padding-top:10px;}
 .treeSee .treeMain .userDiv{bottom:-35px;margin-top:20px;z-index:10;}
