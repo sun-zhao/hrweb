@@ -6,7 +6,7 @@
 .nav li a.nodata{color:#ccc;}
 .navItem li{float:left;height:50px;border-left:1px solid #2f2f2f;margin:0;}
 .navItem li a{width:30px;position: relative;height:50px;}
-.layout{position: absolute;top:50px;left:0;bottom:9px;right:0;}
+.layout{position: absolute;top:50px;left:0;bottom:9px;right:0;outline:none;border:0;}
 .layoutMid{top:210px;}
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
