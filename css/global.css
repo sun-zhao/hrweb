@@ -313,8 +313,9 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-circle{background-position:-40px -100px}
 .icon-close,.icon-open{width:21px;height:21px;background-position:0 -200px}
 .icon-open{background-position:0 -221px}
-.icon-sun,.icon-moon{background-position:-40px -140px;position:relative;margin:0;left:-4px;top:5px;}
+.icon-sun,.icon-moon,.icon-clock2{background-position:-40px -140px;position:relative;margin:0;left:-4px;top:5px;}
 .icon-moon{background-position:-40px -160px;}
+.icon-clock2{background-position:-80px -140px;}
 .icon-clander{background-position:-40px -200px;}
 .icon-card{background-position:-40px -180px;}
 .icon-down{width:20px;height:21px;background-position:-40px -221px;}
