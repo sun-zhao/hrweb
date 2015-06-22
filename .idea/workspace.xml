@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d186b1-3e46-436c-aeee-447553728389" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤管理.html" afterPath="$PROJECT_DIR$/考勤管理.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/部门设定.html" afterPath="$PROJECT_DIR$/部门设定.html" />
     </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +47,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="考勤管理.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="部门设定.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/部门设定.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="480" max-vertical-offset="1470">
+              <caret line="137" column="36" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="考勤管理.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/考勤管理.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55473375" vertical-offset="555" max-vertical-offset="3165">
+            <state vertical-scroll-proportion="-15.625" vertical-offset="555" max-vertical-offset="3165">
               <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hrstyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hrstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="35715">
-              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.57857144" vertical-offset="1020" max-vertical-offset="35715">
+              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -76,15 +95,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/部门设定.html" />
         <option value="$PROJECT_DIR$/管理层设定-编辑.html" />
         <option value="$PROJECT_DIR$/管理层设定-查看.html" />
         <option value="$PROJECT_DIR$/css/jscrollpane.css" />
         <option value="$PROJECT_DIR$/新建档案.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/css/hrstyle.css" />
         <option value="$PROJECT_DIR$/班组设置.html" />
         <option value="$PROJECT_DIR$/考勤管理.html" />
+        <option value="$PROJECT_DIR$/部门设定.html" />
+        <option value="$PROJECT_DIR$/css/hrstyle.css" />
       </list>
     </option>
   </component>
@@ -702,29 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/部门设定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="435" max-vertical-offset="1470">
-          <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="168" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="35715">
-          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/班组设置.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81213015" vertical-offset="1581" max-vertical-offset="5370">
@@ -768,11 +764,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/考勤管理.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55473375" vertical-offset="555" max-vertical-offset="3165">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="555" max-vertical-offset="3165">
           <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/部门设定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="480" max-vertical-offset="1470">
+          <caret line="137" column="36" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57857144" vertical-offset="1020" max-vertical-offset="35715">
+          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
