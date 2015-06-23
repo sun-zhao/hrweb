@@ -1,7 +1,7 @@
 ﻿.header{width:100%;height:50px;line-height:50px;background:#222;}
 .header .floatright{height:50px;}
-.header div.floatright{width:300px;}
 .header a.block{height:50px;}
+.navItem{position:relative;top:-8px;}
 .nav li,.navItem li{float:left;height:50px;margin-left:20px;}
 .nav li a,.navItem li a{display:block;height:50px;line-height:50px;color:#eee;font-size:14px;padding:0 12px;}
 .nav li a.current{background:#efefef;color:#222;}
@@ -101,7 +101,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
-.bottom-btn a.btn{display:inline-block;width:160px;height:40px;line-height:40px;}
+.bottom-btn a.btn{display:inline-block;width:150px;height:40px;line-height:40px;}
 .Formula li{width:auto;height:auto;line-height:30px;display:block;margin:0 20px;padding:10px;float:none;}
 .confirm{width:300px;height:160px;margin:-80px 0 0 -150px;}
 .confirm p.aligncenter{position:absolute;left:0;right:0;bottom:10px;}
@@ -196,7 +196,7 @@ div.popUser .user img{display: inline-block;}
 .inputFrame .keyboard a:active{border-top:1px solid #333;border-bottom:0;}
 /*区间设置*/
 .stepList{width:100%;}
-.stepList td{width:16.6%;height:40px;}
+.stepList td{width:14.285%;height:40px;}
 .stepList td div{height:40px;line-height:40px;background:#fff;position: relative;margin:0 25px;color:#888;}
 .stepList td div p{text-indent:45px;}
 .stepList td.first div{margin-left:0;}

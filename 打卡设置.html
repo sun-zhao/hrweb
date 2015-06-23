@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>日历设置</title>
+    <title>打卡设置</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
@@ -23,7 +23,7 @@
             <img src="img/user1.png"/>
             <em>你好，习大大！</em>
         </span>
-        <ul class="navItem inlineblock clearfix">
+        <ul class="navItem floatright clearfix">
             <li><a href="#"><i class="icon icon-search"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
@@ -88,11 +88,19 @@
                     <p>年假设置</p>
                 </div>
             </td>
-            <td class="last">
+            <td class="">
                 <div>
+                    <span class="r_arrow"></span>
                     <span class="l_arrow"></span>
                     <i class="icon icon-circle-t">6</i>
                     <p>倒休设置</p>
+                </div>
+            </td>
+            <td class="last">
+                <div>
+                    <span class="l_arrow"></span>
+                    <i class="icon icon-circle-t">7</i>
+                    <p>打卡设置</p>
                 </div>
             </td>
         </tr>
@@ -131,71 +139,71 @@
                 <div class="marl20 marr20 p-bt20">
                     <table class="calendar calendarDay">
                         <thead>
-                            <tr>
-                                <td>日</td>
-                                <td>一</td>
-                                <td>二</td>
-                                <td>三</td>
-                                <td>四</td>
-                                <td>五</td>
-                                <td>六</td>
-                            </tr>
+                        <tr>
+                            <td>日</td>
+                            <td>一</td>
+                            <td>二</td>
+                            <td>三</td>
+                            <td>四</td>
+                            <td>五</td>
+                            <td>六</td>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="prevDay"><div><em class="num color-c">29</em></div></td>
-                                <td class="prevDay"><div><em class="num color-c">30</em></div></td>
-                                <td class="noday"><div><em class="num">31</em></div></td>
-                                <td class="workday"><div><em class="num">1</em></div></td>
-                                <td class="workday"><div><em class="num">2</em></div></td>
-                                <td class="workday"><div><em class="num">3</em></div></td>
-                                <td class="workday"><div><em class="num">4</em></div></td>
-                            </tr>
-                            <tr>
-                                <td class="prevDay"><div><em class="num">5</em></div></td>
-                                <td class="workday"><div><em class="num">6</em></div></td>
-                                <td class="workday"><div><em class="num">7</em></div></td>
-                                <td class="workday"><div><em class="num">8</em></div></td>
-                                <td class="workday"><div><em class="num">9</em></div></td>
-                                <td class="workday"><div><em class="num">10</em></div></td>
-                                <td><div><em class="num">11</em></div></td>
-                            </tr>
-                            <tr>
-                                <td class="prevDay"><div><em class="num">12</em></div></td>
-                                <td class="workday"><div><em class="num">13</em></div></td>
-                                <td class="workday"><div><em class="num">14</em></div></td>
-                                <td class="workday"><div><em class="num">15</em></div></td>
-                                <td class="workday"><div><em class="num">16</em></div></td>
-                                <td class="workday"><div><em class="num">17</em></div></td>
-                                <td><div><em class="num">18</em></div></td>
-                            </tr>
-                            <tr>
-                                <td class="prevDay"><div><em class="num">19</em></div></td>
-                                <td class="workday">
-                                    <div>
-                                        <em class="num">20</em>
-                                        <ul class="setDay">
-                                            <li><a href="#" class="day_1">工作</a></li>
-                                            <li><a href="#" class="day_2">休息</a></li>
-                                            <li><a href="#" class="">节假</a></li>
-                                        </ul>
-                                    </div>
-                                </td>
-                                <td class="holiday"><div><em class="num">21</em></div></td>
-                                <td class="holiday"><div><em class="num">22</em></div></td>
-                                <td class="holiday"><div><em class="num">23</em></div></td>
-                                <td class="holiday"><div><em class="num">24</em></div></td>
-                                <td><div><em class="num">25</em></div></td>
-                            </tr>
-                            <tr>
-                                <td class="prevDay"><div><em class="num">26</em></div></td>
-                                <td class="workday"><div><em class="num">27</em></div></td>
-                                <td class="workday"><div><em class="num">28</em></div></td>
-                                <td class="workday"><div><em class="num">29</em></div></td>
-                                <td class="workday"><div><em class="num">30</em></div></td>
-                                <td><div><em class="num color-c">1</em></div></td>
-                                <td><div><em class="num color-c">2</em></div></td>
-                            </tr>
+                        <tr>
+                            <td class="prevDay"><div><em class="num color-c">29</em></div></td>
+                            <td class="prevDay"><div><em class="num color-c">30</em></div></td>
+                            <td class="noday"><div><em class="num">31</em></div></td>
+                            <td class="workday"><div><em class="num">1</em></div></td>
+                            <td class="workday"><div><em class="num">2</em></div></td>
+                            <td class="workday"><div><em class="num">3</em></div></td>
+                            <td class="workday"><div><em class="num">4</em></div></td>
+                        </tr>
+                        <tr>
+                            <td class="prevDay"><div><em class="num">5</em></div></td>
+                            <td class="workday"><div><em class="num">6</em></div></td>
+                            <td class="workday"><div><em class="num">7</em></div></td>
+                            <td class="workday"><div><em class="num">8</em></div></td>
+                            <td class="workday"><div><em class="num">9</em></div></td>
+                            <td class="workday"><div><em class="num">10</em></div></td>
+                            <td><div><em class="num">11</em></div></td>
+                        </tr>
+                        <tr>
+                            <td class="prevDay"><div><em class="num">12</em></div></td>
+                            <td class="workday"><div><em class="num">13</em></div></td>
+                            <td class="workday"><div><em class="num">14</em></div></td>
+                            <td class="workday"><div><em class="num">15</em></div></td>
+                            <td class="workday"><div><em class="num">16</em></div></td>
+                            <td class="workday"><div><em class="num">17</em></div></td>
+                            <td><div><em class="num">18</em></div></td>
+                        </tr>
+                        <tr>
+                            <td class="prevDay"><div><em class="num">19</em></div></td>
+                            <td class="workday">
+                                <div>
+                                    <em class="num">20</em>
+                                    <ul class="setDay">
+                                        <li><a href="#" class="day_1">工作</a></li>
+                                        <li><a href="#" class="day_2">休息</a></li>
+                                        <li><a href="#" class="">节假</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="holiday"><div><em class="num">21</em></div></td>
+                            <td class="holiday"><div><em class="num">22</em></div></td>
+                            <td class="holiday"><div><em class="num">23</em></div></td>
+                            <td class="holiday"><div><em class="num">24</em></div></td>
+                            <td><div><em class="num">25</em></div></td>
+                        </tr>
+                        <tr>
+                            <td class="prevDay"><div><em class="num">26</em></div></td>
+                            <td class="workday"><div><em class="num">27</em></div></td>
+                            <td class="workday"><div><em class="num">28</em></div></td>
+                            <td class="workday"><div><em class="num">29</em></div></td>
+                            <td class="workday"><div><em class="num">30</em></div></td>
+                            <td><div><em class="num color-c">1</em></div></td>
+                            <td><div><em class="num color-c">2</em></div></td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>

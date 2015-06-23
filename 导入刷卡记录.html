@@ -80,7 +80,7 @@
     </div>
     <div class="popInner">
         <div class="popIn">
-            <table class="popMain" style="display:none;">
+            <table class="popMain" style="display:;">
                 <tr>
                     <th>附件</th>
                     <td>
@@ -95,7 +95,7 @@
                 </tr>
             </table>
             <!--上传进度begin-->
-            <div class="process p-top30 aligncenter">
+            <div class="process p-top30 aligncenter" style="display:none;">
                 <div class="processIn">
                     <div class="progress-radial progress-36 error"><b></b></div>
                 </div>
@@ -103,8 +103,7 @@
             </div>
             <!--上传进度over-->
         </div>
-        <!--<div class="p-bt20 mart20"><a href="#" class="btn btnNormal btnBlcok block">上传考勤记录</a></div>-->
-        <div class="p-bt20 mart20"><a href="#" class="btn btn-yes btnBlcok block">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a></div>
+        <div class="p-bt20 mart20"><a href="#" class="btn btnNormal btnBlcok block" title="当选择了附件以后这里的btnNormal去掉就可以点击上传了">上传考勤记录</a></div>
         <p class="p-bt20 mart20 aligncenter" style="display:none " title="这是出现错误是显示的">
             <a href="#" class="btn btn-no marr20">否&nbsp;&nbsp;&nbsp;决</a>
             <a href="#" class="btn marl20">同&nbsp;&nbsp;&nbsp;意</a>
@@ -112,10 +111,31 @@
     </div>
 </div>
 <!--导入刷卡记录弹出over-->
-<!--同步审批数据弹出begin-->
-<div class="pop" style="display: block;height:300px;">
+<!--正在导入刷卡记录弹出begin-->
+<div class="pop" style="display:none;height:300px;">
     <div class="title alignright">
-        <span class="floatleft">同步审批数据</span>
+        <span class="floatleft">导入刷卡记录</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter" style="display:;">
+                <div class="processIn">
+                    <div class="progress-radial progress-36"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20">正在上传...</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <div class="p-bt20 mart20"><a href="#" class="btn btn-no btnBlcok block">取消上传</a></div>
+    </div>
+</div>
+<!--正在导入刷卡记录弹出over-->
+<!--导入刷卡记录失败弹出begin-->
+<div class="pop" style="display:none;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">导入刷卡记录</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
     <div class="popInner">
@@ -140,13 +160,34 @@
         </p>
         <div class="p-bt20 mart20" style="display:none;" title="同步时显示"><a href="#" class="btn btn-no btnBlcok block">取消同步</a></div>
         <div class="p-bt20 mart20" style="display: none;" title="同步完成显示"><a href="#" class="btn btn-yes btnBlcok block">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a></div>
-        <p class="p-bt20 mart20 aligncenter" style="display: " title="同步失败显示">
+        <p class="p-bt20 bottom-btn mart20 aligncenter" style="display: " title="同步失败显示">
             <a href="#" class="btn btn-no marr20">放&nbsp;&nbsp;&nbsp;弃</a>
-            <a href="#" class="btn  marl20">重新同步</a>
+            <a href="#" class="btn  marl20">重新上传</a>
         </p>
     </div>
 </div>
-<!--同步审批数据弹出over-->
+<!--导入刷卡记录失败弹出over-->
+<!--导入刷卡记录成功弹出begin-->
+<div class="pop" style="display:block;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">导入刷卡记录</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter" style="display:;">
+                <div class="processIn">
+                    <div class="progress-radial progress-100"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20">上传成功，本次共上传999条数据</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <div class="p-bt20 mart20"><a href="#" class="btn btn-yes btnBlcok block">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a></div>
+    </div>
+</div>
+<!--导入刷卡记录成功弹出over-->
 <div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>

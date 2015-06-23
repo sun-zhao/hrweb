@@ -275,7 +275,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-edit{background-position:0 -60px;}
 .icon-edit-mini{background-position:-20px -180px;}
 .icon-right{background-position:-40px -242px;}
-.icon-update{background-position:-40px -120px;}
+.icon-update{background-position:-60px -40px;}
 .icon-more{background-position:0 -80px;}
 .icon-more-mini{width:17px;background-position:-43px -40px;}
 .icon-refresh{background-position:0 -100px;}
@@ -285,6 +285,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-relieve{background-position:0 -180px;}
 .icon-relieve{background-position:0 -200px;}
 .icon-out{width:24px;background-position:0 -242px;}
+.icon-check,.icon-radio{position: relative;left:0;top:0;margin:0;vertical-align:-5px;margin-right:3px;}
 .icon-check,a:hover .icon-check{background: url("../img/icon-1.png");background-position:-40px -20px;}
 .icon-radio,a:hover .icon-radio{background: url("../img/icon-1.png");background-position:-60px -100px;}
 .icon-radio.current,a:hover .icon-radio.current{background: url("../img/icon-2.png");background-position:-60px -100px;}
