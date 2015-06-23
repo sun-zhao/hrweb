@@ -1,5 +1,7 @@
 ﻿.header{width:100%;height:50px;line-height:50px;background:#222;}
 .header .floatright{height:50px;}
+.header div.floatright{width:300px;}
+.header a.block{height:50px;}
 .nav li,.navItem li{float:left;height:50px;margin-left:20px;}
 .nav li a,.navItem li a{display:block;height:50px;line-height:50px;color:#eee;font-size:14px;padding:0 12px;}
 .nav li a.current{background:#efefef;color:#222;}
@@ -7,10 +9,11 @@
 .navItem li{float:left;height:50px;border-left:1px solid #2f2f2f;margin:0;}
 .navItem li a{width:30px;position: relative;height:50px;}
 .layout{position: absolute;top:50px;left:0;bottom:9px;right:0;outline:none;border:0;}
+.jscroll{outline:none;border:0;}
 .layoutMid{top:210px;}
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
-.container{margin:0 12px;position: relative;}/*margin-right:13px;*/
+.container{height:100%;margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;}
 .userInfo{height:80px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -58,10 +61,12 @@
 /*档案管理*/
 .userList{padding:5px 5px 5px 20px;}
 .userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
-.userList li a{padding:10px 0;}
+.userList li div.block{padding:10px 0;}
+.userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
+
 .popInner .userList li a.delete{width:41px;height:41px;line-height:40px;padding:0;left:50%;margin-left:-20px;top:4px;}
-.userList li:hover a{background:#efefef;}
-.popInner .userList li:hover a.delete{display: block;background: url("../img/mask70.png") repeat;}
+.userList li:hover div.block{background:#efefef;}
+.popInner .userList li:hover a.delete,.userList li:hover a.delete{display: block;background: url("../img/mask70.png") repeat;}
 .userList li .user{display:block;}
 .userList li .user img{float: none;margin:0;}
 .userList li p.txt_hidden{line-height:26px;color:#888;width:90%;}
@@ -91,7 +96,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .view .userInfoTable td .dataNormal{color:#333;}
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
-.Department li .txt_hidden{width:80%;}
+.Department li .txt_hidden{width:70%;}
 .Department li .iconBtn{height:48px;margin-right:10px;}
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
@@ -123,6 +128,8 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .ContractTitle .has-general{width:600px;margin:0 auto;padding:10px 0;}
 .ContractTitle .has-general input{width:600px;height:38px;line-height:38px;}
 .ContractTitle .has-general label{line-height:38px;}
+.ContractTitle .floatright .has-general input{border-width:0 0 1px 0;height:26px;line-height:26px;}
+.ContractTitle .floatright .has-general label,.ContractTitle .floatright .has-general {height:26px;line-height:26px;padding:0;}
 /*组织架构*/
 .tree{min-height:500px;padding:20px;}
 .treeBig{padding-bottom:0;}
@@ -223,7 +230,7 @@ div.popUser .user img{display: inline-block;}
 .popMain .has-general input,.popMain .has-general.intBox{width:100%;height:36px;line-height:36px;}
 .popMain .has-general,.popMain .has-general.intBox{width:auto;display:block;margin-right:20px;}
 .popMain label{line-height:36px;}
-.popMain .has-label label{display:block;text-align: right;padding-right:10px;color:#aaa;}
+.popMain .has-label label{display:block;text-align: right;padding-right:10px;color:#aaa;left:inherit;}
 .wage{width:100%;}
 .wage th,.wage td{border-bottom:1px solid #efefef;}
 .wage th{width:60px;height:25px;line-height:25px;text-align: right;padding-right:20px;}
