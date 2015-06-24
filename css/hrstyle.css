@@ -97,7 +97,12 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
 .Department li .txt_hidden{width:70%;}
+.Department.setIp li .txt_hidden{width:60%;}
+.Department.setIp li .txt_hidden_short{width:20%;}
 .Department li .iconBtn{height:48px;margin-right:10px;}
+.Department.setMap li{height:auto;}
+.Department.setMap li .iconBtn{height:39px;}
+.mapInner{height:150px;}
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
