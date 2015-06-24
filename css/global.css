@@ -359,6 +359,8 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:1px;bottom:1px;background:#fff;text-indent:3px;}
 .has-error input,.intBox.has-error{border-color:#b94a48;}
 .has-error label.control-label{display:block;color:#b94a48;}
+.choose_net .has-general{margin:5px 0;}
+.choose_net .has-general input{height:24px;line-height:24px;}
 pre {
     white-space: pre-wrap; /* css-3 */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */

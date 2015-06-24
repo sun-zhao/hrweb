@@ -62,6 +62,9 @@
 .userList{padding:5px 5px 5px 20px;}
 .userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
+.userList li div.userItem{padding:0 5px;height:99px;padding-left: 23px;margin-top:-7px;}
+.userList li div.userItem td{background:#ddd;border:2px solid #fff;}
+.userList li div.userItem img{width:30px;height:30px;vertical-align: bottom;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
 .userList2 li:hover{background:#ddd;}
 .popInner .userList li a.delete{width:41px;height:41px;line-height:40px;padding:0;left:50%;margin-left:-20px;top:4px;}
