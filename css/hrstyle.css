@@ -13,7 +13,7 @@
 .layoutMid{top:210px;}
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
-.container{height:100%;margin:0 12px;position: relative;}/*margin-right:13px;*/
+.container{margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;}
 .userInfo{height:80px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -63,7 +63,7 @@
 .userList li{width:98px;min-height:60px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
-
+.userList2 li:hover{background:#ddd;}
 .popInner .userList li a.delete{width:41px;height:41px;line-height:40px;padding:0;left:50%;margin-left:-20px;top:4px;}
 .userList li:hover div.block{background:#efefef;}
 .popInner .userList li:hover a.delete,.userList li:hover a.delete{display: block;background: url("../img/mask70.png") repeat;}

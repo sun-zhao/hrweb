@@ -188,6 +188,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 
 .prompt{text-align:center;font-size:10px;border-radius:50%;min-width:13px;height:13px;line-height:15px;border:2px solid #222;background:#dd4747;color:#fff;font-family: Arial;position: absolute;padding:2px;right:8px;top:5px;}
 .title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;}
+.title a.color-8.current{color:#4370ac!important;}
 .pop .title{padding-left:10px;}
 .title .iconBtn{height:39px;}
 .line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;}
@@ -303,6 +304,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-down-mini{width:19px;background-position:-60px -221px;}
 .icon-stop{background-position:-20px -40px;}
 .icon-stop-mini{width:19px;background-position:-21px -200px;}
+.icon-enable-mini{width:19px;background-position:-60px -200px;}
 .icon-doc{background-position:-20px -60px;}
 .icon-doc-plus{background-position:-20px -80px;}
 .icon-plus{background-position:-40px 0;}
