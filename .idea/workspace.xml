@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6d186b1-3e46-436c-aeee-447553728389" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/打卡设置.html" afterPath="$PROJECT_DIR$/打卡设置.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/部门设定.html" afterPath="$PROJECT_DIR$/部门设定.html" />
-    </list>
+    <list default="true" id="e6d186b1-3e46-436c-aeee-447553728389" name="Default" comment="" />
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,8 +142,8 @@
       <file leaf-file-name="打卡设置-位置.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/打卡设置-位置.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5118343" vertical-offset="404" max-vertical-offset="1515">
-              <caret line="201" column="60" selection-start-line="201" selection-start-column="60" selection-end-line="201" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.48964497" vertical-offset="404" max-vertical-offset="1515">
+              <caret line="200" column="43" selection-start-line="200" selection-start-column="43" selection-end-line="200" selection-end-column="43" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1003,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/打卡设置-位置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5118343" vertical-offset="404" max-vertical-offset="1515">
-          <caret line="201" column="60" selection-start-line="201" selection-start-column="60" selection-end-line="201" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.48964497" vertical-offset="404" max-vertical-offset="1515">
+          <caret line="200" column="43" selection-start-line="200" selection-start-column="43" selection-end-line="200" selection-end-column="43" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
