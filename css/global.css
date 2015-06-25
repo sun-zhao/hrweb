@@ -304,9 +304,10 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-down-mini{width:19px;background-position:-60px -221px;}
 .icon-stop{background-position:-20px -40px;}
 .icon-stop-mini{width:19px;background-position:-21px -200px;}
-.icon-enable-mini{width:19px;background-position:-60px -200px;}
+.icon-enable-mini{width:19px;background-position:-60px -200px;}/*启用*/
 .icon-doc{background-position:-20px -60px;}
 .icon-doc-plus{background-position:-20px -80px;}
+.icon-fk{background-position:-20px 0;}/*我不知道这是啥*/
 .icon-plus{background-position:-40px 0;}
 .icon-plus-mini{background-position:-40px -262px;}
 .icon-delete{background-position:-20px -160px;}
