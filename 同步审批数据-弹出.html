@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>同步审批数据-弹出</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<!--同步审批数据弹出begin-->
+<div class="pop" style="display:none;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">同步审批数据</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <div class="aligncenter color-8 font14 p-top40" style="display: none">
+                <p>同步后将重新进行全公司统计，</p>
+                <p class="mart10">是否确认同步?</p>
+            </div>
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter" style="display: ">
+                <div class="processIn">
+                    <div class="progress-radial progress-36 error"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20" style="display: none;">正在上传...</p>
+                <p class="aligncenter color-8 mart20">同步失败，请你检查您的网络或者尝试重新同步！</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <p class="p-bt20 mart20 aligncenter" style="display: none" title="时候进行同步">
+            <a href="#" class="btn btn-no marr20">放&nbsp;&nbsp;&nbsp;弃</a>
+            <a href="#" class="btn btn-yes marl20">确&nbsp;&nbsp;&nbsp;认</a>
+        </p>
+        <div class="p-bt20 mart20" style="display:none;" title="同步时显示"><a href="#" class="btn btn-no btnBlcok block">取消同步</a></div>
+        <div class="p-bt20 mart20" style="display: none;" title="同步完成显示"><a href="#" class="btn btn-yes btnBlcok block">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a></div>
+        <p class="p-bt20 bottom-btn mart20 aligncenter" style="display: " title="同步失败显示">
+            <a href="#" class="btn btn-no marr20">放&nbsp;&nbsp;&nbsp;弃</a>
+            <a href="#" class="btn  marl20">重新同步</a>
+        </p>
+    </div>
+</div>
+<!--同步审批数据弹出over-->
+<!--正在同步审批数据弹出begin-->
+<div class="pop" style="display:none;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">同步审批数据</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter" style="display: ">
+                <div class="processIn">
+                    <div class="progress-radial progress-36"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20">正在同步...</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <div class="p-bt20 mart20" style="display:;" title="同步时显示"><a href="#" class="btn btn-no btnBlcok block">取消同步</a></div>
+    </div>
+</div>
+<!--正在同步审批数据弹出over-->
+<!--同步审批数据失败弹出begin-->
+<div class="pop" style="display:none;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">同步审批数据</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter" style="display: ">
+                <div class="processIn">
+                    <div class="progress-radial progress-36 error"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20">同步失败，请你检查您的网络或者尝试重新同步！</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <p class="p-bt20 bottom-btn mart20 aligncenter">
+            <a href="#" class="btn btn-no marr20">放&nbsp;&nbsp;&nbsp;弃</a>
+            <a href="#" class="btn  marl20">重新同步</a>
+        </p>
+    </div>
+</div>
+<!--同步审批数据失败弹出over-->
+<!--完成同步审批数据弹出begin-->
+<div class="pop" style="display:block;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">同步审批数据</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <div class="popIn">
+            <!--上传进度begin-->
+            <div class="process p-top30 aligncenter">
+                <div class="processIn">
+                    <div class="progress-radial progress-100"><b></b></div>
+                </div>
+                <p class="aligncenter color-8 mart20">同步成功！</p>
+            </div>
+            <!--上传进度over-->
+        </div>
+        <div class="p-bt20 mart20"><a href="#" class="btn btn-yes btnBlcok block">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a></div>
+    </div>
+</div>
+<!--完成同步审批数据弹出over-->
+<div class="mask" style="display:;"></div>
+</body>
+</html>
