@@ -152,8 +152,8 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .maskLine{background:#fff;width:15px;position:absolute;left:-85px;top:-10px;}
 .treeMain .userDiv{width:248px;}
 .treeBig .treeMain{padding-top:10px;}
-.treeSee .treeMain .userDiv{bottom:-35px;margin-top:20px;z-index:10;}
-.treeSee .treeMain.treeMainIn .userDiv{bottom:-15px;}
+.treeSee .treeMain .userDiv{bottom:-35px;margin-top:10px;z-index:10;}
+.treeSee .treeMain.treeMainIn .userDiv{bottom:-20px;}
 .userDiv .has-general{top:5px;width:170px;}
 .leftLine{width:38px;position: absolute;left:-39px;top:69%;border-color:#aaa;}
 /*.lastDiv{bottom:-20px;}*/
