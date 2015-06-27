@@ -14,7 +14,7 @@
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
 .container{margin:0 12px;position: relative;}/*margin-right:13px;*/
-.container .container{margin:0;}
+.container .container{margin:0;min-height:130px;}
 .userInfo{height:80px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
 .userTxt li{float:left;height:41px;border-left:1px solid #efefef;line-height:21px;margin-left:25px;padding:0 10px 0 20px;}
@@ -143,7 +143,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .tree{min-height:500px;padding:20px;}
 .treeBig{padding-bottom:0;}
 .tree .user{position: relative;}
-.userDiv{width:298px;border:1px solid #efefef;background:#fff;position: relative;}
+.userDiv{width:298px;border:1px solid #efefef;background:#fff;position: relative;z-index: 2;}
 .userDiv div.clearfix{padding-bottom:5px;}
 .userDiv .title{height:35px;line-height:35px;background:#f6f6f6;padding:1px 5px 5px 10px;position: relative;}
 .userDiv .title .txt_hidden{width:75%;text-align: left;}
@@ -154,10 +154,12 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .treeBig .treeMain{padding-top:10px;}
 .treeSee .treeMain .userDiv{bottom:-35px;margin-top:10px;z-index:10;}
 .treeSee .treeMain.treeMainIn .userDiv{bottom:-20px;}
+.treeSee .treeMain.treeMainIn .lastDiv .leftLine{top:78%;}
+.treeSee > .treeMain{margin-top:-40px;}
 .userDiv .has-general{top:5px;width:170px;}
 .leftLine{width:38px;position: absolute;left:-39px;top:69%;border-color:#aaa;}
 /*.lastDiv{bottom:-20px;}*/
-.lastDiv .leftLine{border:0;width:39px;height:39px;background:url("../img/last-line.jpg") no-repeat;top:84%;left:-40px;}
+.lastDiv .leftLine{border:0;width:39px;height:39px;background:url("../img/last-line.jpg") no-repeat;top:63%;left:-40px;}
 .delete{display:none;width:40px;height:40px;line-height:40px;border-radius:50%;position: absolute;top:0;left:0;background: url("../img/mask70.png") repeat;color:#fff;text-align: center;}
 .tree .user:hover .delete{display: block;}
 .treeSee .treeMain .userDiv .iconBtn{width:21px;height:21px;position: absolute;left:-12px;top:-11px;z-index:21;}
