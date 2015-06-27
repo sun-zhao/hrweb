@@ -360,6 +360,9 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
   box-shadow: none;
   transform: translate(0, -72.5px);
 }
+.progress-radial b.color-white:after {
+    color: #fff!important;
+}
 .progress-radial b:after{
   color: #666;
   position: absolute;
