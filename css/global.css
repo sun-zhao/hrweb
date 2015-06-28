@@ -231,6 +231,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .location{height:50px;line-height:50px;position: relative;}
 .locationIn{height:60px;line-height:60px;}
 .location a{display: inline-block;height:50px;min-width:30px;position: relative;}
+.location a.btn{height:30px;color: #fff!important;}
 .location a.floatright{width:50px;}
 .location a:hover{color:#347cdc;}
 .location a.back,.back{border-right:1px solid #efefef;padding:0 8px;}

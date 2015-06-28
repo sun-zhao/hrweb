@@ -71,6 +71,7 @@
                 <p class="color-3">1天</p>
             </div>
         </div>
+        <a href="#" class="btn btn-ok marl20 mart15 floatleft width-90">参考数据</a>
         <div class="has-general inlineblock marr15">
             <input type="text">
             <label class="control-label">必填</label>
@@ -199,14 +200,96 @@
     </div>
     <!--通知框over-->
 </div>
-<!--<div class="mask" style="display:;"></div>-->
+<div class="pop" style="display:block;width:600px;margin-left:-300px;">
+    <div class="title alignright">
+        <span class="floatleft">参考数据</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="title nopadding alignright clearfix">
+        <a href="#" class="floatleft color-8 navTip current">请假</a>
+        <a href="#" class="floatleft color-8 navTip">外出</a>
+    </div>
+    <div class="popInner jscroll">
+        <div class="marr10 marl10 p-bt10">
+            <table class="tableCard" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>部门</th>
+                        <th>申请</th>
+                        <th>申请日期</th>
+                        <th>申请状态</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                    <tr class="line"><th colspan="5"></th></tr>
+                    <tr>
+                        <th class="first">刘德华</th>
+                        <th>明道北京研发部门</th>
+                        <th>出差交通费报销申请</th>
+                        <td>2015-6-28 19:52</td>
+                        <td class="last">通过</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript">
     function Jscroll(){
         $('.jscroll').jScrollPane({
-            'mouseWheelSpeed':100,
+            'mouseWheelSpeed':20,
             "showArrows":false
         });
         var $w = $(window).width();
