@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e6d186b1-3e46-436c-aeee-447553728389" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/global.css" afterPath="$PROJECT_DIR$/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/年假设置.html" afterPath="$PROJECT_DIR$/年假设置.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的考勤.html" afterPath="$PROJECT_DIR$/我的考勤.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/权限设置.html" afterPath="$PROJECT_DIR$/权限设置.html" />
     </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="50" selection-start="10460" selection-end="10460" vertical-scroll-proportion="0.0" vertical-offset="5939" max-vertical-offset="10314">
+            <state line="224" column="67" selection-start="9758" selection-end="9758" vertical-scroll-proportion="0.2854641" vertical-offset="5885" max-vertical-offset="10341">
               <folding />
             </state>
           </provider>
@@ -84,11 +83,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="权限设置.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="权限设置.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/权限设置.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="58" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.16141002" vertical-offset="1182" max-vertical-offset="3834">
+            <state line="93" column="87" selection-start="4261" selection-end="4261" vertical-scroll-proportion="-11.09375" vertical-offset="1940" max-vertical-offset="3618">
               <folding>
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
@@ -152,9 +154,9 @@
         <option value="$PROJECT_DIR$/css/hrstyle.css" />
         <option value="$PROJECT_DIR$/同步审批数据-弹出.html" />
         <option value="$PROJECT_DIR$/年假设置.html" />
-        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/我的考勤.html" />
         <option value="$PROJECT_DIR$/权限设置.html" />
+        <option value="$PROJECT_DIR$/css/global.css" />
       </list>
     </option>
   </component>
@@ -303,7 +305,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14572491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14572491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -782,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="50" selection-start="10460" selection-end="10460" vertical-scroll-proportion="0.0" vertical-offset="5939" max-vertical-offset="10314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/同步审批数据-弹出.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="2963" selection-end="3253" vertical-scroll-proportion="-6.6875" vertical-offset="245" max-vertical-offset="1863">
@@ -846,10 +841,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/权限设置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="58" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.16141002" vertical-offset="1182" max-vertical-offset="3834">
+        <state line="93" column="87" selection-start="4261" selection-end="4261" vertical-scroll-proportion="-11.09375" vertical-offset="1940" max-vertical-offset="3618">
           <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="67" selection-start="9758" selection-end="9758" vertical-scroll-proportion="0.2854641" vertical-offset="5885" max-vertical-offset="10341">
+          <folding />
         </state>
       </provider>
     </entry>
