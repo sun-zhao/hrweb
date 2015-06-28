@@ -23,7 +23,7 @@
             <img src="img/user1.png"/>
             <em>你好，习大大！</em>
         </span>
-        <ul class="navItem floatright clearfix">
+        <ul class="navItem inlineblock clearfix">
             <li><a href="#"><i class="icon icon-search"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
@@ -43,9 +43,9 @@
 </div>
 <!--当前位置over-->
 <div class="layout jscroll" style="top:140px;">
-    <div class="container leftMain">
+    <div class="container">
         <div class="container bg-white">
-            <div class="tableBoss jscroll">
+            <div class="tableBoss jscroll" style="display:none;">
                 <table>
                     <tr>
                         <td rowspan="16" style="width:80px;">
@@ -58,7 +58,7 @@
                     <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
                     <tr>
                         <td rowspan="2">考勤管理</td>
-                        <td><a href="#"><i class="icon icon-check"></i>查看</a></td>
+                        <td><a href="#"><i class="icon icon-check current"></i>查看</a></td>
                     </tr>
                     <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
                     <tr>
@@ -94,9 +94,132 @@
                     <tr><td><a href="#"><i class="icon icon-check"></i>编辑</a></td></tr>
                 </table>
             </div>
+            <div class="font14 p-top40 aligncenter clearfix"><a href="#" class="mart10 btn inlineblock width-150">新增权限</a></div>
         </div>
     </div>
 </div>
+<!--通讯录begin-->
+<div class="mailList" style="display:none;">
+    <div class="mart10 clearfix">
+        <div class="intBox floatleft marl10 width-130">
+            <em class="arrow"></em>
+            <p class="marl5">按部门查找</p>
+            <ul class="dropdown-menu">
+                <li><a href="#">按部门查找</a></li>
+                <li><a href="#">按部门查找</a></li>
+                <li><a href="#">按部门查找</a></li>
+            </ul>
+        </div>
+        <div class="intBox floatleft marl10 width-130">
+            <em class="arrow"></em>
+            <p class="marl5">按群组查找</p>
+            <ul class="dropdown-menu">
+                <li><a href="#">按群组查找</a></li>
+                <li><a href="#">按群组查找</a></li>
+                <li><a href="#">按群组查找</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="word mart10 clearfix">
+        <a href="#" class="checkAll mart5 marl10 floatleft">所有</a>
+        <ul class="wordList clearfix">
+            <li><a href="#">A</a></li>
+            <li><a href="#">B</a></li>
+            <li><a href="#">C</a></li>
+            <li><a href="#">D</a></li>
+            <li><a href="#">E</a></li>
+            <li><a href="#">F</a></li>
+            <li><a href="#">G</a></li>
+            <li><a href="#">H</a></li>
+            <li><a href="#">I</a></li>
+            <li><a href="#">J</a></li>
+            <li><a href="#">K</a></li>
+            <li><a href="#">L</a></li>
+            <li><a href="#">M</a></li>
+            <li><a href="#">N</a></li>
+            <li><a href="#">O</a></li>
+            <li><a href="#">P</a></li>
+            <li><a href="#">Q</a></li>
+            <li><a href="#">R</a></li>
+            <li><a href="#">S</a></li>
+            <li><a href="#">T</a></li>
+            <li><a href="#">U</a></li>
+            <li><a href="#">V</a></li>
+            <li><a href="#">W</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">Y</a></li>
+            <li><a href="#">Z</a></li>
+        </ul>
+    </div>
+    <div class="userTable relative">
+        <table class="nomar">
+            <thead>
+                <tr class="alignleft">
+                    <th class="width-50"><a href="#">全选</a></th>
+                    <th class="width-50">姓名</th>
+                    <th>部门</th>
+                    <th>职位</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="userTable jscroll">
+        <table>
+            <tbody>
+                <tr class="current">
+                    <td><span class="user clearfix"><img src="img/department.jpg"></span></td>
+                    <td><span class="width-50 txt_hidden">王佳王佳王佳</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门部门部门部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席JAVA研发工程师</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+                <tr>
+                    <td><span class="user clearfix"><img src="img/user1.png"></span></td>
+                    <td><span class="width-50 txt_hidden">刘德华</span></td>
+                    <td><span class="width-130 txt_hidden">明道北京研发部门</span></td>
+                    <td><span class="width-130 txt_hidden">首席JAVA研发工程师首席</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <a href="#" class="btn block aligncenter">确定添加</a>
+</div>
+<!--通讯录over-->
 <div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
