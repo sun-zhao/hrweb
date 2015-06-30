@@ -170,7 +170,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
-.ContractMain p{font-size: 13px;line-height: 20px;color:#999;}
+.ContractMain p{font-size:13px;line-height:30px;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
