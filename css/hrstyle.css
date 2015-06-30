@@ -172,11 +172,11 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .userDiv div{position:relative;}
 div.popUser{position:absolute;}
 /*div.popUser .popInner{height:150px;}*/
-div.popUser .popInner .userList li{width:80px;margin:5px 4px;}
-div.popUser .user{width:80px;text-align: center;}
-div.popUser .user img{display: inline-block;}
+div.popInner.popUser .userList li{width:80px;margin:5px 4px;}
+div.popUser.popUser .user{width:80px;text-align: center;}
+div.popUser.popUser .user img{display: inline-block;}
 .tableCard{width:100%;}
-.tableCard thead th,.tableCard td,.tableCard th{height:40px;min-width:12.5%;text-align: left;padding-left:20px;}
+.tableCard thead th,.tableCard td,.tableCard th{height:40px;text-align: left;padding-left:20px;}/*min-width:12.5%;*/
 .tableCard tbody th{color:#347cdc;}
 .tableCard tbody tr{margin-bottom:10px;}
 .tableCard tbody tr td,.tableCard tbody tr th{border:1px solid #efefef;border-width:1px 0;}
