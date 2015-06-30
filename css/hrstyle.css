@@ -59,7 +59,7 @@
 .noticeList li em{display:none;font-size:0;line-height:0;border-right:2px solid #f09f11;position: absolute;top:-1px;bottom:-1px;left:-1px;}
 .noticeList li.unread em{display: inline-block;}
 /*档案管理*/
-.userList{padding:5px 5px 5px 20px;}
+.userList{padding:5px 5px 5px 20px;padding-bottom:20px;}
 .userList li{width:98px;height:65px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
 .userList li div.userItem{padding:0 5px;height:99px;padding-left: 23px;margin-top:-7px;}
