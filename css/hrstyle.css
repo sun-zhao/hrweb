@@ -303,6 +303,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tabCheck a.current{border-left-color:#0066cc;background:#59a7f9;color:#fff;}
 .tabCheck a:hover{color:#59a7f9;}
 .tabCheck a.current{color:#fff;}
+.tableBoss{margin:0 10px;}
 .tableBoss table{width:100%;}
 .tableBoss table .user {line-height:20px;}
 .tableBoss table .user img{width:60px;height:60px;margin:0;float: none;}

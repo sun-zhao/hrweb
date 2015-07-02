@@ -58,6 +58,8 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .mart45{margin-top:45px!important;}
 .mart50{margin-top:50px!important;}
 .mart80{margin-top:80px!important;}
+.marbt10{margin-bottom:10px!important;}
+.marbt20{margin-bottom:20px!important;}
 .mart100{margin-top:100px!important;}
 .marl10{margin-left:10px!important;}
 .marl15{margin-left:14px!important;}
@@ -192,6 +194,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .pop .title{padding-left:10px;}
 .title .iconBtn{height:39px;}
 .line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;}
+.lineD{border-bottom:1px dotted #ccc;}
 .title span.marr20{display:inline-block;height:20px;line-height:20px;}
 .tips{display: inline-block;width:20px;height:20px;font-size:0;line-height:0;margin-right:10px;vertical-align: bottom;}
 .bg1,.workday{background:#e4fde0;}
