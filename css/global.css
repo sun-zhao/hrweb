@@ -336,7 +336,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-submit{background-position:-60px -80px;}
 .icon-sync{background-position:-40px -120px;}
 .add{display:block;width:21px;height:56px;margin:-10px 0 20px -49px;position:inherit;background: url("../img/add.png") no-repeat;cursor: pointer;}
-.icon-circle-t,.current .icon-circle-t{background-position: 0 -262px;font-size:12px;line-height:20px;text-align: center;color:#888;left:25px;}
+.icon-circle-t,.current .icon-circle-t{background-position: 0 -262px;font-size:12px;line-height:20px;text-align: center;color:#888;left:20px;}
 .current .icon-circle-t{background-position:-20px -262px;}
 @font-face {
 	font-family: 'hwxh';

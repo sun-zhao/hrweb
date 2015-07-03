@@ -209,7 +209,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList{width:100%;}
 .stepList td{width:14.285%;height:40px;}
 .stepList td div{height:40px;line-height:40px;background:#fff;position: relative;margin:0 25px;color:#888;}
-.stepList td div p{text-indent:45px;}
+.stepList td div p{text-indent:40px;}
 .stepList td.first div{margin-left:0;}
 .stepList td.last div{margin-right:0;}
 .stepList .r_arrow,.stepList .l_arrow{display:inline-block;width:25px;height:40px;line-height:0;font-size:0;z-index:2;background: url("../img/li_bg.png") 0 0;position: absolute;top:0;}
@@ -221,6 +221,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList td div.current .l_arrow{background-position:-25px -40px;}
 .stepList td div.current .r_arrow{background-position:-25px 0;}
 .Team{border:1px solid #efefef;margin:20px;}
+.jspPane .Team{margin-right:45px;}
+/*.jspPane p.alignright{margin-right:25px;}*/
 .Team.nodata{border:1px dashed #efefef;padding:40px 0;}
 .rules{margin:10px 20px;line-height:20px;}
 /*考勤统计个人--公司*/
@@ -235,7 +237,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .popInner{height:350px;margin:5px 3px 0 0;overflow: hidden;}
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
-.popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;}
+.popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
 .popMain .line{margin:10px 0;}
 .popMain .has-general{margin-top:0;}
 .popMain .has-general input,.popMain .has-general.intBox{width:100%;height:36px;line-height:36px;}
