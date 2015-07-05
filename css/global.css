@@ -349,7 +349,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 	font-style: normal;
 }
 /*弹出*/
-.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
+.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:500;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
 .maskTop{width: 100%;height:50px;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
