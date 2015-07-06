@@ -224,7 +224,7 @@
     <!--通知框over-->
 </div>
 <!--同步审批数据弹出begin-->
-<div class="pop" style="display:block;height:300px;">
+<div class="pop" style="display:none;height:300px;">
     <div class="title alignright">
         <span class="floatleft">同步审批数据</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -259,12 +259,12 @@
 </div>
 <!--同步审批数据弹出over-->
 <!--编辑刷卡记录弹出begin-->
-<div class="pop" style="display: none;">
+<div class="pop" style="display: block;">
     <div class="title alignright">
         <span class="floatleft">编辑刷卡记录</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
-    <div class="popInner">
+    <div class="popInner jscroll" style="height:360px;">
         <div class="marl30 marr30">
             <table class="popMain mart10">
                 <tr>
@@ -301,6 +301,15 @@
                                     <li><a href="#">病假</a></li>
                                 </ul>
                             </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-130 nopadding color-8">班组名称</th>
+                    <td>
+                        <div class="has-general floatright nomar width-200">
+                            <input type="text">
+                            <label class="control-label">提示信息</label>
                         </div>
                     </td>
                 </tr>

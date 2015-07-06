@@ -236,7 +236,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .userList2 li{width:11%;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
 /*弹出*/
-.popInner{height:350px;margin:5px 3px 0 0;overflow: hidden;}
+.popInner{margin:5px 3px 0 0;overflow: hidden;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
 .popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
