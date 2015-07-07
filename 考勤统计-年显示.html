@@ -23,7 +23,7 @@
             <img src="img/user1.png"/>
             <em>你好，习大大！</em>
         </span>
-        <ul class="navItem floatright clearfix">
+        <ul class="navItem inlineblock clearfix">
             <li><a href="#"><i class="icon icon-search"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
@@ -52,9 +52,9 @@
 
 </div>
 <!--当前位置over-->
-<div class="layout jscroll" style="top:140px;">
+<div class="layout" style="top:140px;">
     <div class="container leftMain">
-        <div class="container bg-white p-bt20">
+        <div class="container bg-white" style="height:553px;">
             <div class="title nopadding alignright clearfix">
                 <a href="#" class="floatleft color-8 navTip">公司视图</a>
                 <a href="#" class="floatleft color-8 navTip current">个人视图</a>
@@ -106,73 +106,286 @@
                 </div>
             </div>
             <p class="line"></p>
-            <div class="marr20 mart10 marl20 p-bt10">
-                <table class="tableCard" style="width:100%">
-                    <thead>
+            <div class="marl10 clearfix">
+                <div class="floatleft" style="width:100px;">
+                    <table class="tableCard">
+                        <thead>
+                            <tr>
+                                <th class="width-80"><div style="width:80px;">日期</div></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="floatleft hiddenX jscroll" style="width:1300px;" title="这个宽度是window-140">
+                    <table class="tableCard">
+                        <thead>
                         <tr>
-                            <th>日期</th>
-                            <th>全勤</th>
-                            <th>产假</th>
-                            <th>病假</th>
-                            <th>事假</th>
-                            <th>外出</th>
-                            <th>早退</th>
-                            <th>迟到</th>
-                            <th>旷工</th>
+                            <th><div style="width:120px;">全勤</div></th>
+                            <th><div style="width:120px;">产假</div></th>
+                            <th><div style="width:120px;">病假</div></th>
+                            <th><div style="width:120px;">事假</div></th>
+                            <th><div style="width:120px;">外出</div></th>
+                            <th><div style="width:120px;">早退</div></th>
+                            <th><div style="width:120px;">迟到</div></th>
+                            <th><div style="width:120px;">旷工</div></th>
+                            <th><div style="width:120px;">旷工2</div></th>
+                            <th><div style="width:120px;">旷工3</div></th>
+                            <th><div style="width:120px;">旷工4</div></th>
+                            <th><div style="width:120px;">旷工5</div></th>
+                            <th><div style="width:120px;">旷工6</div></th>
+                            <th><div style="width:120px;">旷工7</div></th>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="first">2015-01</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td class="last">100人/次</td>
-                        </tr>
-                        <tr class="line"><th colspan="8"></th></tr>
-                    </tbody>
-                </table>
-            </div>
-            <!--分页begin-->
-            <div class="pageOut mart1 p-top20 clearfix">
-                <span class="color-9 marl20 floatleft">共100页</span>
-                <div class="pagenation aligncenter font12 marr15 floatright">
-                    <a href="#" class="prev_page noData">首页</a>
-                    <a href="#" class="prev_page noData">上一页</a>
-                    <span>1</span>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">7</a>
-                    <span>...</span>
-                    <a href="#" class="next_page">下一页</a>
-                    <a href="#" class="next_page">尾页</a>
+                        </thead>
+                    </table>
                 </div>
             </div>
-            <!--分页over-->
+            <div class="marl10 clearfix" style="height:412px;" title="这里的高度等于layout的高度减141">
+                <div class="floatleft hiddenX jscroll" style="width:100px;height:402px;" title="这里的高度等于layout的高度减151">
+                    <table class="tableCard">
+                        <tbody>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-01</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-02</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-03</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-04</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-05</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-06</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-07</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-08</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-09</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        <tr><td class="noborder width-80"><div style="width:80px;">2015-10</div></td></tr>
+                        <tr class="line"><th></th></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="floatleft jscroll" style="width:1300px;height:412px;" title="当左侧宽为100的时候，这里的宽度等于window的宽度减去140 = $('window).width()-40-100">
+                    <table class="tableCard">
+                        <tbody>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class="first"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;"></div></td>
+                                <td width="120"><div style="width:120px;">110人次</div></td>
+                                <td width="120" class="last"><div style="width:120px;"></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-    <!--通知框begin-->
-    <div class="container noticeBox bg-white" style="">
-        <ul class="noticeList">
-            <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
-            <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-            <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-        </ul>
-    </div>
-    <!--通知框over-->
 </div>
+<!--通知框begin-->
+<div class="container noticeBox bg-white" style="">
+    <ul class="noticeList">
+        <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
+        <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+        <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+    </ul>
+</div>
+<!--通知框over-->
 <!--<div class="mask" style="display:;"></div>-->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+        var $w = $(window).width();
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+            $window = $(window),
+            $W = $window.width(),
+            $notice = $('.notice'),
+            $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
 </body>
 </html>
