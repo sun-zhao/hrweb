@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="" />
+    <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/新建档案.html" afterPath="$PROJECT_DIR$/新建档案.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/档案查看.html" afterPath="$PROJECT_DIR$/档案查看.html" />
+    </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -280,11 +284,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="考勤统计-年显示.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="考勤统计-年显示.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/考勤统计-年显示.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.224959" vertical-offset="1672" max-vertical-offset="5115">
-              <caret line="338" column="30" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="30" />
+            <state vertical-scroll-proportion="-15.833333" vertical-offset="1180" max-vertical-offset="2175">
+              <caret line="355" column="6" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -311,6 +315,7 @@
                 <element signature="n#style#0;n#div#0;n#th#13;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -322,6 +327,7 @@
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#16;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#18;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -463,6 +469,26 @@
                 <element signature="n#style#0;n#div#0;n#td#12;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#13;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="新建档案.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/新建档案.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42455623" vertical-offset="808" max-vertical-offset="18720">
+              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="档案查看.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/档案查看.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="4905">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -673,8 +699,8 @@
       <file leaf-file-name="hrstyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2685" max-vertical-offset="52140">
-              <caret line="186" column="83" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1194" max-vertical-offset="52170">
+              <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -700,12 +726,14 @@
         <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/刷卡记录.html" />
         <option value="$PROJECT_DIR$/css/jscrollpane.css" />
-        <option value="$PROJECT_DIR$/css/hrstyle.css" />
         <option value="$PROJECT_DIR$/考勤统计列表-个人详细.html" />
         <option value="$PROJECT_DIR$/考勤统计列表-个人-公司.html" />
         <option value="$PROJECT_DIR$/考勤统计列表-个人-姓名.html" />
         <option value="$PROJECT_DIR$/考勤统计列表-个人-月.html" />
         <option value="$PROJECT_DIR$/考勤统计-年显示.html" />
+        <option value="$PROJECT_DIR$/档案查看.html" />
+        <option value="$PROJECT_DIR$/css/hrstyle.css" />
+        <option value="$PROJECT_DIR$/新建档案.html" />
       </list>
     </option>
   </component>
@@ -758,6 +786,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hrweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -848,7 +890,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -862,6 +904,26 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1011,26 +1073,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新建档案.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2696" max-vertical-offset="5790">
           <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2685" max-vertical-offset="52140">
-          <caret line="186" column="83" selection-start-line="186" selection-start-column="83" selection-end-line="186" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -1478,8 +1524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/考勤统计-年显示.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.224959" vertical-offset="1672" max-vertical-offset="5115">
-          <caret line="338" column="30" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="30" />
+        <state vertical-scroll-proportion="-15.833333" vertical-offset="1180" max-vertical-offset="2175">
+          <caret line="355" column="6" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1506,6 +1552,7 @@
             <element signature="n#style#0;n#div#0;n#th#13;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1517,6 +1564,7 @@
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#16;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#18;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1658,6 +1706,30 @@
             <element signature="n#style#0;n#div#0;n#td#12;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#13;n#tr#18;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/档案查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="4905">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1194" max-vertical-offset="52170">
+          <caret line="98" column="48" selection-start-line="98" selection-start-column="48" selection-end-line="98" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建档案.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42455623" vertical-offset="808" max-vertical-offset="18720">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>

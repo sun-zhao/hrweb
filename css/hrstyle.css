@@ -94,6 +94,8 @@
 .rightCount{margin-left:120px;}
 .leftImg span{display: block;width:100px;height:140px;padding:5px;background:#fff url("../img/photo_d.jpg") no-repeat center center;overflow: hidden;}
 .leftImg span img{width:100px;}
+/*.userInfoTable{width:100%;}*/
+/*.userInfoTable .has-general input{width:100%;}*/
 .userInfoTable td{padding:15px 0 10px 40px;min-width:160px;}
 span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top:10px;padding:0 14px;}
 .userInfoTable td .dataNormal{color:#aaa;padding:0;}
