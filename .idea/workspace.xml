@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计-年显示.html" afterPath="$PROJECT_DIR$/考勤统计-年显示.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计列表-个人-公司.html" afterPath="$PROJECT_DIR$/考勤统计列表-个人-公司.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计列表-个人-姓名.html" afterPath="$PROJECT_DIR$/考勤统计列表-个人-姓名.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计列表-个人-月.html" afterPath="$PROJECT_DIR$/考勤统计列表-个人-月.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计列表-个人详细.html" afterPath="$PROJECT_DIR$/考勤统计列表-个人详细.html" />
-    </list>
+    <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="" />
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
