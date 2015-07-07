@@ -14,7 +14,7 @@
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
 .container{margin:0 12px;position: relative;}/*margin-right:13px;*/
-.container .container{margin:0;min-height:130px;overflow-x: hidden;}
+.container .container{margin:0;min-height:130px;}
 .userInfo{height:80px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
 .userTxt li{float:left;height:41px;border-left:1px solid #efefef;line-height:21px;margin-left:25px;padding:0 10px 0 20px;}
