@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<div class="layout" style="top:50px;">
+<div class="container leftMain">
+    <div class="container">
+        <div class="Contract">
+            <div class="ContractTitle bg-white clearfix">
+                <div class="has-general has-error marl20 floatleft">
+                    <input type="text" placeholder="请填写合同范本名称">
+                    <label class="control-label">请填写合同范本名称</label>
+                </div>
+                <div class="floatright color-8 mart10 marr20 clearfix">
+                    <span>提前</span>
+                    <div class="has-general  width-70 inlineblock">
+                        <input type="text" class="width-70" placeholder="">
+                        <label class="control-label">只能为数字</label>
+                    </div>
+                    <span>天提醒</span>
+                </div>
+                <div class="floatright color-8 mart10 marr20 clearfix">
+                    <span>签约</span>
+                    <div class="has-general has-error width-70 inlineblock">
+                        <input type="text" class="width-70" placeholder="">
+                        <label class="control-label">只能为数字</label>
+                    </div>
+                    <span>年</span>
+                </div>
+            </div>
+            <div class="ContractMain mart20 bg-white" id="ContractMain">
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/ueditor/ueditor.config.js"></script>
+<script src="js/ueditor/ueditor.all.js"></script>
+<script>
+    var editor = UE.getEditor('ContractMain', {
+        toolbars: [['source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+            'directionalityltr', 'directionalityrtl', 'indent', '|'
+        ]]
+        // initialFrameHeight: 300
+    });
+</script>
+</body>
+</html>
