@@ -79,12 +79,14 @@
                             </td>
                             <td>
                                 <p>部门</p>
-                                <div class="has-general intBox mart10">
+                                <div class="has-general intBox mart10 current">
                                     <label class="control-label">请填写姓名</label>
                                     <em class="arrow"></em>
                                     <p class="marl5">按部门查找</p>
                                     <div class="dropdown-menu jscroll" style="height:150px;">
                                         <ul>
+                                            <li><a href="#">按部门查找按部门查找按部门查找按部门查找按部门查找</a></li>
+                                            <li><a href="#">按部门查找</a></li>
                                             <li><a href="#">按部门查找</a></li>
                                             <li><a href="#">按部门查找</a></li>
                                             <li><a href="#">按部门查找</a></li>
@@ -1279,7 +1281,7 @@
             "showArrows":false
         });
         var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
     $('#mobile').inputmagnify({
