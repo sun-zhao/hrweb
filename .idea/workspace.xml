@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/考勤统计列表-个人-姓名.html" afterPath="$PROJECT_DIR$/考勤统计列表-个人-姓名.html" />
     </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +59,7 @@
       <file leaf-file-name="hrstyle.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="90" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.38045377" vertical-offset="1564" max-vertical-offset="94014">
+            <state line="66" column="105" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.38045377" vertical-offset="1564" max-vertical-offset="94014">
               <folding />
             </state>
           </provider>
@@ -1059,7 +1058,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="90" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.38045377" vertical-offset="1564" max-vertical-offset="94014">
+        <state line="66" column="105" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.38045377" vertical-offset="1564" max-vertical-offset="94014">
           <folding />
         </state>
       </provider>
