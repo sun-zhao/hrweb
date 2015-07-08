@@ -64,7 +64,7 @@
 .userList li{width:98px;height:65px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
 .userList li div.userItem{padding:0 5px;height:99px;padding-left: 23px;margin-top:-7px;}
-.userList li div.userItem td{background:#ddd;border:2px solid #fff;}
+.userList li div.userItem td{background:#ddd;border:2px solid #fff;width:30px;height:30px;}
 .userList li div.userItem img{width:30px;height:30px;vertical-align: bottom;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
 .userList2 li:hover{background:#ddd;}
