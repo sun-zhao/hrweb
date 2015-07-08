@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/新建档案.html" afterPath="$PROJECT_DIR$/新建档案.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/日历设置.html" afterPath="$PROJECT_DIR$/日历设置.html" />
     </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="新建档案.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="新建档案.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/新建档案.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35538462" vertical-offset="2124" max-vertical-offset="18975">
-              <caret line="188" column="71" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="71" />
+            <state vertical-scroll-proportion="-7.62" vertical-offset="2124" max-vertical-offset="18975">
+              <caret line="198" column="63" selection-start-line="198" selection-start-column="51" selection-end-line="198" selection-end-column="63" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#td#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -153,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hrstyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hrstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="50006" max-vertical-offset="52215">
-              <caret line="3356" column="23" selection-start-line="3356" selection-start-column="23" selection-end-line="3356" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.48617175" vertical-offset="50006" max-vertical-offset="52230">
+              <caret line="3356" column="43" selection-start-line="3356" selection-start-column="43" selection-end-line="3356" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -197,8 +194,8 @@
         <option value="$PROJECT_DIR$/uedtior.html" />
         <option value="$PROJECT_DIR$/新建合同范本.html" />
         <option value="$PROJECT_DIR$/日历设置.html" />
-        <option value="$PROJECT_DIR$/css/hrstyle.css" />
         <option value="$PROJECT_DIR$/新建档案.html" />
+        <option value="$PROJECT_DIR$/css/hrstyle.css" />
       </list>
     </option>
   </component>
@@ -1189,23 +1186,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="50006" max-vertical-offset="52215">
-          <caret line="3356" column="23" selection-start-line="3356" selection-start-column="23" selection-end-line="3356" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/新建档案.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35538462" vertical-offset="2124" max-vertical-offset="18975">
-          <caret line="188" column="71" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="71" />
+        <state vertical-scroll-proportion="-7.62" vertical-offset="2124" max-vertical-offset="18975">
+          <caret line="198" column="63" selection-start-line="198" selection-start-column="51" selection-end-line="198" selection-end-column="63" />
           <folding>
             <element signature="n#div#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#td#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#td#0;n#tr#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48617175" vertical-offset="50006" max-vertical-offset="52230">
+          <caret line="3356" column="43" selection-start-line="3356" selection-start-column="43" selection-end-line="3356" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

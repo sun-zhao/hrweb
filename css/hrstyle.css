@@ -3352,9 +3352,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
     top: 0;
     bottom: 0;
     padding: 1px;
-  display:none;
+
 }
-.intl-tel-input.current .flag-dropdown{display: block;}
+.intl-tel-input .country-list{display: none;}
+.intl-tel-input.current .country-list{display: block;}
 .intl-tel-input .flag-dropdown:hover {
     cursor: pointer
 }
