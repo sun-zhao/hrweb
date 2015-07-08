@@ -23,7 +23,7 @@
             <img src="img/user1.png"/>
             <em>你好，习大大！</em>
         </span>
-        <ul class="navItem floatright clearfix">
+        <ul class="navItem inlineblock clearfix">
             <li><a href="#"><i class="icon icon-search"></i></a></li>
             <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
             <li><a href="#"><i class="icon icon-out"></i></a></li>
@@ -50,9 +50,9 @@
     </div>
 </div>
 <!--当前位置over-->
-<div class="layout jscroll" style="top:140px;">
+<div class="layout" style="top:140px;">
     <div class="container leftMain">
-        <div class="container bg-white p-bt20">
+        <div class="container bg-white" style="height:553px;overflow-x:hidden;">
             <div class="title nopadding alignright clearfix">
                 <a href="#" class="floatleft color-8 navTip current">公司视图</a>
                 <a href="#" class="floatleft color-8 navTip">个人视图</a>
@@ -106,71 +106,162 @@
                     </div>
                 </div>
             </div>
-            <div class="marr20 marl20 p-bt10">
-                <table class="tableCard" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th>日期</th>
-                            <th>全勤</th>
-                            <th>产假</th>
-                            <th>病假</th>
-                            <th>事假</th>
-                            <th>外出</th>
-                            <th>早退</th>
-                            <th>迟到</th>
-                            <th>旷工</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="first">2015-01</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td class="last">100人/次</td>
-                        </tr>
-                        <tr class="line"><th colspan="8"></th></tr>
-                        <tr>
-                            <td class="first">2015-01</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td class="last">100人/次</td>
-                        </tr>
-                        <tr class="line"><th colspan="8"></th></tr>
-                        <tr>
-                            <td class="first">2015-01</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td class="last">100人/次</td>
-                        </tr>
-                        <tr class="line"><th colspan="8"></th></tr>
-                        <tr>
-                            <td class="first">2015-01</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td>100人/次</td>
-                            <td class="last">100人/次</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="marl20 p-bt10 clearfix">
+                <div class="floatleft" style="width:100px;">
+                    <table class="tableCard">
+                        <thead><tr><th width="80"><div style="width:80px;">日期</div></th></tr></thead>
+                        <tbody>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-01</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-02</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-03</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-04</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-05</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-06</div></td></tr>
+                            <tr class="line"><th colspan=""></th></tr>
+                            <tr><td class="first" width="80"><div style="width:80px;">2015-5-07</div></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="floatleft jscroll" style="width:1276px;" title="当左侧等于100时候，这里的宽度等于window的宽度减去164 = $('window').width()-100-24-40">
+                    <table class="tableCard">
+                        <thead>
+                            <tr>
+                                <th>全勤</th>
+                                <th>产假</th>
+                                <th>病假</th>
+                                <th>事假</th>
+                                <th>外出</th>
+                                <th>早退</th>
+                                <th>迟到</th>
+                                <th>旷工1</th>
+                                <th>旷工2</th>
+                                <th>旷工3</th>
+                                <th>旷工4</th>
+                                <th>旷工5</th>
+                                <th>旷工6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td><div>100人/次</div></td>
+                                <td class="last"><div>100人/次</div></td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                            <tr>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td>100人/次</td>
+                                <td class="last">100人/次</td>
+                            </tr>
+                            <tr class="line"><th colspan="14"></th></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <!--分页begin-->
             <div class="pageOut mart1 p-top20 clearfix">
