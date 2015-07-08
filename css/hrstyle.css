@@ -83,7 +83,7 @@
 .popMain .userList li:hover{background: none;}
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
-.intBox .dropdown-menu{width:100%;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
+.intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
 .treeMain .userDiv .intBox p{height:28px;line-height:28px;}
@@ -3351,9 +3351,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
     position: absolute;
     top: 0;
     bottom: 0;
-    padding: 1px
+    padding: 1px;
+  display:none;
 }
-
+.intl-tel-input.current .flag-dropdown{display: block;}
 .intl-tel-input .flag-dropdown:hover {
     cursor: pointer
 }
