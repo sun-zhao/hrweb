@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d000ef-be29-464e-b7e5-c343e421a57d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hrstyle.css" afterPath="$PROJECT_DIR$/css/hrstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/工资管理-个人视图.html" afterPath="$PROJECT_DIR$/工资管理-个人视图.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的考勤.html" afterPath="$PROJECT_DIR$/我的考勤.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/班组设置.html" afterPath="$PROJECT_DIR$/班组设置.html" />
     </list>
     <ignored path="hrweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,39 +29,16 @@
       <file leaf-file-name="工资统计.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/工资统计.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="-5.90625" vertical-offset="0" max-vertical-offset="1512">
-              <folding>
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="7" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="-0.0" vertical-offset="189" max-vertical-offset="3780">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="工资管理-个人视图.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/工资管理-个人视图.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="39" selection-start="4288" selection-end="4288" vertical-scroll-proportion="6.0" vertical-offset="2595" max-vertical-offset="6642">
-              <folding>
-                <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hrstyle.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hrstyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="48" selection-start="13851" selection-end="13851" vertical-scroll-proportion="0.56893545" vertical-offset="5209" max-vertical-offset="94041">
+            <state line="3347" column="19" selection-start="99094" selection-end="99094" vertical-scroll-proportion="0.0" vertical-offset="89852" max-vertical-offset="94068">
               <folding />
             </state>
           </provider>
@@ -73,20 +47,7 @@
       <file leaf-file-name="社保规则设置.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/社保规则设置.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="18" selection-start="2226" selection-end="5053" vertical-scroll-proportion="-54.5" vertical-offset="1280" max-vertical-offset="3753">
-              <folding>
-                <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="区间设置.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/区间设置.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="0" selection-end="6135" vertical-scroll-proportion="-7.59375" vertical-offset="0" max-vertical-offset="4482">
+            <state line="112" column="18" selection-start="2226" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="3753">
               <folding />
             </state>
           </provider>
@@ -95,16 +56,8 @@
       <file leaf-file-name="班组设置.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/班组设置.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="54" selection-start="10966" selection-end="10966" vertical-scroll-proportion="-10.6875" vertical-offset="900" max-vertical-offset="6993">
-              <folding>
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="233" column="54" selection-start="10966" selection-end="10966" vertical-scroll-proportion="-0.0" vertical-offset="6291" max-vertical-offset="13770">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +65,45 @@
       <file leaf-file-name="工资管理-列表视图.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/工资管理-列表视图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="12636">
+            <state line="238" column="69" selection-start="10537" selection-end="10537" vertical-scroll-proportion="-0.84375" vertical-offset="6399" max-vertical-offset="13878">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="新建档案.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/新建档案.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1276" column="24" selection-start="105132" selection-end="105132" vertical-scroll-proportion="-12.6875" vertical-offset="26486" max-vertical-offset="30375">
+              <folding>
+                <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#td#2;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#5;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="216" column="6" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.7593583" vertical-offset="5406" max-vertical-offset="5994">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="档案查看.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/档案查看.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="32" selection-start="5089" selection-end="5089" vertical-scroll-proportion="-3.375" vertical-offset="972" max-vertical-offset="7587">
+              <folding>
+                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#table#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +126,11 @@
         <option value="$PROJECT_DIR$/班组设置.html" />
         <option value="$PROJECT_DIR$/社保规则设置.html" />
         <option value="$PROJECT_DIR$/工资管理-个人视图.html" />
+        <option value="$PROJECT_DIR$/档案查看.html" />
         <option value="$PROJECT_DIR$/css/hrstyle.css" />
+        <option value="$PROJECT_DIR$/工资管理-列表视图.html" />
+        <option value="$PROJECT_DIR$/新建档案.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -204,6 +198,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/快盘/websites/aotuh" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -214,6 +209,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -224,23 +227,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -320,6 +315,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/班组设置.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="54" selection-start="10966" selection-end="10966" vertical-scroll-proportion="0.0" vertical-offset="6291" max-vertical-offset="13770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工资管理-列表视图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="69" selection-start="10537" selection-end="10537" vertical-scroll-proportion="0.0" vertical-offset="6426" max-vertical-offset="13878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建档案.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="32" selection-start="9231" selection-end="87382" vertical-scroll-proportion="0.0" vertical-offset="5076" max-vertical-offset="34992">
+          <folding>
+            <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#td#2;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/档案查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="33" selection-start="5896" selection-end="5896" vertical-scroll-proportion="0.0" vertical-offset="3564" max-vertical-offset="7587">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#table#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/我的考勤.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="4" selection-start="10062" selection-end="10114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3726">
@@ -378,15 +411,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9288">
           <folding>
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -394,7 +424,13 @@
     <entry file="file://$PROJECT_DIR$/新建档案.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34992">
-          <folding />
+          <folding>
+            <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#td#2;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -494,13 +530,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jscrollpane.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/档案查看.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
@@ -1008,13 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/新建合同范本.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1078,54 +1100,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/工资统计.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="-5.90625" vertical-offset="0" max-vertical-offset="1512">
-          <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工资管理-列表视图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/班组设置.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="54" selection-start="10966" selection-end="10966" vertical-scroll-proportion="-10.6875" vertical-offset="900" max-vertical-offset="6993">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/区间设置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="0" selection-end="6135" vertical-scroll-proportion="-7.59375" vertical-offset="0" max-vertical-offset="4482">
+        <state line="9" column="6" selection-start="0" selection-end="6135" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="4482">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/社保规则设置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="18" selection-start="2226" selection-end="5053" vertical-scroll-proportion="-54.5" vertical-offset="1280" max-vertical-offset="3753">
-          <folding>
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="112" column="18" selection-start="2226" selection-end="5053" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="3753">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,40 +1118,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6183">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新建档案.html">
+    <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="65" selection-start="146" selection-end="146" vertical-scroll-proportion="0.24399261" vertical-offset="3" max-vertical-offset="34452">
-          <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="48" column="0" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.3321234" vertical-offset="1113" max-vertical-offset="10422">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/工资管理-个人视图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="39" selection-start="4288" selection-end="4288" vertical-scroll-proportion="6.0" vertical-offset="2595" max-vertical-offset="6642">
+        <state line="108" column="60" selection-start="5556" selection-end="5556" vertical-scroll-proportion="0.2513863" vertical-offset="2780" max-vertical-offset="7047">
           <folding>
-            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hrstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="48" selection-start="13851" selection-end="13851" vertical-scroll-proportion="0.56893545" vertical-offset="5209" max-vertical-offset="94041">
+        <state line="3347" column="19" selection-start="99094" selection-end="99094" vertical-scroll-proportion="0.0" vertical-offset="89852" max-vertical-offset="94068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/档案查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="32" selection-start="5089" selection-end="5089" vertical-scroll-proportion="-3.375" vertical-offset="972" max-vertical-offset="7587">
+          <folding>
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#table#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工资统计.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="66" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="3780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工资管理-列表视图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="69" selection-start="10537" selection-end="10537" vertical-scroll-proportion="-0.84375" vertical-offset="6399" max-vertical-offset="13878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/班组设置.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="54" selection-start="10966" selection-end="10966" vertical-scroll-proportion="0.0" vertical-offset="6291" max-vertical-offset="13770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建档案.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1276" column="24" selection-start="105132" selection-end="105132" vertical-scroll-proportion="-12.6875" vertical-offset="26486" max-vertical-offset="30375">
+          <folding>
+            <element signature="tag#td#1;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#td#2;tag#tr#0;tag#table#0;tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#5;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="6" selection-start="2656" selection-end="2656" vertical-scroll-proportion="0.7593583" vertical-offset="5406" max-vertical-offset="5994">
           <folding />
         </state>
       </provider>
