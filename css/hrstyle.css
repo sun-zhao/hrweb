@@ -85,6 +85,7 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
+.intBox p.marl5{display: inline;height:28px;line-height:28px;}
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
 .treeMain .userDiv .intBox p{height:28px;line-height:28px;}
 .userInfoTable .dropdown-menu{width:150%;left:0;}
