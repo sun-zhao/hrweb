@@ -237,6 +237,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .Team.nodata,.dataAdd{border:1px dashed #efefef;padding:40px 0;position: relative;}
 .dataAdd{margin:0 10px;bottom:-30px;}
 .dataAdd:hover{border-color:#ddd;}
+.Department li.dataAdd{bottom:0;height:48px;line-height:48px;padding:0;border-style: dashed;}
 .rules{margin:10px 20px;line-height:20px;}
 /*考勤统计个人--公司*/
 .navTip{padding:0 18px;border-bottom: 2px solid transparent;line-height:38px;height:38px;}
