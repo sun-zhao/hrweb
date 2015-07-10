@@ -193,8 +193,9 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .title a.color-8.current{color:#4370ac!important;}
 .pop .title{padding-left:10px;}
 .title .iconBtn{height:39px;}
-.line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;}
+.line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;position: relative;}
 .lineD{border-bottom:1px dotted #ccc;}
+.line span{display: inline-block;height:20px;line-height:20px;position: relative;top:-10px;background: #fff;padding:0 10px;font-size:12px;}
 .title span.marr20{display:inline-block;height:20px;line-height:20px;}
 .tips{display: inline-block;width:20px;height:20px;font-size:0;line-height:0;margin-right:10px;vertical-align: bottom;}
 .bg1,.workday{background:#e4fde0;}
