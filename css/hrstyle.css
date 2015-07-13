@@ -195,6 +195,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWage tbody tr td.last,.tableWage tbody tr th.last{border-right:1px solid #efefef;border-left:1px solid #efefef;font-weight:bold;}
 .tableCard tbody tr.line,.tableWageCard tbody tr.line{height:5px;border:0;}
 .tableCard tbody tr.line th,.tableWageCard tbody tr.line td{height:10px;border:0;}
+.tableCard .iconBtn{height:40px;line-height: 40px;}
 .tableWage tbody tr:hover td{border:1px solid #4370ac;border-width:1px 0;}
 .tableWage tbody tr{cursor: pointer;}
 .tableWage tbody tr:hover td.first,.tableWage tbody tr:hover th.first{border-left:1px solid #4370ac;}
