@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>工资统计-职位列表</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#" class="current">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<!--当前位置begin-->
+<div class="container mart20">
+    <div class="location bg-white clearfix">
+        <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+        <ul class="floatleft marl10">
+            <li><a href="#">首 页</a> &gt;</li>
+            <li><span>部门设定</span></li>
+        </ul>
+        <a href="#" class="iconBtn floatright current"><i class="icon icon-set"></i></a>
+        <a href="#" class="iconBtn floatright"><i class="icon icon-plus"></i></a>
+        <a href="#" class="iconBtn floatright"><i class="icon icon-update" title="同步"></i></a>
+        <ul class="dropdown-menu width-110" style="display: none">
+            <li><a href="#">部门设置</a></li>
+            <li><a href="#">职位设置</a></li>
+            <li><a href="#">合同范本设置</a></li>
+            <li><a href="#">管理层设置</a></li>
+        </ul>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout " style="top:140px;">
+    <div class="container leftMain">
+        <div class="container bg-white" style="height:553px;">
+            <div class="title alignright clearfix">
+                <span class="floatleft">请选择您想查看的职位</span>
+            </div>
+            <ul class="Department workerList clearfix p-top10 p-bt20">
+                <li class="clearfix current">
+                    <span class="txt_hidden">行政专员</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">人力专员</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">人力主管</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">会计</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">销售专员</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">销售总监</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">UI设计师</span>
+                </li>
+                <li class="clearfix">
+                    <span class="txt_hidden">java工程师</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mask" style="display:none;"></div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+        var $w = $(window).width();
+//        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+            $window = $(window),
+            $W = $window.width(),
+            $notice = $('.notice'),
+            $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
+</body>
+</html>

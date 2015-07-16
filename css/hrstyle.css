@@ -106,6 +106,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .view .userInfoTable td .dataNormal{color:#333;}
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
+.Department li:hover,.Department li.current{border-color:#4370ac;box-shadow: 0 0 5px #e3f0fe;}
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
@@ -114,6 +115,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .Department.setMap li .iconBtn{height:39px;}
 .mapInner{height:150px;}
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
+.workerList li{width:18%;cursor: pointer;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
 .bottom-btn a.btn{display:inline-block;width:150px;height:40px;line-height:40px;}
@@ -196,6 +198,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableCard tbody tr.line,.tableWageCard tbody tr.line{height:5px;border:0;}
 .tableCard tbody tr.line th,.tableWageCard tbody tr.line td{height:10px;border:0;}
 .tableCard .iconBtn{height:40px;line-height: 40px;}
+.tableCard .txt_hidden{float: left;}
 .tableWage tbody tr:hover td{border:1px solid #4370ac;border-width:1px 0;}
 .tableWage tbody tr{cursor: pointer;}
 .tableWage tbody tr:hover td.first,.tableWage tbody tr:hover th.first{border-left:1px solid #4370ac;}
@@ -332,8 +335,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 /*工资统计*/
 .dataTable{width:100%;}
 .dataTable td{width:5%;}
-.dataTable td .dataDiv{margin:20px 10px;border:1px solid #efefef;min-height:200px;}
+.dataTable td .dataDiv{margin:20px 10px 0 10px;border:1px solid #efefef;}
+.dataIn{min-height:200px;}
 .dataTable td .dataDiv .title{height:29px;line-height: 29px;}
+
 .FormulaList{margin:0 14px;}
 .FormulaList li{min-height:30px;border:1px solid #efefef;color:#888;margin-bottom:8px;}
 .FormulaList li p{height:30px;line-height: 30px;position: relative;}
