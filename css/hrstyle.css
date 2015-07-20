@@ -252,7 +252,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .userList2 li{width:11%;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
 /*弹出*/
-.popInner{margin:5px 3px 0 0;overflow: hidden;}/*height:350px;*/
+.popInner{margin:0px 3px 0 0;overflow: hidden;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
 .popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
@@ -270,7 +270,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .popWage th{width:100px;text-align: right;}
 .popWage thead th{text-align: center;}
 .popWage td{border:1px solid #efefef;padding-left:10px;}
-
+.popMain .has-ip input{width:60px;margin:0 1px;}
+.popMain .has-ip .control-label{top:0;left:0;bottom:0;border:1px solid #b94a48;right:10px;}
 
 
 .btnBlcok{display:block;width:auto;height:40px;line-height:40px;margin:0 17px;}
