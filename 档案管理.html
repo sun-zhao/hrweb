@@ -219,7 +219,7 @@
 </div>
 <!--通知框over-->
 <!--姓名变更begin-->
-<div class="pop" style="display: none;">
+<div class="pop" style="display:block;">
     <div class="title alignright">
         <span class="floatleft">姓名变更确认</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -227,10 +227,15 @@
     <div class="aligncenter font14 p-top20">
         <p><span class="inlineblock user clearfix"><img src="img/user1.png"/></span></p>
         <p class="font14 color-8 p-top5">刘德华</p>
-        <p class="p-top30">发生姓名变更</p>
-        <p class="mart15">由<span>刘德华</span>变更为<span>马德华</span></p>
-        <p class="mart50 p-top10 color-8">是否接受此变更?</p>
-        <p class="bottom-btn mart30 aligncenter">
+        <div class="jscroll mart30" style="height:110px;">
+            <p class="p-bt10"><span>职位名称</span>由<span class="inlineblock width-100">刘德华</span>变更为<span class="inlineblock width-100">马德华</span></p>
+            <p class="p-bt10"><span>部门名称</span>由<span class="inlineblock width-100">刘德华</span>变更为<span class="inlineblock width-100">马德华</span></p>
+            <p class="p-bt10"><span>生日名称</span>由<span class="inlineblock width-100">2011-8-10</span>变更为<span class="inlineblock width-100">2011-8-10</span></p>
+            <p class="p-bt10"><span>生日名称</span>由<span class="inlineblock width-100">2011-8-10</span>变更为<span class="inlineblock width-100">2011-8-10</span></p>
+            <p class="p-bt10"><span>生日名称</span>由<span class="inlineblock width-100">2011-8-10</span>变更为<span class="inlineblock width-100">2011-8-10</span></p>
+        </div>
+        <p class="mart30 p-top10 color-8">是否接受此变更?</p>
+        <p class="bottom-btn mart20 aligncenter">
             <a href="#" class="btn btn-no marr20">否&nbsp;&nbsp;&nbsp;决</a>
             <a href="#" class="btn btn-yes marl20">同&nbsp;&nbsp;&nbsp;意</a>
         </p>
@@ -322,7 +327,7 @@
     </div>
 </div>
 <!--续签劳动合同over-->
-<div class="mask" style="display:none;"></div>
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -333,7 +338,7 @@
             "showArrows":false
         });
         var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
     var $leftMain = $('.leftMain'),

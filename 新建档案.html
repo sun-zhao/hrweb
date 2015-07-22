@@ -187,7 +187,7 @@
                             <td>
                                 <p>手机</p>
                                 <div class="intl-tel-input has-general">
-                                    <input type="text" data-cipchk="inputmagnify" data-first_digit="3">
+                                    <input type="text" id="phone">
                                     <label class="control-label">必填</label>
                                     <div class="flag-dropdown">
                                         <div class="selected-flag" title="China (中国): +86">
@@ -1323,6 +1323,13 @@
                                 </div>
                             </td>
                             <td>
+                                <p>社保基数</p>
+                                <div class="has-general">
+                                    <input type="text" class="">
+                                    <label class="control-label">必填</label>
+                                </div>
+                            </td>
+                            <td>
                                 <p>缴纳方式</p>
                                 <div class="has-general">
                                     <input type="text" class="">
@@ -1358,6 +1365,13 @@
                                 </div>
                             </td>
                             <td>
+                                <p>公积金基数</p>
+                                <div class="has-general">
+                                    <input type="text" class="">
+                                    <label class="control-label">必填</label>
+                                </div>
+                            </td>
+                            <td>
                                 <p>缴纳方式</p>
                                 <div class="has-general">
                                     <input type="text" class="">
@@ -1385,7 +1399,6 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="js/src.js"></script>
 <script type="text/javascript">
     function Jscroll(){
         $('.jscroll').jScrollPane({
@@ -1396,8 +1409,29 @@
         $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
-    $('#mobile').inputmagnify({
-        placement: 'top'
+
+    //去掉所有空格--String类的属性.
+    String.prototype.trim = function () {
+        return this.replace(/\s+/g, "");
+    };
+    function FillMobile() {
+        var mobile = document.getElementById("phone");//页面上输入手机号码的文本框的Id.
+        var mValue = mobile.value.trim();
+        if (mValue != "") {
+            var mLength = mValue.length;
+            if (mLength <= 3) {
+                mobile.value = mValue;
+            } else {
+                if (mLength <= 7) {
+                    mobile.value = mValue.substring(0, 3) + " " + mValue.substring(3, mLength);
+                } else {
+                    mobile.value = mValue.substring(0, 3) + " " + mValue.substring(3, 7) + " " + mValue.substring(7, mLength);
+                }
+            }
+        }
+    }
+    $("#phone").keyup(function() {
+        FillMobile();
     });
 </script>
 </body>

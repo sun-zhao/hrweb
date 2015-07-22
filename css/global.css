@@ -171,7 +171,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th,.l_th *{text-decoration:line-through;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
-.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
+.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
 .ContractMain p{font-size:13px;line-height:30px;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
@@ -190,16 +190,22 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 
 .prompt{text-align:center;font-size:10px;border-radius:50%;min-width:13px;height:13px;line-height:15px;border:2px solid #222;background:#dd4747;color:#fff;font-family: Arial;position: absolute;padding:2px;right:8px;top:5px;}
 .title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;}
+.titleBt{border-bottom:0;border-top: 1px solid #efefef;}
 .title a.color-8.current{color:#4370ac!important;}
 .pop .title{padding-left:10px;}
 .title .iconBtn{height:39px;}
-.line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;}
+.line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;position: relative;}
 .lineD{border-bottom:1px dotted #ccc;}
+.line span{display: inline-block;height:20px;line-height:20px;position: relative;top:-10px;background: #fff;padding:0 10px;font-size:12px;}
 .title span.marr20{display:inline-block;height:20px;line-height:20px;}
 .tips{display: inline-block;width:20px;height:20px;font-size:0;line-height:0;margin-right:10px;vertical-align: bottom;}
 .bg1,.workday{background:#e4fde0;}
 .bg2,.weekend{background:#f4f4f4;}
 .bg3,.holiday{background:#a3cefc;}
+.color-arrow{display: inline-block;width:10px;height:10px;border-radius:50%;font-size:0;line-height:0;margin-right:5px;}
+.col-1{background-color:#59a7f9;}
+.col-2{background-color:#f0ac19;}
+.col-3{background-color:#50b850;}
 
 /*头像*/
 .line20{line-height:20px!important;}
@@ -271,6 +277,7 @@ span.back{padding:0 20px;}
 .icon{display:inline-block;font-size:0;line-height:0;width:20px;height:20px;background: url("../img/icon-1.png");position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
 a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
+.iconBtnl{border-left:1px solid #efefef;text-align: center;padding-left:20px;}
 .pop .iconBtn{position: absolute;right:5px;top:0;}
 .pop td .iconBtn{position: relative;right:0;top:0;}
 .icon-search{background-position:0 0;}
@@ -332,6 +339,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-upload{background-position:-60px -40px;}
 .icon-tile{background-position:-60px 0;}
 .icon-list{background-position:-60px -20px;}
+.icon-circleH{background-position:-80px -80px;}
 .icon-calculate{background-position:-60px -60px;}
 .icon-submit{background-position:-60px -80px;}
 .icon-sync{background-position:-40px -120px;}
@@ -362,7 +370,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .has-general,.has-success, .has-warning, .has-error{margin-top:10px;position: relative;}
 .has-general input{width:158px;height:28px;line-height:28px;border:1px solid #efefef;outline: 0;color:#333;text-indent:5px;}
 .has-general input:focus{box-shadow:0 0 2px #59a7f9;}
-.has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:1px;bottom:1px;background:#fff;text-indent:3px;}
+.has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:2px;bottom:1px;background:#fff;text-indent:3px;}
 .has-error input,.intBox.has-error{border-color:#b94a48;}
 .has-error label.control-label{display:block;color:#b94a48;}
 .choose_net .has-general{margin:5px 0;}

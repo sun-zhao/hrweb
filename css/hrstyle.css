@@ -88,8 +88,8 @@
 .intBox p.marl5{display: inline;height:28px;line-height:28px;}
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
 .treeMain .userDiv .intBox p{height:28px;line-height:28px;}
-.userInfoTable .dropdown-menu{width:150%;left:0;}
-.userInfoTable .dropdown-menu a{width:100%;}
+.userInfoTable .dropdown-menu,.dropdown-menu2{width:140%!important;left:0;}
+.userInfoTable .dropdown-menu a,.dropdown-menu2 a{width:86%;margin-left:3px;}
 .current .arrow{transform: rotate(-180deg);transition:0.3s;}/*.intBox:hover .arrow,*/
 .search input{width:158px;height:28px;line-height: normal;border:0;float: left;outline: 0;text-indent:5px;color:#aaa;}
 .search a{width:38px;height:24px;margin-top:2px;border-left:1px solid #aaa;display: inline-block;}
@@ -106,6 +106,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .view .userInfoTable td .dataNormal{color:#333;}
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
+.Department li:hover,.Department li.current{border-color:#4370ac;box-shadow: 0 0 5px #e3f0fe;}
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
@@ -114,6 +115,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .Department.setMap li .iconBtn{height:39px;}
 .mapInner{height:150px;}
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
+.workerList li{width:18%;cursor: pointer;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
 .bottom-btn a.btn{display:inline-block;width:150px;height:40px;line-height:40px;}
@@ -195,6 +197,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWage tbody tr td.last,.tableWage tbody tr th.last{border-right:1px solid #efefef;border-left:1px solid #efefef;font-weight:bold;}
 .tableCard tbody tr.line,.tableWageCard tbody tr.line{height:5px;border:0;}
 .tableCard tbody tr.line th,.tableWageCard tbody tr.line td{height:10px;border:0;}
+.tableCard .iconBtn{height:40px;line-height: 40px;}
+.tableCard .txt_hidden{float: left;}
 .tableWage tbody tr:hover td{border:1px solid #4370ac;border-width:1px 0;}
 .tableWage tbody tr{cursor: pointer;}
 .tableWage tbody tr:hover td.first,.tableWage tbody tr:hover th.first{border-left:1px solid #4370ac;}
@@ -210,12 +214,12 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
 .tagsList li{float: left;}
 .tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:2px;margin:3px 5px 0 10px;}
-.tagsList li a:active{background:#ddd;border-color:#ddd;}
+.tagsList li a.current{background:#ddd;border-color:#ddd;}
 .inputFrame{height:188px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:100px;border:0;padding:5px;}
 .inputFrame .keyboard{width:100%;height:88px;border-top:1px solid #ccc;position: absolute;bottom:0;left:0;background:#efefef;}
 .inputFrame .keyboard a{display:inline-block;width:27px;height:31px;line-height:30px;color:#333;text-align:center;border-radius:3px;background: #fff;border-bottom:1px solid #333;float: left;margin:8px 0 0 6px;}
-.inputFrame .keyboard a:active{border-top:1px solid #333;border-bottom:0;}
+.inputFrame .keyboard a.current{border-top:1px solid #333;border-bottom:0;}
 /*区间设置*/
 .stepList{width:100%;}
 .stepList td{width:14.285%;height:40px;}
@@ -232,11 +236,12 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList td div.current .l_arrow{background-position:-25px -40px;}
 .stepList td div.current .r_arrow{background-position:-25px 0;}
 .Team{border:1px solid #efefef;margin:20px;}
-.jspPane .Team{margin-right:45px;}
+.jspPane .Team{margin-right:10px;}
 /*.jspPane p.alignright{margin-right:25px;}*/
 .Team.nodata,.dataAdd{border:1px dashed #efefef;padding:40px 0;position: relative;}
 .dataAdd{margin:0 10px;bottom:-30px;}
 .dataAdd:hover{border-color:#ddd;}
+.Department li.dataAdd{bottom:0;height:48px;line-height:48px;padding:0;border-style: dashed;}
 .rules{margin:10px 20px;line-height:20px;}
 /*考勤统计个人--公司*/
 .navTip{padding:0 18px;border-bottom: 2px solid transparent;line-height:38px;height:38px;}
@@ -247,7 +252,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .userList2 li{width:11%;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
 /*弹出*/
-.popInner{margin:5px 3px 0 0;overflow: hidden;}/*height:350px;*/
+.popInner{margin:0px 3px 0 0;overflow: hidden;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
 .popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
@@ -265,7 +270,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .popWage th{width:100px;text-align: right;}
 .popWage thead th{text-align: center;}
 .popWage td{border:1px solid #efefef;padding-left:10px;}
-
+.popMain .has-ip input{width:60px;margin:0 1px;}
+.popMain .has-ip .control-label{top:0;left:0;bottom:0;border:1px solid #b94a48;right:10px;}
 
 
 .btnBlcok{display:block;width:auto;height:40px;line-height:40px;margin:0 17px;}
@@ -330,14 +336,16 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 /*工资统计*/
 .dataTable{width:100%;}
 .dataTable td{width:5%;}
-.dataTable td .dataDiv{margin:20px 10px;border:1px solid #efefef;min-height:200px;}
+.dataTable td .dataDiv{margin:20px 10px 0 10px;border:1px solid #efefef;}
+.dataIn{min-height:200px;}
 .dataTable td .dataDiv .title{height:29px;line-height: 29px;}
+
 .FormulaList{margin:0 14px;}
 .FormulaList li{min-height:30px;border:1px solid #efefef;color:#888;margin-bottom:8px;}
 .FormulaList li p{height:30px;line-height: 30px;position: relative;}
 .FormulaList li p .arrow{right:15px;}
 .FormulaList li .iconBtn{height:30px;margin-right:10px;}
-
+.FormulaList li p span{padding:0 10px;}
 .choose_net{position: absolute;padding:5px 0;width:400px;height:300px;z-index:100;margin-top:-120px;background: #fff;border-radius:3px;}
 .choose_net p{border-bottom:1px solid #aaa;}
 .choose_net li{border-bottom: 1px solid #ccc;margin:0 20px 0 15px;}
