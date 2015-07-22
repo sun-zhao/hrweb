@@ -103,7 +103,22 @@
     <div class="container leftMain">
         <div class="container">
             <div class="container bg-white">
-                <div class="title alignright clearfix"><span class="floatleft">请设置年假规则</span></div>
+                <div class="title alignright clearfix">
+                    <span class="floatleft">请设置年假规则</span>
+                    <div class="has-general intBox floatleft mart5 marl20 current">
+                        <label class="control-label">请设置关联年假项目</label>
+                        <em class="arrow"></em>
+                        <p class="marl5">请设置关联年假项目</p>
+                        <div class="dropdown-menu dropdown-menu2 jscroll" style="height:150px;">
+                            <ul>
+                                <li><a href="#">按部门查找按部门查找按部门查找</a></li>
+                                <li><a href="#">按部门查找</a></li>
+                                <li><a href="#">按部门查找</a></li>
+                                <li><a href="#">按部门查1222找</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="Team">
                     <div class="title clearfix alignright">
                         <span class="floatleft">基础年假规则</span>
@@ -136,7 +151,7 @@
     </div>
 </div>
 <!--新增年假规则弹出begin-->
-<div class="pop" style="display: block;">
+<div class="pop" style="display: none;">
     <div class="title alignright">
         <span class="floatleft">新增年假规则</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -239,7 +254,7 @@
     </div>
 </div>
 <!--新增年假规则弹出over-->
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -250,7 +265,7 @@
             "showArrows":false
         });
         var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
 </script>
