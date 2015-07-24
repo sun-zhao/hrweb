@@ -1,10 +1,9 @@
 @charset "utf-8"; 
 /* CSS Document */
 /*reset*/
-body{position:relative;background: #efefef;color:#333;overflow-y:auto;}
+body{position:relative;background: #efefef;color:#333;overflow-y:auto;height:100%;}
 body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
-body{padding-top:70px;}
 table{border-collapse:collapse;border-spacing:0;}
 img{border:none;}
 address, caption, cite, code, dfn, em, th, var,b,font,i{font-style:normal;font-weight: normal;}
@@ -57,6 +56,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .mart40{margin-top:40px!important;}
 .mart45{margin-top:45px!important;}
 .mart50{margin-top:50px!important;}
+.mart70{margin-top:70px!important;}
 .mart80{margin-top:80px!important;}
 .marbt10{margin-bottom:10px!important;}
 .marbt20{margin-bottom:20px!important;}
