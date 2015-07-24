@@ -166,12 +166,12 @@
 </div>
 <!--新建工资项弹出over-->
 <!--新建工资公式弹出begin-->
-<div class="pop" style="display:none;">
+<div class="pop" style="display:block;width:600px;margin-left:-300px;margin-top:-301px;">
     <div class="title alignright">
         <span class="floatleft">新建工资公式</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
-    <div class="font14 popInner jscroll" style="height: 300px;">
+    <div class="font14 popInner jscroll" style="height:260px;">
         <table class="popMain mart10">
             <tr>
                 <th>公式名称</th>
@@ -195,7 +195,7 @@
                 <td colspan="2">
                     <p class="marl15" style="margin-top:-15px;">可关联系统数据</p>
                     <ul class="tagsList marl5">
-                        <li><a href="#">基本工资</a></li>
+                        <li><a href="#" class="current">基本工资</a></li>
                         <li><a href="#">绩效工资</a></li>
                         <li><a href="#">病假</a></li>
                         <li><a href="#">带薪病假</a></li>
@@ -217,6 +217,10 @@
                     </ul>
                 </td>
             </tr>
+        </table>
+    </div>
+    <div class="font14 popInner">
+        <table class="popMain">
             <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
             <tr>
                 <td colspan="2">
@@ -251,22 +255,13 @@
                 </td>
             </tr>
         </table>
-        <div class="p-bt20 block">
-            <a href="#" class="btn btnBlcok btn-yes mart20 ">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a>
+        <div class="p-bt10 block">
+            <a href="#" class="btn btnBlcok btn-yes mart10 ">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a>
         </div>
     </div>
 </div>
 <!--新建工资公式弹出over-->
-<!--通知框begin-->
-<div class="container noticeBox bg-white" style="">
-    <ul class="noticeList">
-        <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
-        <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-        <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
-    </ul>
-</div>
-<!--通知框over-->
-<div class="mask" style="display:none;"></div>
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
