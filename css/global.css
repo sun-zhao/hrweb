@@ -1,7 +1,8 @@
 @charset "utf-8"; 
 /* CSS Document */
 /*reset*/
-body{position:relative;background: #efefef;color:#333;overflow-y:auto;height:100%;}
+body{position:relative;color:#333;overflow-y:auto;height:100%;}
+.bodyTheme{padding-top:70px;background: #efefef;}
 body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
 table{border-collapse:collapse;border-spacing:0;}
