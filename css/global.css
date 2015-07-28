@@ -348,6 +348,8 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .add{display:block;width:21px;height:56px;margin:-10px 0 20px -49px;position:inherit;background: url("../img/add.png") no-repeat;cursor: pointer;}
 .icon-circle-t,.current .icon-circle-t{background-position: 0 -262px;font-size:12px;line-height:20px;text-align: center;color:#888;left:20px;}
 .current .icon-circle-t{background-position:-20px -262px;}
+.plus,.minus{font-size:26px;color:green;line-height:40px;padding:0 5px;}
+.plus{color:#ff0000;}
 @font-face {
 	font-family: 'hwxh';
 	src:url('hwxh.eot?-klml34');
