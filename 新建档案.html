@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
-<body class="bodyTheme">
+<body class="">
 <!--header begin-->
 <div class="header clearfix">
     <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
@@ -31,6 +31,7 @@
     </div>
 </div>
 <!--header over-->
+<div class="MainBody">
 <!--当前位置begin-->
 <div class="container ">
     <div class="location bg-white alignright clearfix">
@@ -1395,6 +1396,7 @@
     </div>
     <!--通知框over-->
 </div>
+</div>
 <!--<div class="mask" style="display:;"></div>-->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
@@ -1406,7 +1408,7 @@
             "showArrows":false
         });
         var $w = $(window).width();
-        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
+
     }
     Jscroll();
 
