@@ -3,7 +3,7 @@
 /*reset*/
 html{height:100%;}
 body{position:relative;color:#333;height:100%;overflow: hidden;}
-.bodyTheme{padding-top:70px;background: #efefef;overflow-y:auto;}
+.bodyTheme{padding-top:70px;background: #efefef;overflow-y:auto;height:auto;}
 body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -100,7 +100,7 @@ a.add:hover,a.more:hover{text-decoration: underline;}
 .tags,.keywords{color: #f11b1b;}
 a.tags:hover,a.keywords:hover{text-decoration:underline;}
 /*width*/
-.width-30{width:30px!important;}
+.width-30{width:30px!important;min-width:30px!important;}
 .width-40{width:40px!important;}
 .width-50{width:50px!important;}
 .width-60{width:60px!important;}
@@ -237,6 +237,8 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .switch em{display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;position: absolute;top:1px;left:1px;box-shadow:0 0 1px #999;transition:0.3s;}
 .switch.current{background:#59a7f9;transition:0.3s;}
 .switch.current em{left:21px;transition:0.3s;}
+
+.MainBody{position: absolute;left:0;right:0;top:50px;bottom:0;overflow-y: auto;background: #efefef;padding-top:20px;}
 /*当前位置*/
 .location{height:50px;line-height:50px;position: relative;}
 .locationIn{height:60px;line-height:60px;}
@@ -346,6 +348,8 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .add{display:block;width:21px;height:56px;margin:-10px 0 20px -49px;position:inherit;background: url("../img/add.png") no-repeat;cursor: pointer;}
 .icon-circle-t,.current .icon-circle-t{background-position: 0 -262px;font-size:12px;line-height:20px;text-align: center;color:#888;left:20px;}
 .current .icon-circle-t{background-position:-20px -262px;}
+.plus,.minus{font-size:26px;color:green;line-height:40px;padding:0 5px;}
+.plus{color:#ff0000;}
 @font-face {
 	font-family: 'hwxh';
 	src:url('hwxh.eot?-klml34');
