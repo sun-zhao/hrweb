@@ -100,7 +100,7 @@ a.add:hover,a.more:hover{text-decoration: underline;}
 .tags,.keywords{color: #f11b1b;}
 a.tags:hover,a.keywords:hover{text-decoration:underline;}
 /*width*/
-.width-30{width:30px!important;}
+.width-30{width:30px!important;min-width:30px!important;}
 .width-40{width:40px!important;}
 .width-50{width:50px!important;}
 .width-60{width:60px!important;}
