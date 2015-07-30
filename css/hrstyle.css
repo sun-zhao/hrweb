@@ -255,7 +255,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .userList2 li{width:11%;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
 /*弹出*/
-.popInner{margin:0px 3px 0 0;overflow: hidden;}/*height:350px;*/
+.popInner{margin:0px 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
 .popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
@@ -364,6 +364,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{border:1px solid #ccc;width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim .btnItem{position: absolute;bottom:10px;right:0;left:0;}
+.ContractMain .edui-editor{margin:0 auto;}
 .progress-radial {
   display: inline-block;
   position: relative;
