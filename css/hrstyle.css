@@ -365,6 +365,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .confrim{border:1px solid #ccc;width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim .btnItem{position: absolute;bottom:10px;right:0;left:0;}
 .ContractMain .edui-editor{margin:0 auto;}
+.tableCard div span.dataBorder{display: inline-block;height:28px;line-height: 28px;border:1px solid #fff;}
+.tableCard td:hover div span.dataBorder{border-color:#ccc;}
 .progress-radial {
   display: inline-block;
   position: relative;
