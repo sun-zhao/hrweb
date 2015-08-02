@@ -94,6 +94,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-2{color:#59a7f9;}
 /*.color-3{color:#aaaaaa;}*/
 .color-4{color:#e75353;}
+.more{color:#59a7f9;}
 .nodata{color:#ccc;padding-top:100px;cursor: default;}
 a.add:hover,a.more:hover{text-decoration: underline;}
 .color-info{color:#80c17c;}
@@ -262,8 +263,10 @@ span.back{padding:0 20px;}
 .dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;white-space:nowrap;text-overflow:ellipsis;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
-.dropdown-out.net{height:250px;}
-.dropdown-out.net .arrow{top:0;}
+.dropdown-out.net{height:246px;}
+.dropdown-out.net{box-shadow:0 0 3px #e0e0e0;background:#fff;}
+.dropdown-out.net .dropdown-menu,.dropdown-out.net ul.dropdown-menu{border:0;box-shadow:none;position:relative;top:0;}
+.dropdown-out.net .arrow{top:-7px;}
 /*.dropdown-out.net .dropdown-menu ul{margin:10px 0;}*/
 .dropdown-out.net .dropdown-menu li,.dropdown-out.net .dropdown-menu li a{width:96%;}
 .dropdown-out.net .dropdown-menu li{margin-bottom:5px!important;}

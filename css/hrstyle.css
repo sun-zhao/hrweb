@@ -82,6 +82,20 @@
 .popMain .userList li:hover .user .delete{display: block;background:url("../img/mask70.png") repeat;}
 .popMain .userList li img{width:40px;height:40px;}
 .popMain .userList li:hover{background: none;}
+.userInfo .userList{margin:0;padding:0;}
+.userInfo .userList li{width:60px;margin:0;padding:0;height:auto;padding-top:2px;}
+.userInfo .userList li:hover div.block{background:none;}
+
+
+
+
+
+
+
+
+
+
+
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
