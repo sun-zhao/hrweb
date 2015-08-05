@@ -82,6 +82,20 @@
 .popMain .userList li:hover .user .delete{display: block;background:url("../img/mask70.png") repeat;}
 .popMain .userList li img{width:40px;height:40px;}
 .popMain .userList li:hover{background: none;}
+.userInfo .userList{margin:0;padding:0;}
+.userInfo .userList li{width:60px;margin:0;padding:0;height:auto;padding-top:2px;}
+.userInfo .userList li:hover div.block{background:none;}
+
+
+
+
+
+
+
+
+
+
+
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
@@ -145,12 +159,13 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .timeCircle{display:inline-block;width:97px;height:50px;background:url("../img/time-line.png");color:#fff;text-indent:16px;margin-left:10px;}
 /*合同*/
 .Contract{width:964px;margin:0 auto;min-height:400px;}
-.ContractTitle{padding:10px 0;}
-.ContractTitle .has-general{width:600px;margin:0 auto;}
-.ContractTitle .has-general input{width:600px;height:38px;line-height:38px;}
+.ContractTitle{padding:10px 0;padding-bottom:0;}
+.ContractTitle .has-general{width:920px;margin:0 auto;}
+.ContractTitle .has-general input{width:920px;height:38px;line-height:38px;}
 .ContractTitle .has-general label{line-height:38px;}
-.ContractTitle .floatright .has-general input{border-width:0 0 1px 0;height:26px;line-height:26px;}
-.ContractTitle .floatright .has-general label,.ContractTitle .floatright .has-general {height:26px;line-height:26px;padding:0;}
+.ContractTitle .mart10 .has-general input{border-width:0 0 1px 0;height:26px;line-height:26px;}
+.ContractTitle .mart10 .has-general label,.ContractTitle .mart10 .has-general {height:26px;line-height:26px;padding:0;}
+.ContractMain{position: relative;}
 /*组织架构*/
 .tree{min-height:500px;padding:20px;}
 .treeBig{padding-bottom:0;}
@@ -255,7 +270,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .userList2 li{width:11%;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
 /*弹出*/
-.popInner{margin:0px 3px 0 0;overflow: hidden;}/*height:350px;*/
+.popInner{margin:0px 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
 .popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
@@ -364,6 +379,9 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{border:1px solid #ccc;width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim .btnItem{position: absolute;bottom:10px;right:0;left:0;}
+.ContractMain .edui-editor{margin:0 auto;}
+.tableCard div span.dataBorder{display: inline-block;height:28px;line-height: 28px;border:1px solid #fff;position:relative;top:2px;}
+.tableCard td:hover div span.dataBorder{border-color:#ccc;cursor: pointer;}
 .progress-radial {
   display: inline-block;
   position: relative;

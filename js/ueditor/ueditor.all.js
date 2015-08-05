@@ -17500,7 +17500,7 @@ UE.plugins['autofloat'] = function() {
             }
             if(toolbarBox.style.position != 'fixed'){
                 toolbarBox.style.position = 'fixed';
-                toolbarBox.style.top = topOffset +"px";
+                toolbarBox.style.top = 50 +"px";
                 ((origalFloat == 'absolute' || origalFloat == 'relative') && parseFloat(origalLeft)) && (toolbarBox.style.left = toobarBoxPos.x + 'px');
             }
         }
@@ -17512,6 +17512,8 @@ UE.plugins['autofloat'] = function() {
         }
 
         toolbarBox.style.cssText = bakCssText;
+        //toolbarBox.style.position = 'relative';
+        //toolbarBox.style.top = 0 +"px";
     }
 
     function updateFloating(){
