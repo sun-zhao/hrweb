@@ -32,75 +32,100 @@
 </div>
 <!--header over-->
 <div class="MainBody">
-<iframe frameborder="0" scrolling="no" style="width: 100%; left: 0px; right: 0px; top:20px; bottom: 0px; position: absolute; height:652px;"  src="uedtior.html">
-<div class="layout " style="top:140px;display: none;">
-    <div class="container leftMain">
-        <div class="container">
-            <div class="Contract">
-                <div class="ContractTitle bg-white clearfix">
-                    <div class="has-general has-error marl20 floatleft">
-                        <input type="text" placeholder="请填写合同范本名称">
-                        <label class="control-label">请填写合同范本名称</label>
-                    </div>
-                    <div class="floatright color-8 mart10 marr20 clearfix">
-                        <span>提前</span>
-                        <div class="has-general  width-70 inlineblock">
-                            <input type="text" class="width-70" placeholder="">
-                            <label class="control-label">只能为数字</label>
+    <div class="container">
+        <div class="location bg-white alignright clearfix">
+            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+            <ul class="floatleft marl10">
+                <li><a href="#">首 页</a> &gt;</li>
+                <li><span>新建合同范本</span></li>
+            </ul>
+            <a href="#" class="marr20"><i class="icon icon-off" title="取消"></i></a>
+            <a href="#" class="marr20"><i class="icon icon-storage" title="保存"></i></a>
+            <a href="#" class="marr20"><i class="icon icon-print" title="打印"></i></a>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="mainCount mart20">
+            <div class="container leftMain">
+                <div class="container">
+                    <div class="Contract">
+                        <div class="ContractTitle bg-white clearfix">
+                            <div class="has-general has-error marl20 ">
+                                <input type="text" placeholder="请填写合同范本名称">
+                                <label class="control-label">请填写合同范本名称</label>
+                            </div>
+                            <div class="mart10 marl20">
+                                <div class="inlineblock">
+                                    <div class="inlineblock color-8 marr20 clearfix">
+                                        <span>签约</span>
+                                        <div class="has-general has-error width-70 inlineblock">
+                                            <input type="text" class="width-70" placeholder="">
+                                            <label class="control-label">只能为数字</label>
+                                        </div>
+                                        <span>年</span>
+                                    </div>
+                                    <div class="inlineblock color-8 marr20 clearfix">
+                                        <span>合同到期提前</span>
+                                        <div class="has-general  width-70 inlineblock">
+                                            <input type="text" class="width-70" placeholder="">
+                                            <label class="control-label">只能为数字</label>
+                                        </div>
+                                        <span>天提醒</span>
+                                    </div>
+                                </div>
+                                <div class="inlineblock marl40">
+                                    <div class="inlineblock color-8 marr20 clearfix">
+                                        <span>试用</span>
+                                        <div class="has-general has-error width-70 inlineblock">
+                                            <input type="text" class="width-70" placeholder="">
+                                            <label class="control-label">只能为数字</label>
+                                        </div>
+                                        <span>月</span>
+                                    </div>
+                                    <div class="inlineblock color-8 marr20 clearfix">
+                                        <span>试用到期提前</span>
+                                        <div class="has-general  width-70 inlineblock">
+                                            <input type="text" class="width-70" placeholder="">
+                                            <label class="control-label">只能为数字</label>
+                                        </div>
+                                        <span>天提醒</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <span>天提醒</span>
-                    </div>
-                    <div class="floatright color-8 mart10 marr20 clearfix">
-                        <span>签约</span>
-                        <div class="has-general has-error width-70 inlineblock">
-                            <input type="text" class="width-70" placeholder="">
-                            <label class="control-label">只能为数字</label>
-                        </div>
-                        <span>年</span>
-                    </div>
-                </div>
-                <div class="ContractMain mart20 bg-white">
+                        <div class="ContractMain mart20 bg-white mar-auto" id="ContractMain" style="width:600px;min-height:372px;" title="min-height=iframe高度 -240">
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-<!--</div>-->
-<!--<div class="mask" style="display:;"></div>-->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript">
-    function Jscroll(){
-        $('.jscroll').jScrollPane({
-            'mouseWheelSpeed':100,
-            "showArrows":false
-        });
-        var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
-    }
-    Jscroll();
-    var $leftMain = $('.leftMain'),
-        $window = $(window),
-        $W = $window.width(),
-        $H = $window.height(),
-        $notice = $('.notice'),
-        $noticeBox = $('.noticeBox');
-    $notice.click(function(){
-        var $this = $(this);
-        if($this.hasClass('current')){
-            $this.removeClass('current');
-            $noticeBox.stop().animate({right:-0.5*$W},400);
-            $leftMain.stop().animate({left:0},400);
-        }else{
-            $this.addClass('current');
-            $noticeBox.stop().animate({right:-2},400);
-            $leftMain.stop().animate({left:-0.495*$W},400);
-        }
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/ueditor/ueditor.config.js"></script>
+<script src="js/ueditor/ueditor.all.js"></script>
+<script>
+    var editor = UE.getEditor('ContractMain', {
+        toolbars: [['source', '|', 'undo', 'redo', '|',
+            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+            'directionalityltr', 'directionalityrtl', 'indent', '|'
+        ]]
+        // initialFrameHeight: 300
     });
-    $('.ContractMain').height($H-240);
+    $(function(){
+        $('.MainBody').scroll(function(){
+            var $this = $(this),
+                scrollTop = $this.scrollTop();
+            if(scrollTop<10){
+                $('#edui1_toolbarbox').css({position:"relative",top:0,width:600}).prev('div').remove();
+            }else{
+                $('#edui1_toolbarbox').css({position:"fixed",top:50,width:600});
+            }
+        });
+    });
 </script>
-</div>
-</div>
 </body>
 </html>
