@@ -240,11 +240,25 @@ div.popUser.popUser .user img{display: inline-block;}
 .inputFrame .keyboard a.current{border-top:1px solid #333;border-bottom:0;}
 
 .tableExcel td div,.tableExcel td,.tableExcel tbody tr th,.tableExcel tbody tr th div{height:35px;line-height:35px;position: relative;}
+.tableExcel td div.jspPane{width:100%;height:auto;line-height: normal;}
 .tableExcel tbody tr td,.tableExcel tbody tr th{border:1px solid #ccc;}
 .tableExcel tbody tr th{background:#ddd;color:#333;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:-20px;right:0;bottom:0;width:140px;height:35px;line-height:35px;}
 .tableExcel tbody tr td .has-general input{width:138px;height:33px;line-height:33px;position: absolute;top:0;left:0;right:0;bottom:0;box-shadow:0 0 2px #333;}
+.tableExcel tbody tr td:hover{cursor: text;}
+.tableExcel tbody tr td.first:hover{cursor:default;}
+.tableExcel tbody tr .arrow{border-right:6px solid #fff;border-left:6px solid #fff;border-top:6px solid #888;}
+.tableExcel tbody tr .current .dropdown-menu{top:0;left:-15px;display: block;}
+.tableExcel tbody tr .dropdown-menu div.jspVerticalBar{width:4px;height:100%;position:absolute;line-height: normal;}
+.tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
+
+
+
+
+
+
+
 
 /*区间设置*/
 .stepList{width:100%;}
