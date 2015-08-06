@@ -44,60 +44,54 @@
             <a href="#" class="marr20"><i class="icon icon-print" title="打印"></i></a>
         </div>
     </div>
-    <div class="layout">
-        <div class="mainCount mart20">
-            <div class="container leftMain">
-                <div class="container">
-                    <div class="Contract">
-                        <div class="ContractTitle bg-white clearfix">
-                            <div class="has-general has-error marl20 ">
-                                <input type="text" placeholder="请填写合同范本名称">
-                                <label class="control-label">请填写合同范本名称</label>
+    <div class="container leftMain">
+        <div class="Contract mart20">
+            <div class="ContractTitle bg-white clearfix">
+                <div class="has-general has-error marl20 ">
+                    <input type="text" placeholder="请填写合同范本名称">
+                    <label class="control-label">请填写合同范本名称</label>
+                </div>
+                <div class="mart10 marl20">
+                    <div class="inlineblock">
+                        <div class="inlineblock color-8 marr20 clearfix">
+                            <span>签约</span>
+                            <div class="has-general has-error width-70 inlineblock">
+                                <input type="text" class="width-70" placeholder="">
+                                <label class="control-label">只能为数字</label>
                             </div>
-                            <div class="mart10 marl20">
-                                <div class="inlineblock">
-                                    <div class="inlineblock color-8 marr20 clearfix">
-                                        <span>签约</span>
-                                        <div class="has-general has-error width-70 inlineblock">
-                                            <input type="text" class="width-70" placeholder="">
-                                            <label class="control-label">只能为数字</label>
-                                        </div>
-                                        <span>年</span>
-                                    </div>
-                                    <div class="inlineblock color-8 marr20 clearfix">
-                                        <span>合同到期提前</span>
-                                        <div class="has-general  width-70 inlineblock">
-                                            <input type="text" class="width-70" placeholder="">
-                                            <label class="control-label">只能为数字</label>
-                                        </div>
-                                        <span>天提醒</span>
-                                    </div>
-                                </div>
-                                <div class="inlineblock marl40">
-                                    <div class="inlineblock color-8 marr20 clearfix">
-                                        <span>试用</span>
-                                        <div class="has-general has-error width-70 inlineblock">
-                                            <input type="text" class="width-70" placeholder="">
-                                            <label class="control-label">只能为数字</label>
-                                        </div>
-                                        <span>月</span>
-                                    </div>
-                                    <div class="inlineblock color-8 marr20 clearfix">
-                                        <span>试用到期提前</span>
-                                        <div class="has-general  width-70 inlineblock">
-                                            <input type="text" class="width-70" placeholder="">
-                                            <label class="control-label">只能为数字</label>
-                                        </div>
-                                        <span>天提醒</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <span>年</span>
                         </div>
-                        <div class="ContractMain mart20 bg-white mar-auto" id="ContractMain" style="width:600px;min-height:372px;" title="min-height=iframe高度 -240">
-
+                        <div class="inlineblock color-8 marr20 clearfix">
+                            <span>合同到期提前</span>
+                            <div class="has-general  width-70 inlineblock">
+                                <input type="text" class="width-70" placeholder="">
+                                <label class="control-label">只能为数字</label>
+                            </div>
+                            <span>天提醒</span>
+                        </div>
+                    </div>
+                    <div class="inlineblock marl40">
+                        <div class="inlineblock color-8 marr20 clearfix">
+                            <span>试用</span>
+                            <div class="has-general has-error width-70 inlineblock">
+                                <input type="text" class="width-70" placeholder="">
+                                <label class="control-label">只能为数字</label>
+                            </div>
+                            <span>月</span>
+                        </div>
+                        <div class="inlineblock color-8 marr20 clearfix">
+                            <span>试用到期提前</span>
+                            <div class="has-general  width-70 inlineblock">
+                                <input type="text" class="width-70" placeholder="">
+                                <label class="control-label">只能为数字</label>
+                            </div>
+                            <span>天提醒</span>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="ContractMain mart20 bg-white mar-auto" id="ContractMain" style="width:600px;min-height:372px;" title="min-height=iframe高度 -240">
+
             </div>
         </div>
     </div>
@@ -122,7 +116,7 @@
             if(scrollTop<10){
                 $('#edui1_toolbarbox').css({position:"relative",top:0,width:600}).prev('div').remove();
             }else{
-                $('#edui1_toolbarbox').css({position:"fixed",top:50,width:600});
+                $('#edui1_toolbarbox').css({position:"fixed",top:50,width:600,'z-index':1000});
             }
         });
     });
