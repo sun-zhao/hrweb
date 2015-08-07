@@ -245,6 +245,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr th{background:#ddd;color:#333;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:-20px;right:0;bottom:0;width:140px;height:35px;line-height:35px;}
+.tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;height:33px;line-height:33px;}
 .tableExcel tbody tr td .has-general input{width:138px;height:33px;line-height:33px;position: absolute;top:0;left:0;right:0;bottom:0;box-shadow:0 0 2px #333;}
 .tableExcel tbody tr td:hover{cursor: text;}
 .tableExcel tbody tr td.first:hover{cursor:default;}
