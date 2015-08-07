@@ -273,11 +273,12 @@ span.back{padding:0 20px;}
 .dropdown-menu li dl{margin:0 13px;border-left:1px solid #ccc;}
 .dropdown-menu li{min-height:30px;}
 .dropdown-menu li dl dd{height:30px;line-height:30px;}
-.pageOut{border-top:1px solid #efefef;height:30px;line-height:30px;}
+.pageOut{border-top:1px solid #efefef;height:30px;}
 .pagenation a,.pagenation span{display:inline-block;height:30px;line-height:30px;margin:0 5px;*display: inline;border:1px solid #efefef;padding:0 10px;color:#333;}
 .pagenation span{border:0;}
 .pagenation a:hover{text-decoration:none;background:#59a7f9;color:#fff;border-color:#59a7f9;}
 .pagenation a.noData,.pagenation a.noData:hover{color:#ccc;cursor:default;background:#fff;border-color:#efefef;}
+.Grey{opacity:0.3;filter:alpha(opacity=30);}
 /*图标*/
 .icon{display:inline-block;font-size:0;line-height:0;width:20px;height:20px;background: url("../img/icon-1.png");position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
 a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
