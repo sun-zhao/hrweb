@@ -239,28 +239,33 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
-
     }
-    var $window = $(window),
+    function setSize(){
+        var $window = $(window),
             $w = $window.width(),
             $h = $window.height(),
             $column = $('.column'),
             $column_three = $('.column-three');
-    $column.css({
-        'width':($w-24-20)/2,
-        'height':($h-180)/2
-    });
-    $column_three.css({
-        'width':($w-24-40)/3
+        $column.css({
+            'width':($w-24-20)/2,
+            'height':($h-180)/2
+        });
+        $column_three.css({
+            'width':($w-24-40)/3
 
-    });
-    $('.jscroll').css({
-        'height':($h-180)/2-40
+        });
+        $('.jscroll').css({
+            'height':($h-180)/2-40
 
-    });
-    Jscroll();
-    $(window).resize(function(){
+        });
+    }
+    $(function(){
+        setSize();
         Jscroll();
+        $(window).resize(function(){
+            Jscroll();
+            setSize();
+        });
     });
 </script>
 </body>

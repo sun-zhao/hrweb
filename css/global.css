@@ -40,6 +40,8 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .hidden{overflow:hidden!important;}
 .relative{position: relative!important;}
 .pointer{cursor: pointer!important;}
+::-webkit-scrollbar{width:4px;background:#fff;}
+::-webkit-scrollbar-thumb{width:4px;background:#ccc;}
 /*margin*/
 .nomar{margin:0!important;}
 .mar-auto{margin:0 auto!important;}

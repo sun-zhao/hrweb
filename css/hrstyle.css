@@ -239,10 +239,9 @@ div.popUser.popUser .user img{display: inline-block;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
 .tableExcel tbody tr th{background:#f6f6f6;color:#666;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
-.tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:97px;height:44px;line-height:44px;}
-.tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;height:33px;line-height:33px;}
-.tableExcel tbody tr td .has-general input{width:97px;height:44px;line-height:44px;position: absolute;top:0;left:0;right:0;bottom:0;box-shadow:none;border:0;}
-.tableExcel tbody tr td:hover .has-general input{border:2px solid #59a7f9;}
+.tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
+.tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;width:99px;height:48px;line-height:48px;}
+.tableExcel tbody tr td .has-general input{width:95px;height:44px;line-height:44px;position:absolute;top:0;left:0;right:0;bottom:0;box-shadow:none;border:0;text-align: center;}
 .tableExcel tbody tr td:hover{cursor: text;}
 .tableExcel tbody tr td.first:hover{cursor:default;}
 .tableExcel tbody tr .arrow{border-right:6px solid #fff;border-left:6px solid #fff;border-top:6px solid #888;}
@@ -252,13 +251,19 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:10;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th{border-bottom:2px solid #59a7f9;}
-.tableExcel tbody tr td.waring{background:#e9f4ff;}
+/*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
+.arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
 .excelTitle{height:50px;border-bottom:2px solid #e4e4e4;}
 .jspPane{margin: 0!important;}
 .intBox_large{border:0;border-right:1px solid #efefef;margin:0;height:50px;line-height:50px;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
 .intBox_large.current .dropdown-menu{top:50px;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
+.tableExcel td div{width:99px;height:48px;}
+.tableExcel td div div{position: absolute;top:0;left:0;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general{width:95px;height:44px;border:2px solid #59a7f9;}
+
+
 /*区间设置*/
 .stepList{width:100%;}
 .stepList td{width:14.285%;height:40px;}
