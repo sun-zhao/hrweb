@@ -240,7 +240,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr th{background:#f6f6f6;color:#666;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
-.tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;width:99px;height:48px;line-height:48px;}
+.tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;line-height:44px;}
 .tableExcel tbody tr td .has-general input{width:95px;height:44px;line-height:44px;position:absolute;top:0;left:0;right:0;bottom:0;box-shadow:none;border:0;text-align: center;}
 .tableExcel tbody tr td:hover{cursor: text;}
 .tableExcel tbody tr td.first:hover{cursor:default;}
@@ -260,10 +260,10 @@ div.popUser.popUser .user img{display: inline-block;}
 .intBox_large.current .dropdown-menu{top:50px;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .tableExcel td div{width:99px;height:48px;}
-.tableExcel td div div{position: absolute;top:0;left:0;}
-.tableExcel td:hover div div,.tableExcel td:hover div div.has-general{width:95px;height:44px;border:2px solid #59a7f9;}
-
-
+.tableExcel td div div{position:absolute;top:0;left:0;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error{width:95px;height:44px;border:2px solid #59a7f9;}
+.tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
+.tableExcel td div div.has-general.has-error
 /*区间设置*/
 .stepList{width:100%;}
 .stepList td{width:14.285%;height:40px;}
