@@ -1,4 +1,4 @@
-﻿.header{width:100%;height:50px;line-height:50px;background:#222;position: fixed;left:0;top:0;right:0;z-index: 30;}
+﻿.header{width:100%;height:50px;line-height:50px;background:#222;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
 .header .floatright{height:50px;}
 .header a.block{height:50px;}
 .navItem{position:relative;top:-8px;}
@@ -22,6 +22,7 @@
 .userTxt li{float:left;height:41px;border-left:1px solid #efefef;line-height:21px;margin-left:25px;padding:0 10px 0 20px;}
 .userInfo .iconBtn{width:30px;height:80px;margin-right:15px;}
 .column{width:49.3%;}
+.column-three{width:33%;}
 .columnInner{padding:10px 14px;}
 .calendar{width:100%;}
 .calendar thead td{height:30px;cursor: pointer;}
@@ -122,6 +123,9 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .Department.setMap li .iconBtn{height:39px;}
 .mapInner{height:150px;}
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
+.column .Department li table{width:100%;}
+.column .Department li table td{padding:0 20px;}
+.column .Department li,.column .Department li table td{height:38px;line-height: 38px;}
 .workerList li{width:18%;cursor: pointer;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
@@ -399,6 +403,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .ContractMain .edui-editor{margin:0 auto;}
 .tableCard div span.dataBorder{display: inline-block;height:28px;line-height: 28px;border:1px solid #fff;position:relative;top:2px;}
 .tableCard td:hover div span.dataBorder{border-color:#ccc;cursor: pointer;}
+.item{border:1px solid #efefef;}
+.item .item_title{background:#f6f6f6;heihgt:38px;line-height:38px;padding:0 20px;}
+.item li{heihgt:38px;line-height:38px;border-top:1px solid #efefef;padding:0 20px;}
+
+
 .progress-radial {
   display: inline-block;
   position: relative;

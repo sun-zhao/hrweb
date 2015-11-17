@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>考勤管理</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#" class="nodata">绩效管理</a></li>
+        <li><a href="#" class="nodata">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <!--<li><a href="#"><i class="icon icon-net"></i></a></li>-->
+            <li><a href="#"><i class="icon icon-team"></i></a></li>
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+        <div class="dropdown-out width-300 net p-top5" title="" style="display:none;right:40px;top:60px;z-index:100;">
+            <em class="arrow t-arrow"></em>
+            <p class="line aligncenter mart10 marbt10"><span>切换选择组织</span></p>
+            <div class="dropdown-menu width-300" style="display: block;">
+                <ul>
+                    <li>
+                        <a href="#">上海万企明道软件有限公司上海万企明道软件有</a>
+                        <dl>
+                            <dd><a href="">北京分公司</a></dd>
+                            <dd><a href="">上海分公司</a></dd>
+                        </dl>
+                    </li>
+                    <li class="choosed"><a href="#">大连万科实业集团</a></li>
+                    <li>
+                        <a href="#">上海万企明道软件有限公司</a>
+                        <dl>
+                            <dd class="choosed"><a href="">北京分公司</a></dd>
+                            <dd><a href="">上海分公司</a></dd>
+                        </dl>
+                    </li>
+                    <li><a href="#">大连万科实业集团</a></li>
+                </ul>
+            </div>
+            <p class="line aligncenter mart10 marbt10"><span>你可以设置</span></p>
+            <ul class="dropdown-menu" style="display: block">
+                <li><a href="#">组织机构设置</a></li>
+                <li><a href="#">权限设置</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody hidden">
+    <!--当前位置begin-->
+    <div class="container">
+        <div class="location bg-white clearfix">
+            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+            <ul class="floatleft marl10">
+                <li><a href="#">首 页</a>&gt;</li>
+                <li><span>考勤管理</span></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon icon-set"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--当前位置over-->
+    <div class="layout">
+        <div class="container clearfix">
+            <div class="column column-three bg-white floatleft">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">计算区间</span>
+                    <a href="#" class="iconBtn marr20" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                </div>
+                <div class="jscroll">
+                    <ul class="Department ulAuto clearfix p-top10 p-bt20" style="display: none">
+                        <li class="clearfix">
+                            <span class="txt_hidden">开始日期</span>
+                            <span class="floatright marr20">1日</span>
+                        </li>
+                        <li class="clearfix">
+                            <span class="txt_hidden">截止日期</span>
+                            <span class="floatright marr20">30日</span>
+                        </li>
+                        <li class="clearfix">
+                            <span class="txt_hidden">计算年份</span>
+                            <span class="floatright marr20">2005年</span>
+                        </li>
+                        <li class="clearfix">
+                            <span class="txt_hidden">计算月份</span>
+                            <span class="floatright marr20">11月</span>
+                        </li>
+                    </ul>
+                    <div class="nodata aligncenter">
+                        <p>暂无记录</p>
+                        <p><a href="#" class="btn width-100 mart20">添加区间</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="column column-three bg-white floatleft marl20 marr20">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">考勤班组</span>
+                    <a href="#" class="iconBtn marr20" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                </div>
+                <div class="jscroll">
+                    <ul class="Department ulAuto clearfix p-top10 p-bt20">
+                        <li class="clearfix">
+                            <table>
+                                <tr>
+                                    <td>08:30</td>
+                                    <td class="aligncenter">至</td>
+                                    <td class="alignright">17:30</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="clearfix">
+                            <table>
+                                <tr>
+                                    <td>08:30</td>
+                                    <td class="aligncenter">至</td>
+                                    <td class="alignright">17:30</td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="clearfix">
+                            <table>
+                                <tr>
+                                    <td>08:30</td>
+                                    <td class="aligncenter">至</td>
+                                    <td class="alignright">17:30</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column column-three bg-white floatleft">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">考勤日历</span>
+                    <a href="#" class="iconBtn marr20" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                </div>
+                <div class="jscroll">
+                    <div class="item marl20 marr20 mart20">
+                        <div class="item_title">2015年6月</div>
+                        <ul>
+                            <li class="clearfix">
+                                <span>工作日</span>
+                                <span class="floatright">22</span>
+                            </li>
+                            <li class="clearfix">
+                                <span>周末休息</span>
+                                <span class="floatright">22</span>
+                            </li>
+                            <li class="clearfix">
+                                <span>节假日</span>
+                                <span class="floatright">22</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container clearfix mart20">
+            <div class="column bg-white floatleft">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">计算区间</span>
+                    <a href="#" class="iconBtn marr20" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                </div>
+                <div class="jscroll">
+                    <div class="item marl20 marr20 mart20">
+                        <div class="item_title">基础年假规则</div>
+                        <ul>
+                            <li class="clearfix">
+                                <span>员工每加班1天，可以选择倒休1天</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item marl20 marr20 mart10">
+                        <div class="item_title">基础年假规则</div>
+                        <ul>
+                            <li class="clearfix">
+                                <span>员工每加班1天，可以选择倒休1天</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column bg-white floatleft marl20">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">考勤班组</span>
+                    <a href="#" class="iconBtn marr20" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                </div>
+                <div class="jscroll">
+                    <div class="item marl20 marr20 mart20">
+                        <div class="item_title">基础年假规则</div>
+                        <ul>
+                            <li class="clearfix">
+                                <span>员工每加班1天，可以选择倒休1天</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item marl20 marr20 mart10">
+                        <div class="item_title">基础年假规则</div>
+                        <ul>
+                            <li class="clearfix">
+                                <span>员工每加班1天，可以选择倒休1天</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mask" style="display:none;"></div>
+<div class="maskTop nobg" style="display:none;"></div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+
+    }
+    var $window = $(window),
+            $w = $window.width(),
+            $h = $window.height(),
+            $column = $('.column'),
+            $column_three = $('.column-three');
+    $column.css({
+        'width':($w-24-20)/2,
+        'height':($h-180)/2
+    });
+    $column_three.css({
+        'width':($w-24-40)/3
+
+    });
+    $('.jscroll').css({
+        'height':($h-180)/2-40
+
+    });
+    Jscroll();
+    $(window).resize(function(){
+        Jscroll();
+    });
+</script>
+</body>
+</html>

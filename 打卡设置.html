@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
-<body class="bodyTheme">
+<body>
 <!--header begin-->
 <div class="header clearfix">
     <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
@@ -31,6 +31,7 @@
     </div>
 </div>
 <!--header over-->
+<div class="MainBody">
 <!--当前位置begin-->
 <div class="container ">
     <div class="location bg-white clearfix">
@@ -47,64 +48,6 @@
             <li><a href="#">管理层设置</a></li>
         </ul>
     </div>
-    <table class="stepList mart20">
-        <tr>
-            <td class="first">
-                <div>
-                    <span class="r_arrow"></span>
-                    <i class="icon icon-circle-t">1</i>
-                    <p>区间设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">2</i>
-                    <p>日历设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">3</i>
-                    <p>班组设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">4</i>
-                    <p>项目设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">5</i>
-                    <p>年假设置</p>
-                </div>
-            </td>
-            <td class="">
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">6</i>
-                    <p>倒休设置</p>
-                </div>
-            </td>
-            <td class="last">
-                <div class="current">
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">7</i>
-                    <p>打卡IP/位置设置</p>
-                </div>
-            </td>
-        </tr>
-    </table>
 </div>
 <!--当前位置over-->
 <div class="layout">
@@ -120,7 +63,7 @@
                     <a href="#" class="color-8 marl30">按分公司设定</a>
                     <a href="#" class="color-8 marl30">按地区设定</a>
                 </div>
-                <div class="jscroll" style="height:354px;" title="height等于layout的高度-80">
+                <div class="" >
                     <ul class="Department setIp clearfix p-top10 p-bt20">
                         <li class="clearfix">
                             <span class="txt_hidden">北京分公司打卡IP设定</span>
@@ -230,8 +173,9 @@
         </div>
     </div>
 </div>
+</div>
 <!--打卡IP设定弹出begin-->
-<div class="pop" style="display:block;height:260px;margin-top:-130px;">
+<div class="pop" style="display:none;height:260px;margin-top:-130px;">
     <div class="title alignright">
         <span class="floatleft">打卡IP设定</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -280,7 +224,7 @@
     </div>
 </div>
 <!--打卡IP设定弹出over-->
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
