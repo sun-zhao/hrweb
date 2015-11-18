@@ -412,6 +412,12 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .item .item_title{background:#f6f6f6;heihgt:38px;line-height:38px;padding:0 20px;}
 .item li{heihgt:38px;line-height:38px;border-top:1px solid #efefef;padding:0 20px;}
 
+.btn_bottom{position: absolute;width: 100%;bottom:0;}
+
+
+
+
+
 
 .progress-radial {
   display: inline-block;
