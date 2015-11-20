@@ -186,7 +186,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .leftLine{width:38px;position: absolute;left:-39px;top:69%;border-color:#aaa;}
 /*.lastDiv{bottom:-20px;}*/
 .lastDiv .leftLine{border:0;width:39px;height:39px;background:url("../img/last-line.jpg") no-repeat;top:63%;left:-40px;}
-.delete{display:none;width:40px;height:40px;line-height:40px;border-radius:50%;position: absolute;top:0;left:0;background: url("../img/mask70.png") repeat;color:#fff;text-align: center;}
+.delete{display:none;width:40px;height:40px;line-height:40px;border-radius:3px;position: absolute;top:0;left:0;background: url("../img/mask70.png") repeat;color:#fff;text-align: center;}
 .tree .user:hover .delete{display: block;}
 .treeSee .treeMain .userDiv .iconBtn{width:21px;height:21px;position: absolute;left:-12px;top:-11px;z-index:21;}
 .treeBig .userDiv{width:498px;}
@@ -229,7 +229,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard .innerTd .mart5 td{height:20px;color:#888;padding-left:10px;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
 .tagsList li{float: left;}
-.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:2px;margin:3px 5px 0 10px;}
+.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 5px 0 10px;}
 .tagsList li a.current{background:#ddd;border-color:#ddd;}
 .inputFrame{height:188px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:100px;border:0;padding:5px;}
@@ -363,7 +363,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table th,.userTable table td{padding-left:20px;height:30px;border-bottom:1px solid #efefef;}
 .userTable table td{height:80px;border-bottom:1px dashed #efefef;cursor: pointer;}
 .userTable table tr:hover td{background:#e5f1fe;}
-.userTable table .user{display:inline-block;padding:3px;width:40px;height:40px;line-height:normal;border:1px solid transparent;border-radius:50%;position:relative;bottom:-6px;left:-5px;}
+.userTable table .user{display:inline-block;padding:3px;width:40px;height:40px;line-height:normal;border:1px solid transparent;border-radius:3px;position:relative;bottom:-6px;left:-5px;}
 .userTable table .user img{float:none;margin:0;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
 /*.mailList{border-left:1px solid #59a7f9;}*/

@@ -214,17 +214,17 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 /*头像*/
 .line20{line-height:20px!important;}
 .user{height:40px;line-height:40px;}
-.user img{width:40px;height:40px;border-radius:50%;float: left;margin-right:10px;}
+.user img{width:40px;height:40px;border-radius:3px;float: left;margin-right:10px;}
 .user.width-60,.user.width-60 img{width:60px;height:60px;}
 .header .user,.header .user em{color:#eee;height:40px;line-height:40px;}
-.header .user img{width:40px;height:40px;border-radius:50%;float: left;margin-right:10px;}
+.header .user img{width:40px;height:40px;border-radius:3px;float: left;margin-right:10px;}
 .pop .user{line-height:0;}
 .pop .user img{float: none;margin:0;}
 .back img{width:50px;height:50px;}
 .locationIn .back{height:60px;}
 .locationIn .back .user{height:50px;line-height:50px;}
 /*按钮*/
-.btn{display: inline-block;height:30px;line-height:30px;text-align: center;color:#fff;width:100%;background:#59a7f9;border-radius:2px;}
+.btn{display: inline-block;height:30px;line-height:30px;text-align: center;color:#fff;width:100%;background:#59a7f9;border-radius:3px;}
 .btn:hover{background:#347cdc;}
 .btnNormal,.btnNormal:hover{opacity:0.6;cursor: default;background:#59a7f9;}
 .btn-no{background:#bbb;}
