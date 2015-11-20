@@ -1,4 +1,4 @@
-﻿.header{width:100%;height:50px;line-height:50px;background:#222;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
+﻿.header{width:100%;min-width: 1000px;height:50px;line-height:50px;background:#222;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
 .header .floatright{height:50px;}
 .header a.block{height:50px;}
 .navItem{position:relative;top:-8px;}
@@ -40,7 +40,7 @@
 .calendar .setDay li a.day_2{background:#e4fde0;}
 .calendar .setDay li a:hover{opacity: 0.8;transition:0.3s;}
 .calendar td:hover .setDay,.calendar th:hover .setDay{display: block;transition:0.3s;}
-
+.column-two{width:50%;}
 
 .calendar span{position:absolute;bottom:3px;left:3px;}
 .calendarTab{min-height:100%}
@@ -91,6 +91,7 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox .dropdown-menu a{display:block;width:90%;}
+.intBox .dropdown-menu.timeUl a{width:auto;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
 .intBox p.marl5{display: inline;height:28px;line-height:28px;}
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
@@ -114,10 +115,12 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .view .userInfoTable td .dataNormal{color:#333;}
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
+.Department li .jspPane li{height:30px;line-height:30px;}
 .Department li:hover,.Department li.current{border-color:#4370ac;box-shadow: 0 0 5px #e3f0fe;}
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
+.Department li .column-two .txt_hidden{width:40%;}
 .Department li .iconBtn{height:48px;margin-right:10px;}
 .Department.setMap li{height:auto;}
 .Department.setMap li .iconBtn{height:39px;}
@@ -125,7 +128,8 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .Department.ulAuto li{float: none;width:auto;margin-right:20px;}
 .column .Department li table{width:100%;}
 .column .Department li table td{padding:0 20px;}
-.column .Department li,.column .Department li table td{height:38px;line-height: 38px;}
+.column .Department li,.column .Department li table td,.column .Department li .column-two span{height:38px;line-height: 38px;}
+
 .workerList li{width:18%;cursor: pointer;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
@@ -319,7 +323,8 @@ div.popUser.popUser .user img{display: inline-block;}
 
 
 .btnBlcok{display:block;width:auto;height:40px;line-height:40px;margin:0 17px;}
-.timeUl li{width:50%;float:left;text-align: center;}
+.timeUl li,.Department.ulAuto li .timeUl li{width:50%;float:left;text-align: center;text-indent: 0;}
+.Department.ulAuto li .timeUl li a,.dropdown-menu.timeUl a{padding:0;}
 .popIn{height:170px;padding-top:10px;}
 .processIn{height:100px;}
 /*初始化*/
@@ -412,7 +417,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .item .item_title{background:#f6f6f6;heihgt:38px;line-height:38px;padding:0 20px;}
 .item li{heihgt:38px;line-height:38px;border-top:1px solid #efefef;padding:0 20px;}
 
-.btn_bottom{position: absolute;width: 100%;bottom:0;}
+.btn_bottom{position: absolute;width: 100%;bottom:20px;}
 
 
 
