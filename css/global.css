@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{font-size: 100%;font-weight: normal;vertical-align:baseli
 input, textarea, select, button{font-size: 12px;font-weight: inherit; vertical-align:middle;}
 input[type=radio],input[type=checkbox]{vertical-align: -2px;}
 textarea{resize:none; overflow-x:hidden;overflow-y:auto; outline:medium none; word-wrap:break-word;}
-a{text-decoration:none;color:#0066cc;}
+a{text-decoration:none;color:#ef901b;}
 a:focus{outline-style: none;outline-width: 0;outline: none;}
 /*a{_blr:expression(this.onFocus=this.blur());}*/
 a:link, a:visited, a:active{text-decoration: none;}
@@ -93,10 +93,10 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-a,.color-a td *{color:#aaa!important;}
 .color-347cdc{color:#347cdc!important;}
 .color-1{color:#f08b15;}
-.color-2{color:#59a7f9;}
+.color-2{color:#ef901b;}
 /*.color-3{color:#aaaaaa;}*/
 .color-4{color:#e75353;}
-.more{color:#59a7f9;}
+.more{color:#ef901b;}
 .nodata{color:#ccc;padding-top:100px;cursor: default;}
 a.add:hover,a.more:hover{text-decoration: underline;}
 .color-info{color:#80c17c;}
@@ -207,7 +207,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .bg2,.weekend{background:#f4f4f4;}
 .bg3,.holiday{background:#a3cefc;}
 .color-arrow{display: inline-block;width:10px;height:10px;border-radius:50%;font-size:0;line-height:0;margin-right:5px;}
-.col-1{background-color:#59a7f9;}
+.col-1{background-color:#ef901b;}
 .col-2{background-color:#f0ac19;}
 .col-3{background-color:#50b850;}
 
@@ -224,22 +224,22 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .locationIn .back{height:60px;}
 .locationIn .back .user{height:50px;line-height:50px;}
 /*按钮*/
-.btn{display: inline-block;height:30px;line-height:30px;text-align: center;color:#fff;width:100%;background:#59a7f9;border-radius:3px;}
-.btn:hover{background:#347cdc;}
-.btnNormal,.btnNormal:hover{opacity:0.6;cursor: default;background:#59a7f9;}
+.btn{display: inline-block;height:30px;line-height:30px;text-align: center;color:#fff;width:100%;background:#ef901b;border-radius:3px;}
+.btn:hover{background:#e78710;}
+.btnNormal,.btnNormal:hover{opacity:0.6;cursor: default;background:#ef901b;}
 .btn-no{background:#bbb;}
 .btn-no:hover{background:#b1afaf;}
 .btn-ok{background:#55ba59;}
 .btn-ok:hover{background:#2baa3f;}
 .btn-yes{background:#55c96e;}
-.btn-yes:hover{background:#46ae5c;}
+/*.btn-yes:hover{background:#46ae5c;}*/
 .btn-waring{background:#e9505f;}
 .btn-waring:hover{background:#e9505f;}
 .btn-bottom{position: absolute;bottom:10px;left:50%;margin-left:-50px;}
 .noClick,.noClick:hover{cursor:default;background:#ccc;color:#fff;}
 .switch{display:inline-block;width:40px;height:20px;line-height:20px;padding:1px;border-radius:20px;background:#ddd;margin:13px 20px 0 0;position: relative;cursor: pointer;transition:0.3s;}
 .switch em{display:inline-block;width:20px;height:20px;border-radius:50%;background:#fff;position: absolute;top:1px;left:1px;box-shadow:0 0 1px #999;transition:0.3s;}
-.switch.current{background:#59a7f9;transition:0.3s;}
+.switch.current{background:#ef901b;transition:0.3s;}
 .switch.current em{left:21px;transition:0.3s;}
 
 .MainBody{position: absolute;left:0;right:0;top:50px;bottom:0;overflow:hidden;overflow-y: auto;background: #efefef;padding-top:20px;}
@@ -279,7 +279,7 @@ span.back{padding:0 20px;}
 .pageOut{border-top:1px solid #efefef;height:30px;}
 .pagenation a,.pagenation span{display:inline-block;height:30px;line-height:30px;margin:0 5px;*display: inline;border:1px solid #efefef;padding:0 10px;color:#333;}
 .pagenation span{border:0;}
-.pagenation a:hover{text-decoration:none;background:#59a7f9;color:#fff;border-color:#59a7f9;}
+.pagenation a:hover{text-decoration:none;background:#ef901b;color:#fff;border-color:#ef901b;}
 .pagenation a.noData,.pagenation a.noData:hover{color:#ccc;cursor:default;background:#fff;border-color:#efefef;}
 .Grey{opacity:0.3;filter:alpha(opacity=30);}
 /*图标*/
@@ -381,7 +381,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .has-general label.control-label{display:none;text-align: left;}
 .has-general,.has-success, .has-warning, .has-error{margin-top:10px;position: relative;}
 .has-general input{width:158px;height:28px;line-height:28px;border:1px solid #efefef;outline: 0;color:#333;text-indent:5px;}
-.has-general input:focus{box-shadow:0 0 2px #59a7f9;}
+.has-general input:focus{box-shadow:0 0 2px #ef901b;}
 .has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:1px;bottom:1px;background:#fff;text-indent:3px;}
 .has-error input,.intBox.has-error{border-color:#b94a48;}
 .has-error label.control-label{display:block;color:#b94a48;}

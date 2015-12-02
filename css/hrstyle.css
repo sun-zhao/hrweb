@@ -116,7 +116,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
 .Department li .jspPane li{height:30px;line-height:30px;}
-.Department li:hover,.Department li.current{border-color:#4370ac;box-shadow: 0 0 5px #e3f0fe;}
+.Department li:hover,.Department li.current{border-color:#ef901b;box-shadow: 0 0 1px #ef901b;}
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
@@ -254,7 +254,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:10;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
-.tableExcelHead tbody tr td,.tableExcelHead tbody tr th{border-bottom:2px solid #59a7f9;}
+.tableExcelHead tbody tr td,.tableExcelHead tbody tr th{border-bottom:2px solid #ef901b;}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
 .arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
 .excelTitle{height:50px;border-bottom:2px solid #e4e4e4;}
@@ -265,7 +265,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .tableExcel td div{width:99px;height:48px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
-.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error{width:95px;height:44px;border:2px solid #59a7f9;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error{width:95px;height:44px;border:2px solid #ef901b;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
 .tableExcel td div div.has-general.has-error
 /*区间设置*/
@@ -278,7 +278,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList .r_arrow,.stepList .l_arrow{display:inline-block;width:25px;height:40px;line-height:0;font-size:0;z-index:2;background: url("../img/li_bg.png") 0 0;position: absolute;top:0;}
 .stepList .l_arrow{background-position:0 -40px;left:-25px;}
 .stepList .r_arrow{right:-25px;}
-.stepList .current{background:#59a7f9;}
+.stepList .current{background:#ef901b;}
 .stepList .current .R_arrow{background-position:0 0;}
 .stepList td div.current{background:#55a5fc;color:#fff;}
 .stepList td div.current .l_arrow{background-position:-25px -40px;}
@@ -348,7 +348,7 @@ ul.workArea li{margin:0;border:0;border-bottom:1px solid #ccc;margin:0 20px -1px
 ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
-.processLayout .processBarIn{height:19px;background:#59a7f9;border-radius:18px;transition:0.3s;}
+.processLayout .processBarIn{height:19px;background:#ef901b;border-radius:18px;transition:0.3s;}
 .mailList{width:470px;background:#fff;position:fixed;top:0;bottom:0;right:0;z-index:300;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
@@ -356,7 +356,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
 .wordList li a{display:block;color:#666;height:20px;line-height:20px;}
 .checkAll{display:inline-block;width:50px;color:#666;height:20px;line-height:20px;text-align: center;}
-.wordList li a.choosed,.checkAll.choosed{background:#59a7f9;color:#fff;}
+.wordList li a.choosed,.checkAll.choosed{background:#ef901b;color:#fff;}
 .userTable{position:absolute;width:474px;top:145px;bottom:42px;left:0;right:0;}
 .userTable.relative{top:0;bottom:0;}
 .userTable table{width:100%;margin-left:-4px;}
@@ -366,12 +366,12 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table .user{display:inline-block;padding:3px;width:40px;height:40px;line-height:normal;border:1px solid transparent;border-radius:3px;position:relative;bottom:-6px;left:-5px;}
 .userTable table .user img{float:none;margin:0;}
 .userTable table tr.current td .user{border:1px solid #387fdd;}
-/*.mailList{border-left:1px solid #59a7f9;}*/
+/*.mailList{border-left:1px solid #ef901b;}*/
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
 .tabCheck a{display: block;height:60px;padding-top:20px;line-height:20px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;border-bottom:1px dotted #ccc;}
-.tabCheck a.current{border-left-color:#0066cc;background:#59a7f9;color:#fff;}
-.tabCheck a:hover{color:#59a7f9;}
+.tabCheck a.current{border-left-color:#0066cc;background:#ef901b;color:#fff;}
+.tabCheck a:hover{color:#ef901b;}
 .tabCheck a.current{color:#fff;}
 /*.tableBoss{margin:0 10px;}*/
 .tableBoss table{width:100%;}
@@ -419,8 +419,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 
 .btn_bottom{position: absolute;width: 100%;bottom:20px;}
 
-
-
+.update a,.update span{display:block;color:#fff;background: #46ae5c;position: relative;z-index: 2;}
+.update a{height:0;overflow: hidden;transition:0.3s;}
+.update a:hover{background: #55c96e;}
+.update:hover a{height:50px;transition:0.3s;}
 
 
 
