@@ -1,4 +1,4 @@
-﻿.header{width:100%;min-width: 1000px;height:50px;line-height:50px;background:#222;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
+﻿.header{width:100%;min-width: 1000px;height:50px;line-height:50px;background:#383634;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
 .header .floatright{height:50px;}
 .header a.block{height:50px;}
 .navItem{position:relative;top:-8px;}
@@ -329,10 +329,10 @@ div.popUser.popUser .user img{display: inline-block;}
 .processIn{height:100px;}
 /*初始化*/
 .content{width:100%;height:100%;position: relative;overflow: hidden;}
-.pageList{position: absolute;left:0;right:0;top:15px;}
-.pageNum{display: inline-block;width:6px;height:6px;font-size:0;line-height:0;background:#ccc;border-radius:50%;margin:0 5px;position: relative;}
+.pageList{position: absolute;left:0;right:0;top:15px;z-index:20}
+.pageNum{display: inline-block;width:6px;height:6px;font-size:0;line-height:0;background:#ccc;border-radius:50%;margin:0 5px;position: relative;cursor: pointer;}
 .pageNum.current{width:8px;height:8px;border:1px solid #ccc;background:none;bottom:-2px;}
-.stepOut{width:99999px;height:100%;position: absolute;}
+.stepOut{width:99999px;height:100%;position: absolute;background:#efefef;}
 .pageone{height:100%;position: relative;float: left;}
 .pageIn{width:520px;left:50%;position:absolute;top:120px;bottom:130px;margin-left:-260px;}
 .pageBtn{position: absolute;bottom:0;left:0;right:0;}
@@ -341,10 +341,11 @@ div.popUser.popUser .user img{display: inline-block;}
 .company ul li{height:46px;line-height:46px;border:1px solid #ccc;padding:0 0 0 20px;margin-top:10px;color:#666;}
 .company ul li .iconBtn{width:24px;height:46px;display: none;}
 .company ul li:hover .iconBtn{display:inline-block;}
-.company .has-general input,.company .has-general .control-label{background:#efefef;}
+.company .has-general input,.company .has-general .control-label{background:#fff;}
 .company .has-general input{border-color:#aaa;font-size:13px;color:#aaa;}
-.workArea{border:1px solid #ccc;}
-ul.workArea li{margin:0;border:0;border-bottom:1px solid #ccc;margin:0 20px -1px 20px;padding:0;}
+.company .dropdown-menu li{padding:0!important;height:auto;}
+.workArea{border:1px solid #ccc;border-bottom:0;}
+ul.workArea li{margin:0;border:0;border-bottom:1px solid #ccc;padding:0 20px;background: #fff;}
 ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
@@ -382,6 +383,20 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tableBoss table th{height:20px;}
 .tableBoss table td .icon{position: inherit;vertical-align:-5px;margin:1px 10px 0 0;}
 .tableBoss table td a{color:#888;}
+/*组织架构*/
+.tree_layout{width:1280px;position: absolute;margin:0;top:50px;left:50%;margin-left:-640px;bottom:15px;}
+.tree_left,.tree_right{width:520px;background: #fff;min-height: 400px;}
+.tree_right{width:700px;background:none;}
+.search_Box{height:39px;border:0;border-left:1px solid #efefef;}
+.search_Box input{height:39px;}
+.search_Box a{border:0;margin:0;height:39px;}
+
+
+
+
+
+
+
 /*工资统计*/
 .dataTable{width:100%;}
 .dataTable td{width:5%;}
