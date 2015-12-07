@@ -440,7 +440,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 
 .btn_bottom{position: absolute;width: 100%;bottom:20px;}
 
-.update a,.update span{display:block;color:#fff;background: #46ae5c;position: relative;z-index: 2;}
+.update a,.update span{display:block;color:#fff;background: #46ae5c;position: relative;z-index:20;}
 .update a{height:0;overflow: hidden;transition:0.3s;}
 .update a:hover{background: #55c96e;}
 .update:hover a{height:50px;transition:0.3s;}
