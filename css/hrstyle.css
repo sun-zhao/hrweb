@@ -300,7 +300,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .rules{margin:10px 20px;line-height:20px;}
 /*考勤统计个人--公司*/
 .navTip{padding:0 18px;border-bottom: 2px solid transparent;line-height:38px;height:38px;}
-.navTip.current{border-bottom-color:#347cdc;}
+.navTip.current{border-bottom-color:#ef901b;}
+.excelTitle .navTip{height:48px;line-height:48px;}
 .checkWords li{float: left;margin-right:10px;}
 .checkWords li a{font-family: Arial;color:#888;display:inline-block;width:20px;text-align: center;}
 .checkWords li a:hover,.checkWords li a.current{color:#347cdc;}
