@@ -254,7 +254,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:10;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
-.tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:2px solid #ef901b;}
+.tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
 
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
 .arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
@@ -274,6 +274,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableData tbody tr td .has-general{right:-2px;left:-2px;bottom:-2px;height: auto;}
 .tableData td:hover div div,.tableData td:hover div div.has-general,.tableData td div div.has-general.has-error,.tableData tbody tr td .has-general input{width:100%;}
 .tableData .iconBtn{height:100%;vertical-align: middle;}
+.tableData .iconBtn .icon-edit-mini{display:inline-block;top:50%;margin-top:-10px;}
 /*区间设置*/
 .stepList{width:100%;}
 .stepList td{width:14.285%;height:40px;}
@@ -391,14 +392,13 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tableBoss table td a{color:#888;}
 /*组织架构*/
 .tree_layout{width:1280px;position: absolute;margin:0;top:50px;left:50%;margin-left:-640px;bottom:15px;}
-.tree_left,.tree_right{width:520px;background: #fff;min-height: 400px;}
+.tree_left,.tree_right{width:520px;background: #fff;min-height: 400px;position: relative;}
 .tree_right{width:700px;background:none;}
 .search_Box{height:39px;border:0;border-left:1px solid #efefef;}
 .search_Box input{height:39px;}
 .search_Box a{border:0;margin:0;height:39px;}
-
-
-
+.tree_left_main,.tree_right_main{position: absolute;top:40px;left:0;right:0;bottom:0;}
+.tree_box{padding:20px;}
 
 
 

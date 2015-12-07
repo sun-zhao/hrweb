@@ -150,6 +150,11 @@
                             <a class="block floatleft relative" href="#"><i class="icon icon-search2"></i></a>
                         </div>
                     </div>
+                    <div class="tree_left_main jscroll">
+                        <div class="tree_box">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="tree_right floatleft marl20">
 
@@ -341,6 +346,13 @@
 <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
 <script type="text/javascript">
     $(function(){
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
         function setWidth(){
             var $winW = $(window).width(),
                 $tree_layout = $('.tree_layout');
@@ -349,15 +361,10 @@
         }
         setWidth();
         $(window).resize(function(){
-            setWidth()
+            setWidth();
+            Jscroll();
         });
-        function Jscroll(){
-            $('.jscroll').jScrollPane({
-                'mouseWheelSpeed':100,
-                "showArrows":false
-            });
-        }
-        Jscroll();
+
     });
 </script>
 </body>
