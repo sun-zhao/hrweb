@@ -359,6 +359,10 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .plus,.minus{font-size:26px;color:green;line-height:40px;padding:0 5px;}
 .plus{color:#ff0000;}
 .icon-king{width:23px;height:23px;position: absolute;background:url("../img/king.png");top:1px;left:20px;}
+.icon-boss{width:13px;height:13px;background-position:-82px -224px;left:5px;margin-left:0;}
+
+
+
 @font-face {
 	font-family: 'hwxh';
 	src:url('hwxh.eot?-klml34');

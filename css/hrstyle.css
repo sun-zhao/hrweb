@@ -131,7 +131,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .column .Department li,.column .Department li table td,.column .Department li .column-two span{height:38px;line-height: 38px;}
 
 .workerList li{width:18%;cursor: pointer;}
-.pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index: 100;display: none;overflow: hidden;}
+.pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index:500;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
 .bottom-btn a.btn{display:inline-block;width:150px;height:40px;line-height:40px;}
 .Formula li{width:auto;height:auto;line-height:30px;display:block;margin:0 20px;padding:10px;float:none;}
@@ -358,23 +358,24 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
 .processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
 .processLayout .processBarIn{height:19px;background:#ef901b;border-radius:18px;transition:0.3s;}
-.mailList{width:470px;background:#fff;position:fixed;top:0;bottom:0;right:0;z-index:300;}
+.mailList{width:470px;background:#fff;position:relative;height:100%;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
 .word{border:1px solid #efefef;border-width:1px 0;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
 .wordList li a{display:block;color:#666;height:20px;line-height:20px;}
-.checkAll{display:inline-block;width:50px;color:#666;height:20px;line-height:20px;text-align: center;}
+.checkAll{display:inline-block;width:40px;color:#fff;height:20px;line-height:20px;text-align: center;background: #ef901b;}
 .wordList li a.choosed,.checkAll.choosed{background:#ef901b;color:#fff;}
-.userTable{position:absolute;width:474px;top:145px;bottom:42px;left:0;right:0;}
+.wordList li a:hover{color: #ef901b;}
+.userTable{position:absolute;width:470px;top:52px;bottom:0;left:0;right:0;}
 .userTable.relative{top:0;bottom:0;}
-.userTable table{width:100%;margin-left:-4px;}
-.userTable table th,.userTable table td{padding-left:20px;height:30px;border-bottom:1px solid #efefef;}
-.userTable table td{height:80px;border-bottom:1px dashed #efefef;cursor: pointer;}
-.userTable table tr:hover td{background:#e5f1fe;}
-.userTable table .user{display:inline-block;padding:3px;width:40px;height:40px;line-height:normal;border:1px solid transparent;border-radius:3px;position:relative;bottom:-6px;left:-5px;}
-.userTable table .user img{float:none;margin:0;}
-.userTable table tr.current td .user{border:1px solid #387fdd;}
+.userTable table{width:100%;}
+.userTable table th,.userTable table td{padding-left:20px;height:30px;border-bottom:1px solid #efefef;position: relative;}
+.userTable table td{height:30px;border-bottom:1px dashed #efefef;cursor: pointer;}
+.userTable table tr:hover td{background:#fef8f0;}
+.userTable table .user{display:inline-block;padding:3px;width:30px;height:30px;line-height:normal;border:1px solid transparent;border-radius:3px;position:relative;bottom:-6px;}
+.userTable table .user img{float:none;margin:0;width:30px;height:30px;}
+.userTable table tr.current td .user{border:1px solid #ef901b;}
 /*.mailList{border-left:1px solid #ef901b;}*/
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
