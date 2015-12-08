@@ -89,6 +89,9 @@
 
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
+.update{position:relative;}
+.update .arrow{z-index:3;border-top:4px solid #fff;right:10px;}
+.update:hover .arrow{transform:rotate(-180deg); }
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
@@ -252,7 +255,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .current .dropdown-menu{top:0;left:-15px;display: block;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar{width:4px;height:100%;position:absolute;line-height: normal;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
-.tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:10;cursor: pointer;display:none;}
+.tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:1;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
 
@@ -401,6 +404,27 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .search_Box a{border:0;margin:0;height:39px;}
 .tree_left_main,.tree_right_main{position: absolute;top:40px;left:0;right:0;bottom:0;}
 .tree_box{padding:20px;}
+.tree_main{border-left:1px solid #efefef;position: relative;}
+.node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
+.node{margin:12px 0;}
+.node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2}
+.node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
+.node_first{background: #efefef;}
+.node_company{padding-left:16px;}
+.nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
+.top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 2;left:-1px;top:-21px;}
+.bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;}
+.top-mask-top{width:17px;height:9px;background: url("../img/tree-mask3.png");top:0;}
+.left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -442,7 +466,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 
 .btn_bottom{position: absolute;width: 100%;bottom:20px;}
 
-.update a,.update span{display:block;color:#fff;background: #46ae5c;position: relative;z-index:20;}
+.update a,.update span{display:block;color:#fff;background: #46ae5c;position: relative;z-index:2;}
 .update a{height:0;overflow: hidden;transition:0.3s;}
 .update a:hover{background: #55c96e;}
 .update:hover a{height:50px;transition:0.3s;}

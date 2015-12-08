@@ -150,9 +150,124 @@
                             <a class="block floatleft relative" href="#"><i class="icon icon-search2"></i></a>
                         </div>
                     </div>
-                    <div class="tree_left_main jscroll">
+                    <div class="tree_left_main " style="overflow-y: auto;">
                         <div class="tree_box">
-
+                            <div class="tree_main">
+                                <span class="top-mask-top"></span>
+                                <span class="bottom-mask"></span>
+                                <div class="node node_company">
+                                    <a href="javascript:;" class="icon icon-fold"></a>
+                                    <div class="node_in node_first">
+                                        <i class="icon icon-co"></i>
+                                        <span>明道软件</span>
+                                    </div>
+                                </div>
+                                <div class="node">
+                                    <a href="javascript:;" class="icon icon-fold icon-unfold"></a>
+                                    <div class="node_in">
+                                        <i class="icon icon-earth"></i>
+                                        <span>北京</span>
+                                    </div>
+                                </div>
+                                <div class="nodes">
+                                    <span class="top-mask"></span>
+                                    <span class="bottom-mask"></span>
+                                    <div class="node">
+                                        <a href="javascript:;" class="icon icon-fold icon-unfold"></a>
+                                        <div class="node_in">
+                                            <i class="icon icon-group"></i>
+                                            <span>研发部</span>
+                                        </div>
+                                    </div>
+                                    <div class="nodes">
+                                        <span class="top-mask"></span>
+                                        <span class="bottom-mask"></span>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>产品设计中心</span>
+                                            </div>
+                                        </div>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>产品UI</span>
+                                            </div>
+                                        </div>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>测试部</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="node">
+                                        <a href="javascript:;" class="icon icon-fold"></a>
+                                        <div class="node_in">
+                                            <i class="icon icon-group"></i>
+                                            <span>财务中心</span>
+                                        </div>
+                                    </div>
+                                    <div class="node">
+                                        <a href="javascript:;" class="icon icon-fold icon-unfold"></a>
+                                        <div class="node_in">
+                                            <i class="icon icon-group"></i>
+                                            <span>后勤保障</span>
+                                        </div>
+                                    </div>
+                                    <div class="nodes">
+                                        <span class="left-mask"></span>
+                                        <span class="top-mask"></span>
+                                        <span class="bottom-mask"></span>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>产品设计中心</span>
+                                            </div>
+                                        </div>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>产品UI</span>
+                                            </div>
+                                        </div>
+                                        <div class="node">
+                                            <div class="node_in">
+                                                <i class="icon icon-group"></i>
+                                                <span>测试部</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="node">
+                                    <a href="javascript:;" class="icon icon-fold"></a>
+                                    <div class="node_in">
+                                        <i class="icon icon-earth"></i>
+                                        <span>上海</span>
+                                    </div>
+                                </div>
+                                <div class="node">
+                                    <a href="javascript:;" class="icon icon-fold"></a>
+                                    <div class="node_in">
+                                        <i class="icon icon-earth"></i>
+                                        <span>深圳</span>
+                                    </div>
+                                </div>
+                                <div class="node">
+                                    <a href="javascript:;" class="icon icon-fold"></a>
+                                    <div class="node_in">
+                                        <i class="icon icon-earth"></i>
+                                        <span>成都</span>
+                                    </div>
+                                </div>
+                                <div class="node node_company">
+                                    <a href="javascript:;" class="icon icon-fold"></a>
+                                    <div class="node_in node_first">
+                                        <i class="icon icon-co"></i>
+                                        <span>梅花信息</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,8 +333,8 @@
         </div>
     </div>
 </div>
-<div class="mask" style="display: block"></div>
-<div class="pop" style="width:470px;height:500px;margin:-250px 0 0 -235px;;display: block;">
+<div class="mask" style="display: none"></div>
+<div class="pop" style="width:470px;height:500px;margin:-250px 0 0 -235px;;display: none;">
     <div class="title alignright noborder">
         <span class="floatleft">员工列表</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -341,6 +456,7 @@
                 $tree_layout = $('.tree_layout');
             $('.pageone').width($winW);
             $('.tree_left,.tree_right').height($tree_layout.height());
+            $('.tree_left_main').height($tree_layout.height()-40);
         }
         setWidth();
         $(window).resize(function(){
