@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>考勤统计-excel</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body class="">
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody hidden">
+    <!--当前位置begin-->
+    <div class="container ">
+        <div class="location bg-white clearfix">
+            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+            <ul class="floatleft marl10">
+                <li><a href="#">首 页</a>&gt;</li>
+                <li><span>考勤统计</span></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon icon-set"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon icon-down"></i></a>
+        </div>
+    </div>
+    <!--当前位置over-->
+    <div class="layout">
+        <div class="container leftMain">
+            <div class="container bg-white" style="height:567px;" title="height等于MainBody的高度-100">
+                <div class="title nopadding alignright clearfix excelTitle">
+                    <a href="#" class="floatleft color-8 navTip">打卡IP设定</a>
+                    <a href="#" class="floatleft color-8 navTip current">打卡IP设定</a>
+                    <a href="#" class="btn btnLarge width-130 floatright">开通自动计算(0/5)</a>
+                    <div class="btn btnLarge btn-yes width-130 floatright update">
+                        <span>导入数据</span>
+                        <a href="#">考勤机数据</a>
+                        <a href="#">APP地理位置</a>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <table class="tableCard tableExcel tableData color-3" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th><div>迟到</div></th>
+                                <th><div>早退</div></th>
+                                <th><div>出差</div></th>
+                                <th><div>外出</div></th>
+                                <th><div>病假</div></th>
+                                <th><div>年假</div></th>
+                                <th><div>事假</div></th>
+                                <th><div>婚假</div></th>
+                                <th><div>倒休</div></th>
+                                <th><div>加班</div></th>
+                                <th><div>出差</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div class="color-a">0</div></td>
+                                <td>
+                                    <div>
+                                        <em class="arrow-top"></em>
+                                        <div style="display: none"></div>
+                                        <div class="has-general nomar has-error">
+                                            <input type="text" class="">
+                                            <label class="control-label">必填</label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="waring"><div class="color-a">9</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td class="last">
+                                    <span class="td_btn">
+                                        <a href="#" class="iconBtn" title="上移"><i class="icon icon-up-mini"></i></a>
+                                        <a href="#" class="iconBtn" title="下移"><i class="icon icon-down-mini"></i></a>
+                                        <a href="#" class="iconBtn" title="编辑"><i class="icon icon-edit-mini"></i></a>
+                                        <a href="#" class="iconBtn" title="编辑"><i class="icon icon-delete"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="mask" style="display:;"></div>-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+            $window = $(window),
+            $W = $window.width(),
+            $notice = $('.notice'),
+            $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
+</body>
+</html>

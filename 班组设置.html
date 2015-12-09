@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
-<body class="bodyTheme">
+<body class="">
 <!--header begin-->
 <div class="header clearfix">
     <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
@@ -31,6 +31,7 @@
     </div>
 </div>
 <!--header over-->
+<div class="MainBody">
 <!--当前位置begin-->
 <div class="container ">
     <div class="location bg-white clearfix">
@@ -47,59 +48,9 @@
             <li><a href="#">管理层设置</a></li>
         </ul>
     </div>
-    <table class="mart20 stepList">
-        <tr>
-            <td class="first">
-                <div>
-                    <span class="r_arrow"></span>
-                    <i class="icon icon-circle-t">1</i>
-                    <p>区间设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">2</i>
-                    <p>日历设置</p>
-                </div>
-            </td>
-            <td>
-                <div class="current">
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">3</i>
-                    <p>班组设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">4</i>
-                    <p>项目设置</p>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <span class="r_arrow"></span>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">5</i>
-                    <p>年假设置</p>
-                </div>
-            </td>
-            <td class="last">
-                <div>
-                    <span class="l_arrow"></span>
-                    <i class="icon icon-circle-t">6</i>
-                    <p>倒休设置</p>
-                </div>
-            </td>
-        </tr>
-    </table>
 </div>
 <!--当前位置over-->
-<div class="layout " >
+<div class="layout">
     <div class="container">
         <div class="container">
             <div class="container bg-white">
@@ -107,7 +58,7 @@
                     <span class="floatleft">请编辑班组</span>
                     <a href="#" class="iconBtn marr20" title="添加班组"><i class="icon icon-plus"></i></a>
                 </div>
-                <div class="jscroll" style="height:384px;" title="此处的高度等于这个页面layout的高度减去上面title的高度40">
+                <div class="" style="" title="此处的高度等于这个页面html的高度减去上面title的高度180">
                     <div class="Team">
                         <div class="title nopadding clearfix alignright">
                             <span class="back inlineblock floatleft">早9晚6</span>
@@ -116,6 +67,20 @@
                             <span class="marl20 floatleft"><i class="icon icon-clock2"></i></span>
                             <a href="#" class="iconBtn marr10" title="编辑"><i class="icon icon-edit-mini"></i></a>
                             <a href="#" class="iconBtn marr10" title="删除"><i class="icon icon-delete"></i></a>
+                        </div>
+                        <div class="Team nodata aligncenter">
+                            <p>班组暂无成员</p>
+                            <p class="aligncenter mart10"><a href="#" class="btn width-100">+增加班组</a></p>
+                        </div>
+                        <ul class="userList clearfix">
+
+                        </ul>
+                    </div>
+                    <div class="Team">
+                        <div class="title nopadding clearfix">
+                            <span class="back inlineblock">早9晚6</span>
+                            <span class="marl20"><i class="icon icon-sun"></i>9:00</span>
+                            <span class="marl20"><i class="icon icon-moon"></i>18:00</span>
                         </div>
                         <ul class="userList clearfix">
                             <li>
@@ -236,6 +201,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 <!--查看全部begin-->
 <div class="pop popUser" style="display:none;">
