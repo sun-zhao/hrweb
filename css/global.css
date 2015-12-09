@@ -369,6 +369,9 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-unfold{background-position:-82px -211px;}
 .node_company .icon-fold{left:-6px;}
 .table_ad td .icon-co:hover,.table_ad td .icon-earth:hover,.table_ad td .icon-group:hover{background-image: url("../img/icon-1.png");}
+.icon-in{position: absolute;right:5px;transition: 0.3s;}
+td:hover .icon-in{color:#ef901b;right:0px;transition: 0.3s;}
+td.pointer:hover .color-a{color:#ef901b!important;}
 @font-face {
 	font-family: 'hwxh';
 	src:url('hwxh.eot?-klml34');

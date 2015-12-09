@@ -245,6 +245,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr td,.tableExcel tbody tr th,.tableData thead tr th{border:1px solid #efefef;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
+@-moz-document url-prefix() {
+  .tableExcel tbody tr th,.tableData thead tr th{background:none;}
+}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
 .tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;line-height:44px;}
