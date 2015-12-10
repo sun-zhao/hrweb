@@ -65,7 +65,7 @@
 .userList{padding:5px 5px 5px 20px;padding-bottom:20px;}
 .userList li{width:98px;height:65px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
-.userList li div.userItem{padding:0 5px;height:99px;padding-left: 23px;margin-top:-7px;}
+.userList li div.userItem{width:96px;height:99px;margin:0 auto;margin-top:-9px;}
 .userList li div.userItem td{background:#ddd;border:2px solid #fff;width:30px;height:30px;background:#eee url("../img/useimg.png") no-repeat center center;}
 .userList li div.userItem img{width:30px;height:30px;vertical-align: bottom;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
@@ -316,9 +316,44 @@ div.popUser.popUser .user img{display: inline-block;}
 .excelTitle .navTip{height:48px;line-height:48px;}
 .checkWords li{float: left;margin-right:10px;}
 .checkWords li a{font-family: Arial;color:#888;display:inline-block;width:20px;text-align: center;}
-.checkWords li a:hover,.checkWords li a.current{color:#347cdc;}
-.userList2 li{width:11%;height:100px;padding:15px 0;}
+.checkWords li a:hover,.checkWords li a.current{color:#ef901b;}
+.userList2 li{width:140px;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
+@media screen and (max-width:1921px) {
+  .userList2 li {
+    width:143px;
+  }
+}
+@media screen and (max-width:1661px) {
+  .userList2 li {
+    width:134px;
+  }
+}
+@media screen and (max-width:1441px) {
+  .userList2 li {
+    width:139px;
+  }
+}
+@media screen and (max-width:1281px) {
+  .userList2 li {
+    width:136px;
+  }
+}
+@media screen and (max-width:1201px) {
+  .userList2 li {
+    width:127px;
+  }
+}
+@media screen and (max-width:1025px) {
+  .userList2 li {
+    width:138px;
+  }
+}
+@media screen and (max-width:1001px) {
+  .userList2 li {
+    width:135px;
+  }
+}
 /*弹出*/
 .popInner{margin:0px 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
@@ -416,7 +451,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_box{padding:10px 20px;}
 .tree_main{border-left:1px solid #efefef;position: relative;}
 .node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
-.node{margin:12px 0;}
+.node{margin:12px 0;z-index:3;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
 .node_first{background: #efefef;}
