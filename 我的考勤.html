@@ -88,75 +88,75 @@
                 <table class="calendar calendarTab">
                     <thead>
                         <tr>
-                            <th>日</th>
+                            <th class="weekend">日</th>
                             <td>一</td>
                             <td>二</td>
                             <td>三</td>
                             <td>四</td>
                             <td>五</td>
-                            <th>六</th>
+                            <th class="weekend">六</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th><div><em class="num color-c">29</em></div></th>
+                            <th class="weekend"><div><em class="num color-c">29</em></div></th>
                             <td><div><em class="num color-c">30</em></div></td>
                             <td><div><em class="num color-c">31</em></div></td>
-                            <td><div><em class="num">1</em></div></td>
-                            <td><div><em class="num">2</em></div></td>
-                            <td><div><em class="num">3</em></div></td>
-                            <th><div><em class="num">4</em></div></th>
+                            <td class="td_past"><div><em class="num">1</em></div></td>
+                            <td class="td_past"><div><em class="num">2</em></div></td>
+                            <td class="td_past"><div><em class="num">3</em></div></td>
+                            <th class="td_past"><div><em class="num">4</em></div></th>
                         </tr>
                         <tr>
-                            <th><div><em class="num">5</em></div></th>
-                            <td><div><em class="num">6</em></td>
-                            <td>
+                            <th class="weekend td_past"><div><em class="num">5</em></div></th>
+                            <td class="td_past"><div><em class="num">6</em></td>
+                            <td class="td_past">
                                 <div class="color-6 font14">
                                     <em class="num">7</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
-                            <td>
+                            <td class="td_past">
                                 <div class="color-6 font14">
                                     <em class="num">8</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
-                            <td>
+                            <td class="td_past">
                                 <div class="color-6 font14">
                                     <em class="num">9</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
-                            <td>
+                            <td class="td_today">
                                 <div class="color-6 font14">
                                     <em class="num">10</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5 color-2">加班</p>
                                 </div>
                             </td>
-                            <th>
+                            <th class="weekend">
                                 <div class="color-6 font14">
                                     <em class="num">11</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5 color-2">加班</p>
                                 </div>
                             </th>
                         </tr>
                         <tr>
-                            <th><div><em class="num">12</em></div></th>
+                            <th class="weekend"><div><em class="num">12</em></div></th>
                             <td>
                                 <div class="color-6 font14">
                                     <em class="num">13</em>
-                                    <p class="p-top30"><i class="icon icon-sun"></i> 9:00</p>
+                                    <p class="p-top70"><i class="icon icon-sun"></i> 9:00</p>
                                     <p><i class="icon icon-moon"></i> 18:00</p>
                                     <p class="mart5 color-1">病假</p>
                                 </div>
@@ -168,7 +168,7 @@
                             <th><div><em class="num">18</em></div></th>
                         </tr>
                         <tr>
-                            <th><div><em class="num">19</em></div></th>
+                            <th class="weekend"><div><em class="num">19</em></div></th>
                             <td><div><em class="num">20</em></div></td>
                             <td><div><em class="num">21</em><span class="color-4">旷工</span></div></td>
                             <td><div><em class="num">22</em></div></td>
@@ -177,7 +177,7 @@
                             <th><div><em class="num">25</em></div></th>
                         </tr>
                         <tr>
-                            <th><div><em class="num">26</em></div></th>
+                            <th class="weekend"><div><em class="num">26</em></div></th>
                             <td><div><em class="num">27</em></div></td>
                             <td><div><em class="num">28</em></div></td>
                             <td><div><em class="num">29</em></div></td>
@@ -200,7 +200,7 @@
     </div>
     <!--通知框over-->
 </div>
-<div class="pop" style="display:block;width:600px;margin-left:-300px;">
+<div class="pop" style="display:none;width:600px;margin-left:-300px;">
     <div class="title alignright">
         <span class="floatleft">参考数据</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -282,7 +282,7 @@
         </div>
     </div>
 </div>
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
