@@ -369,7 +369,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.i
 .icon-co{height:12px;background-position:-82px -162px;}
 .icon-earth{height:12px;background-position:-82px -174px;vertical-align: middle;}
 .icon-group{height:12px;background-position:-82px -186px;vertical-align: middle;}
-.icon-fold{background-position:-82px -198px;position: absolute;left:12px;margin:-7px 0 0 0;}
+.icon-fold{background-position:-82px -198px;position: absolute;left:12px;margin:-7px 0 0 0;z-index: 3;}
 .icon-unfold{background-position:-82px -211px;}
 .node_company .icon-fold{left:-6px;}
 .table_ad td .icon-co:hover,.table_ad td .icon-earth:hover,.table_ad td .icon-group:hover{background-image: url("../img/icon-1.png");}
