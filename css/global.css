@@ -32,7 +32,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .inlineblock{display:inline-block!important;}
 .nobg{background:none!important;}
 .nofloat{float:none!important;}
-.noborder{border:none!important;}
+.noborder{border:0!important;}
 .noborder-l{border-left:none!important;}
 .noborder-r{border-right:none!important;}
 .visible{overflow:visible!important;}
