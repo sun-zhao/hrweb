@@ -291,7 +291,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableData .iconBtn{height:100%;vertical-align: middle;}
 .tableData .iconBtn .icon-edit-mini{display:inline-block;top:50%;margin-top:-10px;}
 .tableData .td_inner{position:relative;}
-.tableData .td_btn{position:absolute;width:100px;top:0;bottom:0;right:0;background: #fff;padding:0 5px;right:-150px;transition: 0.3s;border-left:1px solid #ef901b;}
+.tableData .td_btn{position:absolute;width:200px;top:0;bottom:0;right:0;background: #fff;right:-400px;transition: 0.3s;}
+.tableData .td_btn a{display:inline-block;width:50px;height:49px;line-height:49px;float: left;color:#fff;}
 .tableData tr:hover .td_btn{right:0;transition: 0.3s;}
 .locationIn .intBox_large{border: 0;border-left:1px solid #efefef;}
 .locationIn .intBox_large,.locationIn .intBox_large p{height:60px;line-height:60px;}

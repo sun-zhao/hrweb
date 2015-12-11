@@ -235,9 +235,11 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .btn-ok{background:#55ba59;}
 .btn-ok:hover{background:#2baa3f;}
 .btn-yes{background:#55c96e;}
+.btn-yes:hover{opacity: 0.9;}
+.btn-green{background:#46ae5c;}
 /*.btn-yes:hover{background:#46ae5c;}*/
 .btn-waring{background:#e9505f;}
-.btn-waring:hover{background:#e9505f;}
+.btn-waring:hover{opacity: 0.9;}
 .btn-bottom{position: absolute;bottom:10px;left:50%;margin-left:-50px;}
 .noClick,.noClick:hover{cursor:default;background:#ccc;color:#fff;}
 .switch{display:inline-block;width:40px;height:20px;line-height:20px;padding:1px;border-radius:20px;background:#ddd;margin:13px 20px 0 0;position: relative;cursor: pointer;transition:0.3s;}
