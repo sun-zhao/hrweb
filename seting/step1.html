@@ -160,6 +160,7 @@
                                     <div class="node_in node_first">
                                         <i class="icon icon-co"></i>
                                         <span>明道软件</span>
+                                        <span class="color-3">109</span>
                                     </div>
                                 </div>
                                 <div class="node current">
@@ -167,6 +168,7 @@
                                     <div class="node_in">
                                         <i class="icon icon-earth"></i>
                                         <span>北京</span>
+                                        <span class="color-3">109</span>
                                     </div>
                                 </div>
                                 <div class="nodes">
@@ -177,6 +179,7 @@
                                         <div class="node_in">
                                             <i class="icon icon-group"></i>
                                             <span>研发部</span>
+                                            <span class="color-3">109</span>
                                         </div>
                                     </div>
                                     <div class="nodes">
@@ -273,7 +276,7 @@
                 </div>
                 <div class="tree_right floatleft marl20">
                     <!--调整部门begin-->
-                    <div class="tree_in bg-white">
+                    <div class="tree_in bg-white" style="display: none;">
                         <div class="title noborder clearfix">
                             <span>调整部门</span>
                             <a href="#" class="btn btnLarge width-100 floatright">同步部门</a>
@@ -295,10 +298,16 @@
                                         <td class="width-100"><div>10</div></td>
                                         <td>
                                             <span>上级部门</span>
-                                            <div class="intBox width-160 inlineblock marl10 mart10">
+                                            <div class="intBox width-160 inlineblock marl10 mart10 current">
                                                 <em class="arrow"></em>
                                                 <p class="marl10 block color-a">按部门查找</p>
-                                                <ul class="dropdown-menu">
+                                                <ul class="dropdown-menu" style="height:100px;overflow:hidden;overflow-y: auto;">
+                                                    <li><a href="#">按部门查找</a></li>
+                                                    <li><a href="#">按部门查找</a></li>
+                                                    <li><a href="#">按部门查找</a></li>
+                                                    <li><a href="#">按部门查找</a></li>
+                                                    <li><a href="#">按部门查找</a></li>
+                                                    <li><a href="#">按部门查找</a></li>
                                                     <li><a href="#">按部门查找</a></li>
                                                     <li><a href="#">按部门查找</a></li>
                                                 </ul>
@@ -522,7 +531,7 @@
                     </div>
                     <!--调整部门over-->
                     <!--微调begin-->
-                    <div class="tree_in" style="display: none;">
+                    <div class="tree_in">
                         <table class="table_ad">
                             <tr>
                                 <td>
@@ -573,7 +582,7 @@
                                             <li><a href="#">按部门查找</a></li>
                                         </ul>
                                     </div>
-                                    <a href="#" class="btn inlineblock width-180 noClick">确认添加</a>
+                                    <a href="#" class="btn inlineblock width-150 noClick">确认添加</a>
                                 </td>
                             </tr>
                         </table>

@@ -44,10 +44,18 @@
 
 .calendar span{position:absolute;bottom:3px;left:3px;}
 .calendarTab{min-height:100%}
-.calendarTab td,.calendarTab th{width:14%;padding-bottom:10px;}
-.calendarTab td{color:#666;height:70px;}
+.calendarTab td,.calendarTab th{width:14%;padding-bottom:10px;position: relative;vertical-align: top;}
+.calendarTab thead td,.calendarTab thead th{vertical-align: middle;}
+.calendarTab th div,.calendarTab td div{position: static;}
+.calendarTab td{color:#666;height:150px;}
 .calendarTab td p,.calendarTab th p{line-height:20px;padding-left:10px;}
 .calendarDay td{height:40px;}
+.calendarTab td.td_past{background:#f5f5f5;}
+.calendarTab td.td_today{background:#f7dab6;color:#fff;}
+.calendarTab td.td_today .color-6{color:#333!important;}
+.calendarTab th.weekend .color-6 p{color:#ef901b!important;}
+.calendarTab tr p.mart5{position: absolute;bottom:5px;left:0;}
+.calendarTab tr .num{position: absolute;right:5px;top:5px;}
 .ulOut{height:100%;}
 .ulList li{height:38px;line-height:38px;border:1px solid #efefef;padding:0 10px;margin-bottom:12px;}
 .ulList li .iconBtn{height:38px;}
@@ -65,7 +73,7 @@
 .userList{padding:5px 5px 5px 20px;padding-bottom:20px;}
 .userList li{width:98px;height:65px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
-.userList li div.userItem{padding:0 5px;height:99px;padding-left: 23px;margin-top:-7px;}
+.userList li div.userItem{width:96px;height:99px;margin:0 auto;margin-top:-9px;}
 .userList li div.userItem td{background:#ddd;border:2px solid #fff;width:30px;height:30px;background:#eee url("../img/useimg.png") no-repeat center center;}
 .userList li div.userItem img{width:30px;height:30px;vertical-align: bottom;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
@@ -232,8 +240,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard .innerTd .mart5 td{height:20px;color:#888;padding-left:10px;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
 .tagsList li{float: left;}
-.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 5px 0 10px;}
-.tagsList li a.current{background:#ddd;border-color:#ddd;}
+.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 3px 0 10px;}
+.tagsList li a.current,.tagsList li:active a{background:#ddd;border-color:#ddd;}
 .inputFrame{height:188px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:100px;border:0;padding:5px;}
 .inputFrame .keyboard{width:100%;height:88px;border-top:1px solid #ccc;position: absolute;bottom:0;left:0;background:#efefef;}
@@ -245,6 +253,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr td,.tableExcel tbody tr th,.tableData thead tr th{border:1px solid #efefef;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
+@-moz-document url-prefix() {
+  .tableExcel tbody tr th,.tableData thead tr th{background:none;}
+}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
 .tableExcel tbody tr td .has-general .control-label{top:1px;bottom:1px;line-height:44px;}
@@ -280,9 +291,11 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableData .iconBtn{height:100%;vertical-align: middle;}
 .tableData .iconBtn .icon-edit-mini{display:inline-block;top:50%;margin-top:-10px;}
 .tableData .td_inner{position:relative;}
-.tableData .td_btn{position:absolute;width:100px;top:0;bottom:0;right:0;background: #fff;padding:0 5px;right:-150px;transition: 0.3s;border-left:1px solid #ef901b;}
+.tableData .td_btn{position:absolute;width:200px;top:0;bottom:0;right:0;background: #fff;right:-400px;transition: 0.3s;}
+.tableData .td_btn a{display:inline-block;width:50px;height:49px;line-height:49px;float: left;color:#fff;}
 .tableData tr:hover .td_btn{right:0;transition: 0.3s;}
-
+.locationIn .intBox_large{border: 0;border-left:1px solid #efefef;}
+.locationIn .intBox_large,.locationIn .intBox_large p{height:60px;line-height:60px;}
 
 /*区间设置*/
 .stepList{width:100%;}
@@ -313,14 +326,49 @@ div.popUser.popUser .user img{display: inline-block;}
 .excelTitle .navTip{height:48px;line-height:48px;}
 .checkWords li{float: left;margin-right:10px;}
 .checkWords li a{font-family: Arial;color:#888;display:inline-block;width:20px;text-align: center;}
-.checkWords li a:hover,.checkWords li a.current{color:#347cdc;}
-.userList2 li{width:11%;height:100px;padding:15px 0;}
+.checkWords li a:hover,.checkWords li a.current{color:#ef901b;}
+.userList2 li{width:140px;height:100px;padding:15px 0;}
 .userList2 li p.txt_hidden{line-height:18px;color:#333;margin-top:3px;}
+@media screen and (max-width:1921px) {
+  .userList2 li {
+    width:143px;
+  }
+}
+@media screen and (max-width:1661px) {
+  .userList2 li {
+    width:134px;
+  }
+}
+@media screen and (max-width:1441px) {
+  .userList2 li {
+    width:139px;
+  }
+}
+@media screen and (max-width:1281px) {
+  .userList2 li {
+    width:136px;
+  }
+}
+@media screen and (max-width:1201px) {
+  .userList2 li {
+    width:127px;
+  }
+}
+@media screen and (max-width:1025px) {
+  .userList2 li {
+    width:138px;
+  }
+}
+@media screen and (max-width:1001px) {
+  .userList2 li {
+    width:135px;
+  }
+}
 /*弹出*/
 .popInner{margin:0px 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
-.popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
+.popMain th{width:100%;padding:0 10px 0 13px;color:#666;width:60px;font-size:12px;}
 .popMain .line{margin:10px 0;}
 .popMain .has-general{margin-top:0;}
 .popMain .has-general input,.popMain .has-general.intBox{width:100%;height:30px;line-height:30px;}
@@ -344,6 +392,11 @@ div.popUser.popUser .user img{display: inline-block;}
 .Department.ulAuto li .timeUl li a,.dropdown-menu.timeUl a{padding:0;}
 .popIn{height:170px;padding-top:10px;}
 .processIn{height:100px;}
+.checkMenu tr td,.checkMenu tr th{height:30px;position: relative;vertical-align: top;padding:10px 0;}
+.checkMenu li{width:120px;float: left;cursor: pointer;}
+.checkMenu li.checkAll{background:none;text-align: left;}
+.checkMenu .more{width:40px;padding:2px 5px;border:1px solid #ccc;position: absolute;right:0;top:10px;}
+
 /*初始化*/
 .content{width:100%;height:100%;position: relative;overflow: hidden;}
 .pageList{position: absolute;left:0;right:0;top:15px;z-index:20}
@@ -413,9 +466,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_box{padding:10px 20px;}
 .tree_main{border-left:1px solid #efefef;position: relative;}
 .node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
-.node{margin:12px 0;}
-.node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2}
+.node{margin:12px 0;z-index:3;}
+.node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
+.node_in span.color-3{display:block;height:31px;line-height:31px;position: absolute;right:10px;top:0;}
+.node_in:hover span.color-3,.current .node_in span.color-3{color:#fff!important;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
@@ -425,11 +480,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
 .tree_in{width:100%;height:100%;}
 .tree_in .btnLarge{height:39px;line-height:39px;}
-.table_ad{width:100%;height:70%;}
+.table_ad{width:100%;height:85%;}
 .table_ad td{background: #fff;border-bottom:5px solid #efefef;vertical-align: top;width:50%;position: relative;}
 .table_ad tr td:first-child{border-right:5px solid #efefef;}
 .font60{font-size: 60px;color:#ef901b;line-height: 60px;}
-.tree_right .tree_in .btn{position: absolute;bottom:10%;left:50%;margin-left:-75px;}
+.tree_right .tree_in .btn{position: absolute;bottom:5%;left:50%;margin-left:-75px;}
 .tree_right .tree_in .title .btn{position:static;}
 .tree_right_main .icon-right{left:inherit;right:5px;}
 
