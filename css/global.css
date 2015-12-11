@@ -40,8 +40,8 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .hidden{overflow:hidden!important;}
 .relative{position: relative!important;}
 .pointer{cursor: pointer!important;}
-::-webkit-scrollbar{width:4px;background:#fff;}
-::-webkit-scrollbar-thumb{width:4px;background:#ccc;}
+::-webkit-scrollbar{width:4px;background:#f5f5f5;}
+::-webkit-scrollbar-thumb{width:4px;background:#ccc;border-radius:3px;}
 /*margin*/
 .nomar{margin:0!important;}
 .mar-auto{margin:0 auto!important;}
@@ -70,6 +70,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .marr5{margin-right:5px!important;}
 .marr6{margin-right:7px!important;}
 .marr10{margin-right:10px!important;}
+.marr12{margin-right:12px!important;}
 .marr15{margin-right:15px!important;}
 .marr18{margin-right:18px!important;}
 .marr20{margin-right:20px!important;}
@@ -224,7 +225,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .pop .user img{float: none;margin:0;}
 .back img{width:50px;height:50px;}
 .locationIn .back{height:60px;}
-.locationIn .back .user{height:50px;line-height:50px;}
+.locationIn .back .user,.locationIn .back .user em{display:inline-block;height:50px;line-height:50px;}
 /*按钮*/
 .btn{display: inline-block;height:30px;line-height:30px;text-align: center;color:#fff;width:100%;background:#ef901b;border-radius:3px;}
 .btn:hover{background:#e78710;}
@@ -286,7 +287,7 @@ span.back{padding:0 20px;}
 .Grey{opacity:0.3;filter:alpha(opacity=30);}
 /*图标*/
 .icon{display:inline-block;font-size:0;line-height:0;width:20px;height:20px;background: url("../img/icon-1.png");position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
-a:hover .icon,a.current .icon,a.current:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
+a:hover .icon,a.current .icon,a.current:hover .icon-check,li:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
 .iconBtnl{border-left:1px solid #efefef;text-align: center;padding-left:20px;}
 .pop .iconBtn{position: absolute;right:5px;top:0;}

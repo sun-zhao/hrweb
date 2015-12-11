@@ -240,8 +240,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard .innerTd .mart5 td{height:20px;color:#888;padding-left:10px;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
 .tagsList li{float: left;}
-.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 5px 0 10px;}
-.tagsList li a.current{background:#ddd;border-color:#ddd;}
+.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 3px 0 10px;}
+.tagsList li a.current,.tagsList li:active a{background:#ddd;border-color:#ddd;}
 .inputFrame{height:188px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:100px;border:0;padding:5px;}
 .inputFrame .keyboard{width:100%;height:88px;border-top:1px solid #ccc;position: absolute;bottom:0;left:0;background:#efefef;}
@@ -367,7 +367,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .popInner{margin:0px 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
-.popMain th{width:100%;padding:0 10px 0 15px;color:#666;width:60px;font-size:12px;}
+.popMain th{width:100%;padding:0 10px 0 13px;color:#666;width:60px;font-size:12px;}
 .popMain .line{margin:10px 0;}
 .popMain .has-general{margin-top:0;}
 .popMain .has-general input,.popMain .has-general.intBox{width:100%;height:30px;line-height:30px;}
@@ -391,6 +391,11 @@ div.popUser.popUser .user img{display: inline-block;}
 .Department.ulAuto li .timeUl li a,.dropdown-menu.timeUl a{padding:0;}
 .popIn{height:170px;padding-top:10px;}
 .processIn{height:100px;}
+.checkMenu tr td,.checkMenu tr th{height:30px;position: relative;vertical-align: top;padding:10px 0;}
+.checkMenu li{width:120px;float: left;cursor: pointer;}
+.checkMenu li.checkAll{background:none;text-align: left;}
+.checkMenu .more{width:40px;padding:2px 5px;border:1px solid #ccc;position: absolute;right:0;top:10px;}
+
 /*初始化*/
 .content{width:100%;height:100%;position: relative;overflow: hidden;}
 .pageList{position: absolute;left:0;right:0;top:15px;z-index:20}
@@ -474,11 +479,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
 .tree_in{width:100%;height:100%;}
 .tree_in .btnLarge{height:39px;line-height:39px;}
-.table_ad{width:100%;height:70%;}
+.table_ad{width:100%;height:85%;}
 .table_ad td{background: #fff;border-bottom:5px solid #efefef;vertical-align: top;width:50%;position: relative;}
 .table_ad tr td:first-child{border-right:5px solid #efefef;}
 .font60{font-size: 60px;color:#ef901b;line-height: 60px;}
-.tree_right .tree_in .btn{position: absolute;bottom:10%;left:50%;margin-left:-75px;}
+.tree_right .tree_in .btn{position: absolute;bottom:5%;left:50%;margin-left:-75px;}
 .tree_right .tree_in .title .btn{position:static;}
 .tree_right_main .icon-right{left:inherit;right:5px;}
 

@@ -168,102 +168,127 @@
 </div>
 <!--新建工资项弹出over-->
 <!--新建工资公式弹出begin-->
-<div class="pop" style="display:none;width:600px;margin-left:-300px;margin-top:-301px;">
+<div class="pop" style="display:block;height:400px;width:800px;margin-left:-400px;margin-top:-301px;">
     <div class="title alignright">
         <span class="floatleft">新建工资公式</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
-    <div class="font14 popInner jscroll" style="height:260px;">
-        <table class="popMain mart10">
-            <tr>
-                <th>公式名称</th>
-                <td>
-                    <div class="has-general">
-                        <input type="text">
-                        <label class="control-label">请输入公式名称</label>
-                    </div>
-                </td>
-            </tr>
-            <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
-            <tr>
-                <td colspan="2" class="alignright">
-                    <span class="floatleft color-6 marl15">计算方式</span>
-                    <a href="#" class="iconBtn width-150 color-3"><i class="icon icon-radio current" style="left:0;"></i>手动输入/导入</a>
-                    <a href="#" class="iconBtn width-120 color-3 marr20"><i class="icon icon-radio"></i>公式计算</a>
-                </td>
-            </tr>
-            <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
-            <tr>
-                <td colspan="2">
-                    <p class="marl15" style="margin-top:-15px;">可关联系统数据</p>
-                    <ul class="tagsList marl5">
-                        <li><a href="#" class="current">基本工资</a></li>
-                        <li><a href="#">绩效工资</a></li>
-                        <li><a href="#">病假</a></li>
-                        <li><a href="#">带薪病假</a></li>
-                        <li><a href="#">带薪事假</a></li>
-                        <li><a href="#">迟到</a></li>
-                        <li><a href="#">旷工</a></li>
-                        <li><a href="#">年假</a></li>
-                    </ul>
-                </td>
-            </tr>
-            <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
-            <tr>
-                <td colspan="2">
-                    <p class="marl15" style="margin-top:-15px;">可关联工资项</p>
-                    <ul class="tagsList marl5">
-                        <li><a href="#">基本工资</a></li>
-                        <li><a href="#">绩效工资</a></li>
-                        <li><a href="#">年假</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="font14 popInner">
-        <table class="popMain">
-            <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
-            <tr>
-                <td colspan="2">
-                    <p class="marl15" style="margin-top:-15px;">编辑公式</p>
-                    <div class="inputFrame">
-                        <textarea></textarea>
-                        <div class="keyboard clearfix">
-                            <a href="javascript:;" class="current">1</a>
-                            <a href="javascript:;">2</a>
-                            <a href="javascript:;">3</a>
-                            <a href="javascript:;">4</a>
-                            <a href="javascript:;">5</a>
-                            <a href="javascript:;">6</a>
-                            <a href="javascript:;">7</a>
-                            <a href="javascript:;">8</a>
-                            <a href="javascript:;">9</a>
-                            <a href="javascript:;">0</a>
-                            <a href="javascript:;">.</a>
-                            <a href="javascript:;">+</a>
-                            <a href="javascript:;">-</a>
-                            <a href="javascript:;">*</a>
-                            <a href="javascript:;">/</a>
-                            <a href="javascript:;">%</a>
-                            <a href="javascript:;">(</a>
-                            <a href="javascript:;">)</a>
-                            <a href="javascript:;">[</a>
-                            <a href="javascript:;">]</a>
-                            <a href="javascript:;">{</a>
-                            <a href="javascript:;">}</a>
+    <div class="font14 popInner nomar floatleft">
+        <div class="floatleft jscroll marl10" style="width:380px;height:360px;border-right:1px solid #eee;padding-right:10px;">
+            <table class="popMain mart20">
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">可关联系统数据</p>
+                        <ul class="tagsList clearfix">
+                            <li><a href="#" class="current">基本工资</a></li>
+                            <li><a href="#">绩效工资</a></li>
+                            <li><a href="#">病假</a></li>
+                            <li><a href="#">带薪病假</a></li>
+                            <li><a href="#">带薪事假</a></li>
+                            <li><a href="#">迟到</a></li>
+                            <li><a href="#">旷工</a></li>
+                            <li><a href="#">年假</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">可关联工资项</p>
+                        <ul class="tagsList marl5 clearfix">
+                            <li><a href="#">基本工资</a></li>
+                            <li><a href="#">绩效工资</a></li>
+                            <li><a href="#">年假</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">可关联工资项</p>
+                        <ul class="tagsList marl5 clearfix">
+                            <li><a href="#">基本工资</a></li>
+                            <li><a href="#">绩效工资</a></li>
+                            <li><a href="#">年假</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">可关联工资项</p>
+                        <ul class="tagsList marl5 clearfix">
+                            <li><a href="#">基本工资</a></li>
+                            <li><a href="#">绩效工资</a></li>
+                            <li><a href="#">年假</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr><td colspan="2" class="nopadding"><p class="line"></p></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">可关联工资项</p>
+                        <ul class="tagsList marl5 clearfix">
+                            <li><a href="#">基本工资</a></li>
+                            <li><a href="#">绩效工资</a></li>
+                            <li><a href="#">年假</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="font14 popInner nomar floatleft" style="width:395px;">
+            <table class="popMain mart10">
+                <tr>
+                    <th class="color-3">公式名称</th>
+                    <td>
+                        <div class="has-general marr12">
+                            <input type="text">
+                            <label class="control-label">请输入公式名称</label>
                         </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div class="p-bt10 block">
-            <a href="#" class="btn btnBlcok btn-yes mart10 ">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="marl15" style="margin-top:-15px;">编辑公式</p>
+                        <div class="inputFrame">
+                            <textarea></textarea>
+                            <div class="keyboard clearfix">
+                                <a href="javascript:;" class="current">1</a>
+                                <a href="javascript:;">2</a>
+                                <a href="javascript:;">3</a>
+                                <a href="javascript:;">4</a>
+                                <a href="javascript:;">5</a>
+                                <a href="javascript:;">6</a>
+                                <a href="javascript:;">7</a>
+                                <a href="javascript:;">8</a>
+                                <a href="javascript:;">9</a>
+                                <a href="javascript:;">0</a>
+                                <a href="javascript:;">.</a>
+                                <a href="javascript:;">+</a>
+                                <a href="javascript:;">-</a>
+                                <a href="javascript:;">*</a>
+                                <a href="javascript:;">/</a>
+                                <a href="javascript:;">%</a>
+                                <a href="javascript:;">(</a>
+                                <a href="javascript:;">)</a>
+                                <a href="javascript:;">[</a>
+                                <a href="javascript:;">]</a>
+                                <a href="javascript:;">{</a>
+                                <a href="javascript:;">}</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="p-bt10 block">
+                <a href="#" class="btn btnBlcok btn-yes mart10 ">确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定</a>
+            </div>
         </div>
     </div>
 </div>
 <!--新建工资公式弹出over-->
-<div class="mask" style="display:none;"></div>
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
