@@ -237,6 +237,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .btn-yes{background:#55c96e;}
 .btn-yes:hover{opacity: 0.9;}
 .btn-green{background:#46ae5c;}
+.btn-green:hover{background: #55c96e;}
 /*.btn-yes:hover{background:#46ae5c;}*/
 .btn-waring{background:#e9505f;}
 .btn-waring:hover{opacity: 0.9;}
@@ -370,6 +371,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,li:hover .icon-check,a
 .current .icon-boss,.node_in:hover .icon-co,.node_in:hover .icon-earth,.node_in:hover .icon-group,.current .icon-co,.current .icon-earth,.current .icon-group{background-image: url("../img/icon-2.png");}
 .icon-co,.icon-fold,.icon-unfold,.icon-earth,.icon-group{width:13px;height:13px;position: static;margin:0 5px 0 -5px;z-index: 2;}
 .icon-co{height:12px;background-position:-82px -162px;}
+.title .icon-co:hover{background-image: url("../img/icon-1.png");}
 .icon-earth{height:12px;background-position:-82px -174px;vertical-align: middle;}
 .icon-group{height:12px;background-position:-82px -186px;vertical-align: middle;}
 .icon-fold{background-position:-82px -198px;position: absolute;left:12px;margin:-7px 0 0 0;z-index: 3;}
