@@ -169,6 +169,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .font16{font-size:16px!important;}
 .font15{font-size:15px!important;}
 .font18{font-size:18px!important;}
+.font19{font-size:19px!important;}
 .font20{font-size:20px!important;}
 .font22{font-size:22px!important;}
 .font24{font-size:24px!important;}
@@ -201,7 +202,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .titleBt{border-bottom:0;border-top: 1px solid #efefef;}
 .title a.color-8.current{color:#000!important;}
 .pop .title{padding-left:10px;}
-.title .iconBtn{height:39px;}
+.title .iconBtn{height:39px;line-height: 39px;text-align: center;margin:0 4px;font-size:14px;}
 .line,.leftLine{height:0;line-height:0;font-size:0;border-bottom:1px solid #efefef;position: relative;}
 .lineD{border-bottom:1px dotted #ccc;}
 .line span{display: inline-block;height:20px;line-height:20px;position: relative;top:-10px;background: #fff;padding:0 10px;font-size:12px;}
@@ -254,7 +255,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .locationIn{height:60px;line-height:60px;}
 .location a{display: inline-block;height:50px;min-width:30px;position: relative;}
 .location a.btn{height:30px;color: #fff!important;}
-.location a.floatright{width:50px;}
+.location a.floatright{width:40px;text-align: center;}
 .location a:hover{color:#ef901b;}
 .location a.back,.back{border-right:1px solid #efefef;padding:0 8px;}
 span.back{padding:0 20px;}
@@ -293,7 +294,7 @@ span.back{padding:0 20px;}
 a:hover .icon,a.current .icon,a.current:hover .icon-check,li:hover .icon-check,a.current .icon-set,.ico-calendar:hover,.has-general:hover .ico-calendar,.icon:hover{background-image: url("../img/icon-2.png");}
 .iconBtn{display: inline-block;width:20px;height:20px;line-height:20px;position:relative;}
 .iconBtnl{border-left:1px solid #efefef;text-align: center;padding-left:20px;}
-.pop .iconBtn{position: absolute;right:5px;top:0;}
+.pop .iconBtn{position: absolute;right:5px;top:0;line-height:38px;}
 .pop td .iconBtn{position: relative;right:0;top:0;}
 .icon-search{background-position:0 0;}
 .icon-net{background-position:-80px 0;}
@@ -374,8 +375,8 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,li:hover .icon-check,a
 .title .icon-co:hover{background-image: url("../img/icon-1.png");}
 .icon-earth{height:12px;background-position:-82px -174px;vertical-align: middle;}
 .icon-group{height:12px;background-position:-82px -186px;vertical-align: middle;}
-.icon-fold{background-position:-82px -198px;position: absolute;left:12px;margin:-7px 0 0 0;z-index: 3;}
-.icon-unfold{background-position:-82px -211px;}
+.icon-fold{width:13px;height:13px;text-align:center;line-height:13px;border:1px solid #ccc;position: absolute;left:11px;top:14px;margin:-7px 0 0 0;z-index: 3;background: #fff;}
+.icon-unfold{}
 .node_company .icon-fold{left:-6px;}
 .table_ad td .icon-co:hover,.table_ad td .icon-earth:hover,.table_ad td .icon-group:hover{background-image: url("../img/icon-1.png");}
 .icon-in{position: absolute;right:5px;transition: 0.3s;}
@@ -422,5 +423,21 @@ pre {
 }
 /*高斯模糊*/
 .blur{filter:blur(4px);-webkit-filter:blur(4px);-moz-filter:blur(4px);transition:0.3s;}
+
+i:hover{color: #ef901b;}
+.icon-tree{font-size: 20px;}
+.icon-home,.icon-sphere,.icon-users{margin:0 5px 0 -5px;}
+.icon-home:hover,.icon-sphere:hover,.icon-users:hover{color: #aaa;}
+.current .icon-home,.current .icon-sphere,.current .icon-users,.node_in:hover .icon-sphere,.node_in:hover .icon-home,.node_in:hover .icon-users{color: #fff;}
+.userTable .icon-user-tie{position: absolute;font-size:16px;top:18px;left:4px;display: none;}
+.userTable .current .icon-user-tie{color: #ef901b;}
+.userTable tr:hover .icon-user-tie,.userTable .current .icon-user-tie{display: block;}
+.icon-arrow-up{position:relative;top:-1px;}
+.icon-radio_button_unchecked,.icon-check_box_outline_blank,.icon-check_box{font-size: 16px;position: relative;top:2px;margin-right:3px;}
+.current.icon-radio_button_unchecked:before {content: "\e837";}
+.icon-wb_sunny,.icon-brightness_3,.icon-access_alarm{font-size:16px;margin-right: 5px;position: relative;top:2px;}
+.icon-remove:before,.icon-unfold .icon-add:before{content: "\e15b";}
+.icon-check_box_outline_blank,.icon-check_box{font-size: 20px;top:0;margin-right:3px;float: left;}
+.current .icon-check_box{color: #ef901b;}
 
 
