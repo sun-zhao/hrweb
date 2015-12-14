@@ -144,7 +144,7 @@
             <div class="tree_layout clearfix">
                 <div class="tree_left floatleft">
                     <div class="title clearfix">
-                        <span>梅花与明道</span>
+                        <span><i class="icon icon-co mart10"></i>梅花与明道</span>
                         <div class="search search_Box width-200 floatright clearfix">
                             <input type="text" placeholder="搜索组织">
                             <a class="block floatleft relative" href="#"><i class="icon icon-search2"></i></a>
@@ -159,7 +159,11 @@
                                     <a href="javascript:;" class="icon icon-fold"></a>
                                     <div class="node_in node_first">
                                         <i class="icon icon-co"></i>
-                                        <span>明道软件</span>
+                                        <span style="display: none;">明道软件</span>
+                                        <div class="has-general has-label inlineblock width-200 nomar">
+                                            <input type="text" placeholder="分公司名称" class="width-200">
+                                            <label class="control-label">请填写分公司名称</label>
+                                        </div>
                                         <span class="color-3">109</span>
                                     </div>
                                 </div>
@@ -533,60 +537,27 @@
                     <!--微调begin-->
                     <div class="tree_in">
                         <table class="table_ad">
-                            <tr>
+                            <tr class="first_tr">
+                                <td>
+                                    <div class="title clearfix bg-white"><span>添加分公司</span></div>
+                                    <div class="has-general has-label width-250 mar-auto mart40">
+                                        <input type="text" placeholder="分公司名称" class="width-250">
+                                        <label class="control-label">请填写分公司名称</label>
+                                        <a href="#" class="btn block width-150 mar-auto mart80">添加</a>
+                                    </div>
+                                </td>
                                 <td>
                                     <div class="title clearfix bg-white"><span>调整部门</span></div>
-                                    <div class="aligncenter mart25">
+                                    <div class="aligncenter mart30">
                                         <p class="color-8">当前无归属部门个数</p>
                                         <p class="font60 mart30">5</p>
+                                        <a href="#" class="btn inlineblock nomar mart20 width-150">去设置</a>
                                     </div>
-                                    <a href="#" class="btn inlineblock width-150">为部门添加归属</a>
-                                </td>
-                                <td>
-                                    <div class="title clearfix bg-white"><span><i class="icon icon-co mart10"></i>添加分公司</span></div>
-                                    <div class="has-general has-label width-250 mar-auto mart25">
-                                        <input type="text" placeholder="分公司名称" class="width-250">
-                                        <label class="control-label">请填写分公司名称</label>
-                                    </div>
-                                    <a href="#" class="btn inlineblock width-150 noClick">确认添加</a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <div class="title clearfix bg-white"><span><i class="icon icon-earth"></i>添加分公司地区</span></div>
-                                    <div class="has-general has-label width-250 mar-auto mart25">
-                                        <input type="text" placeholder="分公司名称" class="width-250">
-                                        <label class="control-label">请填写分公司名称</label>
-                                    </div>
-                                    <div class="intBox  width-250 mar-auto mart10">
-                                        <em class="arrow"></em>
-                                        <p class="marl10 block color-a">上级部门</p>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">按部门查找</a></li>
-                                            <li><a href="#">按部门查找</a></li>
-                                        </ul>
-                                    </div>
-                                    <a href="#" class="btn inlineblock width-150 noClick">确认添加</a>
-                                </td>
-                                <td>
-                                    <div class="title clearfix bg-white"><span><i class="icon icon-group"></i>添加部门</span></div>
-                                    <div class="has-general has-label width-250 mar-auto mart25">
-                                        <input type="text" placeholder="部门名称" class="width-250">
-                                        <label class="control-label">请填写分公司名称</label>
-                                    </div>
-                                    <div class="intBox  width-250 mar-auto mart10">
-                                        <em class="arrow"></em>
-                                        <p class="marl10 block color-a">上级部门</p>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">按部门查找</a></li>
-                                            <li><a href="#">按部门查找</a></li>
-                                        </ul>
-                                    </div>
-                                    <a href="#" class="btn inlineblock width-150 noClick">确认添加</a>
-                                </td>
-                            </tr>
+
                         </table>
-                        <a href="#" class="btn btnLarge width-180">完成初始化</a>
+                        <a href="#" class="btn btnLarge btn-green block width-180 mar-auto mart30">完成初始化</a>
                     </div>
                     <!--微调over-->
                 </div>
