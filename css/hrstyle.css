@@ -101,7 +101,7 @@
 
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
-.update{position:relative;}
+.update{position:relative;z-index: 10;}
 .update .arrow{z-index:3;border-top:4px solid #fff;right:10px;}
 .update:hover .arrow{transform:rotate(-180deg); }
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
@@ -482,6 +482,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
 .node_in span.color-3{display:block;height:31px;line-height:31px;}
 .node_in:hover span.color-3,.current .node_in span.color-3{color:#fff!important;}
+.node_in span.txt_hidden{width: 200px;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;z-index: 1;}
