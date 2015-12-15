@@ -433,7 +433,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
 .wordList li a{display:block;color:#666;height:20px;line-height:20px;}
-.checkAll{display:inline-block;width:40px;color:#fff;height:20px;line-height:20px;text-align: center;background: #ef901b;}
+.checkAll{display:inline-block;width:40px;color:#fff;height:20px;line-height:20px;text-align: center;background:#ccc;}
+.checkAll.current,.checkAll:hover{background: #ef901b;}
 .wordList li a.choosed,.checkAll.choosed{background:#ef901b;color:#fff;}
 .wordList li a:hover{color: #ef901b;}
 .userTable{position:absolute;width:470px;top:52px;bottom:0;left:0;right:0;}
@@ -481,6 +482,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;z-index: 1;}
+.node_in .has-general{position: relative;top:-3px;}
 .node_in .has-general input{height:25px;line-height: 25px;}
 .node_in .dropdown-menu{width:150px;height:150px;position: absolute;z-index: 10;top:35px;right:0;overflow: hidden;overflow-y: auto;}
 .top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 2;left:-1px;top:-21px;}
