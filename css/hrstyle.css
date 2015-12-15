@@ -296,7 +296,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableData .iconBtn{height:100%;vertical-align: middle;}
 /*.tableData .iconBtn .icon-edit-mini{display:inline-block;top:50%;margin-top:-10px;}*/
 .tableData .td_inner{position:relative;}
-.tableData .td_btn{width:180px;position:absolute;top:0;bottom:0;right:0;background: #efefef;right:0px;transition: 0.3s;box-shadow: -1px 0 2px #bbb;}
+.tableData .td_btn{width:180px;position:absolute;top:0;bottom:0;right:-200px;background: #efefef;transition: 0.3s;box-shadow: -1px 0 2px #bbb;}
 .tableData .td_btn a{display:inline-block;width:30px;height:49px;line-height:49px;color:#fff;}
 .tableData tr:hover .td_btn{right:0;transition: 0.3s;}
 .locationIn .intBox_large{border: 0;border-left:1px solid #efefef;}
@@ -476,15 +476,16 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node{margin:12px 0;z-index:3;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
-.node_in span.color-3{display:block;height:31px;line-height:31px;position: absolute;right:10px;top:0;}
+.node_in span.color-3{display:block;height:31px;line-height:31px;}
 .node_in:hover span.color-3,.current .node_in span.color-3{color:#fff!important;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
-.nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
+.nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;z-index: 1;}
 .node_in .has-general input{height:25px;line-height: 25px;}
+.node_in .dropdown-menu{width:150px;height:150px;position: absolute;z-index: 10;top:35px;right:0;overflow: hidden;overflow-y: auto;}
 .top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 2;left:-1px;top:-21px;}
 .bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;}
-.top-mask-top{width:17px;height:9px;background: url("../img/tree-mask3.png");top:0;}
+.top-mask-top{width:17px;height:15px;background: url("../img/tree-mask3.png");top:0;}
 .left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
 .tree_in{width:100%;height:100%;}
 .tree_in .btnLarge{height:39px;line-height:39px;}

@@ -428,7 +428,9 @@ i:hover{color: #ef901b;}
 .icon-tree{font-size: 20px;}
 .icon-home,.icon-sphere,.icon-users{margin:0 5px 0 -5px;}
 .icon-home:hover,.icon-sphere:hover,.icon-users:hover{color: #aaa;}
-.current .icon-home,.current .icon-sphere,.current .icon-users,.node_in:hover .icon-sphere,.node_in:hover .icon-home,.node_in:hover .icon-users{color: #fff;}
+.current .icon-home,.current .icon-sphere,.current .icon-users,
+.node_in:hover .icon-sphere,.node_in:hover .icon-home,.node_in:hover .icon-users,.node_in:hover .icon-bin,.current .icon-bin,.node_in:hover .icon-loop,.current .icon-loop
+{color: #fff;}
 .userTable .icon-user-tie{position: absolute;font-size:16px;top:18px;left:4px;display: none;}
 .userTable .current .icon-user-tie{color: #ef901b;}
 .userTable tr:hover .icon-user-tie,.userTable .current .icon-user-tie{display: block;}
