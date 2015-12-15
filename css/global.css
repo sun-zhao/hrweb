@@ -414,6 +414,7 @@ td.pointer:hover .color-a{color:#ef901b!important;}
 .has-general input.file{position:absolute;top:0;left:0;height:230%!important;opacity: 0;}
 .tableCard td div.has-general{height:30px;line-height:30px;top:3px;}
 .tableCard .has-general .control-label{top:4px;}
+.tableCard .com{position: absolute;z-index: 2;right:5px;}
 pre {
     white-space: pre-wrap; /* css-3 */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
@@ -441,6 +442,6 @@ i:hover{color: #ef901b;}
 .icon-wb_sunny,.icon-brightness_3,.icon-access_alarm{font-size:16px;margin-right: 5px;position: relative;top:2px;}
 .icon-remove:before,.icon-unfold .icon-add:before{content: "\e15b";}
 .icon-check_box_outline_blank,.icon-check_box{font-size: 20px;top:0;margin-right:3px;float: left;}
-.current .icon-check_box{color: #ef901b;}
-
+.current .icon-check_box,.current .icon-radio-unchecked{color: #ef901b;}
+.current .icon-radio-unchecked:before{content: "\e937";}
 
