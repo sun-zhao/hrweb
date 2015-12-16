@@ -273,6 +273,7 @@ span.back{padding:0 20px;}
 .dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;white-space:nowrap;text-overflow:ellipsis;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
+.location .dropdown-menu {z-index:100;}
 /*.dropdown-out.net{height:283px;}*/
 .dropdown-out.net{box-shadow:0 0 3px #e0e0e0;background:#fff;}
 .dropdown-out.net .dropdown-menu,.dropdown-out.net ul.dropdown-menu{border:0;box-shadow:none;position:relative;top:0;}
@@ -395,7 +396,7 @@ td.pointer:hover .color-a{color:#ef901b!important;}
 /*弹出*/
 .loading{position:fixed;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:500;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
+.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;z-index: 999;}
 .maskTop{width: 100%;height:50px;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
 /*input*/
 .int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
