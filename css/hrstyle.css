@@ -276,7 +276,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
 .tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;}
 .tableExcel tbody tr .intBox.current .dropdown-menu{top:32px;left:0;}
-.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu{border:0!important;}
+.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu
+{border:0!important;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu ul{width:97%;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu .jspVerticalBar{right:0;left: auto;}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
@@ -482,6 +483,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
 .node{margin:12px 0;}
 .node.show{z-index: 200;}
+.node.show .dropdown-menu{display: block;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
 .node_in span.color-3{display:block;height:31px;line-height:31px;}
