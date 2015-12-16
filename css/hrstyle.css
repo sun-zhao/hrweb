@@ -276,6 +276,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
 .tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;}
 .tableExcel tbody tr .intBox.current .dropdown-menu{top:32px;left:0;}
+.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu{border:0!important;}
+.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu ul{width:97%;}
+.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu .jspVerticalBar{right:0;left: auto;}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
 .arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
 .excelTitle{height:50px;border-bottom:2px solid #e4e4e4;}
