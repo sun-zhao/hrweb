@@ -101,7 +101,7 @@
 
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
-.update{position:relative;}
+.update{position:relative;z-index: 10;}
 .update .arrow{z-index:3;border-top:4px solid #fff;right:10px;}
 .update:hover .arrow{transform:rotate(-180deg); }
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
@@ -429,7 +429,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processLayout .processBarIn{height:19px;background:#ef901b;border-radius:18px;transition:0.3s;}
 .mailList{width:470px;background:#fff;position:relative;height:100%;}
 .mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
-.word{border:1px solid #efefef;border-width:1px 0;}
+.word{border:1px solid #efefef;border-width:1px 0;height: 50px;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
 .wordList li a{display:block;color:#666;height:20px;line-height:20px;}
@@ -482,6 +482,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
 .node_in span.color-3{display:block;height:31px;line-height:31px;}
 .node_in:hover span.color-3,.current .node_in span.color-3{color:#fff!important;}
+.node_in span.txt_hidden{width: 200px;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;z-index: 1;}
@@ -489,7 +490,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in .has-general input{height:25px;line-height: 25px;}
 .node_in .dropdown-menu{width:150px;height:150px;position: absolute;z-index: 10;top:35px;right:0;overflow: hidden;overflow-y: auto;}
 .top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 2;left:-1px;top:-21px;}
-.bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;}
+.bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;z-index: 1;}
 .top-mask-top{width:17px;height:15px;background: url("../img/tree-mask3.png");top:0;}
 .left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
 .tree_in{width:100%;height:100%;}
