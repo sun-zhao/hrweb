@@ -478,7 +478,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_main{border-left:1px solid #efefef;position: relative;}
 .node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
 .node{margin:12px 0;}
-.node.current{z-index: 200;}
+.node.show{z-index: 200;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
 .node_in span.color-3{display:block;height:31px;line-height:31px;}
