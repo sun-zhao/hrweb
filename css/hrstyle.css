@@ -290,6 +290,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .tableExcel td div{width:99px;height:48px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
+.tableExcel td div div.jspContainer{position:static;}
 .tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error{width:95px;height:44px;border:2px solid #ef901b;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
 .tableData thead tr th{text-align: center;}
@@ -486,8 +487,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node.show .dropdown-menu{display: block;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
-.node_in span.color-3{display:block;height:31px;line-height:31px;}
-.node_in:hover span.color-3,.current .node_in span.color-3{color:#fff!important;}
+.node_in span.color-info{display:block;height:31px;line-height:31px;margin-left:10px;}
+.node_in:hover span.color-info,.current .node_in span.color-info{color:#fff!important;}
 .node_in span.txt_hidden{width: 200px;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
