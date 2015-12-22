@@ -5,6 +5,7 @@
     <title>新建合同范本</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
 <body class="">
@@ -39,59 +40,67 @@
                 <li><a href="#">首 页</a> &gt;</li>
                 <li><span>新建合同范本</span></li>
             </ul>
-            <a href="#" class="marr20"><i class="icon icon-off" title="取消"></i></a>
-            <a href="#" class="marr20"><i class="icon icon-storage" title="保存"></i></a>
-            <a href="#" class="marr20"><i class="icon icon-print" title="打印"></i></a>
+            <a href="#" class="floatright marr10 current"><i class="icon-settings font25"></i></a>
+            <a href="#" class="floatright"><i class="icon-notifications font26" title="提醒"></i></a>
+            <a href="#" class="aligncenter floatright "><i class="icon-print font25" title="打印"></i></a>
+            <a href="#" class="floatright current"><i class="icon-profile font22" title="合同"></i></a>
+            <a href="#" class="aligncenter floatright"><i class="icon-floppy font20" title="保存"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
         </div>
     </div>
     <div class="container leftMain">
         <div class="Contract mart20">
-            <div class="ContractTitle bg-white clearfix">
-                <div class="has-general has-error marl20 ">
-                    <input type="text" placeholder="请填写合同范本名称">
+            <div class="ContractMain bg-white floatleft" id="ContractMain" style="width:600px;min-height:487px;" title="min-height=window高度 -230">
+
+            </div>
+            <div class="ContractTitle bg-white floatleft clearfix width-300 marl20" style="height:554px;"title="height=window高度 -163">
+                <div class="has-general marl20 width-250 mart20">
+                    <input type="text" class="width-250" placeholder="请填写合同范本名称">
                     <label class="control-label">请填写合同范本名称</label>
                 </div>
-                <div class="mart10 marl20">
-                    <div class="inlineblock">
-                        <div class="inlineblock color-8 marr20 clearfix">
-                            <span>签约</span>
-                            <div class="has-general has-error width-70 inlineblock">
-                                <input type="text" class="width-70" placeholder="">
+                <div class="mart10 marl20 p-top10">
+                    <div class="mart10">
+                        <div class="color-8 marr20 clearfix">
+                            <span>签约年限</span>
+                            <div class="has-general width-100 marl30 marr10 inlineblock">
+                                <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>年</span>
                         </div>
-                        <div class="inlineblock color-8 marr20 clearfix">
+                        <div class="color-8 mart20 clearfix">
                             <span>合同到期提前</span>
-                            <div class="has-general  width-70 inlineblock">
-                                <input type="text" class="width-70" placeholder="">
+                            <div class="has-general width-100 marl5 marr10 inlineblock">
+                                <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>天提醒</span>
                         </div>
                     </div>
-                    <div class="inlineblock marl40">
-                        <div class="inlineblock color-8 marr20 clearfix">
-                            <span>试用</span>
-                            <div class="has-general has-error width-70 inlineblock">
-                                <input type="text" class="width-70" placeholder="">
+                    <div class="mart20">
+                        <div class="color-8 clearfix">
+                            <span>试用时长</span>
+                            <div class="has-general width-100 marl30 marr10 inlineblock">
+                                <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>月</span>
                         </div>
-                        <div class="inlineblock color-8 marr20 clearfix">
+                        <div class="color-8 mart20 clearfix">
                             <span>试用到期提前</span>
-                            <div class="has-general  width-70 inlineblock">
-                                <input type="text" class="width-70" placeholder="">
+                            <div class="has-general width-100 marl5 marr10 inlineblock">
+                                <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>天提醒</span>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="ContractMain mart20 bg-white mar-auto" id="ContractMain" style="width:600px;min-height:372px;" title="min-height=iframe高度 -240">
-
             </div>
         </div>
     </div>
