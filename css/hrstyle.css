@@ -244,7 +244,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard .innerTd .mart5 td{height:20px;color:#888;padding-left:10px;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
 .tagsList li{float: left;}
-.tagsList li a{display: inline-block;width:78px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 3px 0 10px;}
+.tagsList li a{display: inline-block;width:95px;height:28px;line-height:28px;border:1px solid #efefef;text-align: center;color:#888;border-radius:3px;margin:3px 3px 0 10px;}
 .tagsList li a.current,.tagsList li:active a,.tagsList li:hover a{background:#ddd;border-color:#ddd;}
 .inputFrame{height:250px;border:1px solid #ccc;margin:0 10px 0 10px;position: relative;}
 .inputFrame textarea{width:97%;height:150px;border:0;padding:5px;}
