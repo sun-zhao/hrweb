@@ -288,6 +288,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
 .intBox_large.current .dropdown-menu{top:50px;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
+.intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
+.intBox_mid.current .dropdown-menu{top:40px;z-index: 10;}
 .tableExcel td div{width:99px;height:48px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
 .tableExcel td div div.jspContainer{position:static;}
