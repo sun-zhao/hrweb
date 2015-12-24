@@ -121,7 +121,7 @@
     $(function(){
         $('.MainBody').scroll(function(){
             var $this = $(this),
-                scrollTop = $this.scrollTop();
+                    scrollTop = $this.scrollTop();
             if(scrollTop<10){
                 $('#edui1_toolbarbox').css({position:"relative",top:0,width:600}).prev('div').remove();
             }else{
