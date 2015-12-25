@@ -425,7 +425,7 @@ td.pointer:hover .color-a{color:#ef901b!important;}
 .has-error label.control-label{display:block;color:#b94a48;}
 .choose_net .has-general{margin:5px 0;}
 .choose_net .has-general input{height:24px;line-height:24px;}
-.has-general input.file{position:absolute;top:0;left:0;height:230%!important;opacity: 0;}
+.has-general input.file{position:absolute;top:0;left:0;height:250%!important;opacity: 0;}
 .tableCard td div.has-general{height:30px;line-height:30px;top:3px;}
 .tableCard .has-general .control-label{top:4px;}
 .tableCard .com{position: absolute;z-index: 2;right:5px;}
