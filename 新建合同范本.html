@@ -55,8 +55,8 @@
     </div>
     <div class="container leftMain">
         <div class="Contract mart20">
-            <div class="ContractMain bg-white floatleft" id="ContractMain" style="width:600px;min-height:487px;" title="min-height=window高度 -230">
-
+            <div class="ContractMain bg-white floatleft" style="width:600px;height:564px;" title="min-height=window高度 -153">
+                <p class="aligncenter mart100 color-a"><i class="icon-file-word color-a marr5"></i>暂无合同模板，请先上传</p>
             </div>
             <div class="ContractTitle bg-white floatleft clearfix width-300 marl20" style="height:554px;"title="height=window高度 -163">
                 <div class="has-general marl20 width-250 mart20">
@@ -66,15 +66,15 @@
                 <div class="mart10 marl20 p-top10">
                     <div class="mart10">
                         <div class="color-8 marr20 clearfix">
-                            <span>签约年限</span>
-                            <div class="has-general width-100 marl30 marr10 inlineblock">
+                            <span class="inlineblock width-80">签约年限</span>
+                            <div class="has-general width-100 marl5 marr10 inlineblock">
                                 <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>年</span>
                         </div>
                         <div class="color-8 mart20 clearfix">
-                            <span>合同到期提前</span>
+                            <span class="inlineblock width-80">合同到期提前</span>
                             <div class="has-general width-100 marl5 marr10 inlineblock">
                                 <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
@@ -84,15 +84,15 @@
                     </div>
                     <div class="mart20">
                         <div class="color-8 clearfix">
-                            <span>试用时长</span>
-                            <div class="has-general width-100 marl30 marr10 inlineblock">
+                            <span class="inlineblock width-80">试用时长</span>
+                            <div class="has-general width-100 marl5 marr10 inlineblock">
                                 <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
                             </div>
                             <span>月</span>
                         </div>
                         <div class="color-8 mart20 clearfix">
-                            <span>试用到期提前</span>
+                            <span class="inlineblock width-80">试用到期提前</span>
                             <div class="has-general width-100 marl5 marr10 inlineblock">
                                 <input type="text" class="width-100 aligncenter" placeholder="">
                                 <label class="control-label">只能为数字</label>
@@ -100,24 +100,25 @@
                             <span>天提醒</span>
                         </div>
                     </div>
+                    <div class="mart20">
+                        <div class="clearfix">
+                            <span class="inlineblock width-80 color-8">选择合同</span>
+                            <div class="has-general width-160 inlineblock">
+                                <input type="text" class="width-160" id="payBaseTemp">
+                                <input type="file" class="file width-180" dir="payBaseTemp" id="file" name="file">
+                                <label class="control-label"></label>
+                            </div>
+                            <p class="alignright mart10"><a href="javascript:;" class="btn width-100 marr18">选择档案</a></p>
+                        </div>
+                    </div>
                 </div>
+                <p class="aligncenter btn_bottom"><a href="javascript:;" class="btn width-100">保存</a></p>
             </div>
         </div>
     </div>
 </div>
 <script src="js/jquery.js"></script>
-<script src="js/ueditor/ueditor.config.js"></script>
-<script src="js/ueditor/ueditor.all.js"></script>
 <script>
-    var editor = UE.getEditor('ContractMain', {
-        toolbars: [['source', '|', 'undo', 'redo', '|',
-            'bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
-            'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
-            'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
-            'directionalityltr', 'directionalityrtl', 'indent', '|'
-        ]]
-        // initialFrameHeight: 300
-    });
     $(function(){
         $('.MainBody').scroll(function(){
             var $this = $(this),

@@ -172,7 +172,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .timeCircle{display:inline-block;width:97px;height:50px;background:url("../img/time-line.png");color:#fff;text-indent:16px;margin-left:10px;}
 /*合同*/
 .Contract{width:1000px;margin:0 auto;min-height:400px;}
-.ContractTitle{padding:10px 0;padding-bottom:0;}
+.ContractTitle{padding:10px 0;padding-bottom:0;position: relative;}
 .ContractTitle .has-general{margin:0 auto;}
 .ContractTitle .has-general input{height:38px;line-height:38px;}
 .ContractTitle .has-general label{line-height:38px;}
