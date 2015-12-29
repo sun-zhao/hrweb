@@ -293,7 +293,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel td div{width:99px;height:48px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
 .tableExcel td div div.jspContainer{position:static;}
-.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error{width:95px;height:44px;border:2px solid #ef901b;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general{width:95px;height:44px;border:2px solid #ef901b;}
+.tableExcel td.edit div div.has-general{border-color:#fab40c;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
 .tableData thead tr th{text-align: center;}
 .tableData thead tr th,.tableData tbody tr td{padding:0;position: relative;}
