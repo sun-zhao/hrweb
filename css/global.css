@@ -263,6 +263,7 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .switch.current em{left:21px;transition:0.3s;}
 .tableBoss .switch{margin:12px 20px 10px 0;}
 .MainBody{position: absolute;left:0;right:0;top:50px;bottom:0;overflow:hidden;overflow-y: auto;background: #efefef;padding-top:20px;}
+.btn-mini{height:20px;line-height:20px;}
 /*当前位置*/
 .location{height:50px;line-height:50px;position: relative;}
 .locationIn{height:60px;line-height:60px;}

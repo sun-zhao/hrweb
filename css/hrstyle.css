@@ -144,6 +144,11 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .column .Department li table{width:100%;}
 .column .Department li table td{padding:0 20px;}
 .column .Department li,.column .Department li table td,.column .Department li .column-two span{height:38px;line-height: 38px;}
+.Department.colspan3 li{width:31.4%;}
+.Department.colspan3 li .txt_hidden{width:30%;}
+.Department.colspan3 li:hover{border:0!important;box-shadow:none;}
+.Department .dropdown-menu li,.Department .dropdown-menu li a{width:100%;padding:0;}
+
 
 .workerList li{width:18%;cursor: pointer;}
 .pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index:9999;display: none;overflow: hidden;}
@@ -447,6 +452,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .wordList li a.choosed,.checkAll.choosed{background:#ef901b;color:#fff;}
 .wordList li a:hover{color: #ef901b;}
 .wordList li a.choosed:hover{color: #fff;}
+.wordList li a.color-a{cursor:default;}
 .userTable{width:470px;}
 .userTable.jscroll{top:133px;bottom:50px;left:0;right:0;}
 .popInner .userTable.jscroll{top:85px;bottom:0;}
