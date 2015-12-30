@@ -146,7 +146,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .column .Department li,.column .Department li table td,.column .Department li .column-two span{height:38px;line-height: 38px;}
 .Department.colspan3 li{width:31.4%;}
 .Department.colspan3 li .txt_hidden{width:30%;}
-.Department.colspan3 li:hover{border:0!important;box-shadow:none;}
+.Department.colspan3 .dropdown-menu li:hover,.Department.colspan3 li:hover{border-color:#ef901b;box-shadow:none;}
 .Department .dropdown-menu li,.Department .dropdown-menu li a{width:100%;padding:0;}
 
 
