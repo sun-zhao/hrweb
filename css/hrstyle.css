@@ -176,7 +176,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .timeList li div .arrow{border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:9px solid #fff;right:inherit;left:-9px;margin-top:-5px;}
 .timeCircle{display:inline-block;width:97px;height:50px;background:url("../img/time-line.png");color:#fff;text-indent:16px;margin-left:10px;}
 /*合同*/
-.Contract{width:1000px;margin:0 auto;min-height:400px;}
+.Contract{width:1240px;margin:0 auto;min-height:400px;}
 .ContractTitle{padding:10px 0;padding-bottom:0;position: relative;}
 .ContractTitle .has-general{margin:0 auto;}
 .ContractTitle .has-general input{height:38px;line-height:38px;}
@@ -184,6 +184,9 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .ContractTitle .mart10 .has-general input{border-width:0 0 1px 0;height:26px;line-height:26px;}
 .ContractTitle .mart10 .has-general label,.ContractTitle .mart10 .has-general {height:26px;line-height:26px;padding:0;}
 .ContractMain{position: relative;}
+.ContractTitle .title{margin-top:-10px;}
+ul.demo li{line-height:20px;text-indent:10px;color:#999;}
+ul.demo li span.width-100{color:#333;}
 /*组织架构*/
 .tree{min-height:500px;padding:20px;}
 .treeBig{padding-bottom:0;}
