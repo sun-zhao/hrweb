@@ -48,6 +48,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .nomar-t{margin-top:0!important}
 .nomarl{margin-left:0!important;}
 .nomarr{margin-right:0!important;}
+.mart2{margin-top:2px!important;}
 .mart3{margin-top:3px!important;}
 .mart5{margin-top:5px!important;}
 .mart10{margin-top:10px!important;}
@@ -273,7 +274,7 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .location a:hover{color:#ef901b;}
 .location a.back,.back{border-right:1px solid #efefef;padding:0 8px;}
 span.back{padding:0 20px;}
-.title .back{height:40px;border-left:1px solid #efefef;}
+.title .back{height:40px;border-left:0 solid #efefef;}
 .locationIn .back div{display:inline-block;height:40px;line-height:40px;border-right:1px solid #efefef;border-left:1px solid #efefef;padding:0 15px;min-width:40px;}
 .locationIn .back div p{line-height:20px;}
 .location ul li{display: inline-block;}

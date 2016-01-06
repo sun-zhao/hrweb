@@ -19,7 +19,8 @@
 .leftMain{position:relative;}
 .container{margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;min-height:130px;}
-.containerIn{border: 1px solid #efefef;}
+.containerIn{border: 1px solid #fafafa;}
+.containerIn .title{border-color:#fafafa;}
 .userInfo{height:80px;}
 .userInfo .user em{line-height:40px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -131,7 +132,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
 .Department li .jspPane li{height:30px;line-height:30px;}
-.Department li:hover,.Department li.current{border-color:#ef901b;box-shadow: 0 0 1px #ef901b;}
+/*.Department li:hover,.Department li.current{border-color:#ef901b;box-shadow: 0 0 1px #ef901b;}*/
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
@@ -335,6 +336,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList td div.current .l_arrow{background-position:-25px -40px;}
 .stepList td div.current .r_arrow{background-position:-25px 0;}
 .Team{border:1px solid #efefef;margin:20px;}
+.Team .title span{height:40px;}
 .jspPane .Team{margin-right:10px;}
 /*.jspPane p.alignright{margin-right:25px;}*/
 .Team.nodata,.dataAdd{border:1px dashed #efefef;padding:40px 0;position: relative;}
@@ -419,7 +421,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .checkMenu li:after{clear: both;}
 .checkMenu li.checkAll{background:none;text-align: left;}
 .show_more{display:inline-block;width:50px;height:39px;line-height:39px;border-left:1px solid #efefef;color: #888;}
-
+.checkMenu .de_list_name li{width:70px;}
 /*初始化*/
 .content{width:100%;height:100%;position: relative;overflow: hidden;}
 .pageList{position: absolute;left:0;right:0;top:15px;z-index:20}
