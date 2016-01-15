@@ -42,7 +42,7 @@
                 <li><span>考勤统计</span></li>
             </ul>
             <a href="#" class="floatright"><i class="icon icon-set"></i></a>
-            <ul class="dropdown-menu width-110" style="display:block ">
+            <ul class="dropdown-menu width-110" style="display:none ">
                 <li><a href="#">部门设置</a></li>
                 <li><a href="#">职位设置</a></li>
                 <li><a href="#">合同范本设置</a></li>
@@ -90,11 +90,15 @@
                         <input type="text" placeholder="搜索员工姓名">
                     </div>
                     <a href="#" class="btn btnLarge width-130 floatright">开通自动计算(0/5)</a>
-                    <div class="btn btnLarge btn-yes width-130 floatright update">
+                    <div class="has-general intBox btn-select floatright marr10 current">
                         <em class="arrow"></em>
-                        <span>导入数据</span>
-                        <a href="#">考勤机数据</a>
-                        <a href="#">APP地理位置</a>
+                        <span class="marl10">导入数据</span>
+                        <div class="dropdown-menu jscroll">
+                            <ul>
+                                <li><a href="#">考勤机数据</a></li>
+                                <li><a href="#">APP地理位置</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="btn btnLarge nobg width-200 floatright color-3">
                         <span>是否打开可编辑状态</span>
@@ -526,8 +530,60 @@
             </div>
         </div>
     </div>
+    <!--数据来源弹出begin-->
+    <div class="pop" style="display:none;height:300px;">
+        <div class="title alignright">
+            <span class="floatleft">请选择数据来源</span>
+            <a href="#" class="iconBtn marr10 font20"><i class="icon-clear"></i></a>
+        </div>
+        <div class="popInner">
+            <div class="popIn">
+                <ul class="data_base mart30">
+                    <li class="clearfix alignright">
+                        <span class="floatleft font14">手动输入</span>
+                        <span class="font20"><i class="icon-circle-right"></i></span>
+                    </li>
+                    <li class="clearfix alignright">
+                        <span class="floatleft font14">oa数据</span>
+                        <span class="font20"><i class="icon-circle-right"></i></span>
+                    </li>
+                    <li class="clearfix alignright">
+                        <span class="floatleft font14">考勤机数据</span>
+                        <span class="font20"><i class="icon-circle-right"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--数据来源弹出over-->
+    <!--请选择导出项begin-->
+    <div class="pop" style="display:block;height:400px;">
+        <div class="title alignright">
+            <span class="floatleft">请选择导出项</span>
+            <a href="#" class="iconBtn marr10 font20"><i class="icon-clear"></i></a>
+        </div>
+        <div class="popInner">
+            <div class="popIn" style="height:280px;">
+                <div class="checkMenu">
+                    <ul class="clearfix de_list">
+                        <li class="txt_hidden current"><span>上海分公司</span><i class="icon-check_box"></i></li>
+                        <li class="txt_hidden"><span>北京分公司</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>北京研发中心</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>北京研发中心</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>上海分公司</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>北京分公司</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>上海分公司</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>北京分公司</span><i class="icon-check_box_outline_blank"></i></li>
+                        <li class="txt_hidden"><span>北京研发中心</span><i class="icon-check_box_outline_blank"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-bt20 mart20"><a href="#" class="btn btnBlcok block">开始导出</a></div>
+        </div>
+    </div>
+    <!--请选择导出项over-->
 </div>
-<!--<div class="mask" style="display:;"></div>-->
+<div class="mask" style="display:;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>

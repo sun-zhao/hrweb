@@ -104,7 +104,12 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .update{position:relative;z-index: 10;}
 .update .arrow{z-index:3;border-top:4px solid #fff;right:10px;}
-.update:hover .arrow{transform:rotate(-180deg); }
+.update:hover .arrow{transform:rotate(-180deg);}
+.btn-select{background:#ef901b;border:0;border-radius:3px;width:auto;min-width:100px;}
+.btn-select span{color:#fff!important;}
+.btn-select .arrow{border-top:4px solid #fff;}
+
+
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
@@ -575,7 +580,12 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .update a{height:0;overflow: hidden;transition:0.3s;}
 .update a:hover{background: #55c96e;}
 .update:hover a{height:50px;transition:0.3s;}
-
+.data_base li{height:48px;line-height:48px;border:1px solid #efefef;border-radius:4px;padding:0 15px;margin:10px 20px;}
+.data_base li:hover{background:#fdf4e8;border-color:#fae0bd;cursor: pointer;}
+.data_base li:hover .icon-circle-right{color:#ef901b;}
+.popIn .checkMenu li{width:40%;border-right: 1px solid #efefef;padding:10px 15px 10px 5px;}
+.popIn .checkMenu li:nth-child(2n){border:0;}
+.popIn .checkMenu .de_list i{float: right}
 
 
 .progress-radial {
