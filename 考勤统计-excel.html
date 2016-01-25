@@ -56,7 +56,7 @@
         <div class="container leftMain">
             <div class="container bg-white" style="height:567px;" title="height等于MainBody的高度-100">
                 <div class="title nopadding alignright clearfix excelTitle">
-                    <div class="has-general inlineblock intBox intBox_large width-110 floatleft current">
+                    <div class="has-general inlineblock intBox intBox_large width-110 floatleft ">
                         <label class="control-label">全休部门</label>
                         <em class="arrow"></em>
                         <p class="">全休部门</p>
@@ -106,14 +106,38 @@
                     </div>
                 </div>
                 <div class="clearfix">
-                    <div class="floatleft hiddenX jscroll" style="width:452px;">
+                    <div class="floatleft hiddenX jscroll" style="width:452px;overflow:visible!important;">
                         <table class="tableCard tableExcel tableExcelHead color-3">
                             <tbody>
                                 <tr>
                                     <th class="width-50 nopadding aligncenter"><div style="width:50px;">序号</div></th>
-                                    <th class="first"><div style="width:99px;">姓名</div></th>
-                                    <th><div style="width:159px;">部门</div></th>
-                                    <th><div style="width:139px;">职位</div></th>
+                                    <th class="first">
+                                        <div style="width:99px;">
+                                            <p>姓名</p>
+                                            <a href="#" class="font14 sort"><i class="icon-sort-alpha-asc" title="另一个calss=icon-sort-alpha-desc"></i></a>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div style="width:159px;">
+                                            <div class="has-general inlineblock intBox intBox_large current">
+                                                <label class="control-label">公司</label>
+                                                <em class="arrow"></em>
+                                                <p class="">公司</p>
+                                                <div class="dropdown-menu" style="height:60px;">
+                                                    <ul class="">
+                                                        <li><a href="#">按11排序</a></li>
+                                                        <li><a href="#">按2排序</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div style="width:139px;">
+                                            <p>职位</p>
+                                            <a href="#" class="font15 sort"><i class="icon-sort-numeric-asc" title="另一个calss=icon-sort-numberic-desc"></i></a>
+                                        </div>
+                                    </th>
                                 </tr>
                             </tbody>
                         </table>
@@ -122,8 +146,20 @@
                         <table class="tableCard tableExcel tableExcelHead color-3">
                             <tbody>
                                 <tr>
-                                    <th><div style="width:99px;">迟到</div></th>
-                                    <th><div style="width:99px;">早退</div></th>
+                                    <th>
+                                        <div class="two_line" style="width:99px;">
+                                            <p class="p-top5">迟到</p>
+                                            <p class="color-8">(手动输入)</p>
+                                            <a href="#" class="setting font13"><i class="icon-settings"></i></a>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="two_line" style="width:99px;">
+                                            <p class="p-top5">早退</p>
+                                            <p class="color-8">(手动输入)</p>
+                                            <a href="#" class="setting font13"><i class="icon-settings"></i></a>
+                                        </div>
+                                    </th>
                                     <th><div style="width:99px;">出差</div></th>
                                     <th><div style="width:99px;">外出</div></th>
                                     <th><div style="width:99px;">病假</div></th>
@@ -138,7 +174,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="clearfix"  style="height:427px;position: relative;" title="这里的高度等于MainBody的高度-207">
+                <div class="clearfix" style="height:460px;position: relative;overflow: hidden;" title="这里的高度等于MainBody的高度-207">
                     <div class="floatleft hiddenX jscroll" style="width:452px;height:460px;" title="这里的高度等于MainBody的高度-207">
                         <table class="tableCard tableExcel">
                             <tbody>
@@ -522,7 +558,6 @@
                                     <td width="99"><div style="width:99px;">110人次</div></td>
                                     <td width="99" class="last"><div style="width:99px;"></div></td>
                                 </tr>
-
                             </tbody>
                         </table>
                     </div>
@@ -557,7 +592,7 @@
     </div>
     <!--数据来源弹出over-->
     <!--请选择导出项begin-->
-    <div class="pop" style="display:block;height:400px;">
+    <div class="pop" style="display:none;height:400px;">
         <div class="title alignright">
             <span class="floatleft">请选择导出项</span>
             <a href="#" class="iconBtn marr10 font20"><i class="icon-clear"></i></a>
@@ -583,7 +618,7 @@
     </div>
     <!--请选择导出项over-->
 </div>
-<div class="mask" style="display:;"></div>
+<div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
