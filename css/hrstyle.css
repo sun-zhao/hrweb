@@ -14,6 +14,7 @@
 .layout{outline:none;border:0;margin-top:20px;}/*position: absolute;top:50px;left:0;bottom:10px;right:0;*/
 .jscroll{outline:none;border:0;}
 .hiddenX .jspHorizontalBar,.hiddenX .jspVerticalBar{display:none;}
+.hiddenX .dropdown-menu .jspHorizontalBar, .hiddenX .dropdown-menu .jspVerticalBar{display: block;}
 .layoutMid{top:210px;}
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
@@ -270,6 +271,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel td div.jspPane{width:100%;height:auto;line-height: normal;}
 .tableExcel tbody tr td,.tableExcel tbody tr th,.tableData thead tr th{border:1px solid #efefef;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
+.dropdown-menu .jspPane{height:auto;overflow: hidden;}
+.hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
 @-moz-document url-prefix() {
   .tableExcel tbody tr th,.tableData thead tr th{background:none;}
