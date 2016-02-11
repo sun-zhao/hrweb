@@ -98,10 +98,10 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-2{color:#ef901b;}
 /*.color-3{color:#aaaaaa;}*/
 .color-4{color:#e75353;}
-.more{color:#ef901b;}
+.more,.color-theme,.color-theme i{color:#ef901b!important;}
 .nodata{color:#ccc;padding-top:100px;cursor: default;}
 a.add:hover,a.more:hover{text-decoration: underline;}
-.color-info{color:#80c17c;}
+.color-info{color:#80c17c!important;}
 .tags,.keywords{color: #f11b1b;}
 a.tags:hover,a.keywords:hover{text-decoration:underline;}
 /*width*/
