@@ -580,14 +580,27 @@
                         <i class="arrow-left"></i>
                         <em>办理入职手续</em>
                     </span>
-                    <a href="#">查看合同</a>
+                    <a href="javaxcript:;" class="see_more" dir="http://la-public.b0.upaiyun.com/document/oa/md_oa_guide_for_General.pdf">查看合同</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!--工作经历over-->
-<div class="mask" style="display:none;"></div>
+<!--合同查看弹出 begin-->
+<div class="pop_layout" style="display:none;">
+    <div class="pop_title alignright">
+        <span class="marl20 floatleft">刘德华的2015-2016年公司合同</span>
+        <a href="#" class="iconBtn marr20 mart15 off"><i class="icon-close font20 color-white"></i></a>
+    </div>
+    <div class="pop_layout_in">
+        <div class="doc_view">
+            <iframe allowtransparency="true" allowtransparency="true" src="" width="100%" height="100%" frameborder="0" scrolling="no" id="platform-office-iframe"></iframe>
+        </div>
+    </div>
+</div>
+<!--合同查看弹出 over-->
+<div class="mask" style="display:block;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -617,6 +630,38 @@
             $noticeBox.stop().animate({right:-2},400);
             $leftMain.stop().animate({left:-0.495*$W},400);
         }
+    });
+    $(function(){
+        $('.see_more').click(function(){
+            var dir = $(this).attr('dir');
+            var $doc_preview = $('.pop_layout');
+            var owaURL='https://docview.mingdao.com/op/view.aspx?src='+dir;
+            owaURL=encodeURI(owaURL);
+            $doc_preview.show();
+//            $('#originalBtn').hide().attr('href','javascript:;');
+            var iframe = document.getElementById("platform-office-iframe");
+            $(iframe).show();
+            $('#fileDownloadBtn').show().off('click').on('click',function(){
+                $(this).attr('href',dir);
+            });
+            iframe.src = owaURL;
+            if (iframe.attachEvent) {
+                iframe.attachEvent("onload", function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                });
+            } else {
+                iframe.onload = function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                };
+            }
+        });
+        $('.off').click(function(){
+            $(this).parents('.pop_layout').fadeOut();
+        });
     });
 </script>
 </body>

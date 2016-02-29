@@ -48,6 +48,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .nomar-t{margin-top:0!important}
 .nomarl{margin-left:0!important;}
 .nomarr{margin-right:0!important;}
+.mart2{margin-top:2px!important;}
 .mart3{margin-top:3px!important;}
 .mart5{margin-top:5px!important;}
 .mart10{margin-top:10px!important;}
@@ -97,10 +98,10 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .color-2{color:#ef901b;}
 /*.color-3{color:#aaaaaa;}*/
 .color-4{color:#e75353;}
-.more{color:#ef901b;}
+.more,.color-theme,.color-theme i{color:#ef901b!important;}
 .nodata{color:#ccc;padding-top:100px;cursor: default;}
 a.add:hover,a.more:hover{text-decoration: underline;}
-.color-info{color:#80c17c;}
+.color-info{color:#80c17c!important;}
 .tags,.keywords{color: #f11b1b;}
 a.tags:hover,a.keywords:hover{text-decoration:underline;}
 /*width*/
@@ -198,7 +199,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 
 
 .prompt{text-align:center;font-size:10px;border-radius:50%;min-width:13px;height:13px;line-height:15px;border:2px solid #383634;background:#dd4747;color:#fff;font-family: Arial;position: absolute;padding:2px;right:8px;top:5px;}
-.title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;}
+.title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;position: relative;}
 .titleBt{border-bottom:0;border-top: 1px solid #efefef;}
 .title a.color-8.current{color:#000!important;}
 .pop .title{padding-left:10px;}
@@ -264,6 +265,8 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .tableBoss .switch{margin:12px 20px 10px 0;}
 .MainBody{position: absolute;left:0;right:0;top:50px;bottom:0;overflow:hidden;overflow-y: auto;background: #efefef;padding-top:20px;}
 .btn-mini{height:20px;line-height:20px;}
+.btn-border{border:1px solid #dddddd;background:#fff;color:#333333;}
+.btn-border:hover{color:#fff;border-color:#ef901b;}
 /*当前位置*/
 .location{height:50px;line-height:50px;position: relative;}
 .locationIn{height:60px;line-height:60px;}
@@ -273,7 +276,7 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .location a:hover{color:#ef901b;}
 .location a.back,.back{border-right:1px solid #efefef;padding:0 8px;}
 span.back{padding:0 20px;}
-.title .back{height:40px;border-left:1px solid #efefef;}
+.title .back{height:40px;border-left:0 solid #efefef;}
 .locationIn .back div{display:inline-block;height:40px;line-height:40px;border-right:1px solid #efefef;border-left:1px solid #efefef;padding:0 15px;min-width:40px;}
 .locationIn .back div p{line-height:20px;}
 .location ul li{display: inline-block;}
@@ -410,7 +413,7 @@ td.pointer:hover .color-a{color:#ef901b!important;}
 /*弹出*/
 .loading{position:fixed;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:500;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;z-index: 999;}
+.mask,.pop_layout{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;z-index: 999;}
 .maskTop{width: 100%;height:50px;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
 /*input*/
 .int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}

@@ -14,12 +14,14 @@
 .layout{outline:none;border:0;margin-top:20px;}/*position: absolute;top:50px;left:0;bottom:10px;right:0;*/
 .jscroll{outline:none;border:0;}
 .hiddenX .jspHorizontalBar,.hiddenX .jspVerticalBar{display:none;}
+.hiddenX .dropdown-menu .jspHorizontalBar, .hiddenX .dropdown-menu .jspVerticalBar{display: block;}
 .layoutMid{top:210px;}
 /*.layout.jscroll{margin-right:-8px;}*/
 .leftMain{position:relative;}
 .container{margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;min-height:130px;}
-.containerIn{border: 1px solid #efefef;}
+.containerIn{border: 1px solid #fafafa;}
+.containerIn .title{border-color:#fafafa;}
 .userInfo{height:80px;}
 .userInfo .user em{line-height:40px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -103,7 +105,12 @@
 .arrow{display:inline-block;font-size:0;line-height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #aaa;position: absolute;top:50%;margin-top:-2px;right:10px;transition:0.2s;}
 .update{position:relative;z-index: 10;}
 .update .arrow{z-index:3;border-top:4px solid #fff;right:10px;}
-.update:hover .arrow{transform:rotate(-180deg); }
+.update:hover .arrow{transform:rotate(-180deg);}
+.btn-select{background:#ef901b;border:0;border-radius:3px;width:auto;min-width:100px;}
+.btn-select span{color:#fff!important;}
+.btn-select .arrow{border-top:4px solid #fff;}
+
+
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
@@ -131,7 +138,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 /*部门设定*/
 .Department li{width:47.5%;height:48px;line-height:48px;border:1px solid #efefef;float: left;margin:10px 0 0 20px;text-indent:10px;}
 .Department li .jspPane li{height:30px;line-height:30px;}
-.Department li:hover,.Department li.current{border-color:#ef901b;box-shadow: 0 0 1px #ef901b;}
+/*.Department li:hover,.Department li.current{border-color:#ef901b;box-shadow: 0 0 1px #ef901b;}*/
 .Department li .txt_hidden{width:70%;}
 .Department.setIp li .txt_hidden{width:60%;}
 .Department.setIp li .txt_hidden_short{width:20%;}
@@ -146,7 +153,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .column .Department li,.column .Department li table td,.column .Department li .column-two span{height:38px;line-height: 38px;}
 .Department.colspan3 li{width:31.4%;}
 .Department.colspan3 li .txt_hidden{width:30%;}
-.Department.colspan3 .dropdown-menu li:hover,.Department.colspan3 li:hover{border-color:#ef901b;box-shadow:none;}
+.Department.colspan3 .dropdown-menu li:hover,.Department.colspan3 li:hover{border-color:#eee;box-shadow:none;}
 .Department .dropdown-menu li,.Department .dropdown-menu li a{width:100%;padding:0;}
 
 
@@ -264,6 +271,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel td div.jspPane{width:100%;height:auto;line-height: normal;}
 .tableExcel tbody tr td,.tableExcel tbody tr th,.tableData thead tr th{border:1px solid #efefef;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
+.dropdown-menu .jspPane{height:auto;overflow: hidden;}
+.hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
 @-moz-document url-prefix() {
   .tableExcel tbody tr th,.tableData thead tr th{background:none;}
@@ -275,7 +284,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr td .has-general input{width:95px;height:44px;line-height:44px;position:absolute;top:0;left:0;right:0;bottom:0;box-shadow:none;border:0;text-align: center;}
 .tableExcel tbody tr td:hover{cursor: text;}
 .tableExcel tbody tr td.first:hover{cursor:default;}
-.tableExcel tbody tr .arrow{border-right:4px solid #fff;border-left:4px solid #fff;border-top:4px solid #888;}
+.tableExcel tbody tr .arrow{border-right:4px solid transparent;border-left:4px solid transparent;border-top:4px solid #888;}
 .tableExcel tbody tr .current .dropdown-menu{top:0;left:-15px;display: block;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar{width:4px;height:100%;position:absolute;line-height: normal;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
@@ -288,6 +297,15 @@ div.popUser.popUser .user img{display: inline-block;}
 {border:0!important;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu ul{width:97%;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu .jspVerticalBar{right:0;left: auto;}
+.tableExcel tbody tr th .intBox{width:100%;height:48px;line-height: 48px;background:none;}
+.tableExcel tbody tr th div.two_line {line-height:20px;}
+.tableExcel tbody tr th div.two_line .setting{position:absolute;right:-15px;top:15px;transition:0.2s;}
+.tableExcel tbody tr th div.two_line:hover .setting{right:2px;transition:0.2s;}
+.tableExcel tbody tr th .intBox.current .dropdown-menu{top:0;}
+.tableExcel tbody tr .intBox.current .dropdown-menu a{width:auto;}
+.hiddenX .jspContainer,.jspScrollable{overflow:visible!important;}
+.hiddenX_r.jspScrollable{overflow: hidden!important;}
+.sort{position:absolute;display: block;height:20px;line-height:20px;left:10px;top:50%;margin-top:-10px;z-index: 999;}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
 .arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
 .excelTitle{height:50px;border-bottom:2px solid #e4e4e4;}
@@ -335,6 +353,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .stepList td div.current .l_arrow{background-position:-25px -40px;}
 .stepList td div.current .r_arrow{background-position:-25px 0;}
 .Team{border:1px solid #efefef;margin:20px;}
+.Team .title span{height:40px;}
 .jspPane .Team{margin-right:10px;}
 /*.jspPane p.alignright{margin-right:25px;}*/
 .Team.nodata,.dataAdd{border:1px dashed #efefef;padding:40px 0;position: relative;}
@@ -419,7 +438,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .checkMenu li:after{clear: both;}
 .checkMenu li.checkAll{background:none;text-align: left;}
 .show_more{display:inline-block;width:50px;height:39px;line-height:39px;border-left:1px solid #efefef;color: #888;}
-
+.checkMenu .de_list_name li{width:70px;}
 /*初始化*/
 .content{width:100%;height:100%;position: relative;overflow: hidden;}
 .pageList{position: absolute;left:0;right:0;top:15px;z-index:20}
@@ -573,6 +592,17 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .update a{height:0;overflow: hidden;transition:0.3s;}
 .update a:hover{background: #55c96e;}
 .update:hover a{height:50px;transition:0.3s;}
+.data_base li{height:48px;line-height:48px;border:1px solid #efefef;border-radius:4px;padding:0 15px;margin:10px 20px;}
+.data_base li:hover{background:#fdf4e8;border-color:#fae0bd;cursor: pointer;}
+.data_base li:hover .icon-circle-right{color:#ef901b;}
+.popIn .checkMenu li{width:40%;border-right: 1px solid #efefef;padding:10px 15px 10px 5px;}
+.popIn .checkMenu li:nth-child(2n){border:0;}
+.popIn .checkMenu .de_list i{float: right}
+/*合同弹出*/
+.pop_layout{z-index:99999;opacity: 1;}
+.pop_title{height:50px;line-height:50px;background:#000;color:#fff;}
+.pop_layout_in{background:#fff;position: absolute;top:50px;left:0;right:0;bottom:0;overflow-y: auto;}
+.doc_view{position: absolute;top:0;width:1000px;bottom:0;left:50%;margin-left:-500px;background:#fff;overflow:hidden;}
 
 
 

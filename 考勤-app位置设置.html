@@ -9,7 +9,7 @@
 </head>
 <body>
 <!--header begin-->
-<div class="header clearfix blur">
+<div class="header clearfix ">
     <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
     <ul class="nav floatleft clearfix">
         <li><a href="#">个人信息</a></li>
@@ -31,7 +31,7 @@
     </div>
 </div>
 <!--header over-->
-<div class="MainBody hidden blur">
+<div class="MainBody hidden ">
     <!--当前位置begin-->
     <div class="container ">
         <div class="location bg-white clearfix">
@@ -50,9 +50,23 @@
                 <div style="height:496px;">
                     <div class="title clearfix">
                         <span class="">APP打卡地理位置设定</span>
-                        <div class="has-general inlineblock marl20 mart3" id="r-result">
+                        <div class="has-general inlineblock marl10 mart3" id="r-result">
                             <input type="text" id="suggestId" class="width-300" placeholder="请输入公司地理位置">
                             <label class="control-label">请输入公司地理位置</label>
+                        </div>
+                        <span class="marl20">允许打卡距离误差</span>
+                        <div class="has-general intBox inlineblock mart3 marl10 current">
+                            <label class="control-label">允许打卡距离误差</label>
+                            <em class="arrow"></em>
+                            <p class="marl5">允许打卡距离误差</p>
+                            <div class="dropdown-menu  jscroll" style="height:130px;">
+                                <ul>
+                                    <li><a href="#">50米</a></li>
+                                    <li><a href="#">100米</a></li>
+                                    <li><a href="#">200米</a></li>
+                                    <li><a href="#">300米</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
                     </div>
@@ -66,8 +80,8 @@
         </div>
     </div>
 </div>
-<div class="mask"></div>
-<div class="pop" style="display: block">
+<div class="mask" style="display: none"></div>
+<div class="pop" style="display: none">
     <div class="title alignright">
         <span class="floatleft">导入考勤数据</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
