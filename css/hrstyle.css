@@ -111,7 +111,7 @@
 .btn-select .arrow{border-top:4px solid #fff;}
 
 
-.intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
+.intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
@@ -312,7 +312,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .jspPane{margin: 0!important;}
 .intBox_large{border:0;border-right:1px solid #efefef;margin:0;height:50px;line-height:50px;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
-.intBox_large.current .dropdown-menu{top:50px;}
+.intBox_large.current .dropdown-menu{top:50px;overflow: hidden!important;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
 .intBox_mid.current .dropdown-menu{top:40px;z-index: 10;}
