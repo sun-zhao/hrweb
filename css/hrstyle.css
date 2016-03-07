@@ -111,7 +111,7 @@
 .btn-select .arrow{border-top:4px solid #fff;}
 
 
-.intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:20;}
+.intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
 .intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
@@ -286,6 +286,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr td.first:hover{cursor:default;}
 .tableExcel tbody tr .arrow{border-right:4px solid transparent;border-left:4px solid transparent;border-top:4px solid #888;}
 .tableExcel tbody tr .current .dropdown-menu{top:0;left:-15px;display: block;}
+.tableExcelHead tbody tr .current .dropdown-menu{left:0;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar{width:4px;height:100%;position:absolute;line-height: normal;}
 .tableExcel tbody tr .dropdown-menu div.jspVerticalBar div{width:4px;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:1;cursor: pointer;display:none;}
@@ -312,7 +313,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .jspPane{margin: 0!important;}
 .intBox_large{border:0;border-right:1px solid #efefef;margin:0;height:50px;line-height:50px;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
-.intBox_large.current .dropdown-menu{top:50px;}
+.intBox_large.current .dropdown-menu{top:50px;overflow: hidden!important;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
 .intBox_mid.current .dropdown-menu{top:40px;z-index: 10;}
@@ -602,7 +603,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .pop_layout{z-index:99999;opacity: 1;}
 .pop_title{height:50px;line-height:50px;background:#000;color:#fff;}
 .pop_layout_in{background:#fff;position: absolute;top:50px;left:0;right:0;bottom:0;overflow-y: auto;}
-.doc_view{position: absolute;top:0;width:1000px;bottom:0;left:50%;margin-left:-500px;background:#fff;overflow:hidden;}
+.doc_view{position: absolute;top:0;width:100%;bottom:0;left:0;overflow:hidden;}
 
 
 
