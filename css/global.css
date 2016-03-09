@@ -291,6 +291,7 @@ span.back{padding:0 20px;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
 .location .dropdown-menu {z-index:100;}
+.dropdown-menu li i{position: relative;top:2px;}
 /*.dropdown-out.net{height:283px;}*/
 .dropdown-out.net{box-shadow:0 0 3px #e0e0e0;background:#fff;}
 .dropdown-out.net .dropdown-menu,.dropdown-out.net ul.dropdown-menu{border:0;box-shadow:none;position:relative;top:0;}
