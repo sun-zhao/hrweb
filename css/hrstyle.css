@@ -306,7 +306,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .intBox.current .dropdown-menu a{width:auto;}
 .hiddenX .jspContainer,.jspScrollable{overflow:visible!important;}
 .hiddenX_r.jspScrollable{overflow: hidden!important;}
-.sort{position:absolute;display: block;height:20px;line-height:20px;left:10px;top:50%;margin-top:-10px;z-index: 999;}
+.sort{position:absolute;display: block;height:20px;line-height:20px;left:10px;top:50%;margin-top:-10px;z-index: 9;}
+.icon-tips{position: absolute;top:-25px;left:-10px;}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/
 .arrow-top{display: inline-block;position: absolute;width:10px;height:10px;background: url("../img/ex-top.png") 0 0;top:0;right:0;z-index: 10;cursor: pointer;}
 .excelTitle{height:50px;border-bottom:2px solid #e4e4e4;}
