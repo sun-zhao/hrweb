@@ -183,7 +183,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th,.l_th *{text-decoration:line-through;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
-.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a,.intBox .dropdown-menu a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
+.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a,.intBox .dropdown-menu a,.intBox p.marl5{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
 .ContractMain p{font-size:13px;line-height:30px;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
