@@ -183,7 +183,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th,.l_th *{text-decoration:line-through;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
-.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a,.intBox .dropdown-menu a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
+.txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a,.intBox .dropdown-menu a,.intBox p.marl5{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
 .ContractMain p{font-size:13px;line-height:30px;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
@@ -291,6 +291,7 @@ span.back{padding:0 20px;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
 .location .dropdown-menu {z-index:100;}
+.dropdown-menu li i{position: relative;top:2px;}
 /*.dropdown-out.net{height:283px;}*/
 .dropdown-out.net{box-shadow:0 0 3px #e0e0e0;background:#fff;}
 .dropdown-out.net .dropdown-menu,.dropdown-out.net ul.dropdown-menu{border:0;box-shadow:none;position:relative;top:0;}
