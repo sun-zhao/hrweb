@@ -287,7 +287,7 @@ span.back{padding:0 20px;}
 .dropdown-menu{background:#fff;border:1px solid #efefef;position: absolute;right:0;top:40px;padding:5px 0;box-shadow:0 0 3px #e0e0e0;display: none;z-index:3;}
 .dropdown-menu.current{display:block;}
 .dropdown-menu li{display:block!important;min-height:30px!important;color:#666;text-align: left;margin:0!important;border:0!important;}
-.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;white-space:nowrap;text-overflow:ellipsis;}
+.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 5px;white-space:nowrap;text-overflow:ellipsis;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
 .location .dropdown-menu {z-index:100;}
