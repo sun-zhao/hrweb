@@ -271,7 +271,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel td div.jspPane{width:100%;height:auto;line-height: normal;}
 .tableExcel tbody tr td,.tableExcel tbody tr th,.tableData thead tr th{border:1px solid #efefef;}
 /*.tableExcel tbody tr th:first-child{border-left:0;}*/
-.dropdown-menu .jspPane{height:auto;overflow: hidden;}
+.dropdown-menu .jspPane{height:auto!important;overflow: hidden;}
 .hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
 @-moz-document url-prefix() {
@@ -292,7 +292,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:1;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
-.tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;}
+.tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;vertical-align: middle;}
 .tableExcel tbody tr .intBox.current .dropdown-menu{top:32px;left:0;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu
 {border:0!important;}
@@ -324,6 +324,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel td div{width:99px;height:48px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
 .tableExcel td div div.jspContainer{position:static;}
+.tableExcel td div.intBox div.jspContainer{position:absolute;}
 .tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general{width:95px;height:44px;border:2px solid #ef901b;}
 .tableExcel td.edit div div.has-general{border-color:#fab40c;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
