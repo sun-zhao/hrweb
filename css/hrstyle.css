@@ -317,7 +317,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .jspPane{margin: 0!important;}
 .intBox_large{border:0;border-right:1px solid #efefef;margin:0;height:50px;line-height:50px;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
-.tableExcel  tr th .intBox_large p{height:48px;line-height:48px;}
+.tableExcel tr th .intBox_large p{height:48px;line-height:48px;}
+.tableCard tr th .intBox_large{top: 1px;height:39px;left: 1px;}
+.tableCard tr th .intBox_large p{height:38px;line-height:38px;}
 .intBox_large.current .dropdown-menu{top:50px;overflow: hidden!important;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
