@@ -114,7 +114,7 @@
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;overflow: hidden!important;}
 .intBox .dropdown-menu a,.node_in .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
-.intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
+.intBox.current .dropdown-menu{display: block;top:30px;}/*.intBox:hover .dropdown-menu,*/
 .intBox p.marl5{display: inline-block;height:28px;line-height:28px;width: 88%;}
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
 .treeMain .userDiv .intBox p{height:28px;line-height:28px;}
@@ -274,9 +274,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .dropdown-menu .jspPane{height:auto!important;overflow: hidden;}
 .hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
-@-moz-document url-prefix() {
-  .tableExcel tbody tr th,.tableData thead tr th{background:none;}
-}
+/*@-moz-document url-prefix() {*/
+  /*.tableExcel tbody tr th,.tableData thead tr th{background:none;}*/
+/*}*/
 .tableData tbody tr:hover th,.tableData tbody tr:hover td{background:#f5f5f5;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
@@ -292,6 +292,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:1;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
+.hiddenX_r tr th{overflow: hidden;}
 .tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;vertical-align: middle;}
 .tableExcel tbody tr .intBox.current .dropdown-menu{top:32px;left:0;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu
