@@ -302,7 +302,6 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr th div.two_line {line-height:20px;}
 .tableExcel tbody tr th div.two_line .setting{position:absolute;right:-15px;top:15px;transition:0.2s;}
 .tableExcel tbody tr th div.two_line:hover .setting{right:2px;transition:0.2s;}
-.tableExcelHead  tr th .intBox.current .dropdown-menu{top:0;}
 .tableExcel tbody tr .intBox.current .dropdown-menu a{width:auto;}
 .hiddenX .jspContainer,.jspScrollable{overflow:visible!important;}
 .hiddenX_r.jspScrollable{overflow: hidden!important;}
@@ -323,7 +322,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcelHead tr th .intBox_large{top: 0px;height:48px;left: 0px;}
 .tableExcelHead tr th .intBox_large p{height:48px;line-height:48px;}
 .tableCard tr th .intBox_large.current .dropdown-menu{top:40px;}
-.tableExcelHead tr th .intBox_large.current .dropdown-menu{top:50px;overflow: hidden!important;}
+.tableExcelHead tr th .intBox_large.current .dropdown-menu{top:0;overflow: hidden!important;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
 .intBox_mid.current .dropdown-menu{top:40px;z-index: 10;}
