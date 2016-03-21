@@ -22,6 +22,8 @@
 .container .container{margin:0;min-height:130px;}
 .containerIn{border: 1px solid #fafafa;}
 .containerIn .title{border-color:#fafafa;}
+.edit-border{border:1px dashed #80c17c;}
+.edit-border .title{border-bottom:1px dashed #80c17c;}
 .userInfo{height:80px;}
 .userInfo .user em{line-height:40px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -308,6 +310,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .hiddenX_r.jspScrollable{overflow: hidden!important;}
 .sort{position:absolute;display: block;height:20px;line-height:20px;left:10px;top:50%;margin-top:-10px;z-index: 9;}
 .icon-tips{position: absolute;top:-25px;left:-10px;}
+a .icon-tips{top:-20px;left:-2px;}
 .icon-tips{-webkit-animation: start 2s infinite ease-in-out;animation: start 2s infinite ease-in-out;}
 @-webkit-keyframes start {  0% {opacity: 1;-webkit-transform: translateY(0px);}
   50% {opacity: 0.8;-webkit-transform: translateY(-5px);}}
