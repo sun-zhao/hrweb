@@ -287,7 +287,7 @@ span.back{padding:0 20px;}
 .dropdown-menu{background:#fff;border:1px solid #efefef;position: absolute;right:0;top:40px;padding:5px 0;box-shadow:0 0 3px #e0e0e0;display: none;z-index:3;}
 .dropdown-menu.current{display:block;}
 .dropdown-menu li{display:block!important;min-height:30px!important;color:#666;text-align: left;margin:0!important;border:0!important;}
-.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 10px;white-space:nowrap;text-overflow:ellipsis;}
+.dropdown-menu a{display:block;width:auto;height:30px;line-height:30px;color:#666;padding:0 5px;white-space:nowrap;text-overflow:ellipsis;}
 .dropdown-menu a:hover,.dropdown-menu a.current{background:#efefef;}
 .add .dropdown-menu{width:100px;left:25px;top:10px;}
 .location .dropdown-menu {z-index:100;}
@@ -451,7 +451,8 @@ i:hover{color: #ef901b;}
 .icon-home:hover,.icon-sphere:hover,.icon-users:hover{color: #aaa;}
 .current .icon-home,.current .icon-sphere,.current .icon-users,
 .node_in:hover .icon-sphere,.node_in:hover .icon-home,.node_in:hover .icon-users,.node_in:hover .icon-bin,.current .icon-bin,.node_in:hover .icon-loop2,.current .icon-loop2
-,.current .icon-edit,.node_in:hover .icon-edit{color: #fff;}
+,.current .icon-edit,.node_in:hover .icon-edit,.current i,.node_in:hover i{color: #fff;}
+.node_in .icon-check{top:-2px;}
 .userTable .icon-user-tie{position: absolute;font-size:16px;top:18px;left:4px;display: none;}
 .userTable .current .icon-user-tie{color: #ef901b;}
 .userTable tr:hover .icon-user-tie,.userTable .current .icon-user-tie{display: block;}

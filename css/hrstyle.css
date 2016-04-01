@@ -1,4 +1,4 @@
-﻿.header{width:100%;min-width: 1000px;height:50px;line-height:50px;background:#383634;position: fixed;left:0;top:0;right:0;z-index: 30;min-width: 1000px;}
+﻿.header{width:100%;min-width: 1000px;height:50px;line-height:50px;background:#383634;position: fixed;left:0;top:0;right:0;z-index: 30;}
 .header .floatright{height:50px;}
 .header a.block{height:50px;}
 .navItem{position:relative;top:-8px;}
@@ -13,6 +13,8 @@
 .navItem li a{width:30px;position: relative;height:50px;}
 .layout{outline:none;border:0;margin-top:20px;}/*position: absolute;top:50px;left:0;bottom:10px;right:0;*/
 .jscroll{outline:none;border:0;}
+.hiddenX{position:relative;z-index:99;}
+.hiddenX_r{z-index:10;}
 .hiddenX .jspHorizontalBar,.hiddenX .jspVerticalBar{display:none;}
 .hiddenX .dropdown-menu .jspHorizontalBar, .hiddenX .dropdown-menu .jspVerticalBar{display: block;}
 .layoutMid{top:210px;}
@@ -76,11 +78,11 @@
 .noticeList li em{display:none;font-size:0;line-height:0;border-right:2px solid #f09f11;position: absolute;top:-1px;bottom:-1px;left:-1px;}
 .noticeList li.unread em{display: inline-block;}
 /*档案管理*/
-.userList{padding:5px 5px 5px 20px;padding-bottom:20px;}
+.userList{padding:5px 5px 20px 20px;}
 .userList li{width:98px;height:65px;border-radius:3px;text-align: center;padding:5px 0;float: left;margin:5px 0;position: relative;}
 .userList li div.block{padding:10px 0;}
-.userList li div.userItem{width:96px;height:99px;margin:0 auto;margin-top:-9px;}
-.userList li div.userItem td{background:#ddd;border:2px solid #fff;width:30px;height:30px;background:#eee url("../img/useimg.png") no-repeat center center;}
+.userList li div.userItem{width:96px;height:99px;margin:-9px auto 0 auto;}
+.userList li div.userItem td{border:2px solid #fff;width:30px;height:30px;background:#eee url("../img/useimg.png") no-repeat center center;}
 .userList li div.userItem img{width:30px;height:30px;vertical-align: bottom;}
 .userList li a.delete{padding:0;top:15px;left:50%;margin-left:-20px;}
 .userList2 li:hover{background:#ddd;}
@@ -91,14 +93,14 @@
 .userList li .user img{float: none;margin:0;}
 .userList li p.txt_hidden{line-height:26px;color:#888;width:90%;}
 .popMain .userList{padding:0;}
-.popMain .userList li{width:80px;height:70px;margin:0;padding:0;margin:0 10px 0 0;}
+.popMain .userList li{width:80px;height:70px;padding:0;margin:0 10px 0 0;}
 .popMain .userList li .user{height:40px;position: relative;}
 .popMain .userList li .user .delete{width:40px;height:40px;line-height:38px;left:50%;margin-left:-20px;padding:0;}
 .popMain .userList li:hover .user .delete{display: block;background:url("../img/mask70.png") repeat;}
 .popMain .userList li img{width:40px;height:40px;}
 .popMain .userList li:hover{background: none;}
 .userInfo .userList{margin:0;padding:0;}
-.userInfo .userList li{width:60px;margin:0;padding:0;height:auto;padding-top:2px;}
+.userInfo .userList li{width:60px;margin:0;padding:2px 0 0 0;height:auto;}
 .userInfo .userList li:hover div.block{background:none;}
 
 .intBox,.search{width:158px;height:28px;line-height:28px;border:1px solid #efefef;background:#fff;position:relative;text-align: left;color:#aaa;}
@@ -112,9 +114,10 @@
 
 .intBox {vertical-align:-9px;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;overflow: hidden!important;}
+.tree_right_main .intBox .dropdown-menu{z-index: 10;}
 .intBox .dropdown-menu a{display:block;width:90%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
-.intBox.current .dropdown-menu{display: block;transition:0.3s;top:30px;}/*.intBox:hover .dropdown-menu,*/
+.intBox.current .dropdown-menu{display: block;top:30px;}/*.intBox:hover .dropdown-menu,*/
 .intBox p.marl5{display: inline-block;height:28px;line-height:28px;width: 88%;}
 .treeMain .userDiv .intBox .dropdown-menu{top:0;right:1px;width:130%;z-index: 3;}
 .treeMain .userDiv .intBox p{height:28px;line-height:28px;}
@@ -184,7 +187,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .timeCircle{display:inline-block;width:97px;height:50px;background:url("../img/time-line.png");color:#fff;text-indent:16px;margin-left:10px;}
 /*合同*/
 .Contract{width:1240px;margin:0 auto;min-height:400px;}
-.ContractTitle{padding:10px 0;padding-bottom:0;position: relative;}
+.ContractTitle{padding:10px 0 0 0;position: relative;}
 .ContractTitle .has-general{margin:0 auto;}
 .ContractTitle .has-general input{height:38px;line-height:38px;}
 .ContractTitle .has-general label{line-height:38px;}
@@ -236,8 +239,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableCard td div,.tableCard th div{width:130px;height:40px;line-height:40px;}
 .tableCard tbody th{color:#347cdc;}
 .tableCard tbody tr{margin-bottom:10px;}
-.tableCard tbody tr td,.tableCard tbody tr th{border:1px solid #efefef;border-width:1px 0;}
-.tableCard tbody tr td.noborder{border:1px solid #fff!important;border-width:1px 0;}
+.tableCard tbody tr td,.tableCard tbody tr th{border-top:1px solid #efefef;border-bottom:1px solid #efefef;}
+.tableCard tbody tr td.noborder{border-top:1px solid #fff!important;border-bottom:1px solid #fff!important;}
 .tableCard tbody tr td.first,.tableCard tbody tr th.first{border-left:1px solid #efefef;}
 .tableCard tbody tr td.last,.tableCard tbody tr th.last{border-right:1px solid #efefef;}
 .tableWage tbody tr td.last,.tableWage tbody tr th.last{border-right:1px solid #efefef;border-left:1px solid #efefef;font-weight:bold;}
@@ -245,7 +248,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableCard tbody tr.line th,.tableWageCard tbody tr.line td{height:10px;border:0;}
 .tableCard .iconBtn{height:40px;line-height: 40px;}
 .tableCard .txt_hidden{float: left;}
-.tableWage tbody tr:hover td{border:1px solid #4370ac;border-width:1px 0;}
+.tableWage tbody tr:hover td{border-top:1px solid #4370ac;border-bottom:1px solid #4370ac;}
 .tableWage tbody tr{cursor: pointer;}
 .tableWage tbody tr:hover td.first,.tableWage tbody tr:hover th.first{border-left:1px solid #4370ac;}
 .tableWage tbody tr:hover td.last,.tableWage tbody tr:hover th.last{border-right:1px solid #4370ac;border-left:1px solid #efefef;}
@@ -254,7 +257,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableWageCard td .innerTd{border:1px solid #efefef;margin:0 5px;padding:10px 0 10px 10px;}
 .tableWageCard .innerTd .user,.tableWageCard .innerTd .user img{width:60px;height:60px;}
 .tableWageCard .innerTd div.floatleft{border-right:1px solid #efefef;width:55%;}
-.tableWageCard .innerTd div.floatleft p{width:50%;hegiht:16px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.tableWageCard .innerTd div.floatleft p{width:50%;height:16px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 .tableWageCard .innerTd p{line-height:16px;padding-top:6px;color:#888;}
 .tableWageCard .innerTd .mart5 td{height:20px;color:#888;padding-left:10px;}
 .tableWageCard td:hover .innerTd{border:1px solid #4370ac;box-shadow:0 0 4px #4370ac;}
@@ -274,9 +277,9 @@ div.popUser.popUser .user img{display: inline-block;}
 .dropdown-menu .jspPane{height:auto!important;overflow: hidden;}
 .hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
-@-moz-document url-prefix() {
-  .tableExcel tbody tr th,.tableData thead tr th{background:none;}
-}
+/*@-moz-document url-prefix() {*/
+  /*.tableExcel tbody tr th,.tableData thead tr th{background:none;}*/
+/*}*/
 .tableData tbody tr:hover th,.tableData tbody tr:hover td{background:#f5f5f5;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
 .tableExcel tbody tr td .has-general{position: absolute;top:0;left:0;right:0;bottom:0;width:99px;height:48px;line-height:48px;}
@@ -292,22 +295,23 @@ div.popUser.popUser .user img{display: inline-block;}
 .tableExcel tbody tr .icon-edit-mini{top:12px;left:inherit;right:2px;z-index:1;cursor: pointer;display:none;}
 .tableExcel tbody tr th:hover .icon-edit-mini,.tableExcel tbody tr td:hover .icon-edit-mini{display:block;}
 .tableExcelHead tbody tr td,.tableExcelHead tbody tr th,.tableData thead tr th{border-bottom:1px solid #ef901b;}
+/*.hiddenX_r tr th{overflow: hidden;}*/
 .tableExcel tbody tr .intBox{height:30px;line-height: 30px;text-align: left;vertical-align: middle;}
 .tableExcel tbody tr .intBox.current .dropdown-menu{top:32px;left:0;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu *,.tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu
 {border:0!important;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu ul{width:97%;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu .jspVerticalBar{right:0;left: auto;}
-.tableExcel tbody tr th .intBox{width:100%;height:48px;line-height: 48px;background:none;}
+.tableExcel  tr th .intBox{width:100%;height:48px;line-height: 48px;background:none;}
 .tableExcel tbody tr th div.two_line {line-height:20px;}
 .tableExcel tbody tr th div.two_line .setting{position:absolute;right:-15px;top:15px;transition:0.2s;}
 .tableExcel tbody tr th div.two_line:hover .setting{right:2px;transition:0.2s;}
-.tableExcel tbody tr th .intBox.current .dropdown-menu{top:0;}
 .tableExcel tbody tr .intBox.current .dropdown-menu a{width:auto;}
 .hiddenX .jspContainer,.jspScrollable{overflow:visible!important;}
-.hiddenX_r.jspScrollable{overflow: hidden!important;}
+/*.hiddenX_r.jspScrollable{overflow: hidden!important;}*/
 .sort{position:absolute;display: block;height:20px;line-height:20px;left:10px;top:50%;margin-top:-10px;z-index: 9;}
 .icon-tips{position: absolute;top:-25px;left:-10px;}
+a .icon-tips{top:-20px;left:-2px;}
 .icon-tips{-webkit-animation: start 2s infinite ease-in-out;animation: start 2s infinite ease-in-out;}
 @-webkit-keyframes start {  0% {opacity: 1;-webkit-transform: translateY(0px);}
   50% {opacity: 0.8;-webkit-transform: translateY(-5px);}}
@@ -317,7 +321,13 @@ div.popUser.popUser .user img{display: inline-block;}
 .jspPane{margin: 0!important;}
 .intBox_large{border:0;border-right:1px solid #efefef;margin:0;height:50px;line-height:50px;}
 .intBox_large p{display:block;height:50px;line-height:50px;text-align:center;color:#666;}
-.intBox_large.current .dropdown-menu{top:50px;overflow: hidden!important;}
+.tableExcel tr th .intBox_large p{height:48px;line-height:48px;}
+.tableCard tr th .intBox_large{top: 1px;height:39px;left: 1px;}
+.tableCard tr th .intBox_large p{height:38px;line-height:38px;}
+.tableExcelHead tr th .intBox_large{top: 0;height:48px;left: 0;}
+.tableExcelHead tr th .intBox_large p{height:48px;line-height:48px;}
+.tableCard tr th .intBox_large.current .dropdown-menu{top:40px;}
+.tableExcelHead tr th .intBox_large.current .dropdown-menu{top:0;overflow: hidden!important;}
 .intBox_large input,.intBox_large.search .block,.btnLarge{height:50px;line-height:50px;margin:0;border-radius:0;}
 .intBox_mid,.intBox_mid p{height:39px;line-height:39px;}
 .intBox_mid.current .dropdown-menu{top:40px;z-index: 10;}
@@ -412,16 +422,16 @@ div.popUser.popUser .user img{display: inline-block;}
   }
 }
 /*弹出*/
-.popInner{margin:0px 3px 0 0;}/*height:350px;*/
+.popInner{margin:0 3px 0 0;}/*height:350px;*/
 .popMain{width:100%;position: relative;}
 .popMain th,.popMain td{padding:5px 0;line-height:36px;}
-.popMain th{width:100%;padding:0 10px 0 13px;color:#666;width:60px;font-size:12px;}
+.popMain th{padding:0 10px 0 13px;color:#666;width:60px;font-size:12px;}
 .popMain .line{margin:10px 0;}
 .popMain .has-general{margin-top:0;}
 .popMain .has-general input,.popMain .has-general.intBox{width:100%;height:30px;line-height:30px;}
 .popMain .has-general,.popMain .has-general.intBox{width:auto;display:block;margin-right:20px;}
 .popMain label{line-height:30px;}
-.popMain span.has-label{display:block;height:30px;line-height:30px;padding-right:5px;color:#aaa;position: absolute;right:0px;top:1px;background: #fff;}
+.popMain span.has-label{display:block;height:30px;line-height:30px;padding-right:5px;color:#aaa;position: absolute;right:0;top:1px;background: #fff;}
 .wage{width:100%;}
 .wage th,.wage td{border-bottom:1px solid #efefef;}
 .wage th{width:60px;height:25px;line-height:25px;text-align: right;padding-right:20px;}
@@ -470,8 +480,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processLayout .processBarIn{height:19px;background:#ef901b;border-radius:18px;transition:0.3s;box-shadow:0 0 11px #9a9a9a;}
 .mailList{width:470px;background:#fff;position:absolute;height:100%;z-index: 9999;right:0;}
 
-.mailListIn{position: fixed;top:0px;bottom:0;right:0;z-index:200;}
-.word{border:1px solid #efefef;border-width:1px 0;height: 50px;}
+.mailListIn{position: fixed;top:0;bottom:0;right:0;z-index:200;}
+.word{border-top:1px solid #efefef;border-bottom:1px solid #efefef;height: 50px;}
 .wordList{margin-left:60px;}
 .wordList li{font-family: Arial;float: left;width:7%;text-align: center;line-height:30px;margin:5px 0 0 2px;}
 .wordList li a{display:block;color:#666;height:20px;line-height:20px;}
@@ -496,6 +506,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .userTable table .user img{float:none;margin:0;width:30px;height:30px;}
 .userTable table tr.current td .user{border:1px solid #ef901b;}
 .mailList .btn{border-radius:0;}
+.department_list li{width:49%;float:left;line-height:30px;}
+.department_list li a{color:#333;}
+.department_list li a i{margin-left:10px;}
+.department_list li.current a,.department_list li a i.icon-check_box{color:#ef901b;}
 /*.mailList{border-left:1px solid #ef901b;}*/
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
@@ -513,9 +527,9 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tableBoss table td .icon{position: inherit;vertical-align:-5px;margin:1px 10px 0 0;}
 .tableBoss table td a{color:#888;}
 /*组织架构*/
-.tree_layout{width:1280px;position: absolute;margin:0;top:50px;left:50%;margin-left:-640px;bottom:15px;}
-.tree_left,.tree_right{width:520px;background: #fff;min-height: 400px;position: relative;}
-.tree_right{width:700px;background:none;}
+.tree_layout{width:90%;position: absolute;margin:0 0 0 -45%;top:50px;left:50%;bottom:15px;}
+.tree_left,.tree_right{width:45%;background: #fff;min-height: 400px;position: relative;}
+.tree_right{width:auto;margin-left:46%;background:none;}
 .search_Box{height:39px;border:0;border-left:1px solid #efefef;}
 .search_Box input{height:39px;}
 .search_Box a{border:0;margin:0;height:39px;line-height: 39px;text-align: center;}
@@ -524,6 +538,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_box{padding:10px 20px;}
 .tree_main{border-left:1px solid #efefef;position: relative;}
 .node,.node_in{height:31px;line-height:31px;padding-left:36px;background: url("../img/tree-line.png") repeat-x;position: relative;}
+.tree_right_main .node,.tree_right_main .node_in{height:50px;line-height:50px;width:200px;}
 .node{margin:12px 0;}
 .node.show{z-index: 200;}
 .node.show .dropdown-menu{display: block;}
@@ -532,6 +547,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in span.color-info{display:block;height:31px;line-height:31px;margin-left:10px;}
 .node_in:hover span.color-info,.current .node_in span.color-info{color:#fff!important;}
 .node_in span.txt_hidden{width: 200px;}
+.node_in .icon-user-tie{font-size:16px;vertical-align: middle;margin-right:5px;}
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
@@ -553,10 +569,12 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_right .tree_in .btn{bottom:5%;left:50%;margin-left:-75px;}
 .tree_right .tree_in .title .btn{position:static;}
 .tree_right_main .icon-right{left:inherit;right:5px;}
-
-
-
-
+.tree_right_main .top-mask{height:40px;top:-40px;}
+.tree_right_main .bottom-mask{height:34px;bottom:0;}
+.tree_right_main .left-mask{top:-46px;}
+.tree_right_main .user img{border-radius:50%;width:30px;height:30px;}
+.tree_right_main .node_in{border-radius:2px;}
+.tree_right_main .node_in p{line-height:12px;padding-top:8px;}
 /*工资统计*/
 .dataTable{width:100%;}
 .dataTable td{width:5%;}
@@ -589,8 +607,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tableCard div span.dataBorder{display: inline-block;height:28px;line-height: 28px;border:1px solid #fff;position:relative;top:2px;}
 .tableCard td:hover div span.dataBorder{border-color:#ccc;cursor: pointer;}
 .item{border:1px solid #efefef;}
-.item .item_title{background:#f6f6f6;heihgt:38px;line-height:38px;padding:0 20px;}
-.item li{heihgt:38px;line-height:38px;border-top:1px solid #efefef;padding:0 20px;}
+.item .item_title{background:#f6f6f6;height:38px;line-height:38px;padding:0 20px;}
+.item li{height:38px;line-height:38px;border-top:1px solid #efefef;padding:0 20px;}
 
 .btn_bottom{position: absolute;width: 100%;bottom:20px;}
 
@@ -609,6 +627,12 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .pop_title{height:50px;line-height:50px;background:#000;color:#fff;}
 .pop_layout_in{background:#fff;position: absolute;top:50px;left:0;right:0;bottom:0;overflow-y: auto;}
 .doc_view{position: absolute;top:0;width:100%;bottom:0;left:0;overflow:hidden;}
+/*2016-3-21*/
+.containerIn_tab th,.containerIn_tab td{padding:10px;border:1px solid #eee;text-align:center;}
+.containerIn_tab th{padding:20px;}
+.menu-check{width:200px;height:240px;border:1px solid #eee;background:#f5f5f5;}
+.menu-check p{width:240px;line-height:25px;text-indent:10px;}
+.menu-check p:hover{background:#ddd;cursor:pointer;}
 
 
 
