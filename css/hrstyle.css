@@ -335,7 +335,10 @@ a .icon-tips{top:-20px;left:-2px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
 .tableExcel td div div.jspContainer{position:static;}
 .tableExcel td div.intBox div.jspContainer{position:absolute;}
-.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general{width:95px;height:44px;border:2px solid #ef901b;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general
+{width: auto;height:44px;border:2px solid #ef901b;}
+.hiddenX .tableExcel td:hover div div,.hiddenX .tableExcel td:hover div div.has-general,.hiddenX .tableExcel td div div.has-general.has-error,
+.hiddenX .tableExcel td.current div div.has-general{width: auto;}
 .tableExcel td.edit div div.has-general{border-color:#fab40c;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
 .tableData thead tr th{text-align: center;}
