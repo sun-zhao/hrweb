@@ -23,7 +23,7 @@
 .container{margin:0 12px;position: relative;}/*margin-right:13px;*/
 .container .container{margin:0;min-height:130px;}
 .containerIn{border: 1px solid #fafafa;}
-.containerIn .title{border-color:#fafafa;}
+.containerIn .title{border-color:#fafafa}
 .userInfo{height:80px;}
 .userInfo .user em{line-height:40px;}
 .userTxt{height:60px;border-right:1px solid #efefef;padding:20px 30px 0 0;}
@@ -512,6 +512,11 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .department_list li.current a,.department_list li a i.icon-check_box{color:#ef901b;}
 .department_list_line li{width:100%;float: none;text-indent:20px;}
 .department_list_line li:hover,.department_list_line li.current{background:#f5f5f5;}
+.department_user_list li{padding:10px 0;margin-left:3px;}
+.department_user_list li .user{margin:0 5px 0 15px;}
+.department_user_list li p{line-height:20px;}
+.department_user_list li.current,.department_user_list li:hover{background: #f5f5f5;}
+
 /*.mailList{border-left:1px solid #ef901b;}*/
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
