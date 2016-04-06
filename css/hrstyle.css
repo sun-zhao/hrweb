@@ -549,7 +549,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in span.color-info{display:block;height:31px;line-height:31px;margin-left:10px;}
 .node_in:hover span.color-info,.current .node_in span.color-info{color:#fff!important;}
 .node_in span.txt_hidden{width: 200px;}
-.node_in .icon-user-tie{font-size:16px;vertical-align: middle;margin-right:5px;}
+/*.node_in .icon-user-tie{margin-right:5px;}*/
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
 .nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
@@ -577,6 +577,10 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_right_main .user img{border-radius:50%;width:30px;height:30px;}
 .tree_right_main .node_in{border-radius:2px;}
 .tree_right_main .node_in p{line-height:12px;padding-top:8px;}
+.r_set{position: absolute;top:-1px;bottom:-1px;width:0;right:0;background: #ef901b;transition:0.2s;overflow: hidden;}
+.node_in:hover .r_set{width:30px;transition:0.2s;right:-30px;}
+.r_set a{display: block;height:26px;line-height: 26px;text-align: center;}
+.r_set a i,.node_in:hover .r_set a i{color:#fff;}
 /*工资统计*/
 .dataTable{width:100%;}
 .dataTable td{width:5%;}
