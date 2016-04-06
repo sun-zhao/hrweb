@@ -156,7 +156,7 @@
                             <div class="tree_main">
                                 <span class="top-mask-top"></span>
                                 <span class="bottom-mask"></span>
-                                <div class="node node_company">
+                                <div class="node node_company show">
                                     <a href="javascript:;" class="icon-fold"><i class="icon-add"></i></a>
                                     <div class="node_in node_first clearfix">
                                         <i class="icon-home"></i>
@@ -168,9 +168,17 @@
                                         <span class="color-info inlineblock">109</span>
                                         <a href="javascript:;" class="marl10"><i class="font22 icon-check nobg"></i></a>
                                         <a href="javascript:;" class="floatright font16 marr10"><i class="icon-circle-down"></i></a>
+                                        <div class="dropdown-menu" style="height: 120px;">
+                                            <ul>
+                                                <li><a href="#">编辑</a></li>
+                                                <li><a href="#">添加子部门</a></li>
+                                                <li><a href="#">调整</a></li>
+                                                <li><a href="#">删除</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="node show">
+                                <div class="node current ">
                                     <a href="javascript:;" class="icon-fold icon-unfold"><i class="icon-add"></i></a>
                                     <div class="node_in">
                                         <i class="icon-sphere"></i>
@@ -178,7 +186,7 @@
                                         <span class="color-info inlineblock">109</span>
                                         <a href="javascript:;" class="marl10" style="display: none;"><i class="font22 icon-check nobg"></i></a>
                                         <a href="javascript:;" class="floatright font16 marr10"><i class="icon-circle-down"></i></a>
-                                        <div class="dropdown-menu" style="height: 120px;">
+                                        <div class="dropdown-menu" style="height:120px;">
                                             <ul>
                                                 <li><a href="#">编辑</a></li>
                                                 <li><a href="#">添加子部门</a></li>
@@ -315,14 +323,22 @@
                                         <div class="node_in node_first clearfix">
                                             <span class="user mart10 color-3 floatleft clearfix"><img src="../img/user1.png"></span>
                                             <span>任向辉</span>
+                                            <span class="r_set">
+                                                <a href="#" class="font18" title="设为部门领导"><i class="icon-user-tie"></i></a>
+                                                <a href="#" class="font18" title="添加下属"><i class="icon-user-plus"></i></a>
+                                            </span>
                                         </div>
                                     </div>
                                     <div class="node show">
                                         <a href="javascript:;" class="icon-fold icon-unfold"><i class="icon-add"></i></a>
                                         <div class="node_in clearfix">
                                             <span class="user mart10 color-3 floatleft clearfix"><img src="../img/1-1.jpg"></span>
-                                            <p>明道北京研发主任</p>
-                                            <p>王振佳</p>
+                                            <p class="txt_hidden block">明道北京研发主任</p>
+                                            <p class="txt_hidden block">王振佳</p>
+                                            <span class="r_set">
+                                                <a href="#" class="font18" title="设为部门领导"><i class="icon-user-tie"></i></a>
+                                                <a href="#" class="font18" title="添加下属"><i class="icon-user-plus"></i></a>
+                                            </span>
                                         </div>
                                     </div>
                                     <div class="nodes">
@@ -426,7 +442,8 @@
                                                 <div class="node_in clearfix">
                                                     <span class="user mart10 color-3 floatleft clearfix"><img src="../img/1-2.jpg"></span>
                                                     <span>高圆圆</span>
-                                                    <a href="" class="font18 floatright marr10"><i class="icon-user-plus"></i></a>
+                                                    <a href="" class="font18 floatright marr10" title="设为部门领导"><i class="icon-user-tie"></i></a>
+                                                    <a href="" class="font18 floatright marr10" title="添加下属"><i class="icon-user-plus"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -502,7 +519,7 @@
         </div>
     </div>
 </div>
-<div class="pop" style="width:470px;height:450px;margin:-250px 0 0 -235px;;display: none;">
+<div class="pop" style="width:470px;height:450px;margin:-250px 0 0 -235px;;display:none ;">
     <div class="title alignright">
         <span class="floatleft">部门列表</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon-close font25"></i></a>
@@ -546,6 +563,23 @@
                 <li class="txt_hidden"><a href="#"><i class="icon-check_box_outline_blank"></i>明道上海研发部门</a></li>
                 <li class="txt_hidden"><a href="#"><i class="icon-check_box_outline_blank"></i>明道财务部门</a></li>
                 <li class="txt_hidden"><a href="#"><i class="icon-check_box_outline_blank"></i>明道北京财务研发部门</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="pop" style="width:470px;height:250px;margin:-125px 0 0 -235px;;display:none ;">
+    <div class="title alignright">
+        <span class="floatleft">部门列表</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon-close font25"></i></a>
+    </div>
+    <div class="popInner" style="height:210px;">
+        <div class="mailList jscroll">
+            <ul class="department_list department_list_line clearfix mart10">
+                <li class="txt_hidden current"><a href="#">明道北京研发部门</a></li>
+                <li class="txt_hidden"><a href="#">明道上明道上海研发部门明道上海研发部门海研发部门</a></li>
+                <li class="txt_hidden"><a href="#">明道财务部门</a></li>
+                <li class="txt_hidden"><a href="#">明道北京财务研发部门</a></li>
+                <li class="txt_hidden"><a href="#">明道北京研发部门</a></li>
             </ul>
         </div>
     </div>

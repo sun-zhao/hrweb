@@ -5,6 +5,7 @@
     <title>APP打卡地理位置设定</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
 <body>
@@ -69,13 +70,52 @@
                             </div>
                         </div>
                         <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+                        <a href="#" class="btn width-100 marr10 mart5 floatright">保存并下一步</a>
                     </div>
-                    <div class="">
-                        <div id="l-map" style="height:456px;"></div>
+                    <div class="relative">
+                        <!--已选择地址列表begin-->
+                        <div class="location_list jscroll bg-white">
+                            <ul>
+                                <li>
+                                    <p class="font14 txt_hidden">1.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107</p>
+                                    <a href="javascript:;" class="iconBtn aligncenter" title=""><i class="icon-close font22"></i></a>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">2.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北大街天海商务B座107东四北大街天海商务B座107</p>
+                                    <a href="javascript:;" class="iconBtn aligncenter" title=""><i class="icon-close font22"></i></a>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">3.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北</p>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">4.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北大街天海商务B座</p>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">1.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107</p>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">2.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北大街天海商务B座107东四北大街天海商务B座107</p>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">3.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北</p>
+                                </li>
+                                <li>
+                                    <p class="font14 txt_hidden">4.天海商务大厦</p>
+                                    <p class="color-8 txt_hidden">东四北大街天海商务B座107东四北大街天海商务B座</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--已选择地址列表over-->
+                        <div id="l-map" style="height:527px;"></div>
                     </div>
                 </div>
-                <p class="line"></p>
-                <p class="alignright mart20 marr20 p-bt20"><a href="#" class="btn width-100 marr20">保存并下一步</a></p>
             </div>
         </div>
     </div>
@@ -101,7 +141,6 @@
                         <p class="alignright mart10"><a href="javascript:;" class="btn width-100 marr18">选择附件</a></p>
                     </td>
                 </tr>
-
             </table>
             <div class="mart10 p-bt20 aligncenter">
                 <a href="javascript:;" class="btn btnBlcok" id="importBtn">导入数据</a>
@@ -109,6 +148,9 @@
         </form>
     </div>
 </div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=06d230a77e606cc75865e20521ca25f8"></script>
 <script type="text/javascript">
     // 百度地图API功能
