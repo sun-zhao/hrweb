@@ -452,6 +452,7 @@ i:hover{color: #ef901b;}
 .current .icon-home,.current .icon-sphere,.current .icon-users,
 .node_in:hover .icon-sphere,.node_in:hover .icon-home,.node_in:hover .icon-users,.node_in:hover .icon-bin,.current .icon-bin,.node_in:hover .icon-loop2,.current .icon-loop2
 ,.current .icon-edit,.node_in:hover .icon-edit,.current i,.node_in:hover i{color: #fff;}
+.current .icon-add{color:#aaa;}
 .node_in .icon-check{top:-2px;}
 .userTable .icon-user-tie{position: absolute;font-size:16px;top:18px;left:4px;display: none;}
 .userTable .current .icon-user-tie{color: #ef901b;}

@@ -510,6 +510,8 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .department_list li a{color:#333;}
 .department_list li a i{margin-left:10px;}
 .department_list li.current a,.department_list li a i.icon-check_box{color:#ef901b;}
+.department_list_line li{width:100%;float: none;text-indent:20px;}
+.department_list_line li:hover,.department_list_line li.current{background:#f5f5f5;}
 /*.mailList{border-left:1px solid #ef901b;}*/
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
