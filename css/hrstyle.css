@@ -560,6 +560,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 /*.node_in .icon-user-tie{margin-right:5px;}*/
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
+.node_company.pointer:hover .color-theme{ color: #fff!important;}
 .nodes{margin-left:25px;border-left:1px solid #efefef;position: relative;}
 .node_in .has-general{position: relative;top:-3px;}
 .node_in .has-general input{height:25px;line-height: 25px;}
