@@ -394,7 +394,7 @@ a:hover .icon,a.current .icon,a.current:hover .icon-check,li:hover .icon-check,a
 .title .icon-co:hover{background-image: url("../img/icon-1.png");}
 .icon-earth{height:12px;background-position:-82px -174px;vertical-align: middle;}
 .icon-group{height:12px;background-position:-82px -186px;vertical-align: middle;}
-.icon-fold{width:13px;height:13px;text-align:center;line-height:13px;border:1px solid #ccc;position: absolute;left:11px;top:14px;margin:-7px 0 0 0;z-index: 3;background: #fff;}
+.icon-fold{width:13px;height:13px;text-align:center;line-height:13px;border:1px solid #ccc;position: absolute;left:18px;top:14px;margin:-7px 0 0 0;z-index: 3;background: #fff;}
 .icon-unfold{}
 .node_company .icon-fold{left:-6px;}
 .table_ad td .icon-co:hover,.table_ad td .icon-earth:hover,.table_ad td .icon-group:hover{background-image: url("../img/icon-1.png");}

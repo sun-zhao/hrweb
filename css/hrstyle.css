@@ -304,8 +304,8 @@ div.popUser.popUser .user img{display: inline-block;}
 .tree_right_main .tableExcel tbody tr .intBox.current .dropdown-menu .jspVerticalBar{right:0;left: auto;}
 .tableExcel  tr th .intBox{width:100%;height:48px;line-height: 48px;background:none;}
 .tableExcel tbody tr th div.two_line {line-height:20px;}
-.tableExcel tbody tr th div.two_line .setting{position:absolute;right:-15px;top:15px;transition:0.2s;}
-.tableExcel tbody tr th div.two_line:hover .setting{right:2px;transition:0.2s;}
+.tableExcel tbody tr th div.two_line .setting{position:absolute;display:none;top:15px;right:5px;transition:0.2s;}
+.tableExcel tbody tr th div.two_line:hover .setting{display: inline-block;transition:0.2s;}
 .tableExcel tbody tr .intBox.current .dropdown-menu a{width:auto;}
 .hiddenX .jspContainer,.jspScrollable{overflow:visible!important;}
 /*.hiddenX_r.jspScrollable{overflow: hidden!important;}*/
@@ -335,7 +335,10 @@ a .icon-tips{top:-20px;left:-2px;}
 .tableExcel td div div{position:absolute;top:0;left:0;}
 .tableExcel td div div.jspContainer{position:static;}
 .tableExcel td div.intBox div.jspContainer{position:absolute;}
-.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general{width:95px;height:44px;border:2px solid #ef901b;}
+.tableExcel td:hover div div,.tableExcel td:hover div div.has-general,.tableExcel td div div.has-general.has-error,.tableExcel td.current div div.has-general
+{width: auto;height:44px;border:2px solid #ef901b;}
+.hiddenX .tableExcel td:hover div div,.hiddenX .tableExcel td:hover div div.has-general,.hiddenX .tableExcel td div div.has-general.has-error,
+.hiddenX .tableExcel td.current div div.has-general{width: auto;}
 .tableExcel td.edit div div.has-general{border-color:#fab40c;}
 .tableExcel td div div.has-general.has-error{border:2px solid #b94a48;background: none;}
 .tableData thead tr th{text-align: center;}
@@ -536,7 +539,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 /*组织架构*/
 .tree_layout{width:90%;position: absolute;margin:0 0 0 -45%;top:50px;left:50%;bottom:15px;}
 .tree_left,.tree_right{width:45%;background: #fff;min-height: 400px;position: relative;}
-.tree_right{width:auto;margin-left:46%;background:none;}
+.tree_right{width:auto;margin-left:46%;}
 .search_Box{height:39px;border:0;border-left:1px solid #efefef;}
 .search_Box input{height:39px;}
 .search_Box a{border:0;margin:0;height:39px;line-height: 39px;text-align: center;}
@@ -557,14 +560,15 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 /*.node_in .icon-user-tie{margin-right:5px;}*/
 .node_first{background: #efefef;}
 .node_company{padding-left:16px;}
-.nodes{margin-left:19px;border-left:1px solid #efefef;position: relative;}
+.node_company.pointer:hover .color-theme{ color: #fff!important;}
+.nodes{margin-left:25px;border-left:1px solid #efefef;position: relative;}
 .node_in .has-general{position: relative;top:-3px;}
 .node_in .has-general input{height:25px;line-height: 25px;}
 .node_in .dropdown-menu{width:150px;height:150px;position: absolute;z-index: 10;top:35px;right:0;overflow: hidden;overflow-y: auto;}
 .top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 1;left:-1px;top:-21px;}
 .bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;z-index: 1;}
 .top-mask-top{width:17px;height:15px;background: url("../img/tree-mask3.png");top:0;}
-.left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-23px;}
+.left-mask{width:5px;height:auto;background: #fff;bottom:0;top:-27px;left:-29px;}
 .tree_in{width:100%;height:100%;}
 .tree_in .btnLarge{height:39px;line-height:39px;}
 .table_ad{width:100%;height:200px;}
