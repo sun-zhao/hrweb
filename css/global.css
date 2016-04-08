@@ -268,7 +268,7 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .btn-border{border:1px solid #dddddd;background:#fff;color:#333333;}
 .btn-border:hover{color:#fff;border-color:#ef901b;}
 /*当前位置*/
-.location{height:50px;line-height:50px;position: relative;}
+.location{height:50px;line-height:50px;position: relative;z-index:9999;}
 .locationIn{height:60px;line-height:60px;}
 .location a{display: inline-block;height:50px;min-width:30px;position: relative;}
 .location a.btn{height:30px;color: #fff!important;}
@@ -414,7 +414,7 @@ td.pointer:hover .color-a{color:#ef901b!important;}
 /*弹出*/
 .loading{position:fixed;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:500;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.mask,.pop_layout{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;z-index: 999;}
+.mask,.pop_layout{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;z-index: 99999;}
 .maskTop{width: 100%;height:50px;position: fixed;top:0;left:0;z-index:50;background:url("../img/mask70.png");opacity: 0.6;}
 /*input*/
 .int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
