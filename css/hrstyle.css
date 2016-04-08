@@ -521,7 +521,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .department_user_list li p{line-height:20px;}
 .department_user_list li.current,.department_user_list li:hover{background: #f5f5f5;}
 .department_user_list li label{position: absolute;width:100%;height:100%;left:0;top:0;}
-.department_user_list li label input{position:relative;top:-5px;left:10px;}
+.department_user_list li label input{position:relative;top:9px;left:12px;}
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
 .tabCheck a{display: block;height:60px;padding-top:20px;line-height:20px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;border-bottom:1px dotted #ccc;}
@@ -586,7 +586,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .tree_right_main .bottom-mask{height:34px;bottom:0;}
 .tree_right_main .left-mask{top:-46px;}
 .tree_right_main .user img{border-radius:50%;width:30px;height:30px;}
-.tree_right_main .node_in{border-radius:2px;}
+.tree_right_main .node_in{border-radius:2px;margin-left:5px;}
 .tree_right_main .node_in p{line-height:12px;padding-top:8px;}
 .r_set{position: absolute;top:-1px;bottom:-1px;width:0;right:0;background: #ef901b;transition:0.2s;overflow: hidden;}
 .node_in:hover .r_set{width:30px;transition:0.2s;right:-30px;}
