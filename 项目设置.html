@@ -5,6 +5,7 @@
     <title>项目设置</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
 <body>
@@ -116,7 +117,7 @@
 </div>
 </div>
 <!--新增项目弹出begin-->
-<div class="pop" style="display: none;">
+<div class="pop" style="display: block;">
     <div class="title alignright">
         <span class="floatleft">新增项目</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
@@ -129,7 +130,9 @@
                     <div class="has-general intBox marr18">
                         <label class="control-label">请选择</label>
                         <em class="arrow"></em>
-                        <p class="marl5">事假</p>
+                        <input type="text" class="noborder">
+                        <i class="icon-clear font16 pointer"></i>
+                        <!--<p class="marl5">事假</p>-->
                         <div class="dropdown-menu jscroll" style="height:150px;">
                             <ul class="">
                                 <li><a href="#">事假</a></li>
@@ -143,8 +146,8 @@
             <tr>
                 <th>项目名称</th>
                 <td>
-                    <a href="#" class="iconBtn width-50 alignleft color-3"><i class="icon icon-radio current"></i>是</a>
-                    <a href="#" class="iconBtn width-50 alignleft color-3 marr20"><i class="icon icon-radio"></i>否</a>
+                    <a href="#" class="iconBtn width-50 alignleft color-3"><i class="font14 marr5 icon-radio-unchecked"></i>是</a>
+                    <a href="#" class="iconBtn width-50 alignleft color-3 marr20"><i class="font14 marr5 icon-radio-checked"></i>否</a>
                 </td>
             </tr>
             <tr>
