@@ -268,7 +268,7 @@ span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.
 .btn-border{border:1px solid #dddddd;background:#fff;color:#333333;}
 .btn-border:hover{color:#fff;border-color:#ef901b;}
 /*当前位置*/
-.location{height:50px;line-height:50px;position: relative;z-index:9999;}
+.location{height:50px;line-height:50px;position: relative;z-index:1111;}
 .locationIn{height:60px;line-height:60px;}
 .location a{display: inline-block;height:50px;min-width:30px;position: relative;}
 .location a.btn{height:30px;color: #fff!important;}
