@@ -554,6 +554,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node.show .dropdown-menu{display: block;}
 .node_in{border:1px solid #efefef;background:#fff;color:#333333;padding-left:16px;z-index: 2;}
 .node_in:hover,.current .node_in{background:#ef901b;color:#fff;border-color:#ef901b;}
+.node_in:hover .color-8,.current .node_in .color-8{color:#fff!important;}
 .node_in span.color-info{display:block;height:31px;line-height:31px;margin-left:10px;}
 .node_in:hover span.color-info,.current .node_in span.color-info{color:#fff!important;}
 .node_in span.txt_hidden{width: 200px;}
