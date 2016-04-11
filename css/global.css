@@ -185,8 +185,12 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.userDiv div.clearfix p,.userInfoTable .dropdown-menu a,.dropdown-menu2 a,.intBox .dropdown-menu a,.intBox p.marl5{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}/*,.dropdown-out.net .dropdown-menu li a*/
 .ContractMain p{font-size:13px;line-height:30px;}
-.blink div{background:#f5f5f5;-webkit-animation:setWidth 1.5s infinite ease-in-out;}
+.blink div{background:#f5f5f5;animation:setWidth 1.5s infinite ease-in-out;-webkit-animation:setWidth 1.5s infinite ease-in-out;}
 @-webkit-keyframes setWidth{
+	0%{opacity:0.2;}
+	100%{opacity:1;}
+}
+@keyframes setWidth{
 	0%{opacity:0.2;}
 	100%{opacity:1;}
 }
