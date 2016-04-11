@@ -187,8 +187,8 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .ContractMain p{font-size:13px;line-height:30px;}
 .blink div{background:#f5f5f5;-webkit-animation:setWidth 1.5s infinite ease-in-out;}
 @-webkit-keyframes setWidth{
-	0%{width:0;}
-	100%{width:100%;}
+	0%{opacity:0.2;}
+	100%{opacity:1;}
 }
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
