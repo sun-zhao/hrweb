@@ -38,9 +38,18 @@
 .calendar th,.calendar td{border:1px solid #efefef;height:29px;padding:5px 5px 0 0;}
 .calendar .prevDay{background:#f6f6f6;}
 .calendar th.noday,.calendar td.noday{background:#fff;color:#ccc;}
-.calendar th div,.calendar td div{height:100%;position: relative;cursor: pointer;}
+.calendar th div,.calendar td div{height:100%;position: relative;}
 .calendar .num{font-family:Arial;position: absolute;top:0;right:0;}
-.calendarDay .num{font-family:Arial;width:30px;height:10px;line-height:10px;position: absolute;top:50%;left:50%;margin:-5px 0 0 -10px;text-align: center;}
+.calendar .edit{position: absolute;bottom:5px;right:5px;display: none;}
+.calendar td:hover .edit{display: inline-block;}
+.calendar td .has-general{width:100%;height:30px;position: absolute;left:2px;bottom:2px;}
+.calendar td .has-general input{width: 100%;background: #f5f5f5;}
+
+
+
+
+
+.calendarDay .num{font-family:Arial;width:30px;height:30px;line-height:30px;position: absolute;top:0;right:0;text-align: center;}
 .calendar .setDay{position: absolute;top:-5px;left:0;right:-5px;bottom:0;background:#fff;display: none;transition:0.3s;}
 .calendar .setDay li{width:33.3%;float:left;text-align: center;line-height:45px;}
 .calendar .setDay li a{display:block;line-height: 45px;color:#888;background:#a3cefc;transition:0.3s;}
@@ -49,7 +58,8 @@
 .calendar .setDay li a:hover{opacity: 0.8;transition:0.3s;}
 .calendar td:hover .setDay,.calendar th:hover .setDay{display: block;transition:0.3s;}
 .column-two{width:50%;}
-
+.today .num{background:#ef901b;color:#fff;border-radius:50%;}
+.calendarDay td{width: 14.2%;}
 .calendar span{position:absolute;bottom:3px;left:3px;}
 .calendarTab{min-height:100%}
 .calendarTab td,.calendarTab th{width:14%;padding-bottom:10px;position: relative;vertical-align: top;}
@@ -315,6 +325,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .icon-tips{position: absolute;top:-25px;left:-10px;}
 a .icon-tips{top:-20px;left:-2px;}
 .icon-tips{-webkit-animation: start 2s infinite ease-in-out;animation: start 2s infinite ease-in-out;}
+.processBarIn .icon-tips{top:-15px;left:inherit!important;right:0;-webkit-animation: start 1.5s infinite ease-in-out;animation: start 1.5s infinite ease-in-out;}
 @-webkit-keyframes start {  0% {opacity: 1;-webkit-transform: translateY(0px);}
   50% {opacity: 0.8;-webkit-transform: translateY(-5px);}}
 /*.tableExcel tbody tr td.waring{background:#e9f4ff;}*/

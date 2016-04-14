@@ -205,7 +205,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .message_error i{border-color:#a04646;color:#a04646;}
 .message i.icon-info{border:0;vertical-align:-4px;margin-right:5px;}
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
-
+.tag{width:22px;height:35px;line-height:22px;background:url("../img/tag.png");text-align: center;position: inherit!important;}
 
 .prompt{text-align:center;font-size:10px;border-radius:50%;min-width:13px;height:13px;line-height:15px;border:2px solid #383634;background:#dd4747;color:#fff;font-family: Arial;position: absolute;padding:2px;right:8px;top:5px;}
 .title{height:39px;line-height:39px;border-bottom: 1px solid #efefef;padding-left:20px;position: relative;}
