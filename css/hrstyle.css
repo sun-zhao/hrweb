@@ -494,8 +494,47 @@ a .icon-tips{top:-20px;left:-2px;}
 ul.workArea li{margin:0;border:0;border-bottom:1px solid #ccc;padding:0 20px;background: #fff;}
 ul.workArea li .intBox{background:none;border-color:#ccc;}
 .processBar{position: absolute;width:100%;top:50%;margin-top:-50px;}
-.processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;border-top:1px solid #9a9a9a;}
-.processLayout .processBarIn{height:19px;background:#ef901b;border-radius:18px;transition:0.3s;box-shadow:0 0 11px #9a9a9a;}
+.processLayout{width:100%;height:20px;background:#ddd;border-radius:18px;}
+.processLayout .processBarIn{height:20px;border-radius:18px;transition:0.3s;}
+/*background:#ef901b;*/
+.processBarIn {
+  /*background-color: #14c3a2;*/
+  background-image: repeating-linear-gradient(-40deg, #ef901b, #ef901b 11px, #e97812 0, #e97812 24px);
+  background-size: 600px 100%;
+  animation: barberpole 10s linear infinite;
+}
+.processBarIn:before {
+  content: attr(data-skill);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  height: 40px;
+  font-style: italic;
+  opacity: 0;
+  transition: opacity 2s 0.6s;
+}
+.processBarIn:after {
+  content: attr(data-percent) "%";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 2s 0.6s;
+}
+@keyframes barberpole {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 600px 0%;
+  }
+}
 .mailList{width:470px;background:#fff;position:absolute;height:100%;z-index: 100000;right:0;top:0;}
 .mailListIn{position: fixed;top:0;bottom:0;right:0;z-index:200;}
 .word{border-top:1px solid #efefef;border-bottom:1px solid #efefef;height: 50px;}
