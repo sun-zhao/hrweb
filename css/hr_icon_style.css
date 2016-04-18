@@ -1511,6 +1511,7 @@ i {
 }
 .icon-radio-checked:before {
 	content: "\e937";
+	color:#ef901b;
 }
 .icon-radio-checked2:before {
 	content: "\eaf4";
