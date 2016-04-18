@@ -206,7 +206,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .message_error i{border-color:#a04646;color:#a04646;}
 .message i.icon-info{border:0;vertical-align:-4px;margin-right:5px;}
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
-.tag-holiday,.tag-work,.tag-rest{width:18px;height:27px;line-height:22px;background:url("../img/tag.png") 0 0;text-align: center;color:#fff;position: inherit!important;bottom:0!important;}
+.tag-holiday,.tag-work,.tag-rest{width:18px;height:27px;line-height:22px;background:url("../img/tag.png") 0 0;text-align: center;color:#fff;top:0!important;}
 .tag-holiday{background-position:-36px 0;}
 .tag-rest{background-position:-18px 0;}
 .tag-work{background-position:0 0;}
