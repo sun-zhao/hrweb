@@ -5,6 +5,7 @@
     <title>我的考勤</title>
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
     <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
 </head>
 <body class="bodyTheme">
@@ -41,7 +42,7 @@
             <li><span>刘德华的刷卡记录</span></li>
         </ul>
         <a href="#" class="floatright"><i class="icon icon-set"></i></a>
-        <ul class="dropdown-menu width-110" style="display: none">
+        <ul class="dropdown-menu width-110" style="display: block">
             <li><a href="#">部门设置</a></li>
             <li><a href="#">职位设置</a></li>
             <li><a href="#">合同范本设置</a></li>
@@ -83,7 +84,7 @@
                 </ul>
             </div>
         </div>
-        <div class="has-general inlineblock intBox intBox_large width-110 floatright">
+        <div class="has-general inlineblock intBox intBox_large width-110 floatright current">
             <label class="control-label">全休部门</label>
             <em class="arrow"></em>
             <p class="">2015</p>
@@ -133,56 +134,59 @@
                         </tr>
                         <tr>
                             <th class="weekend td_past"><div><em class="num">5</em></div></th>
-                            <td class="td_past"><div><em class="num">6</em></td>
+                            <td class="td_past"><div><em class="num">6</em></div></td>
                             <td class="td_past">
-                                <div class="color-6 font14">
+                                <div class="color-6">
                                     <em class="num">7</em>
-                                    <p class="p-top50"><i class="icon icon-sun"></i> 9:00</p>
-                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="p-top50"><i class="icon-sun3 font18"></i> 9:00</p>
+                                    <p><i class="icon-moon2 font18"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
                             <td class="td_past">
-                                <div class="color-6 font14">
+                                <div class="color-6">
                                     <em class="num">8</em>
-                                    <p class="p-top50"><i class="icon icon-sun"></i> 9:00</p>
-                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="p-top50"><i class="icon-sun3 font18"></i> 9:00</p>
+                                    <p><i class="icon-moon2 font18"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
                             <td class="td_past">
-                                <div class="color-6 font14">
+                                <div class="color-6">
+                                    <span class="inlineblock tag-holiday">假</span>
                                     <em class="num">9</em>
-                                    <p class="p-top50"><i class="icon icon-sun"></i> 9:00</p>
-                                    <p><i class="icon icon-moon"></i> 18:00</p>
+                                    <p class="p-top50"><i class="icon-sun3 font18"></i> 9:00</p>
+                                    <p><i class="icon-moon2 font18"></i> 18:00</p>
                                     <p class="mart5">全工时</p>
                                 </div>
                             </td>
                             <td class="td_today">
-                                <div class="color-6 font14">
+                                <span class="inlineblock tag-work">班</span>
+                                <div class="color-6">
                                     <em class="num">10</em>
-                                    <p class="p-top50"><i class="icon icon-sun"></i> 9:00</p>
-                                    <p><i class="icon icon-moon"></i> 18:00</p>
-                                    <p class="mart5 color-2">加班</p>
+                                    <p class="p-top50"><i class="icon-sun3 font18"></i> 9:00</p>
+                                    <p><i class="icon-moon2 font18"></i> 18:00</p>
+                                    <p class="mart5 color-work">加班</p>
                                 </div>
                             </td>
                             <th class="weekend">
-                                <div class="color-6 font14">
+                                <div class="color-6">
                                     <em class="num">11</em>
-                                    <p class="p-top50"><i class="icon icon-sun"></i> 9:00</p>
-                                    <p><i class="icon icon-moon"></i> 18:00</p>
-                                    <p class="mart5 color-2">加班</p>
+                                    <span class="inlineblock tag-rest">休</span>
+                                    <p class="p-top50"><i class="icon-sun3 font18"></i> 9:00</p>
+                                    <p><i class="icon-moon2 font18"></i> 18:00</p>
+                                    <p class="mart5 color-rest">休息</p>
                                 </div>
                             </th>
                         </tr>
                         <tr>
                             <th class="weekend"><div><em class="num">12</em></div></th>
                             <td>
-                                <div class="color-6 font14">
+                                <div class="color-6">
                                     <em class="num">13</em>
-                                    <p class="p-top50 color-a"><i class="icon icon-sun"></i> 00:00</p>
-                                    <p class="color-a"><i class="icon icon-moon"></i> 00:00</p>
-                                    <p class="mart5 color-1">病假</p>
+                                    <p class="p-top50 color-a"><i class="icon-sun3 font18"></i> 00:00</p>
+                                    <p class="color-a"><i class="icon-moon2 font18"></i> 00:00</p>
+                                    <p class="mart5 color-leave">病假</p>
                                 </div>
                             </td>
                             <td><div><em class="num">14</em></div></td>
