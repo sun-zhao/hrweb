@@ -166,8 +166,8 @@
                     </div>
                 </div>
                 <p class="aligncenter p-top15 p-bt10 color-3 font14">2015年5月</p>
-                <div class="marl20 marr20" id="tableBox">
-                    <table class="calendar calendarDay" style="height: 100%">
+                <div class="marl20 marr20">
+                    <table class="calendar calendarHeader calendarDay" style="height:30px;">
                         <thead>
                             <tr>
                                 <td>日</td>
@@ -179,6 +179,8 @@
                                 <td>六</td>
                             </tr>
                         </thead>
+                    </table>
+                    <table class="calendar calendarDay"  id="tableBox">
                         <tbody>
                             <tr>
                                 <td class="prevDay"><div><em class="num color-c">29</em></div></td>
@@ -513,7 +515,7 @@
    $(function(){
        var $W = $(window).width(),
            $H = $(window).height();
-       $('#tableBox').height($H-260);
+       $('#tableBox').height($H-290);
    });
 </script>
 </body>

@@ -48,7 +48,7 @@
 .calendarDay td div{position: absolute;top:0;right: 0;left:0;bottom:0;}
 .calendarDay td div span{top:0;}
 .calendar td div p.txt_hidden{width: 90%;}
-
+.calendarHeader thead td{border-bottom:0;}
 .calendarDay .num{font-family:Arial;width:30px;height:30px;line-height:30px;position: absolute;top:0;right:0;text-align: center;}
 .calendar .setDay{position: absolute;top:-5px;left:0;right:-5px;bottom:0;background:#fff;display: none;transition:0.3s;}
 .calendar .setDay li{width:33.3%;float:left;text-align: center;line-height:45px;}
