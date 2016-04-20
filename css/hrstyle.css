@@ -467,6 +467,7 @@ a .icon-tips{top:-20px;left:-2px;}
 .btnBlcok{display:block;width:auto;height:40px;line-height:40px;margin:0 17px;}
 .timeUl li,.Department.ulAuto li .timeUl li{width:50%;float:left;text-align: center;text-indent: 0;}
 .Department.ulAuto li .timeUl li a,.dropdown-menu.timeUl a{padding:0;}
+.dateUl li{width:25%;}
 .popIn{height:170px;padding-top:10px;}
 .processIn{height:100px;}
 .checkMenu{padding: 10px 0;}
