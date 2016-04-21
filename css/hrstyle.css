@@ -292,7 +292,7 @@ div.popUser.popUser .user img{display: inline-block;}
 .hiddenX .dropdown-menu .jspContainer{overflow: hidden!important;}
 .tableExcel tbody tr th,.tableData thead tr th{background:#f6f6f6;color:#666;}
 @-moz-document url-prefix() {
-  .tableExcel tbody tr th,.tableData thead tr th{background:url("../img/th_bg.png");}
+  .tableExcel tbody tr th,.tableData thead tr th{background:url("../img/th_bg.png") 0 0 repeat-x;background-size:100% 99%;}
 }
 .tableData tbody tr:hover th,.tableData tbody tr:hover td{background:#f5f5f5;}
 .tableExcel tbody tr td.first, .tableExcel tbody tr th.first{border-left:0;}
