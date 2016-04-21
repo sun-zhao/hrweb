@@ -462,7 +462,7 @@ a .icon-tips{top:-20px;left:-2px;}
 .popWage td{border:1px solid #efefef;padding-left:10px;}
 .popMain .has-ip input{width:60px;margin:0 1px;}
 .popMain .has-ip .control-label{top:0;left:0;bottom:0;border:1px solid #b94a48;right:10px;}
-
+.ab_btns{position: absolute;top:10px;left:10px;z-index:10;}
 
 .btnBlcok{display:block;width:auto;height:40px;line-height:40px;margin:0 17px;}
 .timeUl li,.Department.ulAuto li .timeUl li{width:50%;float:left;text-align: center;text-indent: 0;}
