@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'hr_icon';
-	src:url('hr_icon.eot?33road');
-	src:url('hr_icon.eot?33road#iefix') format('embedded-opentype'),
-		url('hr_icon.ttf?33road') format('truetype'),
-		url('hr_icon.woff?33road') format('woff'),
-		url('hr_icon.svg?33road#hr_icon') format('svg');
+	src:url('fonts/hr_icon.eot?33road');
+	src:url('fonts/hr_icon.eot?33road#iefix') format('embedded-opentype'),
+		url('fonts/hr_icon.ttf?33road') format('truetype'),
+		url('fonts/hr_icon.woff?33road') format('woff'),
+		url('fonts/hr_icon.svg?33road#hr_icon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,8 +17,8 @@ i {
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	/*line-height: 1;*/
-	color: #aaa;
+	line-height: 1;
+
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -1511,7 +1511,6 @@ i {
 }
 .icon-radio-checked:before {
 	content: "\e937";
-	color:#ef901b;
 }
 .icon-radio-checked2:before {
 	content: "\eaf4";

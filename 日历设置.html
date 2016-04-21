@@ -108,9 +108,9 @@
                 <div class="title alignright clearfix">
                     <span class="floatleft">公司日历</span>
                     <div class="floatleft mart10 marl20">
-                        <span class="marr20"><em class="tips bg1"></em>工作日</span>
-                        <span class="marr20"><em class="tips bg2"></em>双休日</span>
-                        <span class="marr20"><em class="tips bg3"></em>节假日</span>
+                        <span class="marr20"><span class="inlineblock tag-holiday marr5">假</span><em>2天</em></span>
+                        <span class="marr20"><span class="inlineblock tag-rest marr5">休</span><em>11天</em></span>
+                        <span class="marr20"><span class="inlineblock tag-work marr5">班</span><em>18天</em></span>
                     </div>
                     <a href="#" class="iconBtn floatright marr20 marl20"><i class="icon icon-plus"></i></a>
                     <a href="#" class="iconBtn floatright marl20"><i class="icon icon-edit"></i></a>
@@ -166,8 +166,8 @@
                     </div>
                 </div>
                 <p class="aligncenter p-top15 p-bt10 color-3 font14">2015年5月</p>
-                <div class="marl20 marr20" id="tableBox">
-                    <table class="calendar calendarDay" style="height: 100%">
+                <div class="marl20 marr20">
+                    <table class="calendar calendarHeader calendarDay" style="height:30px;">
                         <thead>
                             <tr>
                                 <td>日</td>
@@ -179,6 +179,8 @@
                                 <td>六</td>
                             </tr>
                         </thead>
+                    </table>
+                    <table class="calendar calendarDay"  id="tableBox">
                         <tbody>
                             <tr>
                                 <td class="prevDay"><div><em class="num color-c">29</em></div></td>
@@ -204,22 +206,26 @@
                                 <td class="workday today">
                                     <div>
                                         <em class="num">14</em>
-                                        <a href="javascript:;" class="font18 edit"><i class="icon-write"></i></a>
-                                        <span class="inlineblock tag">假</span>
+                                        <a href="javascript:;" class="font14 edit"><i class="icon-write"></i></a>
+                                        <span class="inlineblock tag-holiday">假</span>
                                     </div>
                                 </td>
                                 <td class="workday">
                                     <div class="clearfix">
                                         <em class="num">15</em>
-                                        <a href="javascript:;" class="font18 edit"><i class="icon-write"></i></a>
-                                        <div class="has-general">
-                                            <input type="text" maxlength="10">
-                                            <label class="control-label">必填</label>
-                                        </div>
-                                        <p class="color-a marl10 p-top10">今天天气不错哦</p>
+                                        <a href="javascript:;" class="font14 edit"><i class="icon-write"></i></a>
+                                        <span class="inlineblock tag-rest">休</span>
+                                        <p class="color-a marl10 p-top40 txt_hidden">今天天气不错哦</p>
                                     </div>
                                 </td>
-                                <td class="workday"><div><em class="num">16</em></div></td>
+                                <td class="workday">
+                                    <div class="clearfix">
+                                        <em class="num">15</em>
+                                        <a href="javascript:;" class="font14 edit"><i class="icon-write"></i></a>
+                                        <span class="inlineblock tag-work">班</span>
+                                        <p class="color-a marl10 p-top40 txt_hidden">今天天气不错哦今天天气不错哦今天天气不错哦</p>
+                                    </div>
+                                </td>
                                 <td class="workday"><div><em class="num">17</em></div></td>
                                 <td><div><em class="num">18</em></div></td>
                             </tr>
@@ -259,12 +265,16 @@
 </div>
 </div>
 <!--日历设置弹出begin-->
-<div class="pop" style="display:none;height:400px;">
+<div class="pop" style="display:block;height:400px;">
     <div class="title alignright">
         <span class="floatleft">日历设置</span>
         <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
     </div>
-    <div class="font14 popInner" style="height:355px;">
+    <div class="font14 popInner relative" style="height:355px;">
+        <div class="ab_btns">
+            <a href="#" class="btn btn-border width-100 current">上班打卡</a>
+            <a href="#" class="btn btn-yes width-100">下班打卡</a>
+        </div>
         <div class="marl10 marr10">
             <table class="popMain mart10">
                 <tr>
@@ -463,6 +473,44 @@
     </div>
 </div>
 <!--日历设置弹出over-->
+<!--假期设置弹出begin-->
+<div class="pop" style="display:none;height:300px;">
+    <div class="title alignright">
+        <span class="floatleft">假期设置</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="font14 popInner" style="height:255px;">
+        <div class="marl10 marr10">
+            <table class="popMain mart10">
+                <tr>
+                    <th>时间</th>
+                    <td>2016-04-18</td>
+                </tr>
+                <tr>
+                    <th>属性</th>
+                    <td>
+                        <span class="marr10 pointer"><i class="icon-radio-unchecked font16 marr5 vertical-m"></i><em>假期</em></span>
+                        <span class="marr10 pointer"><i class="icon-radio-unchecked font16 marr5 vertical-m"></i><em>休息</em></span>
+                        <span class="marr10 pointer"><i class="icon-radio-checked font16 marr5 vertical-m"></i><em>请假</em></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>备注</th>
+                    <td>
+                        <div class="has-general">
+                            <input type="text">
+                            <label class="control-label">请填写姓名</label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class=" block btn_bottom">
+            <a href="#" class="btn btnBlcok block">确 定</a>
+        </div>
+    </div>
+</div>
+<!--假期设置弹出over-->
 <div class="mask" style="display:none;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
@@ -471,7 +519,7 @@
    $(function(){
        var $W = $(window).width(),
            $H = $(window).height();
-       $('#tableBox').height($H-260);
+       $('#tableBox').height($H-290);
    });
 </script>
 </body>
