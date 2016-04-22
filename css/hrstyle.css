@@ -579,6 +579,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .department_user_list li.current,.department_user_list li:hover{background: #f5f5f5;}
 .department_user_list li i{position:absolute;top:5px;right:6px;color:#ef901b;}
 .department_list_line li.current i{color:#ef901b!important;}
+.department_list_line2 li{text-indent:20px;}
 .mail_btn{height:40px;line-height:40px;position: absolute;left:0;bottom:10px;}
 .tabCheck{width:40px;position: absolute;top:0;left:-41px;}
 .tabCheck a{display: block;height:60px;padding-top:20px;line-height:20px;background: #fff;color:#333;padding-left:10px;border-left:2px solid #fff;border-bottom:1px dotted #ccc;}
