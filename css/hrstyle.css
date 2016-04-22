@@ -211,6 +211,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 .ContractTitle .title{margin-top:-10px;}
 ul.demo li{line-height:20px;text-indent:10px;color:#999;}
 ul.demo li span.width-100{color:#333;}
+.demo .btn-yes{padding: 0 5px;color:#fff;}
 /*组织架构*/
 .tree{min-height:500px;padding:20px;}
 .treeBig{padding-bottom:0;}
