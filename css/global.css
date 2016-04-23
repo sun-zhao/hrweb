@@ -243,7 +243,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 span.event em{display:inline-block;line-height:30px;}
 .e_right .color-info{text-align: right;margin-right:10px;}
 .e_right .strong{margin-right: 50px;}
-.e_right span.event{text-align:center;width:120px;margin-left:20px;margin-right:10px;cursor: pointer;}
+.e_right span.event{text-align:center;width:100px;margin-left:20px;margin-right:10px;cursor: pointer;}
 span.event .arrow-left{width:7px;height:12px;background: url("../img/arrow_left.png") 0 0;position: absolute;left:-7px;top:50%;margin-top:-6px;}
 .work_line .jspPane{min-height:400px;}
 span.event:hover,span.event.current{background:#ef901b;border-color:#ef901b;color:#fff;}
