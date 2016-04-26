@@ -139,7 +139,7 @@
                                         <!--<a href="#"><i class="icon-arrow-down"></i></a>-->
                                         <a href="#"><i class="icon-write"></i></a>
                                         <a href="#" id="img"><i class="icon-image2"></i></a>
-                                        <ul class="image">
+                                        <ul class="image" style="top:15px;right:45px;">
                                             <li><img src="img/1-1.jpg"/></li>
                                             <li><img src="img/1-2.jpg"/></li>
                                         </ul>
@@ -190,15 +190,11 @@
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="js/viewer.min.js"></script>
 <script type="text/javascript">
-    $('#img').click(function(){
-        $(this).next('ul').find('img:first').click();
         $('.image').viewer({
             shown: function () {
-                $('.image').viewer('zoom', 0.1);
+                $('.image').viewer();
             }
         });
-    });
-
 </script>
 </body>
 </html>

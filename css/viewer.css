@@ -352,7 +352,7 @@
        -o-transition: all .3s ease-out;
           transition: all .3s ease-out;
 }
-.image{opacity:0; position: absolute;}
+.image{opacity:0; position: absolute;width:20px;height:20px;overflow: hidden;}
 .viewer-container,.viewer-container div{height:auto!important;border:0!important;}
 .viewer-container  div{ position: inherit!important;}
 .viewer-container .viewer-footer,.viewer-container .viewer-button,.viewer-container .viewer-footer,.viewer-navbar,.viewer-container .viewer-button{position: absolute!important;}
