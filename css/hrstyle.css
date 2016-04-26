@@ -175,7 +175,7 @@ span.block,.userInfoTable td .dataNormal{height:30px;line-height:30px;margin-top
 
 
 .workerList li{width:18%;cursor: pointer;}
-.pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index:100000;display: none;overflow: hidden;}
+.pop{width:400px;height:400px;background:#fff;position: fixed;top:50%;left:50%;margin:-200px 0 0 -200px;z-index:100002;display: none;overflow: hidden;}
 .pop p span{padding:0 10px;color:#347cdc;}
 .bottom-btn a.btn{display:inline-block;width:150px;height:40px;line-height:40px;}
 .Formula li{width:auto;height:auto;line-height:30px;display:block;margin:0 20px;padding:10px;float:none;}
