@@ -629,6 +629,7 @@ ul.workArea li .intBox{background:none;border-color:#ccc;}
 .node_in .has-general{position: relative;top:-3px;}
 .node_in .has-general input{height:25px;line-height: 25px;}
 .node_in .dropdown-menu{width:150px;height:150px;position: absolute;z-index: 10;top:35px;right:0;overflow: hidden;overflow-y: auto;}
+.node_in a.marr10{padding:0 10px;margin-right:0!important;}
 .top-mask,.bottom-mask,.top-mask-top,.left-mask{display:block;width:37px;height:21px;background: url("../img/tree-mask1.png");position: absolute;z-index: 1;left:-1px;top:-21px;}
 .bottom-mask{height:17px;background: url("../img/tree-mask2.png");top:inherit;bottom:-2px;z-index: 1;}
 .top-mask-top{width:17px;height:15px;background: url("../img/tree-mask3.png");top:0;}
