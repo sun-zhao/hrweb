@@ -122,6 +122,8 @@
 .btn-select{background:#ef901b;border:0;border-radius:3px;width:auto;min-width:100px;}
 .btn-select span{color:#fff!important;}
 .btn-select .arrow{border-top:4px solid #fff;}
+.tip_box{width:252px;height:92px;background: url("../img/tip_bg.png");position: absolute;right:-20px;z-index:10001;}
+.tip_box p{padding:30px 20px 0 70px;line-height: 18px;}
 
 .intBox {vertical-align:-9px;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;overflow: hidden!important;}
