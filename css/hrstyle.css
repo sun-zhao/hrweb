@@ -128,7 +128,7 @@
 .intBox {vertical-align:-9px;}
 .intBox .dropdown-menu{width:100%;left:0;right:-1px;top:30px;display:none;transition:0.3s;z-index:9999;overflow: hidden!important;}
 .tree_right_main .intBox .dropdown-menu{z-index: 10;}
-.intBox .dropdown-menu a{display:block;width:90%;}
+.intBox .dropdown-menu a{display:block;width:96%;}
 .intBox .dropdown-menu.timeUl a{width:auto;}
 .intBox.current .dropdown-menu{display: block;top:30px;}/*.intBox:hover .dropdown-menu,*/
 .intBox p.marl5{display: inline-block;height:28px;line-height:28px;width: 88%;}
