@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>table-edit</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/viewer.css">
+</head>
+<body class="">
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon-tree font19"></i></a></li>
+            <li><a href="#"><i class="icon-search2 font26"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon-alarm3 font20"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon-switch font20"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody hidden">
+    <!--当前位置begin-->
+    <div class="container ">
+        <div class="location bg-white clearfix">
+            <a href="#" class="back floatleft"><i class="icon icon-back"></i></a>
+            <ul class="floatleft marl10">
+                <li><a href="#">首 页</a>&gt;</li>
+                <li><span>考勤统计</span></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon-settings font25"></i></a>
+            <ul class="dropdown-menu width-110" style="display: none">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+            </ul>
+            <a href="#" class="floatright"><i class="icon-download2 font22"></i></a>
+        </div>
+    </div>
+    <!--当前位置over-->
+    <div class="layout">
+        <div class="container leftMain">
+            <div class="container bg-white" style="height:567px;" title="height等于MainBody的高度-100">
+                <div class="title nopadding alignright clearfix excelTitle">
+                    <a href="#" class="floatleft color-8 navTip">打卡IP设定</a>
+                    <a href="#" class="floatleft color-8 navTip current">打卡IP设定</a>
+                    <div class="has-general inlineblock intBox marr20 width-150 floatright">
+                        <!--<label class="control-label marl10">全休部门</label>-->
+                        <em class="arrow"></em>
+                        <p class="marl10">石家庄</p>
+                        <div class="dropdown-menu jscroll" style="height:150px;">
+                            <ul class="">
+                                <li><a href="#">北京</a></li>
+                                <li><a href="#">上海</a></li>
+                                <li><a href="#">武汉</a></li>
+                                <li><a href="#">石家庄</a></li>
+                                <li><a href="#">张家口</a></li>
+                                <li><a href="#">乌鲁木齐</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <table class="tableCard tableExcel tableData color-3" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="aligncenter width-250"><div>险种</div></th>
+                                <th><div>基数下限</div></th>
+                                <th><div>基数上限</div></th>
+                                <th><div>公司比例</div></th>
+                                <th><div>个人比例</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div>养老</div></td>
+                                <td>
+                                    <div>
+                                        <div class="has-general inlineblock width-auto nomar">
+                                            <input type="text" value="3948.0">
+                                            <label class="control-label"></label>
+                                            <span class="has-label">天年假</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="color-a">
+                                        <div class="has-general inlineblock width-auto nomar">
+                                            <input type="text" value="3948.0">
+                                            <label class="control-label"></label>
+                                            <span class="has-label">天年假</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <div class="has-general inlineblock width-auto nomar">
+                                            <input type="text" value="28">
+                                            <label class="control-label"></label>
+                                            <span class="has-label">%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <div class="has-general inlineblock width-auto nomar">
+                                            <input type="text" value="28">
+                                            <label class="control-label"></label>
+                                            <span class="has-label">%</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><div class="color-a">生育</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="color-a">医疗</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="color-a">失业</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="color-a">工伤</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="color-a">大病</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                                <td><div class="color-a">0</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="mask" style="display:;"></div>-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+</body>
+</html>
