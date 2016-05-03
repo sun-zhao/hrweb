@@ -2129,6 +2129,28 @@ td.pointer:hover .color-a {
 }
 
 /*input*/
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
+.border{border:1px solid #ccc;}
+.int-txt{line-height:18px;width:100%;}
+.has-general{position: relative;}
+.has-general label.control-label{display:none;text-align: left;}
+.has-general,.has-success, .has-warning, .has-error{margin-top:10px;position: relative;}
+.has-general input{width:100%;height:28px;line-height:28px;border:1px solid #efefef;outline: 0;color:#333;text-indent:5px;}/*158px;*/
+.has-general input:focus{box-shadow:0 0 2px #ef901b;}
+.has-general label{line-height:28px;position: absolute;left:1px;top:1px;right:1px;bottom:1px;background:#fff;text-indent:3px;}
+.has-error input,.intBox.has-error{border-color:#b94a48;}
+.has-error label.control-label{display:block;color:#b94a48;}
+.choose_net .has-general{margin:5px 0;}
+.choose_net .has-general input{height:24px;line-height:24px;}
+.has-general input.file{position:absolute;top:0;left:0;opacity: 0;}
+.tableCard td div.has-general{height:30px;line-height:30px;top:3px;}
+.tableCard .has-general .control-label{top:4px;}
+.tableCard .com{position: absolute;z-index: 2;right:5px;}
+=======
+>>>>>>> Stashed changes
 .int {
     height: 26px;
     line-height: normal;
@@ -2164,7 +2186,7 @@ td.pointer:hover .color-a {
 }
 
 .has-general input {
-    width: 158px;
+    width: 100%;
     height: 28px;
     line-height: 28px;
     border: 1px solid #efefef;
@@ -2229,6 +2251,10 @@ td.pointer:hover .color-a {
     right: 5px;
 }
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 pre {
     white-space: pre-wrap; /* css-3 */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
