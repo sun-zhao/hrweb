@@ -115,7 +115,7 @@
                 </div>
                 <p class="line mart20"></p>
                 <p class="clearfix mart15 alignright">
-                    <span class="floatleft pointer clearfix color-theme"><i class="icon-add_circle_outline font14 marr5 floatleft"></i><em>展开结果明细</em></span>
+                    <span class="floatleft pointer clearfix view color-theme"><i class="icon-add_circle_outline font14 marr5 floatleft"></i><em>展开结果明细</em></span>
                     <span class="color-a">当前结果于 <em>2016/5/1</em> 计算  操作员：<em>王佳</em></span>
                 </p>
                 <!--数据列表begin-->
@@ -165,7 +165,7 @@
                             <td>123,312</td>
                         </tr>
                         <tr>
-                            <td>北京</td>
+                            <td>北京222</td>
                             <td>123</td>
                             <td>123,312</td>
                             <td>123,312</td>
@@ -213,7 +213,7 @@
                 </div>
                 <p class="line mart20"></p>
                 <p class="clearfix mart15 alignright">
-                    <span class="floatleft pointer clearfix"><i class="icon-remove_circle_outline font14 marr5 floatleft"></i><em>收起结果明细</em></span>
+                    <span class="floatleft pointer clearfix view"><i class="icon-remove_circle_outline font14 marr5 floatleft"></i><em>收起结果明细</em></span>
                     <span class="color-a">当前结果于 <em>2016/5/1</em> 计算  操作员：<em>王佳</em></span>
                 </p>
                 <!--数据列表begin-->
@@ -263,7 +263,7 @@
                                 <td>123,312</td>
                             </tr>
                             <tr>
-                                <td>北京</td>
+                                <td>北京111</td>
                                 <td>123</td>
                                 <td>123,312</td>
                                 <td>123,312</td>
@@ -290,6 +290,22 @@
         });
     }
     Jscroll();
+    $('.view').click(function(){
+        var $this = $(this),
+            i = $this.find('i'),
+            em = $this.find('em');
+        if($this.hasClass('color-theme')){
+            $this.removeClass('color-theme');
+            i.removeClass('icon-add_circle_outline').addClass('icon-remove_circle_outline');
+            em.text('收起结果明细');
+            $this.parent().next('.hidden').animate({'height':$this.parent().next('.hidden').find('table').height()+20});
+        }else{
+            $this.addClass('color-theme');
+            i.removeClass('icon-remove_circle_outline').addClass('icon-add_circle_outline');
+            em.text('展开结果明细');
+            $this.parent().next('.hidden').animate({'height':0});
+        }
+    });
 </script>
 </body>
 </html>
