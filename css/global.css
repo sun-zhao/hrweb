@@ -913,7 +913,13 @@ a.tags:hover, a.keywords:hover {
 .tag-work {
     background-position: 0 0;
 }
-
+.tag-wait{
+	background: #ef901b;
+	line-height: 20px;
+	color: #fff;
+	padding:0 5px;
+	border-radius:4px;
+}
 .calendarTab .tag-holiday, .calendarTab .tag-work, .calendarTab .tag-rest {
     position: absolute !important;
     top: 0 !important;
@@ -1398,6 +1404,8 @@ span.event.noclick .arrow-left {
     border: 1px solid #dddddd;
     background: #fff;
     color: #333333;
+	height: 28px;
+	line-height: 28px;
 }
 
 .btn-border:hover, .btn-border.current {

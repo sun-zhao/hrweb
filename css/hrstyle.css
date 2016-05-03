@@ -1594,7 +1594,7 @@ div.popUser.popUser .user img {
 }
 
 @-moz-document url-prefix() {
-    .tableExcel tbody tr th, .tableData thead tr th {
+    .tableExcel tbody tr th, .tableData thead tr th,.table_item thead tr th{
         background: url("../img/th_bg.png") 0 0 repeat-x;
         background-size: 100% 99%;
     }
@@ -1689,10 +1689,9 @@ div.popUser.popUser .user img {
     display: block;
 }
 
-.tableExcelHead tbody tr td, .tableExcelHead tbody tr th, .tableData thead tr th {
+.tableExcelHead tbody tr td, .tableExcelHead tbody tr th, .tableData thead tr th,thead.tableExcelHead{
     border-bottom: 1px solid #ef901b;
 }
-
 /*.hiddenX_r tr th{overflow: hidden;}*/
 .tableExcel tbody tr .intBox {
     height: 30px;
@@ -2015,7 +2014,8 @@ a .icon-tips {
 .tableData .td_btn a i {
     font-size: 16px;
 }
-
+.table_item thead tr th{border-bottom-width:2px;}
+.table_item tbody tr td{border:1px solid #efefef;text-align: center;color:#333;}
 /*.tableData .td_btn a .icon-bin{color:#e06767;}*/
 /*区间设置*/
 .stepList {
@@ -7189,13 +7189,13 @@ ul.workArea li .intBox {
     filter: alpha(opacity=90);
     opacity: .9;
 }
-
-
-
-
-
-
-
-
+/*社保索引2016-5-3*/
+.container_item{padding:20px;min-height:80px;}
+.item_top{border:1px solid #fac789;border-left:4px solid #ef901b;}
+.item_table td{height:80px;border-left:1px solid #ddd;text-align: center;vertical-align: text-top;width:100px;word-wrap: break-word;word-break: break-all;}
+.item_table td .mart25 span{padding:0 5px;}
+.item_table td .more{border-radius:4px;background:#ddd;height:12px;line-height:12px;}
+.item_table td .more i{color:#fff;}
+.item_table td .more:hover{background:#fac789;}
 
 
