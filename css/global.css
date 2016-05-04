@@ -1029,7 +1029,7 @@ a.tags:hover, a.keywords:hover {
 
 .bg2, .weekend {
     background: #f4f4f4;
-    background: url("../img/th_bg.png");
+    /*background: url("../img/th_bg.png");*/
 }
 
 .bg3, .holiday {
