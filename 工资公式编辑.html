@@ -362,7 +362,110 @@
     </div>
 </div>
 <!--新建工资项弹出over-->
-<div class="mask" style="display:none;"></div>
+<!--新建工资项弹出begin-->
+<div class="pop" style="display:block;width:800px;height:500px;margin:-250px 0 0 -400px;">
+    <div class="title alignright">
+        <span class="floatleft">工资公式编辑</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner relative nomar" style="height:460px;">
+        <div class="btn block width-auto nobg p-top5 marl15 clearfix">
+            <span class="color-6 floatleft">按照条件配置适用范围</span>
+            <span class="switch floatleft mart5 marl15 current" title="开是加上current"><em></em></span>
+            <a href="#" class="btn width-120 floatright marr10 mart3">＋新建条件公式</a>
+        </div>
+        <div class="condition mart10">
+            <div class="checkMenu">
+                <ul class="clearfix de_list">
+                    <li class="txt_hidden current"><i class="icon-check_box"></i><span>精确到公司</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>精确到部门</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>精确到职级</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>精确到工龄</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank"></i><span>精确到岗位</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京分公司</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank"></i><span>上海分公司</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>精确到岗位</span></li>
+                    <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>精确到岗位</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="jscroll absolute" style="width:100%;top:113px;bottom:0;">
+            <div class="containerIn marl20 marr20 mart20 p-bt20">
+                <div class="container bg-white nomar">
+                    <div class="title alignright clearfix">
+                        <span class="floatleft">北京研发中心工资公式</span>
+                        <a href="#" class="iconBtn relative font15" title="编辑"><i class="icon-edit"></i></a>
+                        <a href="#" class="iconBtn marr10 relative" title="删除"><i class="icon-bin"></i></a>
+                    </div>
+                    <ul class="Department Formula clearfix p-top10 p-bt20">
+                        <li class="clearfix">
+                            <p>
+                                <em class="floatleft block width-70 p-top3">实发工资=</em>
+                                <span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title alignright clearfix"><span class="floatleft">使用条件</span></div>
+                <div class="containerIn edit-border marl20 marr20 mart20">
+                    <div class="title alignright clearfix">
+                        <span class="floatleft">选择分公司</span>
+                    </div>
+                    <div class="checkMenu">
+                        <ul class="clearfix de_list">
+                            <li class="txt_hidden current"><i class="icon-check_box"></i><span>上海分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京研发中心</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京研发中心</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank"></i><span>上海分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank"></i><span>上海分22公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank"></i><span>北京分222公司</span></li>
+                            <li class="txt_hidden"><i class="icon-check_box_outline_blank" ></i><span>北京研发中心</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="containerIn marl20 marr20 mart20 p-bt20">
+                <div class="container bg-white nomar">
+                    <div class="title alignright clearfix">
+                        <span class="floatleft">北京研发中心工资公式</span>
+                        <a href="#" class="iconBtn relative font15" title="编辑"><i class="icon-edit"></i></a>
+                        <a href="#" class="iconBtn marr10 relative" title="删除"><i class="icon-bin"></i></a>
+                    </div>
+                    <ul class="Department Formula clearfix p-top10 p-bt20">
+                        <li class="clearfix">
+                            <p>
+                                <em class="floatleft block width-70 p-top3">实发工资=</em>
+                                <span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span><span class="marl5 marr5">+</span><span>基本工资<em class="color-a marl5 marr5">(导入)</em></span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title alignright clearfix"><span class="floatleft">使用条件</span></div>
+                <div class="containerIn edit-border marl20 marr20 mart20">
+                    <div class="title alignright clearfix">
+                        <span class="floatleft">选择分公司</span>
+                    </div>
+                    <div class="checkMenu">
+                        <ul class="clearfix de_list">
+                            <li class="txt_hidden current"><i class="icon-radio-checked"></i><span>上海分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked" ></i><span>北京分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked" ></i><span>北京研发中心</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked" ></i><span>北京研发中心</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked"></i><span>上海分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked" ></i><span>北京分公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked"></i><span>上海分22公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked"></i><span>北京分222公司</span></li>
+                            <li class="txt_hidden"><i class="icon-radio-unchecked" ></i><span>北京研发中心</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--新建工资项弹出over-->
+<div class="mask" style="display:block;"></div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
@@ -372,28 +475,8 @@
             'mouseWheelSpeed':100,
             "showArrows":false
         });
-        var $w = $(window).width();
-        $('.layout  .jspPane').css({"width":$w,"margin-left":"0"});
     }
     Jscroll();
-    $(function(){
-        //点击查看更多
-        var $show_more = $('.show_more'),
-            $de_list = $('.de_list');
-        $de_list.find('li:gt(6)').hide();
-        $show_more.click(function(){
-            var $this = $(this);
-            if($this.hasClass('current')){
-                $this.removeClass('current');
-                $this.parents('.containerIn').find('ul').find('li:gt(6)').hide();
-                $this.text("展开-");
-            }else{
-                $this.addClass('current');
-                $this.parents('.containerIn').find('ul').find('li:gt(6)').show();
-                $this.text("收起+");
-            }
-        });
-    });
 
 </script>
 </body>

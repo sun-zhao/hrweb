@@ -646,7 +646,9 @@ a.tags:hover, a.keywords:hover {
 .nopadding {
     padding: 0 !important;
 }
-
+.p-top3 {
+    padding-top: 3px !important;
+}
 .p-top5 {
     padding-top: 5px !important;
 }
@@ -1354,6 +1356,7 @@ span.event.noclick .arrow-left {
     position: relative;
     cursor: pointer;
     transition: 0.3s;
+    padding: 0!important;
 }
 
 .switch em {
@@ -2363,13 +2366,13 @@ i:hover {
     content: "\e15b";
 }
 
-.icon-check_box_outline_blank, .icon-check_box {
+.icon-check_box_outline_blank, .icon-check_box,.de_list .icon-radio-unchecked,.de_list .icon-radio-checked{
     font-size: 20px;
     top: 0;
     margin-right: 3px;
     float: left;
 }
-
+.de_list .icon-radio-unchecked,.de_list .icon-radio-checked{font-size:17px;margin:0 4px 0 2px;}
 .current .icon-check_box, .current .icon-radio-unchecked {
     color: #ef901b;
 }

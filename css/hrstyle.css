@@ -1050,6 +1050,19 @@ span.block, .userInfoTable td .dataNormal {
     filter: Alpha(Opacity=50);
 }
 
+.condition{
+    border:1px solid #efefef;
+    border-width:1px 0;
+    background:#fef9f2;
+}
+.condition .checkMenu{padding: 5px 0;}
+.containerIn .checkMenu li,.condition .checkMenu li{
+    line-height:28px;
+}
+.pop .Formula li{line-height:20px;}
+.pop .Formula li span{color: #666;padding:0 4px;}
+.Formula li p em.floatleft{height:70px;}
+.containerIn .Formula.Department li{text-indent: 0;}
 /*时间线*/
 .timeLine {
     border-left: 4px solid #aaa;
