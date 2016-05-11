@@ -646,7 +646,9 @@ a.tags:hover, a.keywords:hover {
 .nopadding {
     padding: 0 !important;
 }
-
+.p-top3 {
+    padding-top: 3px !important;
+}
 .p-top5 {
     padding-top: 5px !important;
 }
@@ -913,7 +915,13 @@ a.tags:hover, a.keywords:hover {
 .tag-work {
     background-position: 0 0;
 }
-
+.tag-wait{
+	background: #ef901b;
+	line-height: 20px;
+	color: #fff;
+	padding:0 5px;
+	border-radius:4px;
+}
 .calendarTab .tag-holiday, .calendarTab .tag-work, .calendarTab .tag-rest {
     position: absolute !important;
     top: 0 !important;
@@ -1023,7 +1031,7 @@ a.tags:hover, a.keywords:hover {
 
 .bg2, .weekend {
     background: #f4f4f4;
-    background: url("../img/th_bg.png");
+    /*background: url("../img/th_bg.png");*/
 }
 
 .bg3, .holiday {
@@ -1344,16 +1352,17 @@ span.event.noclick .arrow-left {
     padding: 1px;
     border-radius: 20px;
     background: #ddd;
-    margin: 13px 20px 0 0;
+    margin: 16px 20px 0 0;
     position: relative;
     cursor: pointer;
     transition: 0.3s;
+    padding: 0!important;
 }
 
 .switch em {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background: #fff;
     position: absolute;
@@ -1398,6 +1407,8 @@ span.event.noclick .arrow-left {
     border: 1px solid #dddddd;
     background: #fff;
     color: #333333;
+	height: 28px;
+	line-height: 28px;
 }
 
 .btn-border:hover, .btn-border.current {
@@ -1555,7 +1566,15 @@ span.back {
     position: relative;
     top: 2px;
 }
-
+.dropdown-menu li p{
+    height: 30px;
+    line-height: 30px;
+    text-indent:5px;
+}
+.menu_border li{border-bottom:1px solid #eee!important;}
+.menu_border li.noborder{border-bottom:0!important;}
+.dropdown-menu.menu_border li dl{margin: 0 0 5px 10px;border:0;}
+.dropdown-menu.menu_border li dl dd a{color:#666;}
 /*.dropdown-out.net{height:283px;}*/
 .dropdown-out.net {
     box-shadow: 0 0 3px #e0e0e0;
@@ -2347,13 +2366,13 @@ i:hover {
     content: "\e15b";
 }
 
-.icon-check_box_outline_blank, .icon-check_box {
+.icon-check_box_outline_blank, .icon-check_box,.de_list .icon-radio-unchecked,.de_list .icon-radio-checked{
     font-size: 20px;
     top: 0;
     margin-right: 3px;
     float: left;
 }
-
+.de_list .icon-radio-unchecked,.de_list .icon-radio-checked{font-size:17px;margin:0 4px 0 2px;}
 .current .icon-check_box, .current .icon-radio-unchecked {
     color: #ef901b;
 }
@@ -2361,4 +2380,30 @@ i:hover {
 .current .icon-radio-unchecked:before {
     content: "\e937";
 }
+
+#page_progress{height:2px;background:#ef901b;position:fixed;top:0;left:0;animation: pulse 3s;z-index: 999999;}
+@-webkit-keyframes pulse{
+    0%{width:0;}
+    100%{width:100%;}
+}
+@keyframes pulse{
+    0%{width:0;}
+    100%{width:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

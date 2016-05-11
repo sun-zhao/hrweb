@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>工资管理-列表视图</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="../css/hr_icon_style.css">
+    <link rel="stylesheet" type="text/css" href="../css/hrstyle.css">
+</head>
+<body class="">
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="../img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#" class="current">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="../img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody">
+<!--当前位置begin-->
+<div class="container">
+    <div class="location bg-white clearfix alignright">
+        <ul class="floatleft marl10"><li><span>工资管理</span></li></ul>
+        <a href="#" class="iconBtn marr20" title="下载"><i class="icon icon-down"></i></a>
+        <a href="#" class="iconBtn marr20" title="上传"><i class="icon icon-upload"></i></a>
+        <a href="#" class="iconBtn marr20" title="计算工资"><i class="icon icon-calculate"></i></a>
+        <a href="#" class="iconBtn marr20" title="提交申请"><i class="icon icon-submit"></i></a>
+        <a href="#" class="iconBtn marr20"><i class="icon icon-set"></i></a>
+        <ul class="dropdown-menu width-110" style="display: none">
+            <li><a href="#">部门设置</a></li>
+            <li><a href="#">职位设置</a></li>
+            <li><a href="#">合同范本设置</a></li>
+            <li><a href="#">管理层设置</a></li>
+        </ul>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout">
+    <div class="container leftMain" style="">
+        <div class="container bg-white"  style="height:567px;" title="height等于MainBody的高度-100">
+            <div class="title alignright clearfix">
+                <span class="floatleft">明道北京研发部门-工资总额：<em>1,000,000,000.00</em></span>
+                <span class="floatright back marl15">
+                    <a href="#" class="iconBtn marr5 current" title="平铺视图"><i class="icon icon-tile"></i></a>
+                    <a href="#" class="iconBtn marl5" title="列表视图"><i class="icon icon-list"></i></a>
+                </span>
+                <div class="intBox search mart5 marl10 marr5 width-200 floatright clearfix">
+                    <input type="text" placeholder="搜索员工姓名">
+                    <a href="#" class="block floatleft relative"><i class="icon icon-search2"></i></a>
+                </div>
+                <div class="has-general floatright intBox nomar mart5 marr15 width-120">
+                    <label class="control-label">请选择部门</label>
+                    <em class="arrow"></em>
+                    <p class="marl5">全体部门</p>
+                    <div class="dropdown-menu jscroll" style="height:150px;">
+                        <ul class="">
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找11</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="has-general floatright nomar mart5 marr15">
+                    <input type="text"  value="2015-05">
+                    <label class="control-label">必填</label>
+                    <i class="icon ico-calendar"></i>
+                </div>
+            </div>
+            <div class="marl10 clearfix">
+                <div class="floatleft" style="width:100px;">
+                    <table class="tableCard">
+                        <thead>
+                        <tr>
+                            <th class="width-80"><div style="width:80px;">姓名</div></th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="floatleft hiddenX jscroll" style="width:1286px;" title="这个宽度是window-154">
+                    <table class="tableCard">
+                        <thead>
+                            <tr>
+                                <th><div style="width:120px;">部门</div></th>
+                                <th><div style="width:120px;">基本工资</div></th>
+                                <th><div style="width:120px;">绩效工资</div></th>
+                                <th><div style="width:120px;">住房公积金</div></th>
+                                <th><div style="width:120px;">失业保险</div></th>
+                                <th><div style="width:120px;">养老保险</div></th>
+                                <th><div style="width:120px;">工伤保险</div></th>
+                                <th><div style="width:120px;">工伤保险</div></th>
+                                <th><div style="width:120px;">医疗保险</div></th>
+                                <th><div style="width:120px;">生育保险</div></th>
+                                <th><div style="width:120px;">生育保险</div></th>
+                                <th><div style="width:120px;">生育保险</div></th>
+                                <th><div style="width:120px;">个人所得税</div></th>
+                                <th><div style="width:120px;">总计</div></th>
+                                <th><div style="width:40px;">操作</div></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="marl10 clearfix" style="height:417px;" title="这里的高度等于MainBody的高度-250">
+                <div class="floatleft hiddenX" style="width:100px;height:417px;">
+                    <table class="tableCard ">
+                        <tbody>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                            <tr><td class="first width-80"><div style="width:80px;">刘德华</div></td></tr>
+                            <tr class="line"><th></th></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="floatleft jscroll" style="width:1286px;height:417px;" title="当左侧宽为100的时候，这里的宽度等于window的宽度减去154">
+                    <table class="tableCard">
+                        <tbody>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                            <tr class="line"><th colspan="8"></th></tr>
+                            <tr>
+                                <td width="120" class=""><div style="width:120px;">明道北京研发部门</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="120"><div style="width:120px;">99999</div></td>
+                                <td width="40" class="last"><div style="width:40px;"><a href="#" class="iconBtn"><i class="icon icon-edit"></i></a></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--分页begin-->
+            <div class="pageOut p-top20 clearfix">
+                <span class="color-9 marl20 floatleft">共100页</span>
+                <div class="pagenation aligncenter font12 marr15 floatright">
+                    <a href="#" class="prev_page noData">首页</a>
+                    <a href="#" class="prev_page noData">上一页</a>
+                    <span>1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                    <span>...</span>
+                    <a href="#" class="next_page">下一页</a>
+                    <a href="#" class="next_page">尾页</a>
+                </div>
+            </div>
+            <!--分页over-->
+        </div>
+    </div>
+</div>
+</div>
+<!--工资查看弹出begin-->
+<div class="pop" style="display:none;">
+    <div class="title alignright">
+        <span class="floatleft">王佳-5月工资</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll" style="height:350px;">
+        <table class="popMain mart10">
+            <tr>
+                <td colspan="2">
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="../img/user1.png"/></span>
+                    <p class="font14 line20 mart3 color-3">王佳</p>
+                    <p class="font14 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                    <p class="font14 color-8 line20 mart5">JAVA工程师</p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><p class="line"></p></td></tr>
+            <tr>
+                <td>
+                    <div class="marl10 marr10">
+                        <table class="wage">
+                            <tr>
+                                <th>实发工资：</th>
+                                <td>9,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>基本工资：</th>
+                                <td>4,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>绩效工资：</th>
+                                <td>5,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>奖金：</th>
+                                <td>1,800.00</td>
+                            </tr>
+                            <tr>
+                                <th>福利：</th>
+                                <td>500.00</td>
+                            </tr>
+                            <tr>
+                                <th>养老保险：</th>
+                                <td>-100.00</td>
+                            </tr>
+                            <tr>
+                                <th>医疗保险：</th>
+                                <td>-100.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart30 p-bt20 aligncenter bottom-btn">
+            <a href="#" class="btn marr20">查看历史工资</a>
+        </p>
+    </div>
+</div>
+<!--工资查看弹出over-->
+<!--计算工资弹出begin-->
+<div class="pop" style="display:none;height:500px;margin-top:-250px;">
+    <div class="title alignright">
+        <span class="floatleft">王佳-5月工资</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <table class="popMain mart10">
+            <tr>
+                <td colspan="4">
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="../img/user1.png"/></span>
+                    <p class="font14 line20 mart3 color-3">王佳</p>
+                    <p class="font14 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                    <p class="font14 color-8 line20 mart5">JAVA工程师</p>
+                </td>
+            </tr>
+            <tr><td colspan="4"><p class="line"></p></td></tr>
+            <tr>
+                <th>基本工资：</th>
+                <td>
+                    <div class="has-general has-error">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>基本工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+                <th>绩效工资：</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text">
+                        <label class="control-label">请输入</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>使用公式：</th>
+                <td colspan="3">
+                    <div class="has-general intBox marr18">
+                        <label class="control-label">请选择</label>
+                        <em class="arrow"></em>
+                        <p class="marl5">明道北京研发部门公式</p>
+                        <div class="dropdown-menu jscroll" style="height:150px;">
+                            <ul class="">
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                                <li><a href="#">明道北京研发部门公式</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart30 p-bt20 aligncenter bottom-btn">
+            <a href="#" class="btn btn-no marr20">放弃</a>
+            <a href="#" class="btn marl20">开始计算</a>
+        </p>
+    </div>
+</div>
+<!--计算工资弹出over-->
+<!--提交审核begin-->
+<div class="pop" style="display:none ;">
+    <div class="title alignright">
+        <span class="floatleft">提交审核</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll" style="height:350px;">
+        <table class="popMain popWage mart10">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>上月工资</th>
+                    <th>本月工资</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>总计</th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+                <tr>
+                    <th><span class="txt_hidden width-100">北京研发部北京研发部</span></th>
+                    <td>100,000,000.00</td>
+                    <td>100,000,000.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mart30 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">提交审核</a>
+        </div>
+    </div>
+</div>
+<!--提交审核over-->
+<!--开始计算提示框begin-->
+<div class="pop" style="display: none;height:330px;">
+    <div class="title alignright">
+        <span class="floatleft">工资计算</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner" >
+        <div class="marr20 marl20">
+            <p class="mart20">您在计算完工资后仍可对本月工资进行重新计算或微调,</p>
+            <p class="mart20">当本月工资提交审核并通过后，系统将不支持计算并锁定本月工资!</p>
+            <p class="aligncenter color-8 mart100 p-top20">是否开始计算2015年5月工资？</p>
+        </div>
+        <div class="mart20 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">开始计算工资</a>
+        </div>
+    </div>
+</div>
+<!--开始计算提示框over-->
+<!--模板下载begin-->
+<div class="pop" style="display: none;height:330px;">
+    <div class="title alignright">
+        <span class="floatleft">模板下载</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner" >
+        <div class="marr20 marl20">
+            <p class="mart20">我们为您生成了公司员工基本和导入工资项模板，</p>
+            <p class="mart20">您只需按照模板格式填写完毕后,</p>
+            <p class="mart20">上传模板即可批量导入公司员工基本工资和需导入的工资项。</p>
+        </div>
+        <div class="mart70 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">下载导入工资项模板</a>
+            <table class="popMain">
+                <tr><td><p class="line aligncenter"><span>或</span></p></td></tr>
+            </table>
+            <a href="#" class="btn btnBlcok">下载基本工资模板</a>
+        </div>
+    </div>
+</div>
+<!--模板下载over-->
+<!--数据导入begin-->
+<div class="pop" style="display:none;height:330px;">
+    <div class="title alignright">
+        <span class="floatleft">数据导入</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner jscroll" style="height:300px;">
+        <table class="popMain mart10">
+            <tr>
+                <th class="width-80 aligntop p-top5">基本工资模板</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text" id="textfield">
+                        <input type="file" class="file" onchange="document.getElementById('textfield').value=this.value">
+                        <label class="control-label">请输入</label>
+                    </div>
+                    <p class="alignright mart10"><a href="#" class="btn width-100 marr18">选择附件</a></p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><p class="line aligncenter"><span>或</span></p></td></tr>
+            <tr>
+                <th class="aligntop p-top10">工资项模板</th>
+                <td>
+                    <div class="has-general">
+                        <input type="text" id="textfield">
+                        <input type="file" class="file" onchange="document.getElementById('textfield').value=this.value">
+                        <label class="control-label">请输入</label>
+                    </div>
+                    <p class="alignright mart10"><a href="#" class="btn width-100 marr18">选择附件</a></p>
+                </td>
+            </tr>
+        </table>
+        <div class="mart10 p-bt20 aligncenter">
+            <a href="#" class="btn btnBlcok">导入数据</a>
+        </div>
+    </div>
+</div>
+<!--数据导入over-->
+<!--社保公积金设置begin-->
+<div class="pop" style="display:block;height:500px;width:800px;margin-left:-400px;margin-top:-250px;">
+    <div class="title alignright">
+        <span class="floatleft">王佳-5月工资</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner">
+        <table class="popMain mart10">
+            <tr>
+                <td colspan="2">
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="../img/user1.png"/></span>
+                    <p class="font14 line20 mart3 color-3">王佳</p>
+                    <p class="font14 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                    <p class="font14 color-8 line20 mart5">JAVA工程师</p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><p class="line"></p></td></tr>
+        </table>
+        <div class="clearfix">
+            <table class="popMain floatleft " style="width:46%;">
+                <tr>
+                    <th class="width-100">社保状态</th>
+                    <td>
+                        <a href="javascript:;" class="iconBtn width-50 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>缴纳</a>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 font14"><i class="icon-radio-unchecked marr5"></i>不缴纳</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>社保开始日期</th>
+                    <td>
+                        <div class="has-general width-200">
+                            <input type="text">
+                            <label class="control-label">请填写缴纳日期</label>
+                            <i class="icon ico-calendar"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">社保账户状态</th>
+                    <td>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>冻结状态</a>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>账户转入</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">缴纳方式</th>
+                    <td>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>公司缴纳</a>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>个人缴纳</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">缴纳地区</th>
+                    <td>
+                        <div class="has-general width-200">
+                            <input type="text">
+                            <label class="control-label">请填写缴纳地区</label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="floatleft marl25" style="height:250px;border-left:1px solid #ccc;"></div>
+            <table class="popMain floatright " style="width:46%;">
+                <tr>
+                    <th class="width-100">公积金状态</th>
+                    <td>
+                        <a href="javascript:;" class="iconBtn width-50 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>缴纳</a>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 font14"><i class="icon-radio-unchecked marr5"></i>不缴纳</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>公积金开始日期</th>
+                    <td>
+                        <div class="has-general width-200">
+                            <input type="text">
+                            <label class="control-label">请填写缴纳日期</label>
+                            <i class="icon ico-calendar"></i>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">缴纳方式</th>
+                    <td>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>公司缴纳</a>
+                        <a href="javascript:;" class="iconBtn width-80 alignleft color-3 marr20 font14 current"><i class="icon-radio-unchecked marr5"></i>个人缴纳</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">公积金账号</th>
+                    <td>
+                        <div class="has-general width-200">
+                            <input type="text">
+                            <label class="control-label">请填写缴纳地区</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-100">户籍性质</th>
+                    <td>
+                        <div class="has-general intBox width-200 ">
+                            <label class="control-label">请选择</label>
+                            <em class="arrow"></em>
+                            <p class="marl5">城镇户口</p>
+                            <div class="dropdown-menu jscroll" style="height:150px;">
+                                <ul>
+                                    <li><a href="#">城镇户口</a></li>
+                                    <li><a href="#">农村户口</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p class="mart30 p-bt20 aligncenter bottom-btn">
+            <a href="#" class="btn">保存设置</a>
+        </p>
+    </div>
+</div>
+<!--社保公积金设置over-->
+<div class="mask" style="display:block;"></div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+        var $w = $(window).width();
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+        $window = $(window),
+        $W = $window.width(),
+        $notice = $('.notice'),
+        $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+</script>
+</body>
+</html>

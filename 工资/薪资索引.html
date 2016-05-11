@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>薪资索引</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="../css/hr_icon_style.css">
+    <link rel="stylesheet" type="text/css" href="../css/hrstyle.css">
+</head>
+<body>
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="../img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#" class="current">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="../img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody">
+    <!--当前位置begin-->
+    <div class="container ">
+        <div class="location bg-white clearfix">
+            <!--<a href="#" class="back floatleft"><i class="icon icon-back"></i></a>-->
+            <ul class="floatleft marl10">
+                <li><span>薪资索引</span></li>
+            </ul>
+            <div class="has-general floatright marr20 width-180">
+                <input type="text">
+                <label class="control-label">入职日期</label>
+                <i class="icon ico-calendar"></i>
+            </div>
+        </div>
+    </div>
+    <!--当前位置over-->
+    <div class="layout">
+        <div class="container">
+            <div class="container_item item_top bg-white">
+                <div class="clearfix">
+                    <div class="floatleft">
+                        <p class="font18 mart5">2016年4月薪资</p>
+                        <p class="mart30">
+                            <a href="javascript:;" class="btn btn-border width-100">设置薪资调整项</a>
+                            <a href="javascript:;" class="btn btn-border width-100 marl10">调整薪资方案</a>
+                            <a href="javascript:;" class="btn btn-border width-100 marl10">调整人员薪资</a>
+                            <a href="javascript:;" class="btn width-100 marl20">计算薪资</a>
+                        </p>
+                    </div>
+                    <table class="item_table floatright" width="30%">
+                        <tr>
+                            <td>
+                                <p class="color-8 mart10">发放人员</p>
+                                <p class="mart25"><span class="font28">150</span>人</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="container_item mart20 bg-white">
+                <div class="clearfix">
+                    <div class="floatleft">
+                        <p class="font18 mart5 clearfix"><i class="icon-lock2 pointer font14 marr5 floatleft"></i>2016年4月薪资<em class="inlineblock tag-wait marl10">等待结案</em></p>
+                        <p class="mart30">
+                            <a href="javascript:;" class="btn btn-border width-80">发放</a>
+                            <a href="javascript:;" class="btn btn-border width-80 marl10">导出数据</a>
+                            <a href="javascript:;" class="btn width-80 marl20">计算</a>
+                        </p>
+                    </div>
+                    <table class="item_table floatright" width="60%">
+                        <tr>
+                            <td>
+                                <p class="color-8 mart10">发放人员</p>
+                                <p class="mart25"><span class="font28">150</span>人</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">应发总额</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">实发总额</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">人力成本</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="line mart20"></p>
+                <p class="clearfix mart15 alignright">
+                    <span class="floatleft pointer clearfix view color-theme"><i class="icon-add_circle_outline font14 marr5 floatleft"></i><em>展开结果明细</em></span>
+                    <span class="color-a">当前结果于 <em>2016/5/1</em> 计算  操作员：<em>王佳</em></span>
+                </p>
+                <!--数据列表begin-->
+                <div class="hidden" style="height: 0;">
+                    <table class="tableCard tableData table_item mart20" width="100%">
+                        <thead>
+                            <tr>
+                                <th class="aligncenter">部门</th>
+                                <th class="aligncenter">发放人员</th>
+                                <th class="aligncenter">应发总额</th>
+                                <th class="aligncenter">实发总额</th>
+                                <th class="aligncenter">人力成本</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>明道北京研发</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>上海销售中心</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>上海研发中心</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>杭州部署顾问</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>杭州部署顾问</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--数据列表over-->
+            </div>
+            <div class="container_item mart20 bg-white">
+                <div class="clearfix">
+                    <div class="floatleft">
+                        <p class="font18 mart5 clearfix"><i class="icon-lock_open pointer font14 marr5 floatleft"></i>2016年4月薪资<em class="inlineblock tag-wait marl10 noClick">已结案</em></p>
+                        <p class="mart30">
+                            <a href="javascript:;" class="btn btn-border width-80">导出结果</a>
+                            <a href="javascript:;" class="btn btn-border width-80 marl10">重新计算</a>
+                        </p>
+                    </div>
+                    <table class="item_table floatright" width="60%">
+                        <tr>
+                            <td>
+                                <p class="color-8 mart10">发放人员</p>
+                                <p class="mart25"><span class="font28">150</span>人</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">应发总额</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">实发总额</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                            <td>
+                                <p class="color-8 mart10">人力成本</p>
+                                <p class="mart25"><span class="font28">123,312</span>元</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="line mart20"></p>
+                <p class="clearfix mart15 alignright">
+                    <span class="floatleft pointer clearfix view"><i class="icon-remove_circle_outline font14 marr5 floatleft"></i><em>收起结果明细</em></span>
+                    <span class="color-a">当前结果于 <em>2016/5/1</em> 计算  操作员：<em>王佳</em></span>
+                </p>
+                <!--数据列表begin-->
+                <div class="hidden">
+                    <table class="tableCard tableData table_item mart20" width="100%">
+                        <thead>
+                            <tr>
+                                <th class="aligncenter">部门</th>
+                                <th class="aligncenter">发放人员</th>
+                                <th class="aligncenter">应发总额</th>
+                                <th class="aligncenter">实发总额</th>
+                                <th class="aligncenter">人力成本</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>明道北京研发</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>上海销售中心</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>上海研发中心</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>杭州部署顾问</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                            <tr>
+                                <td>杭州部署顾问</td>
+                                <td>123</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                                <td>123,312</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--数据列表over-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mask" style="display:none;"></div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+    $('.view').click(function(){
+        var $this = $(this),
+                i = $this.find('i'),
+                em = $this.find('em');
+        if($this.hasClass('color-theme')){
+            $this.removeClass('color-theme');
+            i.removeClass('icon-add_circle_outline').addClass('icon-remove_circle_outline');
+            em.text('收起结果明细');
+            $this.parent().next('.hidden').animate({'height':$this.parent().next('.hidden').find('table').height()+20});
+        }else{
+            $this.addClass('color-theme');
+            i.removeClass('icon-remove_circle_outline').addClass('icon-add_circle_outline');
+            em.text('展开结果明细');
+            $this.parent().next('.hidden').animate({'height':0});
+        }
+    });
+</script>
+</body>
+</html>
