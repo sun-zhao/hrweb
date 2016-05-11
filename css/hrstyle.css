@@ -3070,6 +3070,7 @@ ul.workArea li .intBox {
     color: #333333;
     padding-left: 16px;
     z-index: 2;
+    overflow: hidden;
 }
 
 .node_in:hover, .current .node_in {
@@ -3077,7 +3078,9 @@ ul.workArea li .intBox {
     color: #fff;
     border-color: #ef901b;
 }
-
+.node_in:hover .iconBtn{
+    left:-2px;
+}
 .node_in:hover .color-8, .current .node_in .color-8 {
     color: #fff !important;
 }
@@ -3629,7 +3632,7 @@ ul.workArea li .intBox {
     background: #f5f5f5;
 }
 
-.location_list li .iconBtn {
+.location_list li .iconBtn,.node_in .iconBtn{
     width: 40px;
     height: 60px;
     line-height: 60px;
@@ -3639,7 +3642,13 @@ ul.workArea li .intBox {
     background: #b94a48;
     transition: 0.3s;
 }
-
+.node_in .iconBtn{
+    width:17px;
+    height:50px;
+    line-height: 50px;
+    right: inherit;
+    left:-17px;
+}
 .location_list li .iconBtn i {
     color: #fff !important;
 }
