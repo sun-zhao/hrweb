@@ -1352,7 +1352,7 @@ span.event.noclick .arrow-left {
     padding: 1px;
     border-radius: 20px;
     background: #ddd;
-    margin: 13px 20px 0 0;
+    margin: 16px 20px 0 0;
     position: relative;
     cursor: pointer;
     transition: 0.3s;
@@ -1361,8 +1361,8 @@ span.event.noclick .arrow-left {
 
 .switch em {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background: #fff;
     position: absolute;

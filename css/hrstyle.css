@@ -2379,17 +2379,22 @@ a .icon-tips {
     right: 10px;
     top: 80%;
 }
-
+.location_now div.floatleft{width:20%;}
+.location_now div.hidden{width:80%;}
 .location_now p span {
     padding: 0;
     line-height: 24px;
     color: #666;
 }
 
-.location_now p.txt_hidden {
+.location_now p{
     width: 100%;
 }
-
+.location_now .user{height:auto;}
+.location_now .user img{width:30px;height:30px;}
+.location_now .user p{
+    line-height:12px;
+}
 .popMain .has-general .icon-lightbulb_outline {
     position: absolute;
     right: 0;
