@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>档案管理</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="../css/hr_icon_style.css">
+    <link rel="stylesheet" type="text/css" href="../css/hrstyle.css">
+</head>
+<body class="">
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="../img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#" class="current">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="../img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="MainBody">
+    <!--当前位置begin-->
+    <div class="container">
+        <div class="location bg-white clearfix">
+            <a href="#" class="back aligncenter color-3">首 页</a>
+            <a href="#" class="floatright current"><i class="icon icon-set"></i></a>
+            <ul class="dropdown-menu width-110 current">
+                <li><a href="#">部门设置</a></li>
+                <li><a href="#">职位设置</a></li>
+                <li><a href="#">合同范本设置</a></li>
+                <li><a href="#">管理层设置</a></li>
+                <li><a href="#">转正设置</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--当前位置over-->
+    <div class="layout">
+        <div class="container leftMain">
+            <div class="container bg-white">
+                <div class="title alignright clearfix">
+                    <span class="floatleft">以下员工信息发生变更，请确认！</span>
+                </div>
+                <ul class="userList clearfix">
+                    <li class="pointer">
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-1.jpg"/></span>
+                            <p class="txt_hidden">陈赫</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/user1.png"/></span>
+                            <p class="txt_hidden">刘德华</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-1.jpg"/></span>
+                            <p class="txt_hidden">陈赫</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container bg-white mart20">
+                <div class="title alignright clearfix nopadding">
+                    <a href="#" class="floatleft color-8 current navTip">本月内生日</a>
+                    <a href="#" class="floatleft color-8 navTip">15天内生日</a>
+                    <!--<span class="floatleft">以下员工合同即将在3个月内到期，需要续签，请确认！</span>-->
+                </div>
+                <ul class="userList clearfix" style="display: none;">
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/user1.png"/></span>
+                            <p class="txt_hidden">刘德华</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-1.jpg"/></span>
+                            <p class="txt_hidden">陈赫</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="userList clearfix">
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/user1.png"/></span>
+                            <p class="txt_hidden">刘德华</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-1.jpg"/></span>
+                            <p class="txt_hidden">陈赫</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="icon-king"></span>
+                            <span class="user clearfix"><img src="../img/1-2.jpg"/></span>
+                            <p class="txt_hidden">黄晓明</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block">
+                            <span class="user clearfix"><img src="../img/1-3.jpg"/></span>
+                            <p class="txt_hidden">宝宝</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container bg-white mart20" style="display:">
+                <div class="title alignright clearfix">
+                    <a href="#" class="iconBtn marr20 current" title="上传"><i class="icon icon-upload"></i></a>
+                    <ul class="dropdown-menu width-110 current" style="right:350px;">
+                        <li><a href="#">下载导入模板</a></li>
+                        <li><a href="#">上传数据</a></li>
+                    </ul>
+                    <span class="floatleft">全部员工</span>
+                    <div class="intBox search mart5 marl10 marr10 width-200 floatright clearfix">
+                        <input type="text" placeholder="搜索员工姓名">
+                        <a href="#" class="block floatleft relative"><i class="icon icon-search2"></i></a>
+                    </div>
+                    <div class="intBox floatright mart5">
+                        <em class="arrow"></em>
+                        <p class="marl5">按部门查找</p>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">按部门查找</a></li>
+                            <li><a href="#">按部门查找</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<p class="aligncenter color-a mart10 p-bt20 p-top20 ">请筛选您想查看的员工</p>-->
+                <div class="marl20 marr20">
+                    <table class="tableCard" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th><div style="width:100px;">员工</div></th>
+                                <th><div>性别</div></th>
+                                <th><div>生日</div></th>
+                                <th><div>部门</div></th>
+                                <th><div>职位</div></th>
+                                <th><div>职级</div></th>
+                                <th><div>员工类型</div></th>
+                                <th><div>入职日期</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                            <tr>
+                                <td class="first width-100"><div class="txt_hidden" style="width:100px;">刘德华</div></td>
+                                <td><div>男</div></td>
+                                <td><div>1964-8-6</div></td>
+                                <td><div>明道北京研发</div></td>
+                                <td><div>明道北京研发部门总监</div></td>
+                                <td><div>1级</div></td>
+                                <td><div>领导</div></td>
+                                <td class="last"><div>2013-10-02</div></td>
+                            </tr>
+                            <tr class="line"><th></th></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--分页begin-->
+                <div class="pageOut p-top20 p-bt10 clearfix">
+                    <span class="color-9 marl20 floatleft">共100页</span>
+                    <div class="pagenation aligncenter font12 marr15 floatright">
+                        <a href="#" class="prev_page noData">首页</a>
+                        <a href="#" class="prev_page noData">上一页</a>
+                        <span>1</span>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <span>...</span>
+                        <a href="#" class="next_page">下一页</a>
+                        <a href="#" class="next_page">尾页</a>
+                    </div>
+                </div>
+                <!--分页over-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--通知框begin-->
+<div class="container noticeBox bg-white" style="">
+    <ul class="noticeList">
+        <li><em></em><span>有 3 名员工的档案信息发生变动，请确认！</span></li>
+        <li><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+        <li class="unread"><em></em><span>有 2 名员工的劳动合同即将到期，请确认是否续签！</span></li>
+    </ul>
+</div>
+<!--通知框over-->
+<!--姓名变更begin-->
+<div class="pop" style="display:none;">
+    <div class="title alignright">
+        <span class="floatleft">姓名变更确认</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="popInner font14">
+        <table class="popMain">
+            <tr>
+                <td>
+                    <span class="user width-60 mart5 clearfix floatleft marr20 marl20"><img src="../img/user1.png"/></span>
+                    <p class="font14 line20 mart15 color-3">王佳</p>
+                    <p class="font12 color-8 line20 mart5">明道北京研发明道北京研发部门</p>
+                </td>
+            </tr>
+            <tr><td><p class="line"></p></td></tr>
+            <tr>
+                <td>
+                    <div class="jscroll" style="height:160px;">
+                        <ul class="FormulaList font12">
+                            <li class="color-3">
+                                <span>姓名由</span>
+                                <span class="color-8 marl5 marr5">刘德华</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">马德华</span>
+                            </li>
+                            <li class="color-3">
+                                <span>职位由</span>
+                                <span class="color-8 marl5 marr5">销售部总监</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">销售总经理</span>
+                            </li>
+                            <li class="color-3">
+                                <span>部门由</span>
+                                <span class="color-8 marl5 marr5">上海研发中心</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">北京研发中心</span>
+                            </li>
+                            <li class="color-3">
+                                <span>手机由</span>
+                                <span class="color-8 marl5 marr5">123456789</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">123467899</span>
+                            </li>
+                            <li class="color-3">
+                                <span>职位由</span>
+                                <span class="color-8 marl5 marr5">销售部总监</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">销售总经理</span>
+                            </li>
+                            <li class="color-3">
+                                <span>部门由</span>
+                                <span class="color-8 marl5 marr5">上海研发中心</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">北京研发中心</span>
+                            </li>
+                            <li class="color-3">
+                                <span>手机由</span>
+                                <span class="color-8 marl5 marr5">123456789</span>
+                                <pan>变更为</pan>
+                                <span class="color-347cdc marl5 marr5">123467899</span>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <p class="mart5 color-8 aligncenter">是否同意以上变更</p>
+        <p class="bottom-btn mart10 aligncenter">
+            <a href="#" class="btn btn-no marr20">否&nbsp;&nbsp;&nbsp;决</a>
+            <a href="#" class="btn btn-yes marl20">同&nbsp;&nbsp;&nbsp;意</a>
+        </p>
+    </div>
+</div>
+<!--姓名变更over-->
+<!--转正确认begin-->
+<div class="pop" style="display: none">
+    <div class="title alignright">
+        <span class="floatleft">转正确认</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="aligncenter font14 p-top20">
+        <p><span class="inlineblock user clearfix"><img src="../img/user1.png"/></span></p>
+        <p class="font14 color-8 p-top5">刘德华</p>
+        <p class="font14 color-8 p-top5">明道北京研发部门</p>
+        <p class="p-top30">试用日期截止到<span>2015-12-12</span></p>
+        <p class="mart50 p-top30 color-8">是否接同意转正?</p>
+        <p class="bottom-btn mart30">
+            <a href="#" class="btn btn-no marr20">否&nbsp;&nbsp;&nbsp;决</a>
+            <a href="#" class="btn btn-yes marl20">同&nbsp;&nbsp;&nbsp;意</a>
+        </p>
+    </div>
+</div>
+<!--转正确认over-->
+<!--劳动合同续签begin-->
+<div class="pop" style="display: none;">
+    <div class="title alignright">
+        <span class="floatleft">劳动合同续签</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="aligncenter font14 p-top20">
+        <p><span class="inlineblock user clearfix"><img src="../img/user1.png"/></span></p>
+        <p class="font14 color-8 p-top5">刘德华</p>
+        <p class="p-top30">劳动合同</p>
+        <p class="p-top10">2014-7-1 至 2015-7-1 即将到期</p>
+        <div class="mart30 p-top10 color-8 font13 alignleft ">
+            <span class="marl30 width-120 inlineblock">请选择合同模板</span>
+            <div class="has-general intBox width-200 mart10 marl15 inlineblock ">
+                <em class="arrow"></em>
+                <p class="marl5">2017研发部开发工程师合同</p>
+                <div class="dropdown-menu jscroll" style="height:100px;">
+                    <ul class="">
+                        <li><a href="#">1年</a></li>
+                        <li><a href="#">2年</a></li>
+                        <li><a href="#">3年</a></li>
+                        <li><a href="#">4年</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="alignleft color-8 font13 ">
+            <span class="marl30 width-160 inlineblock">是否自 2015-7-2 进行续签</span>
+            <div class="has-general intBox width-160 mart10 marl15 inlineblock">
+                <label class="control-label">选择续签年限</label>
+                <em class="arrow"></em>
+                <p class="marl5">3年</p>
+                <div class="dropdown-menu jscroll" style="height:100px;">
+                    <ul class="">
+                        <li><a href="#">1年</a></li>
+                        <li><a href="#">2年</a></li>
+                        <li><a href="#">3年</a></li>
+                        <li><a href="#">4年</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="bottom-btn mart30">
+            <a href="#" class="btn btn-no marr20">不续签</a>
+            <a href="#" class="btn btn-yes marl20">续&nbsp;&nbsp;&nbsp;签</a>
+        </p>
+    </div>
+</div>
+<!--劳动合同续签over-->
+<!--确认begin-->
+<div class="pop" style="display: none;">
+    <div class="title alignright">
+        <span class="floatleft">确认</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="aligncenter font14 p-top20">
+        <p class="p-top30">是否不再与</p>
+        <p class="mart25"><span class="inlineblock user clearfix"><img src="../img/user1.png"/></span></p>
+        <p class="font14 color-8 p-top5">刘德华</p>
+        <p class="p-top30">续签劳动合同</p>
+        <p class="bottom-btn mart30">
+            <a href="#" class="btn btn-no marr20">取&nbsp;&nbsp;&nbsp;消</a>
+            <a href="#" class="btn btn-yes marl20">确&nbsp;&nbsp;&nbsp;定</a>
+        </p>
+    </div>
+</div>
+<!--确认over-->
+<!--续签劳动合同begin-->
+<div class="pop" style="display: none;">
+    <div class="title alignright">
+        <span class="floatleft">续签劳动合同</span>
+        <a href="#" class="iconBtn marr10" title=""><i class="icon icon-off-mini"></i></a>
+    </div>
+    <div class="aligncenter font14 p-top20">
+        <div class="mart30 aligncenter">
+            <span>自</span>
+            <div class="has-general inlineblock marl10 width-160">
+                <input type="text">
+                <label class="control-label">必填</label>
+                <i class="icon ico-calendar"></i>
+            </div>
+        </div>
+        <div class="mart30 aligncenter">
+            <span>至</span>
+            <div class="has-general inlineblock marl10 width-160">
+                <input type="text">
+                <label class="control-label">必填</label>
+                <i class="icon ico-calendar"></i>
+            </div>
+        </div>
+        <p class="mart50 p-top30">
+            <a href="#" class="btn btn-yes block marr50 marl50 width-auto">确&nbsp;&nbsp;&nbsp;定</a>
+        </p>
+    </div>
+</div>
+<!--续签劳动合同over-->
+<!--工作经历begin-->
+<div class="pop" style="display: block;width:600px;height:500px;margin:-250px 0 0 -300px;">
+    <div class="title">
+        <span>员工履历</span>
+        <a href="#" class="iconBtn marr10 "><i class="icon-close  font20"></i></a>
+    </div>
+    <div class="popInner nomar">
+        <div class=" title_work noborder clearfix">
+            <div class="clearfix mart20 marl20 floatleft" style="width:50%;">
+                <span class="user width-60 floatleft"><img src="../img/user1.png"></span>
+                <p class="font14 mart3">赵阳</p>
+                <p class="mart15">明道北京研发部门</p>
+                <p class="mart5">web工程师</p>
+            </div>
+            <div class="check_contract floatright width-220 p-left20 mart20 marr5">
+                <p>查看合同</p>
+                <div class="mart5 jscroll" style="height:55px;">
+                    <p class="width-220 txt_hidden"><a href="#" class="color-white">研发部2014版合同研发部2014版合同研发部2014版合同</a></p>
+                    <p class="width-220 txt_hidden"><a href="#" class="color-white">研发部2222版合同</a></p>
+                    <p class="width-220 txt_hidden"><a href="#" class="color-white">研发部2222版合同</a></p>
+                    <p class="width-220 txt_hidden"><a href="#" class="color-white">研发部2222版合同</a></p>
+                    <p class="width-220 txt_hidden"><a href="#" class="color-white">研发部2222版合同</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="jscroll" style="height:360px;">
+            <div class="work_line p-bt20 mart20">
+                <span class="year font14 aligncenter bg-white relative">2016'</span>
+                <div class="one_time e_right clearfix relative">
+                    <span class="event current"><em>办理离职</em></span>
+                    <span class="event nomar current"><em>续签合同</em></span>
+                </div>
+                <div class="one_time e_right clearfix  relative">
+                    <p>
+                        <em class="circle inlineblock"></em>
+                        <em class="color-info strong">2015/12/22</em>
+                    </p>
+                    <div class="event_txt marl30 color-8 mart10">
+                        <p class="font14 color-6">完成续签</p>
+                        <p>2015/12/22 － 2016/12/21</p>
+                    </div>
+                </div>
+                <span class="year font14 aligncenter bg-white relative mart20">2015'</span>
+                <div class="one_time e_right clearfix relative">
+                    <p>
+                        <em class="circle inlineblock"></em>
+                        <em class="color-info strong">2015/12/22</em>
+                    </p>
+                    <div class="event_txt marl30 color-8 mart10">
+                        <p class="font14 color-6">办理了转正手续</p>
+                    </div>
+                </div>
+                <div class="one_time e_right clearfix  relative">
+                    <p>
+                        <em class="circle inlineblock"></em>
+                        <em class="color-info strong">2015/12/22</em>
+                    </p>
+                    <div class="event_txt marl30 color-8 mart10">
+                        <p class="font14 color-6">签订了入职合同</p>
+                        <p>2015/12/22 － 2016/12/21</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--工作经历over-->
+<!--合同查看弹出 begin-->
+<div class="pop_layout" style="display:none;">
+    <div class="pop_title alignright">
+        <span class="marl20 floatleft">刘德华的2015-2016年公司合同</span>
+        <a href="#" class="iconBtn marr20 mart15 off"><i class="icon-close font20 color-white"></i></a>
+    </div>
+    <div class="pop_layout_in">
+        <div class="doc_view">
+            <iframe allowtransparency="true" allowtransparency="true" src="" width="100%" height="100%" frameborder="0" scrolling="no" id="platform-office-iframe"></iframe>
+        </div>
+    </div>
+</div>
+<!--合同查看弹出 over-->
+<div class="mask" style="display:block;"></div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+        var $w = $(window).width();
+        $('.layout  .jspPane:first').css({"width":$w,"margin-left":"0"});
+    }
+    Jscroll();
+    var $leftMain = $('.leftMain'),
+        $window = $(window),
+        $W = $window.width(),
+        $notice = $('.notice'),
+        $noticeBox = $('.noticeBox');
+    $notice.click(function(){
+        var $this = $(this);
+        if($this.hasClass('current')){
+            $this.removeClass('current');
+            $noticeBox.stop().animate({right:-0.5*$W},400);
+            $leftMain.stop().animate({left:0},400);
+        }else{
+            $this.addClass('current');
+            $noticeBox.stop().animate({right:-2},400);
+            $leftMain.stop().animate({left:-0.495*$W},400);
+        }
+    });
+    $(function(){
+        $('.see_more').click(function(){
+            var dir = $(this).attr('dir');
+            var $doc_preview = $('.pop_layout');
+            var owaURL='https://docview.mingdao.com/op/view.aspx?src='+dir;
+            owaURL=encodeURI(owaURL);
+            $doc_preview.show();
+//            $('#originalBtn').hide().attr('href','javascript:;');
+            var iframe = document.getElementById("platform-office-iframe");
+            $(iframe).show();
+            $('#fileDownloadBtn').show().off('click').on('click',function(){
+                $(this).attr('href',dir);
+            });
+            iframe.src = owaURL;
+            if (iframe.attachEvent) {
+                iframe.attachEvent("onload", function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                });
+            } else {
+                iframe.onload = function () {
+                    window.setTimeout(function(){
+                        $doc_preview.close();
+                    },1000);
+                };
+            }
+        });
+        $('.off').click(function(){
+            $(this).parents('.pop_layout').fadeOut();
+        });
+    });
+</script>
+</body>
+</html>
