@@ -7223,12 +7223,39 @@ ul.workArea li .intBox {
     opacity: .9;
 }
 /*社保索引2016-5-3*/
-.container_item{padding:20px;min-height:80px;}
+.container_item{padding:20px;min-height:80px;border-left:4px solid #fff;}
 .item_top{border:1px solid #fac789;border-left:4px solid #ef901b;}
 .item_table td{height:80px;border-left:1px solid #ddd;text-align: center;vertical-align: text-top;width:100px;word-wrap: break-word;word-break: break-all;}
 .item_table td .mart25 span{padding:0 5px;}
 .item_table td .more{border-radius:4px;background:#ddd;height:12px;line-height:12px;}
 .item_table td .more i{color:#fff;}
 .item_table td .more:hover{background:#fac789;}
+.ul_wage{padding:0 20px;}
+.ul_wage li{line-height:34px;border-bottom: 1px solid #ddd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
