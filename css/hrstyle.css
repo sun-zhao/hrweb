@@ -2241,7 +2241,8 @@ a .icon-tips {
 
 /*弹出*/
 .popInner {
-    margin: 0 3px 0 0;
+    /*margin: 0 3px 0 0;*/
+    position: relative;
 }
 
 /*height:350px;*/
@@ -2261,7 +2262,15 @@ a .icon-tips {
     width: 60px;
     font-size: 12px;
 }
+.popMain_wages td,.popMain_wages th{line-height:20px;}
+.popMain_wages th{
+    width:100px;
+    color:#888;
+}
+.popMain_wages td{
 
+    color: #333;
+}
 .popMain .line {
     margin: 10px 0;
 }
