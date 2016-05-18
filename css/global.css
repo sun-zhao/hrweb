@@ -926,7 +926,20 @@ a.tags:hover, a.keywords:hover {
     position: absolute !important;
     top: 0 !important;
 }
-
+.tag-location,.tag-img{
+    position: absolute;
+    width:20px;
+    height:20px;
+    line-height: 18px;
+    text-align: center;
+    background:#bbb;
+    border-radius:3px;
+    top:5px;
+    left:30px;
+}
+.tag-location:hover,.tag-img:hover{background:#ef901b;}
+.tag-img{left:60px;}
+.tag-location i,.tag-img i,.tag-location i:hover,.tag-img i:hover{color: #fff;}
 @keyframes rotate {
     from {
         transform: rotate(0deg)

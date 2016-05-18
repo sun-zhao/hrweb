@@ -362,6 +362,6 @@
 .viewer-tooltip{width:50px!important;height:30px!important;line-height:30px!important;color:#fff!important;top:auto!important;left:50%!important;margin-left:-25px;opacity:0.8;}
 .viewer-container .viewer-navbar{top:inherit;right:0;}
 .viewer-container .viewer-footer *{position: relative!important;}
-
+.viewer-container,.viewer-container * {border: 0!important;outline: none!important;}
 
 

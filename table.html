@@ -140,7 +140,7 @@
                                         <a href="#"><i class="icon-write"></i></a>
                                         <a href="#" id="img" class="relative">
                                             <ul class="image">
-                                                <li></li>
+                                                <li><img src="img/1-1.jpg"> </li>
                                                 <li></li>
                                             </ul>
                                             <i class="icon-image2"></i>
@@ -193,9 +193,8 @@
 <script type="text/javascript" src="js/viewer.min.js"></script>
 <script type="text/javascript">
         $('.image').viewer({
-            shown: function () {
-                $('.image').viewer();
-            }
+            'scalable':false,
+            'movable':false
         });
 </script>
 </body>
