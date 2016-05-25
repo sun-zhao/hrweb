@@ -1336,13 +1336,7 @@ span.event.noclick .arrow-left {
 }
 
 /*.btn-yes:hover{background:#46ae5c;}*/
-.btn-waring {
-    background: #e9505f;
-}
 
-.btn-waring:hover {
-    opacity: 0.9;
-}
 
 .btn-bottom {
     position: absolute;
@@ -1356,7 +1350,13 @@ span.event.noclick .arrow-left {
     background: #ccc;
     color: #fff;
 }
+.btn-waring {
+    background: #e9505f!important;
+}
 
+.btn-waring:hover {
+    opacity: 0.9;
+}
 .switch {
     display: inline-block;
     width: 40px;
@@ -1416,8 +1416,8 @@ span.event.noclick .arrow-left {
     line-height: 20px;
 }
 
-.btn-border {
-    border: 1px solid #dddddd;
+.btn-border,.btn-quit,.btn-quit:hover{
+    border: 1px solid #ddd;
     background: #fff;
     color: #333333;
 	height: 28px;
@@ -1432,7 +1432,9 @@ span.event.noclick .arrow-left {
 .btn-border.current {
     background: #ef901b;
 }
-
+.btn-quit:hover{
+    border: 1px solid #ccc;
+}
 /*当前位置*/
 .location {
     height: 50px;

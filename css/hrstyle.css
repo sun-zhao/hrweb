@@ -126,9 +126,11 @@
 .containerIn {
     border: 1px solid #fafafa;
 }
-
+.popInner .containerIn {
+    border: 1px solid #eee;
+}
 .containerIn .title {
-    border-color: #fafafa
+    border-color: #eee;
 }
 
 .userInfo {
@@ -970,6 +972,12 @@ span.block, .userInfoTable td .dataNormal {
     display: none;
     overflow: hidden;
 }
+.pop_confirm{
+    width:350px;
+    height:150px;
+    box-shadow:0 0 3px #aaa;
+    margin:-75px 0 0 -175px;
+}
 
 .pop p span {
     padding: 0 10px;
@@ -992,7 +1000,8 @@ span.block, .userInfoTable td .dataNormal {
     padding: 10px;
     float: none;
 }
-
+.formula_tab th{vertical-align: text-top;}
+.formula_tab td{line-height: 18px;}
 .confirm {
     width: 300px;
     height: 160px;
@@ -2244,7 +2253,10 @@ a .icon-tips {
     /*margin: 0 3px 0 0;*/
     position: relative;
 }
-
+.pop_confirm .popInner{
+    padding: 20px;
+    height: 30px;
+}
 /*height:350px;*/
 .popMain {
     width: 100%;
@@ -3079,7 +3091,7 @@ ul.workArea li .intBox {
     color: #333333;
     padding-left: 16px;
     z-index: 2;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .node_in:hover, .current .node_in {
