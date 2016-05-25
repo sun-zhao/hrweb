@@ -1000,7 +1000,7 @@ span.block, .userInfoTable td .dataNormal {
     padding: 10px;
     float: none;
 }
-.formula_tab th{vertical-align: text-top;}
+/*.formula_tab th{vertical-align: text-top;}*/
 .formula_tab td{line-height: 18px;}
 .confirm {
     width: 300px;
