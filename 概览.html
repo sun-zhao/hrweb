@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>概况</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/hr_icon_style.css">
+    <link rel="stylesheet" type="text/css" href="css/hrstyle.css">
+</head>
+<body class="bodyTheme">
+<!--header begin-->
+<div class="header clearfix">
+    <a href="#" class="block floatleft"><img src="img/logo.jpg"/></a>
+    <ul class="nav floatleft clearfix">
+        <li><a href="#" class="current">个人信息</a></li>
+        <li><a href="#">档案管理</a></li>
+        <li><a href="#">考勤管理</a></li>
+        <li><a href="#">绩效管理</a></li>
+        <li><a href="#">工资管理</a></li>
+    </ul>
+    <div class="floatright clearfix">
+        <span class="user mart5 inlineblock clearfix">
+            <img src="img/user1.png"/>
+            <em>你好，习大大！</em>
+        </span>
+        <ul class="navItem inlineblock clearfix">
+            <li><a href="#"><i class="icon icon-search"></i></a></li>
+            <li><a href="#" class="notice"><i class="icon icon-remind"></i><em class="prompt">5</em></a></li>
+            <li><a href="#"><i class="icon icon-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<!--当前位置begin-->
+<div class="container">
+    <div class="location bg-white clearfix">
+        <ul class="nav_tap">
+            <li><a href="#" class="current">人力概况</a></li>
+            <li><a href="#">档案概况</a></li>
+            <li><a href="#">薪资概况</a></li>
+        </ul>
+    </div>
+    <div class="choice_bar mart20 clearfix">
+        <span class="color-3 font18 relative">入职／离职<em class="arrow"></em></span>
+        <div class="floatright p-top10">
+            <span class="color-a">统计纬度：</span>
+            <div class="has-general inlineblock intBox nomar marr15 width-110 current">
+                <!--<label class="control-label"></label>-->
+                <em class="arrow"></em>
+                <p class="marl5 color-3">按月统计</p>
+                <div class="dropdown-menu jscroll" style="height:100px;">
+                    <ul class="">
+                        <li><a href="#">按月统计</a></li>
+                        <li><a href="#">按年统计</a></li>
+                        <li><a href="#">按天统计</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="color-a">统计月份：</span>
+            <div class="has-general inlineblock nomar marr15">
+                <input type="text" class="width-110 color-3 nobg" value="2015-05">
+                <label class="control-label">必填</label>
+                <i class="icon ico-calendar"></i>
+            </div>
+            <a href="#" class="btn btn-yes floatright inlineblock width-100 mart3">开始对比</a>
+        </div>
+    </div>
+</div>
+<!--当前位置over-->
+<div class="layout">
+    <div class="container leftMain">
+        <div class="container bg-white">
+            <div class="chart_two clearfix">
+                <div class="left_chart floatleft">
+                    <p class="title font16 noborder">入职员工</p>
+                </div>
+                <div class="right_chart floatright">
+                    <span class="arrow_tip inlineblock"></span>
+                    <ul class="right_chart_in">
+                        <li class="clearfix noborder nomar">
+                            <div class="floatleft">姓名</div>
+                            <div class="floatleft">职位</div>
+                            <div class="floatright">离职日期</div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="floatleft clearfix">
+                                <span class="user inlineblock floatleft clearfix"><img src="img/user1.png"></span>
+                                <em class="inlineblock marl10">刘德华</em>
+                            </div>
+                            <div class="floatleft">UI设计师</div>
+                            <div class="floatright">2016－02－01</div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="floatleft clearfix">
+                                <span class="user inlineblock floatleft clearfix"><img src="img/user1.png"></span>
+                                <em class="inlineblock marl10">刘德华</em>
+                            </div>
+                            <div class="floatleft">UI设计师</div>
+                            <div class="floatright">2016－02－01</div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="floatleft clearfix">
+                                <span class="user inlineblock floatleft clearfix"><img src="img/user1.png"></span>
+                                <em class="inlineblock marl10">刘德华</em>
+                            </div>
+                            <div class="floatleft">UI设计师</div>
+                            <div class="floatright">2016－02－01</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-white mart10">
+            <p class="title font16 noborder">离职员工</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+</script>
+</body>
+</html>
